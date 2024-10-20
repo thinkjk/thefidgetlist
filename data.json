@@ -75,7 +75,42 @@
             "description": "A place to discuss compoform fidgets",
             "link": "https://www.facebook.com/groups/CompoForm",
             "image": "images/compoform.jpg",
-            "categories": ["Sliders", "Metal"]
+            "categories": ["Sliders", "Spinners", "Metal"]
+        },
+        {
+            "name": "Griffin inc.",
+            "description": "Spacers and caddys for all your edc needs",
+            "link": "https://www.facebook.com/groups/508570518136560",
+            "image": "images/griffin.jpg",
+            "categories": ["Spin Stick", "Beads"]
+        },
+        {
+            "name": "Wizard EDC",
+            "description": "Maker of every day carry (EDC) Products.",
+            "link": "https://www.facebook.com/groups/917080893276458",
+            "image": "images/wizardedc.jpg",
+            "categories": ["Spin Stick", "Beads"]
+        },
+        {
+            "name": "EDC Cartel",
+            "description": "A multibrand store of fidget toys and edc gear products. Edc Cartel will be introducing a variety of brands from different makers we will be also accommodating collectors if they need specific fidget via pm’s.",
+            "link": "https://www.facebook.com/groups/2104022436462512",
+            "image": "images/edccartel.jpg",
+            "categories": ["Various"]
+        },
+        {
+            "name": "FidgetThings",
+            "description": "Group for Updates and Drops of projects that FidgetThings is currently working on.",
+            "link": "https://www.facebook.com/groups/1114614522653569",
+            "image": "images/fidgetthings.jpg",
+            "categories": ["Various"]
+        },
+        {
+            "name": "playforbeans",
+            "description": "playforbeans encapsulates a team of 5 individuals who crossed paths through happenstance. We all decided to embark on a journey and discovered the world and communities of Fidgets and EDC.",
+            "link": "https://www.facebook.com/groups/playforbeans",
+            "image": "images/playforbeans.jpg",
+            "categories": ["Various"]
         }
     ]
 }
