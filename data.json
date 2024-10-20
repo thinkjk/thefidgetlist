@@ -23,10 +23,17 @@
         },
         {
             "name": "MM3D",
-            "description": "MercadoMakes3D 3D printed trays for fidgets and more! ",
+            "description": "MercadoMakes3D 3D printed trays for fidgets and more!",
             "link": "https://www.facebook.com/groups/1607259706699878",
             "image": "images/mm3d.jpg",
             "categories": ["Accessories"]
+        },
+        {
+            "name": "The Daily Fidget",
+            "description": "This is a friendly group that enjoys discussing spinners, EDC, and all things fidget related.",
+            "link": "https://www.facebook.com/groups/TheDailyFidget",
+            "image": "images/tdf.jpg",
+            "categories": ["Various"]
         }
     ]
 }
