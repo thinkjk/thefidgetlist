@@ -19,7 +19,14 @@
             "description": "This is a group for updates and drop from Illwill Industries",
             "link": "https://www.facebook.com/groups/2209809899355496",
             "image": "images/illwill.jpg",
-            "categories": ["SpinStick", "3D Printed"]
+            "categories": ["Spin Stick", "3D Printed"]
+        },
+        {
+            "name": "MM3D",
+            "description": "MercadoMakes3D 3D printed trays for fidgets and more! ",
+            "link": "https://www.facebook.com/groups/1607259706699878",
+            "image": "images/mm3d.jpg",
+            "categories": ["Accessories"]
         }
     ]
 }
