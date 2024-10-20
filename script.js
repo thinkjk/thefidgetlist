@@ -9,7 +9,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Fetch data from data.json
     fetch('data.json')
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json();
+        })
         .then(data => {
             groupsData = data.groups;
             populateTable(groupsData);
@@ -30,7 +35,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         data.forEach(group => {
             const row = document.createElement('tr');
-            row.setAttribute('data-categories', group.categories.join(', '));
 
             // Image
             const imgCell = document.createElement('td');
@@ -39,6 +43,10 @@ document.addEventListener('DOMContentLoaded', () => {
             img.alt = group.name;
             img.classList.add('img-thumbnail');
             img.width = 100;
+            img.onerror = () => {
+                img.src = 'images/default.jpg'; // Fallback image
+                console.warn(`Image not found: ${group.image}. Using fallback image.`);
+            };
             imgCell.appendChild(img);
             row.appendChild(imgCell);
 
@@ -58,6 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
             link.href = group.link;
             link.textContent = 'Visit Group';
             link.target = '_blank';
+            link.rel = 'noopener noreferrer'; // Security best practice
             link.classList.add('btn', 'btn-primary', 'btn-sm');
             linkCell.appendChild(link);
             row.appendChild(linkCell);

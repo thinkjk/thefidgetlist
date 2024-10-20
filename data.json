@@ -1,47 +1,11 @@
 {
     "groups": [
         {
-            "name": "Fidget Friends",
-            "description": "A supportive community for individuals who enjoy fidgeting as a way to focus and relax. Members share tips, products, and personal experiences related to fidgeting.",
-            "link": "https://www.facebook.com/groups/fidgetfriends",
-            "image": "images/fidget_friends.jpg",
-            "categories": ["Spinners", "Beads"]
-        },
-        {
-            "name": "Slider Innovators",
-            "description": "Dedicated to the creation and customization of slider fidget toys. Share designs, modifications, and best practices for smooth operation.",
-            "link": "https://www.facebook.com/groups/sliderinnovators",
-            "image": "images/slider_innovators.jpg",
-            "categories": ["Sliders", "Metal"]
-        },
-        {
-            "name": "3D Spinner Makers",
-            "description": "Focused on designing and 3D printing spinner fidgets. Collaborate on new models and share printing tips.",
-            "link": "https://www.facebook.com/groups/3dspinnermakers",
-            "image": "images/3d_spinner_makers.jpg",
-            "categories": ["Spinners", "3D Printed"]
-        },
-        {
-            "name": "Metal Bead Fidgets",
-            "description": "Explore the intersection of metal craftsmanship and bead fidget toys. Share creations and techniques for durable, stylish fidgets.",
-            "link": "https://www.facebook.com/groups/metalbeadfidgets",
-            "image": "images/metal_bead_fidgets.jpg",
-            "categories": ["Beads", "Metal"]
-        },
-        {
-            "name": "Custom 3D Fidgets",
-            "description": "A hub for enthusiasts who design and 3D print a variety of fidget toys. Share your projects, get feedback, and collaborate on new ideas.",
-            "link": "https://www.facebook.com/groups/custom3dfidgets",
-            "image": "images/custom_3d_fidgets.jpg",
-            "categories": ["3D Printed", "Sliders", "Spinners"]
-        },
-        {
-            "name": "Spinner Community",
-            "description": "Join fellow spinner lovers to discuss the latest spinner trends, designs, and techniques for maximizing relaxation and focus.",
-            "link": "https://www.facebook.com/groups/spinnercommunity",
-            "image": "images/spinner_community.jpg",
-            "categories": ["Spinners", "Beads"]
+            "name": "WiscoWorx Creations",
+            "description": "Handmade EDC gear and beads made in USA! Specializing in things that GLOW!",
+            "link": "https://www.facebook.com/groups/1724581070989737",
+            "image": "images/wiscoworx.jpg",
+            "categories": ["Beads"]
         }
-        // Add more group entries as needed
     ]
 }
