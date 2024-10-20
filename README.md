@@ -1,2 +1,0 @@
-# thefidgetlist
-thefidgetlist.com
