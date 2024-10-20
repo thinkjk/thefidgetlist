@@ -6,6 +6,20 @@
             "link": "https://www.facebook.com/groups/1724581070989737",
             "image": "images/wiscoworx.jpg",
             "categories": ["Beads"]
+        },
+        {
+            "name": "out of office objects",
+            "description": "Welcome to out of office objects (oooobjects.)",
+            "link": "https://www.facebook.com/groups/oooobjects",
+            "image": "images/oooobjects.jpg",
+            "categories": ["Spinners", "Metal"]
+        },
+        {
+            "name": "Illwill Industries",
+            "description": "This is a group for updates and drop from Illwill Industries",
+            "link": "https://www.facebook.com/groups/2209809899355496",
+            "image": "images/illwill.jpg",
+            "categories": ["Spinners", "Metal"]
         }
     ]
 }
