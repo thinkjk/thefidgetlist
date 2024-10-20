@@ -138,14 +138,14 @@
             "description": "FidgetBoy BST",
             "link": "https://www.facebook.com/groups/675647824649082",
             "image": "images/fidgetboybst.jpg",
-            "categories": ["Spinner", "Sliders", "B/S/T"]
+            "categories": ["Spinners", "Sliders", "B/S/T"]
         },
         {
             "name": "Magnus BST",
             "description": "Please feel welcome to buy, sell, or trade for Magnus brand EDC items",
             "link": "https://www.facebook.com/groups/magnusedcbst",
             "image": "images/magnusbst.jpg",
-            "categories": ["Spinner", "Sliders", "B/S/T"]
+            "categories": ["Spinners", "Sliders", "B/S/T"]
         },
         {
             "name": "Drake's Machining Customs",
@@ -156,17 +156,59 @@
         },
         {
             "name": "The Fidget Syndicate",
-            "description": "Dedicated to further spreading the simple joy of the small things. ",
+            "description": "Dedicated to further spreading the simple joy of the small things.",
             "link": "https://www.facebook.com/groups/412838014538946",
             "image": "images/fidgetsyndicate.jpg",
             "categories": ["Sliders", "3D Printed"]
         },
         {
             "name": "Prometheus EDC",
-            "description": "Hand finished pocket trash. ",
+            "description": "Hand finished pocket trash.",
             "link": "https://www.facebook.com/groups/1135732747817366",
             "image": "images/prometheusedc.jpg",
             "categories": ["Beads"]
         },
+        {
+            "name": "iNDY THiCC EDC",
+            "description": "EDC creations of the Thicc variety . Designed in Indy and made in Tennessee USA.",
+            "link": "https://www.facebook.com/groups/1434708357478664",
+            "image": "images/indythicc.jpg",
+            "categories": ["Spinners", "Metal"]
+        },
+        {
+            "name": "Greedy EDC",
+            "description": "Daniel Graves and Nich Sloan are 2 EDC aficionados working to bring unique EDC beads to meet your needs.",
+            "link": "https://www.facebook.com/groups/greedyedc",
+            "image": "images/greedyedc.jpg",
+            "categories": ["Beads"]
+        },
+        {
+            "name": "Delta 3 Designs",
+            "description": "Delta 3 Designs is owned and operated by J. Shoobridge. Jason is in his second career and brings real life insight to his creations.",
+            "link": "https://www.facebook.com/groups/Delta3Designs",
+            "image": "images/d3d.jpg",
+            "categories": ["Beads"]
+        },
+        {
+            "name": "2R Designs EDC",
+            "description": "A place to talk about 2R Designs EDC products.",
+            "link": "https://www.facebook.com/groups/1895173964037412",
+            "image": "images/2rdesigns.jpg",
+            "categories": ["Spinners", "Metal"]
+        },
+        {
+            "name": "Full Throttle Originals",
+            "description": "I'm just one guy, in my garage, that's hoping to turn out some cool EDC gear. Self taught, with the help of some good people I've met through social media.",
+            "link": "https://www.facebook.com/groups/fullthrottleoriginals",
+            "image": "images/fto.jpg",
+            "categories": ["Spinners", "Metal"]
+        },
+        {
+            "name": "SwankyNug",
+            "description": "Swanky Nug was created so I could share my beads and edc items. Swanky Nug is also a group for you to share your beads, lanyards, knives or anything edc.",
+            "link": "https://www.facebook.com/groups/794740862237176",
+            "image": "images/swankynug.jpg",
+            "categories": ["Beads"]
+        }
     ]
 }
