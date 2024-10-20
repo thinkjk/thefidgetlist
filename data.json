@@ -146,6 +146,27 @@
             "link": "https://www.facebook.com/groups/magnusedcbst",
             "image": "images/magnusbst.jpg",
             "categories": ["Spinner", "Sliders", "B/S/T"]
-        }
+        },
+        {
+            "name": "Drake's Machining Customs",
+            "description": "Hello, Welcome to DMC, I make different EDC items, however my main thing lately has been Spinner Buttons.",
+            "link": "https://www.facebook.com/groups/909797384484464",
+            "image": "images/dmc.jpg",
+            "categories": ["Accessories"]
+        },
+        {
+            "name": "The Fidget Syndicate",
+            "description": "Dedicated to further spreading the simple joy of the small things. ",
+            "link": "https://www.facebook.com/groups/412838014538946",
+            "image": "images/fidgetsyndicate.jpg",
+            "categories": ["Sliders", "3D Printed"]
+        },
+        {
+            "name": "Prometheus EDC",
+            "description": "Hand finished pocket trash. ",
+            "link": "https://www.facebook.com/groups/1135732747817366",
+            "image": "images/prometheusedc.jpg",
+            "categories": ["Beads"]
+        },
     ]
 }
