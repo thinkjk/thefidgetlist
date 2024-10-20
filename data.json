@@ -34,6 +34,48 @@
             "link": "https://www.facebook.com/groups/TheDailyFidget",
             "image": "images/tdf.jpg",
             "categories": ["Various"]
+        },
+        {
+            "name": "Modusworks Family",
+            "description": "A place to post and discuss your Modusworks products! Info about the products posted by Jonas Nix, the owner, designer, machinist, and floor sweeper of Modusworks.",
+            "link": "https://www.facebook.com/groups/TheDailyFidget",
+            "image": "images/mw.jpg",
+            "categories": ["Sliders", "Metal"]
+        },
+        {
+            "name": "The Marketplace [Spin Space BST]",
+            "description": "Welcome to the BST group for Spin Space!",
+            "link": "https://www.facebook.com/groups/spinspacemarketplace",
+            "image": "images/ssbst.jpg",
+            "categories": ["B/S/T"]
+        },
+        {
+            "name": "Fidget Spot",
+            "description": "This is a friendly group that enjoys discussing all things fidget related.",
+            "link": "https://www.facebook.com/groups/FidgetSpot",
+            "image": "images/fidgetspot.jpg",
+            "categories": ["Various"]
+        },
+        {
+            "name": "The Daily Fidget Marketplace",
+            "description": "Welcome to the BST group for The Daily Fidget!",
+            "link": "https://www.facebook.com/groups/TheDailyFidgetMarketplace",
+            "image": "images/tdfbst.jpg",
+            "categories": ["B/S/T"]
+        },
+        {
+            "name": "Magnus Fidgets",
+            "description": "A place to discuss all the newest fidgets made by Magnus.",
+            "link": "https://www.facebook.com/groups/magnusedc",
+            "image": "images/magnus.jpg",
+            "categories": ["Sliders", "Metal"]
+        },
+        {
+            "name": "CompoForm",
+            "description": "A place to discuss compoform fidgets",
+            "link": "https://www.facebook.com/groups/CompoForm",
+            "image": "images/magnus.jpg",
+            "categories": ["Sliders", "Metal"]
         }
     ]
 }
