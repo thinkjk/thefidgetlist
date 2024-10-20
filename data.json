@@ -61,14 +61,14 @@
             "description": "Welcome to the BST group for The Daily Fidget!",
             "link": "https://www.facebook.com/groups/TheDailyFidgetMarketplace",
             "image": "images/tdfbst.jpg",
-            "categories": ["B/S/T"]
+            "categories": ["Various", "B/S/T"]
         },
         {
             "name": "Magnus Fidgets",
             "description": "A place to discuss all the newest fidgets made by Magnus.",
             "link": "https://www.facebook.com/groups/magnusedc",
             "image": "images/magnus.jpg",
-            "categories": ["Sliders", "Metal"]
+            "categories": ["Sliders", "Spinners", "Metal"]
         },
         {
             "name": "CompoForm",
@@ -111,6 +111,41 @@
             "link": "https://www.facebook.com/groups/playforbeans",
             "image": "images/playforbeans.jpg",
             "categories": ["Various"]
+        },
+        {
+            "name": "FidgetBoy",
+            "description": "Welcome to all things FidgetBoy! Share your thoughts, experiences, ideas, and so on. This is a group dedicated to the world of FidgetBoy products.",
+            "link": "https://www.facebook.com/groups/3627297087595447",
+            "image": "images/fidgetboy.jpg",
+            "categories": ["Sliders", "Spinners", "Metal", "3D Printed"]
+        },
+        {
+            "name": "Rayge3D",
+            "description": "This is where I'll show off new items made, works in progress or exclusive items I wont sell anywhere else!",
+            "link": "https://www.facebook.com/groups/220312357305134",
+            "image": "images/rayge3d.jpg",
+            "categories": ["Sliders", "3D Printed"]
+        },
+        {
+            "name": "Wiscoworx BST",
+            "description": "Group's purpose is to clean up the main page and have this one dedicated to buy, sell, or trade WiscoWorx products.",
+            "link": "https://www.facebook.com/groups/308637225609638",
+            "image": "images/wiscoworxbst.jpg",
+            "categories": ["Beads", "B/S/T"]
+        },
+        {
+            "name": "FidgetBoy BST",
+            "description": "FidgetBoy BST",
+            "link": "https://www.facebook.com/groups/675647824649082",
+            "image": "images/fidgetboybst.jpg",
+            "categories": ["Spinner", "Sliders", "B/S/T"]
+        },
+        {
+            "name": "Magnus BST",
+            "description": "Please feel welcome to buy, sell, or trade for Magnus brand EDC items",
+            "link": "https://www.facebook.com/groups/magnusedcbst",
+            "image": "images/magnusbst.jpg",
+            "categories": ["Spinner", "Sliders", "B/S/T"]
         }
     ]
 }
