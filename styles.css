@@ -1,0 +1,56 @@
+/* styles.css */
+
+/* Custom Styles */
+
+body {
+    background-color: #f8f9fa;
+    color: #212529;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+.form-check-label {
+    cursor: pointer;
+}
+
+.filter-checkbox {
+    margin-right: 0.5rem;
+}
+
+#resetFilters {
+    align-self: center;
+}
+
+table img {
+    border-radius: 5px;
+}
+
+/* Hover effect for GitHub link */
+a[href*="github.com"] {
+    text-decoration: none;
+}
+
+a[href*="github.com"] svg {
+    transition: color 0.3s;
+}
+
+a[href*="github.com"]:hover svg {
+    color: #4078c0; /* GitHub's official blue color */
+}
+
+a[href*="github.com"] span {
+    transition: color 0.3s;
+}
+
+a[href*="github.com"]:hover span {
+    color: #4078c0;
+}
