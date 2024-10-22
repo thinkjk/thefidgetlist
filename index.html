@@ -6,15 +6,31 @@
     <title>The Fidget List</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-pap+UQfDqUMl1r89jZyrUPoJH3sWvMzC6YdkBJYCfNh58kc6k+Vf5V6T7E9qA0H1X+eIVsm3XkR6TyrgY3QZuw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container my-5">
         <!-- Header -->
-        <header class="mb-4 text-center">
-            <h1>The Fidget List</h1>
-            <p class="lead">A comprehensive directory of Facebook fidget groups categorized for your convenience.</p>
+        <header class="mb-4">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="text-center w-100">
+                    <h1>The Fidget List</h1>
+                    <p class="lead">A comprehensive directory of Facebook fidget groups categorized for your convenience.</p>
+                </div>
+                <a href="https://github.com/thinkjk/the-fidget-list" target="_blank" rel="noopener noreferrer" class="text-dark ms-3">
+                    <i class="fab fa-github fa-2x"></i>
+                    <span class="visually-hidden">GitHub Repository</span>
+                </a>
+            </div>
         </header>
 
         <!-- Filter Section -->
@@ -64,8 +80,8 @@
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input filter-checkbox" type="checkbox" value="B/S/T" id="filterB/S/T">
-                    <label class="form-check-label" for="filterB/S/T">
+                    <input class="form-check-input filter-checkbox" type="checkbox" value="B/S/T" id="filterBST">
+                    <label class="form-check-label" for="filterBST">
                         B/S/T
                     </label>
                 </div>
