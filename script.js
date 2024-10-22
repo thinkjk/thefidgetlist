@@ -1,11 +1,23 @@
 // script.js
 
 document.addEventListener('DOMContentLoaded', () => {
+    // Filter and Table Elements
     const checkboxes = document.querySelectorAll('.filter-checkbox');
     const tableBody = document.querySelector('#groupsTable tbody');
     const resetButton = document.getElementById('resetFilters');
 
     let groupsData = [];
+
+    // Function to shuffle an array using the Fisher-Yates algorithm
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            // Generate a random index from 0 to i
+            const j = Math.floor(Math.random() * (i + 1));
+            // Swap elements at indices i and j
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
 
     // Fetch data from data.json
     fetch('data.json')
@@ -16,7 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
             return response.json();
         })
         .then(data => {
-            groupsData = data.groups;
+            // Shuffle the groups data before storing
+            groupsData = shuffleArray(data.groups);
             populateTable(groupsData);
         })
         .catch(error => {
@@ -24,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
             tableBody.innerHTML = '<tr><td colspan="5" class="text-center text-danger">Failed to load data.</td></tr>';
         });
 
-    // Function to populate the table
+    // Function to populate the table with group data
     function populateTable(data) {
         tableBody.innerHTML = ''; // Clear existing data
 
@@ -36,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
         data.forEach(group => {
             const row = document.createElement('tr');
 
-            // Image
+            // Image Cell
             const imgCell = document.createElement('td');
             const img = document.createElement('img');
             img.src = group.image;
@@ -50,17 +63,17 @@ document.addEventListener('DOMContentLoaded', () => {
             imgCell.appendChild(img);
             row.appendChild(imgCell);
 
-            // Group Name
+            // Group Name Cell
             const nameCell = document.createElement('td');
             nameCell.textContent = group.name;
             row.appendChild(nameCell);
 
-            // Description
+            // Description Cell
             const descCell = document.createElement('td');
             descCell.textContent = group.description;
             row.appendChild(descCell);
 
-            // Link
+            // Link Cell
             const linkCell = document.createElement('td');
             const link = document.createElement('a');
             link.href = group.link;
@@ -71,16 +84,17 @@ document.addEventListener('DOMContentLoaded', () => {
             linkCell.appendChild(link);
             row.appendChild(linkCell);
 
-            // Categories
+            // Categories Cell
             const catCell = document.createElement('td');
             catCell.textContent = group.categories.join(', ');
             row.appendChild(catCell);
 
+            // Append the row to the table body
             tableBody.appendChild(row);
         });
     }
 
-    // Function to filter the table
+    // Function to filter the table based on selected categories
     function filterTable() {
         const selectedCategories = Array.from(checkboxes)
             .filter(checkbox => checkbox.checked)
@@ -98,12 +112,12 @@ document.addEventListener('DOMContentLoaded', () => {
         populateTable(filteredData);
     }
 
-    // Attach event listeners to checkboxes
+    // Attach event listeners to each checkbox to trigger filtering
     checkboxes.forEach(checkbox => {
         checkbox.addEventListener('change', filterTable);
     });
 
-    // Reset filters
+    // Event listener for the "Reset Filters" button to clear all selections
     resetButton.addEventListener('click', () => {
         checkboxes.forEach(checkbox => {
             checkbox.checked = false;
