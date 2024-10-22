@@ -54,3 +54,41 @@ a[href*="github.com"] span {
 a[href*="github.com"]:hover span {
     color: #4078c0;
 }
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    /* Adjust GitHub link position on mobile */
+    header a[href*="github.com"] {
+        position: static !important;
+        margin-top: 1rem !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .filter-checkbox {
+        width: 100%;
+    }
+
+    #resetFilters {
+        width: 100%;
+    }
+
+    .table-responsive {
+        overflow-x: auto;
+    }
+
+    table th, table td {
+        white-space: normal;
+        word-wrap: break-word;
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+}
