@@ -377,6 +377,160 @@
             "link": "https://www.facebook.com/groups/507431908385184",
             "image": "images/edczircti.jpg",
             "categories": ["Various", "Metal"]
+        },
+        {
+            "name": "NJT.EDC.FAMILY",
+            "description": "NJT Spinners",
+            "link": "https://www.facebook.com/groups/njt.edc",
+            "image": "images/njtedc.jpg",
+            "categories": ["Spinners", "Metal"]
+        },
+        {
+            "name": "Pond Hopper EDC",
+            "description": "Pond Hopper EDC. Home of the first Modular Bead Keeper Design. (AFAIK) Creator of the Bead 'Totem' & the first bead holding Bit driver.",
+            "link": "https://www.facebook.com/groups/pondhopperedc",
+            "image": "images/pondhopper.jpg",
+            "categories": ["Spin Stick"]
+        },
+        {
+            "name": "ZeroFeud LLC",
+            "description": "The Official Home of all ZeroFeud products",
+            "link": "https://www.facebook.com/groups/ZeroFeud",
+            "image": "images/zerofeud.jpg",
+            "categories": ["Various"]
+        },
+        {
+            "name": "EDC Dama",
+            "description": "A place to showcase, and have fun discussions about all of your favorite Dama things, edc related.",
+            "link": "https://www.facebook.com/groups/959498652178150",
+            "image": "images/edcdama.jpg",
+            "categories": ["Various", "Metal"]
+        },
+        {
+            "name": "Dynamic Inertia Tops",
+            "description": "This is the home group for Dynamic Inertia Tops - Custom precision spinning tops and more made by Gavin Sexton.",
+            "link": "https://www.facebook.com/groups/DynamicInertiaTops",
+            "image": "images/dynamicinertiatops.jpg",
+            "categories": ["Tops", "Spin Stick"]
+        },
+        {
+            "name": "BilletSPIN",
+            "description": "Everything needs to be made of metal! From pens and whistles to fidget items and spinning tops, we specialize in wide variety of EDC products.",
+            "link": "https://www.facebook.com/groups/391445661039396",
+            "image": "images/billetspin.jpg",
+            "categories": ["Tops", "Beads", "[Metal]"]
+        },
+        {
+            "name": "Edge Industries",
+            "description": "A page to share some of my custom metalwork projects all made on manual machinery.",
+            "link": "https://www.facebook.com/groups/181615592406838",
+            "image": "images/edgeindustries.jpg",
+            "categories": ["Tops", "Metal"]
+        },
+        {
+            "name": "TwoEDC",
+            "description": "Hey, Fam. If you know me, you know I have a passion for trinkets of all sizes and materials.",
+            "link": "https://www.facebook.com/groups/TwoEDC",
+            "image": "images/twoedc.jpg",
+            "categories": ["Spinners", "Metal"]
+        },
+        {
+            "name": "Pocket ART",
+            "description": "Pocket ART (Pocket Artifacts, Relics & Treasures)! This is an EDC fidgeters group for all those things that fall through the cracks on spinner and EDC groups.",
+            "link": "https://www.facebook.com/groups/PocketArtHQ",
+            "image": "images/pocketart.jpg",
+            "categories": ["Various"]
+        },
+        {
+            "name": "Kinetics Asia Pacific EDC",
+            "description": "Own factory maker , design and customization spinner and other EDC toys.",
+            "link": "https://www.facebook.com/groups/1940540282898296",
+            "image": "images/kap.jpg",
+            "categories": ["Spinners", "Metal"]
+        },
+        {
+            "name": "SF Metal Alchemy",
+            "description": "The group is design for me (Sasa Fabrio/ Sasa SF) SF Custom Crafted EDC to post/sell/ and show off my metal work and leather work. I'll do first come first serve sales mostly.",
+            "link": "https://www.facebook.com/groups/646176282429334",
+            "image": "images/sasa.jpg",
+            "categories": ["Spin Stick", "Beads"]
+        },
+        {
+            "name": "SCAM Design",
+            "description": "I'm Scott McCoskery and SCAM Design is my label. The launch of this group coincides with the launch of my first 'real' product: The Torqbar.",
+            "link": "https://www.facebook.com/groups/1075373552503271",
+            "image": "images/scam.jpg",
+            "categories": ["Spinners", "Metal"]
+        },
+        {
+            "name": "ACEdc Original",
+            "description": "Fidget Toys Forever",
+            "link": "https://www.facebook.com/groups/992576598131462",
+            "image": "images/acedc.jpg",
+            "categories": ["Various"]
+        },
+        {
+            "name": "Blackdog Labs EDC",
+            "description": "Hey everyone! Here you will find a wonderful community of great people that enjoy Blackdog Labs products.",
+            "link": "https://www.facebook.com/groups/blackdogedc",
+            "image": "images/blackdoglabs.jpg",
+            "categories": ["Sliders", "Metal"]
+        },
+        {
+            "name": "EDC Marketplace",
+            "description": "Discuss, debate, buy and sell everything and anything goes as long as it is EDC related!",
+            "link": "https://www.facebook.com/groups/edcmp",
+            "image": "images/edcmarketplace.jpg",
+            "categories": ["B/S/T"]
+        },
+        {
+            "name": "Fidgets Asia",
+            "description": "We mainly enjoy fidgets produced in Asia, but let's also enjoy spinners from other regions!! Let's all share and discuss our fidgets together.",
+            "link": "https://www.facebook.com/groups/3815502875352972",
+            "image": "images/fidgetsasia.jpg",
+            "categories": ["Spinners", "Metal"]
+        },
+        {
+            "name": "FeiFei Edc",
+            "description": "FeiFei Edc Spinners",
+            "link": "https://www.facebook.com/groups/695185935579996",
+            "image": "images/feifei.jpg",
+            "categories": ["Spinners", "Metal"]
+        },
+        {
+            "name": "GEEONE",
+            "description": "GEEONE Store Fidgets",
+            "link": "https://www.facebook.com/groups/geeoneedc",
+            "image": "images/geeone.jpg",
+            "categories": ["Various"]
+        },
+        {
+            "name": "Layer Cake",
+            "description": "Beatrix Magnet Sliders & Beads",
+            "link": "https://www.facebook.com/groups/268017125338863",
+            "image": "images/layercake.jpg",
+            "categories": ["Beads", "Sliders", "Metal"]
+        },
+        {
+            "name": "Mate EDC",
+            "description": "Made in Australia EDC fidget support parts.",
+            "link": "https://www.facebook.com/groups/mate.edc",
+            "image": "images/mateedc.jpg",
+            "categories": ["Accessories"]
+        },
+        {
+            "name": "ZERO ONE EDC Fans Group",
+            "description": "ZERO ONE EDC Fidgets",
+            "link": "https://www.facebook.com/groups/1055411198365465",
+            "image": "images/01edc.jpg",
+            "categories": ["Various"]
+        },
+        {
+            "name": "TK EDC",
+            "description": "TK EDC is an EDC brand from China. We specialize in designing various original Fidget Sliders with interchangeable embossed stickers to enhance playability.",
+            "link": "https://www.facebook.com/groups/538657211753334",
+            "image": "images/tkedc.jpg",
+            "categories": ["Various"]
         }
     ]
 }
