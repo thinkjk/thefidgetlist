@@ -76,9 +76,10 @@ a[href*="github.com"]:hover span {
         align-items: center;
     }
 
+    /* Remove custom width settings for checkboxes to allow Bootstrap's grid to handle them */
+
     /* Ensure checkboxes maintain their styling */
     .form-check {
-        width: 100%;
         display: flex;
         align-items: center;
     }
