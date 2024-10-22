@@ -28,7 +28,7 @@
 
 ## Live Demo
 
-Check out the live site: [https://thefidgetlist.com/](https://thefidgetlist.com/) <!-- Replace with your actual GitHub Pages URL -->
+Check out the live site: [https://thefidgetlist.com/](https://thefidgetlist.com/) 
 
 ## Installation
 

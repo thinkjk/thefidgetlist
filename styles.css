@@ -32,6 +32,8 @@ header p {
 
 table img {
     border-radius: 5px;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Hover effect for GitHub link */
@@ -71,10 +73,22 @@ a[href*="github.com"]:hover span {
         margin-top: 1rem !important;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
-    .filter-checkbox {
+    /* Ensure checkboxes maintain their styling */
+    .form-check {
         width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .form-check-input {
+        margin-right: 0.5rem;
+    }
+
+    .form-check-label {
+        width: auto;
     }
 
     #resetFilters {
