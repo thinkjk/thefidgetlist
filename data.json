@@ -531,6 +531,13 @@
             "link": "https://www.facebook.com/groups/538657211753334",
             "image": "images/tkedc.jpg",
             "categories": ["Various"]
+        },
+        {
+            "name": "Metal Moose",
+            "description": "Spinner accessories designed and machined in Kansas City Missouri.",
+            "link": "https://www.facebook.com/groups/481962044530765",
+            "image": "images/metalmoose.jpg",
+            "categories": ["Accessories"]
         }
     ]
 }
