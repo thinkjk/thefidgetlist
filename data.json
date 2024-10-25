@@ -538,6 +538,13 @@
             "link": "https://www.facebook.com/groups/481962044530765",
             "image": "images/metalmoose.jpg",
             "categories": ["Accessories"]
+        },
+        {
+            "name": "SAKURA EDC",
+            "description": "I am an independent manufacturer of fidget toys.",
+            "link": "https://www.facebook.com/groups/550266240705770",
+            "image": "images/sakuraedc.jpg",
+            "categories": ["Sliders", "3D Printed"]
         }
     ]
 }
