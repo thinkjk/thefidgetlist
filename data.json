@@ -545,6 +545,41 @@
             "link": "https://www.facebook.com/groups/550266240705770",
             "image": "images/sakuraedc.jpg",
             "categories": ["Sliders", "3D Printed"]
+        },
+        {
+            "name": "lunisic limited",
+            "description": "Official group for Lunisic Ltd. EDC!",
+            "link": "https://www.facebook.com/groups/521643219887829",
+            "image": "images/lunisic.jpg",
+            "categories": ["Beads", "Sliders"]
+        },
+        {
+            "name": "Bead Daddy EDC",
+            "description": "Making beads since '23.",
+            "link": "https://www.facebook.com/groups/beaddaddyedc",
+            "image": "images/beaddaddy.jpg",
+            "categories": ["Beads"]
+        },
+        {
+            "name": "Wyste",
+            "description": "I like to make whatever’s in my brain as accurately as I can in the tangible world",
+            "link": "https://www.facebook.com/groups/1149479535455454",
+            "image": "images/wyste.jpg",
+            "categories": ["Beads", "Various"]
+        },
+        {
+            "name": "Glow Man Dan",
+            "description": "Welcome to Glow Man Dan! Our little glowing corner of the interwebs. wonderfully bright creations using the best possible materials.",
+            "link": "https://www.facebook.com/groups/541703069833206",
+            "image": "images/glowmandan.jpg",
+            "categories": ["Beads"]
+        },
+        {
+            "name": "Broken Art Custom Beads",
+            "description": "This is a group for the lanyard beads and various edc items made by me, Steve Foss.",
+            "link": "https://www.facebook.com/groups/580785019107990",
+            "image": "images/brokenart.jpg",
+            "categories": ["Beads"]
         }
     ]
 }
