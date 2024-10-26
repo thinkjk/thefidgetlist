@@ -580,6 +580,69 @@
             "link": "https://www.facebook.com/groups/580785019107990",
             "image": "images/brokenart.jpg",
             "categories": ["Beads"]
+        },
+        {
+            "name": "Sypit Designs",
+            "description": "Welcome to Sypit Designs fb group!",
+            "link": "https://www.facebook.com/groups/3225412134184431",
+            "image": "images/sypit.jpg",
+            "categories": ["Beads"]
+        },
+        {
+            "name": "Light Matter Group",
+            "description": "I finally decided to create a group dedicated to discussing my work and also create a place where anyone that is interested can buy some of my pieces.",
+            "link": "https://www.facebook.com/groups/lightmatter",
+            "image": "images/lightmatter.jpg",
+            "categories": ["Beads", "Tops"]
+        },
+        {
+            "name": "Armstrong Metal Works",
+            "description": "My name is Winfield C Armstrong II. I'm a 3rd generation manual machinist that has become a full time maker of the art you see here. I make various things completely manually and out of about anything I can get my hands on.",
+            "link": "https://www.facebook.com/groups/2108999082719233",
+            "image": "images/armstrongmetalworks.jpg",
+            "categories": ["Beads"]
+        },
+        {
+            "name": "Beads and Totems",
+            "description": "This is for all makers and collectors of EDC Beads and Totems!",
+            "link": "https://www.facebook.com/groups/923583209737371",
+            "image": "images/beadsandtotems.jpg",
+            "categories": ["Beads", "Spin Stick"]
+        },
+        {
+            "name": "Hebert's Creations and waffles",
+            "description": "Welcome to Hebert's Creations. i make custom Beads , keychain's , resin Creations and I waffle olights , edc gear , knives and silver coin's.",
+            "link": "https://www.facebook.com/groups/535731391751370",
+            "image": "images/hebertscreations.jpg",
+            "categories": ["Beads"]
+        },
+        {
+            "name": "Salt & Peppa EDC",
+            "description": "Handmade leather, beads, and sometimes other EDC items made by Jøhn. Come share your carry.",
+            "link": "https://www.facebook.com/groups/847093079406393",
+            "image": "images/saltandpeppa.jpg",
+            "categories": ["Beads"]
+        },
+        {
+            "name": "WiscoWaffles",
+            "description": "A place to offer you all Wiscoworx beads where you don't have to be the fastest or have the deepest pockets. Most games will be $10 per spot.",
+            "link": "https://www.facebook.com/groups/908859612927170",
+            "image": "images/wiscowaffles.jpg",
+            "categories": ["Beads"]
+        },
+        {
+            "name": "BeadBox EDC",
+            "description": "I created this groups to support those in need of some custom EDC storage for display and transport.",
+            "link": "https://www.facebook.com/groups/504286358430445",
+            "image": "images/beadbox.jpg",
+            "categories": ["Accessories"]
+        },
+        {
+            "name": "Dub-Tac Gear",
+            "description": "This is a place where you can come meet some awesome people in the EDC community I try to do drops once a week either FCFS, lotto, or a game with paid for spots",
+            "link": "https://www.facebook.com/groups/2918525928465410",
+            "image": "images/dubtacgear.jpg",
+            "categories": ["Beads"]
         }
     ]
 }
