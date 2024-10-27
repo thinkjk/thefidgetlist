@@ -662,6 +662,13 @@
             "link": "https://www.facebook.com/groups/proxyedc",
             "image": "images/proxyedc.jpg",
             "categories": ["Various"]
+        },
+        {
+            "name": "MonoSkate",
+            "description": "EDC brand-MonoSkate.",
+            "link": "https://www.facebook.com/groups/1245068629705144",
+            "image": "images/monoskate.jpg",
+            "categories": ["Spinners", "Metal"]
         }
     ]
 }
