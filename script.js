@@ -1,12 +1,14 @@
 // script.js
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Filter and Table Elements
-    const checkboxes = document.querySelectorAll('.filter-checkbox');
+    // Elements
+    const checkboxesContainer = document.getElementById('filtersContainer');
+    const checkboxes = () => document.querySelectorAll('.filter-checkbox');
     const tableBody = document.querySelector('#groupsTable tbody');
     const resetButton = document.getElementById('resetFilters');
 
     let groupsData = [];
+    let filtersData = [];
 
     // Function to shuffle an array using the Fisher-Yates algorithm
     function shuffleArray(array) {
@@ -28,14 +30,54 @@ document.addEventListener('DOMContentLoaded', () => {
             return response.json();
         })
         .then(data => {
-            // Shuffle the groups data before storing
+            // Store filters and groups data
+            filtersData = data.filters;
             groupsData = shuffleArray(data.groups);
+            generateFilters(filtersData);
             populateTable(groupsData);
         })
         .catch(error => {
             console.error('Error fetching data:', error);
             tableBody.innerHTML = '<tr><td colspan="5" class="text-center text-danger">Failed to load data.</td></tr>';
         });
+
+    // Function to generate filter checkboxes dynamically
+    function generateFilters(filters) {
+        checkboxesContainer.innerHTML = ''; // Clear existing filters if any
+
+        filters.forEach(filter => {
+            // Create column div
+            const colDiv = document.createElement('div');
+            colDiv.classList.add('col-6', 'col-sm-4', 'col-md-3', 'mb-3');
+
+            // Create form-check div
+            const formCheckDiv = document.createElement('div');
+            formCheckDiv.classList.add('form-check');
+
+            // Create checkbox input
+            const checkbox = document.createElement('input');
+            checkbox.classList.add('form-check-input', 'filter-checkbox');
+            checkbox.type = 'checkbox';
+            checkbox.value = filter;
+            checkbox.id = `filter${filter.replace(/\s+/g, '')}`; // Remove spaces for ID
+
+            // Create label
+            const label = document.createElement('label');
+            label.classList.add('form-check-label');
+            label.htmlFor = checkbox.id;
+            label.textContent = filter;
+
+            // Append checkbox and label to form-check div
+            formCheckDiv.appendChild(checkbox);
+            formCheckDiv.appendChild(label);
+
+            // Append form-check div to column div
+            colDiv.appendChild(formCheckDiv);
+
+            // Append column div to container
+            checkboxesContainer.appendChild(colDiv);
+        });
+    }
 
     // Function to populate the table with group data
     function populateTable(data) {
@@ -96,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Function to filter the table based on selected categories
     function filterTable() {
-        const selectedCategories = Array.from(checkboxes)
+        const selectedCategories = Array.from(checkboxes())
             .filter(checkbox => checkbox.checked)
             .map(checkbox => checkbox.value);
 
@@ -112,16 +154,24 @@ document.addEventListener('DOMContentLoaded', () => {
         populateTable(filteredData);
     }
 
-    // Attach event listeners to each checkbox to trigger filtering
-    checkboxes.forEach(checkbox => {
-        checkbox.addEventListener('change', filterTable);
-    });
+    // Attach event listeners to dynamically generated checkboxes
+    function attachCheckboxListeners() {
+        const allCheckboxes = checkboxes();
+        allCheckboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', filterTable);
+        });
+    }
 
     // Event listener for the "Reset Filters" button to clear all selections
     resetButton.addEventListener('click', () => {
-        checkboxes.forEach(checkbox => {
+        Array.from(checkboxes()).forEach(checkbox => {
             checkbox.checked = false;
         });
         populateTable(groupsData);
     });
+
+    // After generating filters, attach listeners
+    document.addEventListener('click', () => {
+        attachCheckboxListeners();
+    }, { once: true }); // Ensure listeners are attached only once
 });

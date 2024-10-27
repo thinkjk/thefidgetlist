@@ -1,4 +1,16 @@
 {
+    "filters": [
+        "Sliders",
+        "Spinners",
+        "Beads",
+        "Metal",
+        "3D Printed",
+        "Accessories",
+        "Spin Stick",
+        "B/S/T",
+        "Various",
+        "Tops"
+    ],
     "groups": [
         {
             "name": "WiscoWorx Creations",
