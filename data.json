@@ -1,15 +1,15 @@
 {
     "filters": [
-        "Sliders",
-        "Spinners",
-        "Beads",
-        "Metal",
         "3D Printed",
         "Accessories",
-        "Spin Stick",
         "B/S/T",
-        "Various",
-        "Tops"
+        "Beads",
+        "Metal",
+        "Sliders",
+        "Spin Stick",
+        "Spinners",
+        "Tops",
+        "Various"
     ],
     "groups": [
         {
@@ -17,658 +17,915 @@
             "description": "Handmade EDC gear and beads made in USA! Specializing in things that GLOW!",
             "link": "https://www.facebook.com/groups/1724581070989737",
             "image": "images/wiscoworx.jpg",
-            "categories": ["Beads"]
+            "categories": [
+                "Beads"
+            ]
         },
         {
             "name": "out of office objects",
             "description": "Welcome to out of office objects (oooobjects.)",
             "link": "https://www.facebook.com/groups/oooobjects",
             "image": "images/oooobjects.jpg",
-            "categories": ["Spinners", "Metal"]
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
         },
         {
             "name": "Illwill Industries",
             "description": "This is a group for updates and drop from Illwill Industries",
             "link": "https://www.facebook.com/groups/2209809899355496",
             "image": "images/illwill.jpg",
-            "categories": ["Spin Stick", "3D Printed"]
+            "categories": [
+                "Spin Stick",
+                "3D Printed"
+            ]
         },
         {
             "name": "MM3D",
             "description": "MercadoMakes3D 3D printed trays for fidgets and more!",
             "link": "https://www.facebook.com/groups/1607259706699878",
             "image": "images/mm3d.jpg",
-            "categories": ["Accessories"]
+            "categories": [
+                "Accessories"
+            ]
         },
         {
             "name": "The Daily Fidget",
             "description": "This is a friendly group that enjoys discussing spinners, EDC, and all things fidget related.",
             "link": "https://www.facebook.com/groups/TheDailyFidget",
             "image": "images/tdf.jpg",
-            "categories": ["Various"]
+            "categories": [
+                "Various"
+            ]
         },
         {
             "name": "Modusworks Family",
             "description": "A place to post and discuss your Modusworks products! Info about the products posted by Jonas Nix, the owner, designer, machinist, and floor sweeper of Modusworks.",
             "link": "https://www.facebook.com/groups/TheDailyFidget",
             "image": "images/mw.jpg",
-            "categories": ["Sliders", "Metal"]
+            "categories": [
+                "Sliders",
+                "Metal"
+            ]
         },
         {
             "name": "The Marketplace [Spin Space BST]",
             "description": "Welcome to the BST group for Spin Space!",
             "link": "https://www.facebook.com/groups/spinspacemarketplace",
             "image": "images/ssbst.jpg",
-            "categories": ["B/S/T"]
+            "categories": [
+                "B/S/T"
+            ]
         },
         {
             "name": "Fidget Spot",
             "description": "This is a friendly group that enjoys discussing all things fidget related.",
             "link": "https://www.facebook.com/groups/FidgetSpot",
             "image": "images/fidgetspot.jpg",
-            "categories": ["Various"]
+            "categories": [
+                "Various"
+            ]
         },
         {
             "name": "The Daily Fidget Marketplace",
             "description": "Welcome to the BST group for The Daily Fidget!",
             "link": "https://www.facebook.com/groups/TheDailyFidgetMarketplace",
             "image": "images/tdfbst.jpg",
-            "categories": ["Various", "B/S/T"]
+            "categories": [
+                "Various",
+                "B/S/T"
+            ]
         },
         {
             "name": "Magnus Fidgets",
             "description": "A place to discuss all the newest fidgets made by Magnus.",
             "link": "https://www.facebook.com/groups/magnusedc",
             "image": "images/magnus.jpg",
-            "categories": ["Sliders", "Spinners", "Metal"]
+            "categories": [
+                "Sliders",
+                "Spinners",
+                "Metal"
+            ]
         },
         {
             "name": "CompoForm",
             "description": "A place to discuss compoform fidgets",
             "link": "https://www.facebook.com/groups/CompoForm",
             "image": "images/compoform.jpg",
-            "categories": ["Sliders", "Spinners", "Metal"]
+            "categories": [
+                "Sliders",
+                "Spinners",
+                "Metal"
+            ]
         },
         {
             "name": "Griffin inc.",
             "description": "Spacers and caddys for all your edc needs",
             "link": "https://www.facebook.com/groups/508570518136560",
             "image": "images/griffin.jpg",
-            "categories": ["Spin Stick", "Beads"]
+            "categories": [
+                "Spin Stick",
+                "Beads"
+            ]
         },
         {
             "name": "Wizard EDC",
             "description": "Maker of every day carry (EDC) Products.",
             "link": "https://www.facebook.com/groups/917080893276458",
             "image": "images/wizardedc.jpg",
-            "categories": ["Spin Stick", "Beads"]
+            "categories": [
+                "Spin Stick",
+                "Beads"
+            ]
         },
         {
             "name": "EDC Cartel",
-            "description": "A multibrand store of fidget toys and edc gear products. Edc Cartel will be introducing a variety of brands from different makers we will be also accommodating collectors if they need specific fidget via pm’s.",
+            "description": "A multibrand store of fidget toys and edc gear products. Edc Cartel will be introducing a variety of brands from different makers we will be also accommodating collectors if they need specific fidget via pm?s.",
             "link": "https://www.facebook.com/groups/2104022436462512",
             "image": "images/edccartel.jpg",
-            "categories": ["Various"]
+            "categories": [
+                "Various"
+            ]
         },
         {
             "name": "FidgetThings",
             "description": "Group for Updates and Drops of projects that FidgetThings is currently working on.",
             "link": "https://www.facebook.com/groups/1114614522653569",
             "image": "images/fidgetthings.jpg",
-            "categories": ["Various"]
+            "categories": [
+                "Various"
+            ]
         },
         {
             "name": "playforbeans",
             "description": "playforbeans encapsulates a team of 5 individuals who crossed paths through happenstance. We all decided to embark on a journey and discovered the world and communities of Fidgets and EDC.",
             "link": "https://www.facebook.com/groups/playforbeans",
             "image": "images/playforbeans.jpg",
-            "categories": ["Various"]
+            "categories": [
+                "Various"
+            ]
         },
         {
             "name": "FidgetBoy",
             "description": "Welcome to all things FidgetBoy! Share your thoughts, experiences, ideas, and so on. This is a group dedicated to the world of FidgetBoy products.",
             "link": "https://www.facebook.com/groups/3627297087595447",
             "image": "images/fidgetboy.jpg",
-            "categories": ["Sliders", "Spinners", "Metal", "3D Printed"]
+            "categories": [
+                "Sliders",
+                "Spinners",
+                "Metal",
+                "3D Printed"
+            ]
         },
         {
             "name": "Rayge3D",
             "description": "This is where I'll show off new items made, works in progress or exclusive items I wont sell anywhere else!",
             "link": "https://www.facebook.com/groups/220312357305134",
             "image": "images/rayge3d.jpg",
-            "categories": ["Sliders", "3D Printed"]
+            "categories": [
+                "Sliders",
+                "3D Printed"
+            ]
         },
         {
             "name": "Wiscoworx BST",
             "description": "Group's purpose is to clean up the main page and have this one dedicated to buy, sell, or trade WiscoWorx products.",
             "link": "https://www.facebook.com/groups/308637225609638",
             "image": "images/wiscoworxbst.jpg",
-            "categories": ["Beads", "B/S/T"]
+            "categories": [
+                "Beads",
+                "B/S/T"
+            ]
         },
         {
             "name": "FidgetBoy BST",
             "description": "FidgetBoy BST",
             "link": "https://www.facebook.com/groups/675647824649082",
             "image": "images/fidgetboybst.jpg",
-            "categories": ["B/S/T"]
+            "categories": [
+                "B/S/T"
+            ]
         },
         {
             "name": "Magnus BST",
             "description": "Please feel welcome to buy, sell, or trade for Magnus brand EDC items",
             "link": "https://www.facebook.com/groups/magnusedcbst",
             "image": "images/magnusbst.jpg",
-            "categories": ["B/S/T"]
+            "categories": [
+                "B/S/T"
+            ]
         },
         {
             "name": "Drake's Machining Customs",
             "description": "Hello, Welcome to DMC, I make different EDC items, however my main thing lately has been Spinner Buttons.",
             "link": "https://www.facebook.com/groups/909797384484464",
             "image": "images/dmc.jpg",
-            "categories": ["Accessories", "Metal"]
+            "categories": [
+                "Accessories",
+                "Metal"
+            ]
         },
         {
             "name": "The Fidget Syndicate",
             "description": "Dedicated to further spreading the simple joy of the small things.",
             "link": "https://www.facebook.com/groups/412838014538946",
             "image": "images/fidgetsyndicate.jpg",
-            "categories": ["Sliders", "3D Printed"]
+            "categories": [
+                "Sliders",
+                "3D Printed"
+            ]
         },
         {
             "name": "Prometheus EDC",
             "description": "Hand finished pocket trash.",
             "link": "https://www.facebook.com/groups/1135732747817366",
             "image": "images/prometheusedc.jpg",
-            "categories": ["Beads"]
+            "categories": [
+                "Beads"
+            ]
         },
         {
             "name": "iNDY THiCC EDC",
             "description": "EDC creations of the Thicc variety . Designed in Indy and made in Tennessee USA.",
             "link": "https://www.facebook.com/groups/1434708357478664",
             "image": "images/indythicc.jpg",
-            "categories": ["Spinners", "Metal"]
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
         },
         {
             "name": "Greedy EDC",
             "description": "Daniel Graves and Nich Sloan are 2 EDC aficionados working to bring unique EDC beads to meet your needs.",
             "link": "https://www.facebook.com/groups/greedyedc",
             "image": "images/greedyedc.jpg",
-            "categories": ["Beads"]
+            "categories": [
+                "Beads"
+            ]
         },
         {
             "name": "Delta 3 Designs",
             "description": "Delta 3 Designs is owned and operated by J. Shoobridge. Jason is in his second career and brings real life insight to his creations.",
             "link": "https://www.facebook.com/groups/Delta3Designs",
             "image": "images/d3d.jpg",
-            "categories": ["Beads"]
+            "categories": [
+                "Beads"
+            ]
         },
         {
             "name": "2R Designs EDC",
             "description": "A place to talk about 2R Designs EDC products.",
             "link": "https://www.facebook.com/groups/1895173964037412",
             "image": "images/2rdesigns.jpg",
-            "categories": ["Spinners", "Metal"]
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
         },
         {
             "name": "Full Throttle Originals",
             "description": "I'm just one guy, in my garage, that's hoping to turn out some cool EDC gear. Self taught, with the help of some good people I've met through social media.",
             "link": "https://www.facebook.com/groups/fullthrottleoriginals",
             "image": "images/fto.jpg",
-            "categories": ["Spinners", "Metal"]
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
         },
         {
             "name": "SwankyNug",
             "description": "Swanky Nug was created so I could share my beads and edc items. Swanky Nug is also a group for you to share your beads, lanyards, knives or anything edc.",
             "link": "https://www.facebook.com/groups/794740862237176",
             "image": "images/swankynug.jpg",
-            "categories": ["Beads"]
+            "categories": [
+                "Beads"
+            ]
         },
         {
             "name": "Metal Toys Dz.",
             "description": "Funny things made by Metal Toys Dz. in China",
             "link": "https://www.facebook.com/groups/dzedc",
             "image": "images/metaltoysdz.jpg",
-            "categories": ["Various"]
+            "categories": [
+                "Various"
+            ]
         },
         {
             "name": "ATOMIC EDC",
             "description": "Making things from resin since 2016",
             "link": "https://www.facebook.com/groups/1600158530190160",
             "image": "images/atomicedc.jpg",
-            "categories": ["Beads"]
+            "categories": [
+                "Beads"
+            ]
         },
         {
-            "name": "Broke Bōnz Designs",
+            "name": "Broke B?nz Designs",
             "description": "The home of high quality 3d printed modular fidgets!",
             "link": "https://www.facebook.com/groups/420190824333362",
             "image": "images/brokebonz.jpg",
-            "categories": ["Sliders", "3D Printed"]
+            "categories": [
+                "Sliders",
+                "3D Printed"
+            ]
         },
         {
             "name": "LIC edc",
             "description": "A place to come together to discuss and share LIC edc products",
             "link": "https://www.facebook.com/groups/licedc",
             "image": "images/licedc.jpg",
-            "categories": ["Spinners", "Metal"]
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
         },
         {
             "name": "ZZMPA",
             "description": "ZZMPA products release, discussion and more.",
             "link": "https://www.facebook.com/groups/zzmpa",
             "image": "images/zzmpa.jpg",
-            "categories": ["Spinners", "Metal"]
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
         },
         {
             "name": "Fidget Spinners Trading Post",
             "description": "Just wanted to create a place where people can trade/sell spinners.",
             "link": "https://www.facebook.com/groups/248777725537045",
             "image": "images/fidgetspinnertradingpost.jpg",
-            "categories": ["B/S/T"]
+            "categories": [
+                "B/S/T"
+            ]
         },
         {
             "name": "Kladis3dstudio",
             "description": "Showcasing our premium fidgets and upcoming creations! Kladis3dstudio on Etsy!",
             "link": "https://www.facebook.com/groups/1263853424314983",
             "image": "images/kladis.jpg",
-            "categories": ["Sliders", "Spinners", "Spin Stick", "Metal", "3D Printed"]
+            "categories": [
+                "Sliders",
+                "Spinners",
+                "Spin Stick",
+                "Metal",
+                "3D Printed"
+            ]
         },
         {
             "name": "TFS B/S/T",
             "description": "The Fidget Syndicate B/S/T",
             "link": "https://www.facebook.com/groups/1050581733137168",
             "image": "images/tfsbst.jpg",
-            "categories": ["B/S/T"]
+            "categories": [
+                "B/S/T"
+            ]
         },
         {
             "name": "MW BST",
             "description": "This is a dedicated group in which you can post your Modusworks WTB, WTS, or WTT posts. ",
             "link": "https://www.facebook.com/groups/1235788450124536",
             "image": "images/mwbst.jpg",
-            "categories": ["B/S/T"]
+            "categories": [
+                "B/S/T"
+            ]
         },
         {
             "name": "NRG Xchange",
             "description": "A place to obtain and exchange good NRG",
             "link": "https://www.facebook.com/groups/855651136283528",
             "image": "images/nrgx.jpg",
-            "categories": ["Beads"]
+            "categories": [
+                "Beads"
+            ]
         },
         {
             "name": "SpinFamBearings",
             "description": "Spin Bearings",
             "link": "https://www.facebook.com/groups/117540882283553",
             "image": "images/spinfambearings.jpg",
-            "categories": ["Accessories"]
+            "categories": [
+                "Accessories"
+            ]
         },
         {
             "name": "Flair Fidgets",
-            "description": "Welcome to a specialised branch of EDC fidget – 'Flair Fidgets.' We hope to ignite your interest in fancy fingertip spinners and sliders.",
+            "description": "Welcome to a specialised branch of EDC fidget ? 'Flair Fidgets.' We hope to ignite your interest in fancy fingertip spinners and sliders.",
             "link": "https://www.facebook.com/groups/905317444419447",
             "image": "images/flairfidgets.jpg",
-            "categories": ["Sliders", "Metal"]
+            "categories": [
+                "Sliders",
+                "Metal"
+            ]
         },
         {
             "name": "Impulse EDC",
             "description": "Fidget toys for grown ass adults",
             "link": "https://www.facebook.com/groups/688463760105650",
             "image": "images/impulseedc.jpg",
-            "categories": ["Various", "Accessories"]
+            "categories": [
+                "Various",
+                "Accessories"
+            ]
         },
         {
             "name": "Vibe EDC",
             "description": "High quality 3D printed Fidgets - with a difference. From the UK.",
             "link": "https://www.facebook.com/groups/714243343885057",
             "image": "images/vibeedc.jpg",
-            "categories": ["Various", "Accessories", "Sliders", "3D Printed"]
+            "categories": [
+                "Various",
+                "Accessories",
+                "Sliders",
+                "3D Printed"
+            ]
         },
         {
             "name": "Lautie_EDC",
             "description": "Lautie EDC Fidgets",
             "link": "https://www.facebook.com/groups/975664195934487",
             "image": "images/lautie.jpg",
-            "categories": ["Various", "Accessories", "Sliders", "Metal", "Spinners"]
+            "categories": [
+                "Various",
+                "Accessories",
+                "Sliders",
+                "Metal",
+                "Spinners"
+            ]
         },
         {
             "name": "Unquiet Hands (UQH)",
             "description": "The Unquiet Hands group is an exclusive area where you will have first hand access to our newest products, pre-orders, waiting lists, drops, giveaways, sales and more.",
             "link": "https://www.facebook.com/groups/unquiethands",
             "image": "images/uqh.jpg",
-            "categories": ["Sliders", "Metal", "Spinners"]
+            "categories": [
+                "Sliders",
+                "Metal",
+                "Spinners"
+            ]
         },
         {
             "name": "Big White EDC",
             "description": "Big White EDC FB Page",
             "link": "https://www.facebook.com/groups/bigwhiteedc",
             "image": "images/bigwhiteedc.jpg",
-            "categories": ["Various"]
+            "categories": [
+                "Various"
+            ]
         },
         {
             "name": "Clean EDC",
             "description": "Simple solutions for your EDC needs",
             "link": "https://www.facebook.com/groups/cleanedc",
             "image": "images/cleanedc.jpg",
-            "categories": ["Spinners", "Metal"]
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
         },
         {
             "name": "KukoEDC",
             "description": "Metal Sliders",
             "link": "https://www.facebook.com/groups/1031858364578607",
             "image": "images/kukoedc.jpg",
-            "categories": ["Sliders", "Metal"]
+            "categories": [
+                "Sliders",
+                "Metal"
+            ]
         },
         {
             "name": "EDC Mokume",
             "description": "This group is for Everything that you would EDC with Mokume involved!",
             "link": "https://www.facebook.com/groups/EDCMokume",
             "image": "images/edcmokume.jpg",
-            "categories": ["Various"]
+            "categories": [
+                "Various"
+            ]
         },
         {
             "name": "ORK metalworks EDC",
             "description": "Titanium Damascus | Titanium | Zirconium | Superconductor",
             "link": "https://www.facebook.com/groups/2774454759463394",
             "image": "images/ork.jpg",
-            "categories": ["Various"]
+            "categories": [
+                "Various"
+            ]
         },
         {
             "name": "Yucleus Studio",
             "description": "Yucleus Studio - Fidgets and more!",
             "link": "https://www.facebook.com/groups/yucleusstudio",
             "image": "images/yucleus.jpg",
-            "categories": ["3D Printed"]
+            "categories": [
+                "3D Printed"
+            ]
         },
         {
             "name": "Spin Space - Hand & Fidget Spinners",
             "description": "This is a friendly group that enjoys discussing spinners, EDC, and all things fidget related.",
             "link": "https://www.facebook.com/groups/spinspace",
             "image": "images/spinspace.jpg",
-            "categories": ["Various"]
+            "categories": [
+                "Various"
+            ]
         },
         {
             "name": "EDC Zirc & Ti",
             "description": "This group was created as a place dedicated to sharing your gear made from Zirconium and Titanium, and damascus materials including ZircuTi, Timascus, MokuTi and all other beautiful blends of the two metals.",
             "link": "https://www.facebook.com/groups/507431908385184",
             "image": "images/edczircti.jpg",
-            "categories": ["Various", "Metal"]
+            "categories": [
+                "Various",
+                "Metal"
+            ]
         },
         {
             "name": "NJT.EDC.FAMILY",
             "description": "NJT Spinners",
             "link": "https://www.facebook.com/groups/njt.edc",
             "image": "images/njtedc.jpg",
-            "categories": ["Spinners", "Metal"]
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
         },
         {
             "name": "Pond Hopper EDC",
             "description": "Pond Hopper EDC. Home of the first Modular Bead Keeper Design. (AFAIK) Creator of the Bead 'Totem' & the first bead holding Bit driver.",
             "link": "https://www.facebook.com/groups/pondhopperedc",
             "image": "images/pondhopper.jpg",
-            "categories": ["Spin Stick"]
+            "categories": [
+                "Spin Stick"
+            ]
         },
         {
             "name": "ZeroFeud LLC",
             "description": "The Official Home of all ZeroFeud products",
             "link": "https://www.facebook.com/groups/ZeroFeud",
             "image": "images/zerofeud.jpg",
-            "categories": ["Various"]
+            "categories": [
+                "Various"
+            ]
         },
         {
             "name": "EDC Dama",
             "description": "A place to showcase, and have fun discussions about all of your favorite Dama things, edc related.",
             "link": "https://www.facebook.com/groups/959498652178150",
             "image": "images/edcdama.jpg",
-            "categories": ["Various", "Metal"]
+            "categories": [
+                "Various",
+                "Metal"
+            ]
         },
         {
             "name": "Dynamic Inertia Tops",
             "description": "This is the home group for Dynamic Inertia Tops - Custom precision spinning tops and more made by Gavin Sexton.",
             "link": "https://www.facebook.com/groups/DynamicInertiaTops",
             "image": "images/dynamicinertiatops.jpg",
-            "categories": ["Tops", "Spin Stick"]
+            "categories": [
+                "Tops",
+                "Spin Stick"
+            ]
         },
         {
             "name": "BilletSPIN",
             "description": "Everything needs to be made of metal! From pens and whistles to fidget items and spinning tops, we specialize in wide variety of EDC products.",
             "link": "https://www.facebook.com/groups/391445661039396",
             "image": "images/billetspin.jpg",
-            "categories": ["Tops", "Beads", "Metal"]
+            "categories": [
+                "Tops",
+                "Beads",
+                "Metal"
+            ]
         },
         {
             "name": "Edge Industries",
             "description": "A page to share some of my custom metalwork projects all made on manual machinery.",
             "link": "https://www.facebook.com/groups/181615592406838",
             "image": "images/edgeindustries.jpg",
-            "categories": ["Tops", "Metal"]
+            "categories": [
+                "Tops",
+                "Metal"
+            ]
         },
         {
             "name": "TwoEDC",
             "description": "Hey, Fam. If you know me, you know I have a passion for trinkets of all sizes and materials.",
             "link": "https://www.facebook.com/groups/TwoEDC",
             "image": "images/twoedc.jpg",
-            "categories": ["Spinners", "Metal"]
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
         },
         {
             "name": "Pocket ART",
             "description": "Pocket ART (Pocket Artifacts, Relics & Treasures)! This is an EDC fidgeters group for all those things that fall through the cracks on spinner and EDC groups.",
             "link": "https://www.facebook.com/groups/PocketArtHQ",
             "image": "images/pocketart.jpg",
-            "categories": ["Various"]
+            "categories": [
+                "Various"
+            ]
         },
         {
             "name": "Kinetics Asia Pacific EDC",
             "description": "Own factory maker , design and customization spinner and other EDC toys.",
             "link": "https://www.facebook.com/groups/1940540282898296",
             "image": "images/kap.jpg",
-            "categories": ["Spinners", "Metal"]
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
         },
         {
             "name": "SF Metal Alchemy",
             "description": "The group is design for me (Sasa Fabrio/ Sasa SF) SF Custom Crafted EDC to post/sell/ and show off my metal work and leather work. I'll do first come first serve sales mostly.",
             "link": "https://www.facebook.com/groups/646176282429334",
             "image": "images/sasa.jpg",
-            "categories": ["Spin Stick", "Beads"]
+            "categories": [
+                "Spin Stick",
+                "Beads"
+            ]
         },
         {
             "name": "SCAM Design",
             "description": "I'm Scott McCoskery and SCAM Design is my label. The launch of this group coincides with the launch of my first 'real' product: The Torqbar.",
             "link": "https://www.facebook.com/groups/1075373552503271",
             "image": "images/scam.jpg",
-            "categories": ["Spinners", "Metal"]
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
         },
         {
             "name": "ACEdc Original",
             "description": "Fidget Toys Forever",
             "link": "https://www.facebook.com/groups/992576598131462",
             "image": "images/acedc.jpg",
-            "categories": ["Various"]
+            "categories": [
+                "Various"
+            ]
         },
         {
             "name": "Blackdog Labs EDC",
             "description": "Hey everyone! Here you will find a wonderful community of great people that enjoy Blackdog Labs products.",
             "link": "https://www.facebook.com/groups/blackdogedc",
             "image": "images/blackdoglabs.jpg",
-            "categories": ["Sliders", "Metal"]
+            "categories": [
+                "Sliders",
+                "Metal"
+            ]
         },
         {
             "name": "EDC Marketplace",
             "description": "Discuss, debate, buy and sell everything and anything goes as long as it is EDC related!",
             "link": "https://www.facebook.com/groups/edcmp",
             "image": "images/edcmarketplace.jpg",
-            "categories": ["B/S/T"]
+            "categories": [
+                "B/S/T"
+            ]
         },
         {
             "name": "Fidgets Asia",
             "description": "We mainly enjoy fidgets produced in Asia, but let's also enjoy spinners from other regions!! Let's all share and discuss our fidgets together.",
             "link": "https://www.facebook.com/groups/3815502875352972",
             "image": "images/fidgetsasia.jpg",
-            "categories": ["Spinners", "Metal"]
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
         },
         {
             "name": "FeiFei Edc",
             "description": "FeiFei Edc Spinners",
             "link": "https://www.facebook.com/groups/695185935579996",
             "image": "images/feifei.jpg",
-            "categories": ["Spinners", "Metal"]
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
         },
         {
             "name": "GEEONE",
             "description": "GEEONE Store Fidgets",
             "link": "https://www.facebook.com/groups/geeoneedc",
             "image": "images/geeone.jpg",
-            "categories": ["Various"]
+            "categories": [
+                "Various"
+            ]
         },
         {
             "name": "Layer Cake",
             "description": "Beatrix Magnet Sliders & Beads",
             "link": "https://www.facebook.com/groups/268017125338863",
             "image": "images/layercake.jpg",
-            "categories": ["Beads", "Sliders", "Metal"]
+            "categories": [
+                "Beads",
+                "Sliders",
+                "Metal"
+            ]
         },
         {
             "name": "Mate EDC",
             "description": "Made in Australia EDC fidget support parts.",
             "link": "https://www.facebook.com/groups/mate.edc",
             "image": "images/mateedc.jpg",
-            "categories": ["Accessories"]
+            "categories": [
+                "Accessories"
+            ]
         },
         {
             "name": "ZERO ONE EDC Fans Group",
             "description": "ZERO ONE EDC Fidgets",
             "link": "https://www.facebook.com/groups/1055411198365465",
             "image": "images/01edc.jpg",
-            "categories": ["Various"]
+            "categories": [
+                "Various"
+            ]
         },
         {
             "name": "TK EDC",
             "description": "TK EDC is an EDC brand from China. We specialize in designing various original Fidget Sliders with interchangeable embossed stickers to enhance playability.",
             "link": "https://www.facebook.com/groups/538657211753334",
             "image": "images/tkedc.jpg",
-            "categories": ["Various"]
+            "categories": [
+                "Various"
+            ]
         },
         {
             "name": "Metal Moose",
             "description": "Spinner accessories designed and machined in Kansas City Missouri.",
             "link": "https://www.facebook.com/groups/481962044530765",
             "image": "images/metalmoose.jpg",
-            "categories": ["Accessories"]
+            "categories": [
+                "Accessories"
+            ]
         },
         {
             "name": "SAKURA EDC",
             "description": "I am an independent manufacturer of fidget toys.",
             "link": "https://www.facebook.com/groups/550266240705770",
             "image": "images/sakuraedc.jpg",
-            "categories": ["Sliders", "3D Printed"]
+            "categories": [
+                "Sliders",
+                "3D Printed"
+            ]
         },
         {
             "name": "lunisic limited",
             "description": "Official group for Lunisic Ltd. EDC!",
             "link": "https://www.facebook.com/groups/521643219887829",
             "image": "images/lunisic.jpg",
-            "categories": ["Beads", "Sliders"]
+            "categories": [
+                "Beads",
+                "Sliders"
+            ]
         },
         {
             "name": "Bead Daddy EDC",
             "description": "Making beads since '23.",
             "link": "https://www.facebook.com/groups/beaddaddyedc",
             "image": "images/beaddaddy.jpg",
-            "categories": ["Beads"]
+            "categories": [
+                "Beads"
+            ]
         },
         {
             "name": "Wyste",
-            "description": "I like to make whatever’s in my brain as accurately as I can in the tangible world",
+            "description": "I like to make whatever?s in my brain as accurately as I can in the tangible world",
             "link": "https://www.facebook.com/groups/1149479535455454",
             "image": "images/wyste.jpg",
-            "categories": ["Beads", "Various"]
+            "categories": [
+                "Beads",
+                "Various"
+            ]
         },
         {
             "name": "Glow Man Dan",
             "description": "Welcome to Glow Man Dan! Our little glowing corner of the interwebs. wonderfully bright creations using the best possible materials.",
             "link": "https://www.facebook.com/groups/541703069833206",
             "image": "images/glowmandan.jpg",
-            "categories": ["Beads"]
+            "categories": [
+                "Beads"
+            ]
         },
         {
             "name": "Broken Art Custom Beads",
             "description": "This is a group for the lanyard beads and various edc items made by me, Steve Foss.",
             "link": "https://www.facebook.com/groups/580785019107990",
             "image": "images/brokenart.jpg",
-            "categories": ["Beads"]
+            "categories": [
+                "Beads"
+            ]
         },
         {
             "name": "Sypit Designs",
             "description": "Welcome to Sypit Designs fb group!",
             "link": "https://www.facebook.com/groups/3225412134184431",
             "image": "images/sypit.jpg",
-            "categories": ["Beads"]
+            "categories": [
+                "Beads"
+            ]
         },
         {
             "name": "Light Matter Group",
             "description": "I finally decided to create a group dedicated to discussing my work and also create a place where anyone that is interested can buy some of my pieces.",
             "link": "https://www.facebook.com/groups/lightmatter",
             "image": "images/lightmatter.jpg",
-            "categories": ["Beads", "Tops"]
+            "categories": [
+                "Beads",
+                "Tops"
+            ]
         },
         {
             "name": "Armstrong Metal Works",
             "description": "My name is Winfield C Armstrong II. I'm a 3rd generation manual machinist that has become a full time maker of the art you see here. I make various things completely manually and out of about anything I can get my hands on.",
             "link": "https://www.facebook.com/groups/2108999082719233",
             "image": "images/armstrongmetalworks.jpg",
-            "categories": ["Beads"]
+            "categories": [
+                "Beads"
+            ]
         },
         {
             "name": "Beads and Totems",
             "description": "This is for all makers and collectors of EDC Beads and Totems!",
             "link": "https://www.facebook.com/groups/923583209737371",
             "image": "images/beadsandtotems.jpg",
-            "categories": ["Beads", "Spin Stick"]
+            "categories": [
+                "Beads",
+                "Spin Stick"
+            ]
         },
         {
             "name": "Hebert's Creations and waffles",
             "description": "Welcome to Hebert's Creations. i make custom Beads , keychain's , resin Creations and I waffle olights , edc gear , knives and silver coin's.",
             "link": "https://www.facebook.com/groups/535731391751370",
             "image": "images/hebertscreations.jpg",
-            "categories": ["Beads"]
+            "categories": [
+                "Beads"
+            ]
         },
         {
             "name": "Salt & Peppa EDC",
-            "description": "Handmade leather, beads, and sometimes other EDC items made by Jøhn. Come share your carry.",
+            "description": "Handmade leather, beads, and sometimes other EDC items made by J?hn. Come share your carry.",
             "link": "https://www.facebook.com/groups/847093079406393",
             "image": "images/saltandpeppa.jpg",
-            "categories": ["Beads"]
+            "categories": [
+                "Beads"
+            ]
         },
         {
             "name": "WiscoWaffles",
             "description": "A place to offer you all Wiscoworx beads where you don't have to be the fastest or have the deepest pockets. Most games will be $10 per spot.",
             "link": "https://www.facebook.com/groups/908859612927170",
             "image": "images/wiscowaffles.jpg",
-            "categories": ["Beads"]
+            "categories": [
+                "Beads"
+            ]
         },
         {
             "name": "BeadBox EDC",
             "description": "I created this groups to support those in need of some custom EDC storage for display and transport.",
             "link": "https://www.facebook.com/groups/504286358430445",
             "image": "images/beadbox.jpg",
-            "categories": ["Accessories"]
+            "categories": [
+                "Accessories"
+            ]
         },
         {
             "name": "Dub-Tac Gear",
             "description": "This is a place where you can come meet some awesome people in the EDC community I try to do drops once a week either FCFS, lotto, or a game with paid for spots",
             "link": "https://www.facebook.com/groups/2918525928465410",
             "image": "images/dubtacgear.jpg",
-            "categories": ["Beads"]
+            "categories": [
+                "Beads"
+            ]
         },
         {
             "name": "Proxy EDC Fidgets",
             "description": "Any latest information about the release of ProxyEDC.",
             "link": "https://www.facebook.com/groups/proxyedc",
             "image": "images/proxyedc.jpg",
-            "categories": ["Various"]
+            "categories": [
+                "Various"
+            ]
         },
         {
             "name": "MonoSkate",
             "description": "EDC brand-MonoSkate.",
             "link": "https://www.facebook.com/groups/1245068629705144",
             "image": "images/monoskate.jpg",
-            "categories": ["Spinners", "Metal"]
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
+        },
+        {
+            "name": "foo",
+            "description": "bar",
+            "link": "facebook.com/group",
+            "image": "images/foo_1730071020563.jpg",
+            "categories": []
         }
     ]
 }
