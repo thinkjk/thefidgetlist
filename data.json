@@ -643,6 +643,13 @@
             "link": "https://www.facebook.com/groups/2918525928465410",
             "image": "images/dubtacgear.jpg",
             "categories": ["Beads"]
+        },
+        {
+            "name": "Proxy EDC Fidgets",
+            "description": "Any latest information about the release of ProxyEDC.",
+            "link": "https://www.facebook.com/groups/proxyedc",
+            "image": "images/proxyedc.jpg",
+            "categories": ["Various"]
         }
     ]
 }
