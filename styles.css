@@ -18,6 +18,14 @@ header p {
     color: #6c757d;
 }
 
+/* Style for the "Submit a New Group" button in the header */
+header .btn.btn-primary.position-absolute {
+    /* Optional: Customize the button appearance */
+    /* For example, adjust padding, font size, or colors if desired */
+}
+
+/* Existing styles */
+
 .form-check-label {
     cursor: pointer;
 }
@@ -67,16 +75,19 @@ a[href*="github.com"]:hover span {
         font-size: 0.9rem;
     }
 
-    /* Adjust GitHub link position on mobile */
-    header a[href*="github.com"] {
+    /* Adjust the position of the button and GitHub link on smaller screens */
+    header .position-absolute {
         position: static !important;
-        margin-top: 1rem !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin: 0.5rem auto;
+        display: block;
+        text-align: center;
     }
 
-    /* Remove custom width settings for checkboxes to allow Bootstrap's grid to handle them */
+    /* Center the header content */
+    .d-flex.justify-content-center {
+        flex-direction: column;
+        align-items: center;
+    }
 
     /* Ensure checkboxes maintain their styling */
     .form-check {
@@ -105,5 +116,13 @@ a[href*="github.com"]:hover span {
         word-wrap: break-word;
         padding: 0.5rem;
         font-size: 0.9rem;
+    }
+}
+
+/* Optional: Additional styling for larger screens */
+@media (min-width: 577px) {
+    /* Adjust margins if necessary */
+    header .btn.btn-primary.position-absolute {
+        margin-left: 1rem; /* Adjust left margin as needed */
     }
 }
