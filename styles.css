@@ -20,8 +20,23 @@ header p {
 
 /* Style for the "Submit a New Group" button in the header */
 header .btn.btn-primary.position-absolute {
-    /* Optional: Customize the button appearance */
-    /* For example, adjust padding, font size, or colors if desired */
+    /* Customize the button appearance if needed */
+}
+
+/* Style for the "View Source" button */
+header .btn.btn-dark.position-absolute {
+    /* Customize the button appearance if needed */
+}
+
+/* Prevent word breaking in table cells */
+table td, table th {
+    word-break: keep-all;
+}
+
+/* Specific styles for the "Categories" column */
+.categories-column {
+    white-space: normal; /* Allows wrapping at spaces */
+    word-break: keep-all; /* Prevents breaking within words */
 }
 
 /* Existing styles */
@@ -44,27 +59,6 @@ table img {
     height: auto;
 }
 
-/* Hover effect for GitHub link */
-a[href*="github.com"] {
-    text-decoration: none;
-}
-
-a[href*="github.com"] svg {
-    transition: color 0.3s;
-}
-
-a[href*="github.com"]:hover svg {
-    color: #4078c0; /* GitHub's official blue color */
-}
-
-a[href*="github.com"] span {
-    transition: color 0.3s;
-}
-
-a[href*="github.com"]:hover span {
-    color: #4078c0;
-}
-
 /* Responsive Adjustments */
 @media (max-width: 576px) {
     header h1 {
@@ -75,7 +69,7 @@ a[href*="github.com"]:hover span {
         font-size: 0.9rem;
     }
 
-    /* Adjust the position of the button and GitHub link on smaller screens */
+    /* Adjust the position of buttons on smaller screens */
     header .position-absolute {
         position: static !important;
         margin: 0.5rem auto;
@@ -113,16 +107,8 @@ a[href*="github.com"]:hover span {
 
     table th, table td {
         white-space: normal;
-        word-wrap: break-word;
+        word-break: break-word;
         padding: 0.5rem;
         font-size: 0.9rem;
-    }
-}
-
-/* Optional: Additional styling for larger screens */
-@media (min-width: 577px) {
-    /* Adjust margins if necessary */
-    header .btn.btn-primary.position-absolute {
-        margin-left: 1rem; /* Adjust left margin as needed */
     }
 }

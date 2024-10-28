@@ -34,6 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
             filtersData = data.filters;
             groupsData = shuffleArray(data.groups);
             generateFilters(filtersData);
+            attachCheckboxListeners(); // Attach listeners after generating filters
             populateTable(groupsData);
         })
         .catch(error => {
@@ -128,6 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Categories Cell
             const catCell = document.createElement('td');
+            catCell.classList.add('categories-column'); // Add the class here
             catCell.textContent = group.categories.join(', ');
             row.appendChild(catCell);
 
@@ -169,9 +171,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         populateTable(groupsData);
     });
-
-    // After generating filters, attach listeners
-    document.addEventListener('click', () => {
-        attachCheckboxListeners();
-    }, { once: true }); // Ensure listeners are attached only once
 });
