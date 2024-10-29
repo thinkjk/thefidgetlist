@@ -8,6 +8,10 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
+header {
+    position: relative;
+}
+
 header h1 {
     font-size: 3rem;
     font-weight: bold;
@@ -59,34 +63,50 @@ table img {
     height: auto;
 }
 
+.table td, .table th {
+    vertical-align: middle;
+}
+
+/* Adjust the header to prevent overlapping on mobile */
+header .btn.position-absolute {
+    z-index: 1;
+}
+
 /* Responsive Adjustments */
 @media (max-width: 576px) {
+    body {
+        padding: 0 1rem;
+    }
+
     header h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     header p {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     /* Adjust the position of buttons on smaller screens */
-    header .position-absolute {
-        position: static !important;
+    header .btn.position-absolute {
+        position: relative !important;
         margin: 0.5rem auto;
         display: block;
         text-align: center;
+        width: auto;
     }
 
     /* Center the header content */
     .d-flex.justify-content-center {
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 
     /* Ensure checkboxes maintain their styling */
     .form-check {
         display: flex;
         align-items: center;
+        margin-bottom: 0.5rem;
     }
 
     .form-check-input {
@@ -99,6 +119,7 @@ table img {
 
     #resetFilters {
         width: 100%;
+        margin-top: 1rem;
     }
 
     .table-responsive {
@@ -108,7 +129,19 @@ table img {
     table th, table td {
         white-space: normal;
         word-break: break-word;
-        padding: 0.5rem;
+        padding: 0.75rem;
         font-size: 0.9rem;
+    }
+
+    /* Adjust image size in table */
+    table img {
+        width: 80px;
+        height: auto;
+    }
+
+    /* Adjust button sizes */
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
     }
 }
