@@ -643,13 +643,6 @@
             "categories": ["Beads"]
         },
         {
-            "name": "BeadBox EDC",
-            "description": "I created this groups to support those in need of some custom EDC storage for display and transport.",
-            "link": "https://www.facebook.com/groups/504286358430445",
-            "image": "images/beadbox.jpg",
-            "categories": ["Accessories"]
-        },
-        {
             "name": "Dub-Tac Gear",
             "description": "This is a place where you can come meet some awesome people in the EDC community I try to do drops once a week either FCFS, lotto, or a game with paid for spots",
             "link": "https://www.facebook.com/groups/2918525928465410",
@@ -669,6 +662,13 @@
             "link": "https://www.facebook.com/groups/1245068629705144",
             "image": "images/monoskate.jpg",
             "categories": ["Spinners", "Metal"]
+        },
+        {
+            "name": "Aurora EDC",
+            "description": "Welcome to Aurora EDC! Feel free to join the conversation, share your thoughts and connect with fellow fidgeters.",
+            "link": "https://www.facebook.com/groups/1055760682415300",
+            "image": "images/auroraedc.jpg",
+            "categories": ["Sliders", "3D Printed"]
         }
     ]
 }
