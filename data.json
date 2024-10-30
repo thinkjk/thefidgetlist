@@ -662,6 +662,13 @@
             "link": "https://www.facebook.com/groups/1055760682415300",
             "image": "images/auroraedc.jpg",
             "categories": ["Sliders", "3D Printed"]
+        },
+        {
+            "name": "GAZ edc",
+            "description": "Hello! This is GAZ, who makes fidgets as a hobby in Korea. If you are interested in GAZ edc spinner, please apply to join the group.",
+            "link": "https://www.facebook.com/groups/1120014425751635",
+            "image": "images/gazedc.jpg",
+            "categories": ["Spinners", "Metal"]
         }
     ]
 }
