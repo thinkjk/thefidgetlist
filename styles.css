@@ -35,6 +35,7 @@ header .btn.btn-dark.position-absolute {
 /* Prevent word breaking in table cells */
 table td, table th {
     word-break: keep-all;
+    hyphens: none;
 }
 
 /* Specific styles for the "Categories" column */
@@ -126,11 +127,25 @@ header .btn.position-absolute {
         overflow-x: auto;
     }
 
+    /* Adjust table */
+    table {
+        width: 100%;
+        table-layout: auto;
+    }
+
     table th, table td {
-        white-space: normal;
-        word-break: break-word;
-        padding: 0.75rem;
+        white-space: nowrap; /* Prevent text from wrapping */
+        word-break: keep-all; /* Prevent words from breaking */
+        padding: 0.5rem;
         font-size: 0.9rem;
+        text-align: left;
+        vertical-align: middle;
+    }
+
+    /* Allow wrapping in specific columns if needed */
+    table td:nth-child(3), /* Description column */
+    table td:nth-child(5)  /* Categories column */ {
+        white-space: normal; /* Allow wrapping in these columns */
     }
 
     /* Adjust image size in table */
@@ -142,6 +157,13 @@ header .btn.position-absolute {
     /* Adjust button sizes */
     .btn {
         font-size: 0.9rem;
-        padding: 0.5rem 1rem;
+        padding: 0.4rem 0.75rem;
+        white-space: nowrap; /* Prevent text from wrapping in buttons */
+    }
+
+    /* Adjust the width of the "Link" column to fit the button */
+    table td:nth-child(4) {
+        width: 1%;
+        white-space: nowrap;
     }
 }
