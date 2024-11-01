@@ -676,6 +676,13 @@
             "link": "https://www.facebook.com/groups/374427195543104",
             "image": "images/knowbrains.jpg",
             "categories": ["Beads"]
+        },
+        {
+            "name": "FocusWorks EDC",
+            "description": "FocusWorks EDC specializes in seamlessly machining some of the highest quality everyday carry gear in the modern market.",
+            "link": "https://www.facebook.com/groups/focusworks",
+            "image": "images/focusworks.jpg",
+            "categories": ["Spinners", "Metal"]
         }
     ]
 }
