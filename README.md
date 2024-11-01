@@ -1,6 +1,6 @@
 # The Fidget List
 
-![The Fidget List Logo](images/logo.png) <!-- Replace with your actual logo if available -->
+<img src="images/logo.png" alt="The Fidget List Logo" width="200" />
 
 ## Table of Contents
 
