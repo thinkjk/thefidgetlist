@@ -683,6 +683,27 @@
             "link": "https://www.facebook.com/groups/focusworks",
             "image": "images/focusworks.jpg",
             "categories": ["Spinners", "Metal"]
+        },
+        {
+            "name": "Spinetic / Finetic",
+            "description": "Welcome to the Spinetic Spinners and Finetic EDC group.",
+            "link": "https://www.facebook.com/groups/1085435654882964",
+            "image": "images/spineticfinetic.jpg",
+            "categories": ["Spinners", "Metal"]
+        },
+        {
+            "name": "Tungsten the Fabulous! [W]",
+            "description": "A group for tungsten EDC “Every Day Carry” enthusiasts. Come join & show off your [W] gear",
+            "link": "https://www.facebook.com/groups/110130576553396",
+            "image": "images/tungsten.jpg",
+            "categories": ["Spinners", "Metal"]
+        },
+        {
+            "name": "EDC coins, beads and tags by Mark Storm",
+            "description": "Handmade coins, beads and other edc stuff. I will do regular drops, so stay tuned!",
+            "link": "https://www.facebook.com/groups/189538499934172",
+            "image": "images/edccoins.jpg",
+            "categories": ["Various"]
         }
     ]
 }
