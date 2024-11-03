@@ -704,6 +704,13 @@
             "link": "https://www.facebook.com/groups/189538499934172",
             "image": "images/edccoins.jpg",
             "categories": ["Various"]
+        },
+        {
+            "name": "Fidget Manufactur",
+            "description": "High quality 3d printed fidgetslider - made in Germany",
+            "link": "https://www.facebook.com/groups/3413410405590549",
+            "image": "images/fidgetmfg.jpg",
+            "categories": ["Spinners", "3D Printed"]
         }
     ]
 }
