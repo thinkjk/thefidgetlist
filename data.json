@@ -718,6 +718,13 @@
             "link": "https://www.facebook.com/groups/259489658373632",
             "image": "images/vart.jpg",
             "categories": ["Tops"]
+        },
+        {
+            "name": "Spin Beads Werk",
+            "description": "For orders, just send me a message to Spin Beads Werk.",
+            "link": "https://www.facebook.com/groups/931789878798405",
+            "image": "images/spinbeadswerk.jpg",
+            "categories": ["Spin Stick", "3D Printed"]
         }
     ]
 }
