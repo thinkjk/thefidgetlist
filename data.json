@@ -90,13 +90,6 @@
             "categories": ["Sliders", "Spinners", "Metal"]
         },
         {
-            "name": "Griffin inc.",
-            "description": "Spacers and caddys for all your edc needs",
-            "link": "https://www.facebook.com/groups/508570518136560",
-            "image": "images/griffin.jpg",
-            "categories": ["Spin Stick", "Beads"]
-        },
-        {
             "name": "Wizard EDC",
             "description": "Maker of every day carry (EDC) Products.",
             "link": "https://www.facebook.com/groups/917080893276458",
@@ -718,6 +711,13 @@
             "link": "https://www.facebook.com/groups/M3MetalCreations",
             "image": "images/m3metalcreations.jpg",
             "categories": ["Spinners", "Metal", "Tops"]
+        },
+        {
+            "name": "VArt",
+            "description": "Beautiful Tops",
+            "link": "https://www.facebook.com/groups/259489658373632",
+            "image": "images/vart.jpg",
+            "categories": ["Tops"]
         }
     ]
 }
