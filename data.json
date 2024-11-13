@@ -725,6 +725,20 @@
             "link": "https://www.facebook.com/groups/931789878798405",
             "image": "images/spinbeadswerk.jpg",
             "categories": ["Spin Stick", "3D Printed"]
+        },
+        {
+            "name": "Official Lautie Buy/Sell/Trade Exchange",
+            "description": "This is a place for Lautie collectors to Exchange items for resale and trade. This is not a general sale group and is only for Lautie products.",
+            "link": "https://www.facebook.com/groups/1938140130003531",
+            "image": "images/lautiebst.jpg",
+            "categories": ["B/S/T"]
+        },
+        {
+            "name": "Outbreak Beads",
+            "description": "Outbreak Beads Specializes in high quality handmade beads and other EDC gear.",
+            "link": "https://www.facebook.com/groups/5095521500475488",
+            "image": "images/outbreakbeads.jpg",
+            "categories": ["Beads"]
         }
     ]
 }
