@@ -739,6 +739,20 @@
             "link": "https://www.facebook.com/groups/5095521500475488",
             "image": "images/outbreakbeads.jpg",
             "categories": ["Beads"]
-        }
+        },
+        {
+            "name": "Ziii Studio",
+            "description": "Metal Spinners",
+            "link": "https://www.facebook.com/groups/991313931927888",
+            "image": "images/ziiistudio.jpg",
+            "categories": ["Spinners", "Metal"]
+        },
+        {
+            "name": "SPACE RELIC CREATIONS",
+            "description": "I make resin blanks,Resin Art and hand crafted EDC lanyard beads.",
+            "link": "https://www.facebook.com/groups/261726516550259",
+            "image": "images/spacereliccreations.jpg",
+            "categories": ["Beads"]
+        },
     ]
 }
