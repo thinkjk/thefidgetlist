@@ -760,6 +760,20 @@
             "link": "https://www.facebook.com/groups/3823066174626403",
             "image": "images/keyiedc.jpg",
             "categories": ["Sliders", "Beads", "3D Printed", "Spin Stick"]
+        },
+        {
+            "name": "Sacred Spins",
+            "description": "Kinetic art for a changing world. Custom anodizing/flame oxidizing of titanium, tungsten & zirconium",
+            "link": "https://www.facebook.com/groups/sacredspins",
+            "image": "images/sacredspins.jpg",
+            "categories": ["Spinners", "Metal"]
+        },
+        {
+            "name": "Pose Blades",
+            "description": "Metal Spinners",
+            "link": "https://www.facebook.com/groups/196193527539474",
+            "image": "images/poseblades.jpg",
+            "categories": ["Spinners", "Metal"]
         }
     ]
 }
