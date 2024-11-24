@@ -39,7 +39,8 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => {
             console.error('Error fetching data:', error);
-            tableBody.innerHTML = '<tr><td colspan="5" class="text-center text-danger">Failed to load data.</td></tr>';
+            tableBody.innerHTML =
+                '<tr><td colspan="5" class="text-center text-danger">Failed to load data.</td></tr>';
         });
 
     // Function to generate filter checkboxes dynamically
@@ -85,7 +86,8 @@ document.addEventListener('DOMContentLoaded', () => {
         tableBody.innerHTML = ''; // Clear existing data
 
         if (data.length === 0) {
-            tableBody.innerHTML = '<tr><td colspan="5" class="text-center">No groups found.</td></tr>';
+            tableBody.innerHTML =
+                '<tr><td colspan="5" class="text-center">No groups found.</td></tr>';
             return;
         }
 
@@ -99,9 +101,13 @@ document.addEventListener('DOMContentLoaded', () => {
             img.alt = group.name;
             img.classList.add('img-thumbnail');
             img.width = 100;
+            img.height = 100;
+            img.loading = 'lazy'; // Add lazy loading
             img.onerror = () => {
                 img.src = 'images/default.jpg'; // Fallback image
-                console.warn(`Image not found: ${group.image}. Using fallback image.`);
+                console.warn(
+                    `Image not found: ${group.image}. Using fallback image.`
+                );
             };
             imgCell.appendChild(img);
             row.appendChild(imgCell);

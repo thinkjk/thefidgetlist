@@ -33,7 +33,8 @@ header .btn.btn-dark.position-absolute {
 }
 
 /* Prevent word breaking in table cells */
-table td, table th {
+table td,
+table th {
     word-break: keep-all;
     hyphens: none;
 }
@@ -58,13 +59,16 @@ table td, table th {
     align-self: center;
 }
 
+/* Updated image styling */
 table img {
     border-radius: 5px;
-    max-width: 100%;
-    height: auto;
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
 }
 
-.table td, .table th {
+.table td,
+.table th {
     vertical-align: middle;
 }
 
@@ -133,7 +137,8 @@ header .btn.position-absolute {
         table-layout: auto;
     }
 
-    table th, table td {
+    table th,
+    table td {
         white-space: nowrap; /* Prevent text from wrapping */
         word-break: keep-all; /* Prevent words from breaking */
         padding: 0.5rem;
@@ -148,10 +153,11 @@ header .btn.position-absolute {
         white-space: normal; /* Allow wrapping in these columns */
     }
 
-    /* Adjust image size in table */
+    /* Updated image size in table */
     table img {
         width: 80px;
-        height: auto;
+        height: 80px;
+        object-fit: cover;
     }
 
     /* Adjust button sizes */
