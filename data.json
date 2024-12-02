@@ -788,6 +788,20 @@
             "link": "https://www.facebook.com/groups/1564540784381387",
             "image": "images/beadwizard.jpg",
             "categories": ["Beads"]
+        },
+        {
+            "name": "3D Fidget Hub",
+            "description": "A place for 3D fidget makers and buyers to post and promote their work and purchases.",
+            "link": "https://www.facebook.com/groups/1087486599544956",
+            "image": "images/3dfidgethub.jpg",
+            "categories": ["3D Printed"]
+        },
+        {
+            "name": "Cutpunchsew",
+            "description": "Welcome to the group! Amongst others, this is a place where I present all kind of new ideas and finished products.",
+            "link": "https://www.facebook.com/groups/1602061123421383",
+            "image": "images/cutpunchsew.jpg",
+            "categories": ["Accessories"]
         }
     ]
 }
