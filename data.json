@@ -802,6 +802,13 @@
             "link": "https://www.facebook.com/groups/1602061123421383",
             "image": "images/cutpunchsew.jpg",
             "categories": ["Accessories"]
+        },
+        {
+            "name": "Axiom EDC",
+            "description": "Welcome to the home of the Axiom EDC. This is a place to discuss, share, and learn more about our products!",
+            "link": "https://www.facebook.com/groups/1432609956845812",
+            "image": "images/axiomedc.jpg",
+            "categories": ["Spinners", "Metal", "Various"]
         }
     ]
 }
