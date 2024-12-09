@@ -809,6 +809,13 @@
             "link": "https://www.facebook.com/groups/1432609956845812",
             "image": "images/axiomedc.jpg",
             "categories": ["Spinners", "Metal", "Various"]
+        },
+        {
+            "name": "Otter EDC Den",
+            "description": "The Otter EDC Den is a place to discuss your Otter EDC products.",
+            "link": "https://www.facebook.com/groups/otteredcden",
+            "image": "images/otteredc.jpg",
+            "categories": ["Sliders", "3D Printed", "Accessories"]
         }
     ]
 }
