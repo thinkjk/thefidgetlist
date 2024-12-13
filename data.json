@@ -816,6 +816,20 @@
             "link": "https://www.facebook.com/groups/otteredcden",
             "image": "images/otteredc.jpg",
             "categories": ["Sliders", "3D Printed", "Accessories"]
+        },
+        {
+            "name": "TLC EDC",
+            "description": "custom pouches and experimental fidgets inspired by entropy and nature",
+            "link": "https://www.facebook.com/groups/2285040788517616",
+            "image": "images/tlcedc.jpg",
+            "categories": ["Sliders", "3D Printed"]
+        },
+        {
+            "name": "SAKURA EDC BST",
+            "description": "This is a BST(Buy Sell Trade) group exclusively for SAKURA EDC products.",
+            "link": "https://www.facebook.com/groups/881552127341855",
+            "image": "images/sakuraedcbst.jpg",
+            "categories": ["B/S/T"]
         }
     ]
 }
