@@ -1180,6 +1180,15 @@
                 "Spinners",
                 "Metal"
             ]
+        },
+        {
+            "name": "Mind Goblin",
+            "description": "A collection of things crafted by hand for your daily use and enjoyment",
+            "link": "https://www.facebook.com/groups/1597705330739486",
+            "image": "images/mindgoblin/mindgoblin.jpg",
+            "categories": [
+                "Beads"
+            ]
         }
     ]
 }
