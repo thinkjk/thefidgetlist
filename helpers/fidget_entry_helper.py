@@ -1,7 +1,6 @@
 import os
 import json
-import re  # Added import for regex
-import requests
+import re
 from urllib.parse import urlsplit
 
 import tkinter as tk
