@@ -258,7 +258,7 @@
                     "name": "Chelsea SF",
                     "image": "images/indythicc/chealseasf_ti.jpg",
                     "dimensions": "50x27x18mm",
-                    "weight": "90",
+                    "weight": "90g",
                     "material": [
                         "Titanium"
                     ]
@@ -267,7 +267,7 @@
                     "name": "Chelsea SFT",
                     "image": "images/indythicc/chealseasft_ss.jpg",
                     "dimensions": "50x27x20mm",
-                    "weight": "101",
+                    "weight": "101g",
                     "material": [
                         "Stainless Steel"
                     ]
@@ -276,7 +276,7 @@
                     "name": "Chelsea SFT",
                     "image": "images/indythicc/chealseasft_bronze.jpg",
                     "dimensions": "50x27x20mm",
-                    "weight": "96",
+                    "weight": "96g",
                     "material": [
                         "Bronze"
                     ]
@@ -285,7 +285,7 @@
                     "name": "Chelsea SFT",
                     "image": "images/indythicc/chealseasft_copper.jpg",
                     "dimensions": "50x27x20mm",
-                    "weight": "115",
+                    "weight": "115g",
                     "material": [
                         "Copper"
                     ]
