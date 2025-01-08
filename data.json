@@ -1161,6 +1161,25 @@
             "categories": [
                 "B/S/T"
             ]
+        },
+        {
+            "name": "SpinningTopTom",
+            "description": "The official SpinningTopTom Facebook group is made for spinning top enthusiasts.",
+            "link": "https://www.facebook.com/groups/spinningtoptom",
+            "image": "images/spinningtoptom/spinningtoptom.jpg",
+            "categories": [
+                "Tops"
+            ]
+        },
+        {
+            "name": "Spin designs by Cami",
+            "description": "I am Cami. I am a machinist who loves to design and make things that spin. I hope you enjoy my ideas also.",
+            "link": "https://www.facebook.com/groups/SpinDesignsbyCami",
+            "image": "images/spindesignsbycami/spindesignsbycami.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
         }
     ]
 }
