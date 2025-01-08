@@ -1,7 +1,4 @@
-/* styles.css */
-
 /* Custom Styles */
-
 body {
     background-color: #f8f9fa;
     color: #212529;
@@ -32,6 +29,15 @@ header .btn.btn-dark.position-absolute {
     /* Customize the button appearance if needed */
 }
 
+/* Style for the search bar */
+#searchBar {
+    border: 1px solid #ced4da;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
 /* Prevent word breaking in table cells */
 table td,
 table th {
@@ -45,8 +51,45 @@ table th {
     word-break: keep-all; /* Prevents breaking within words */
 }
 
-/* Existing styles */
+/* Updated styling for fidgets feature */
+.fidgets-container {
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
 
+.fidget-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+    padding: 0.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    background-color: #f8f9fa;
+}
+
+.fidget-item img {
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+}
+
+.fidget-item p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* Existing styles */
 .form-check-label {
     cursor: pointer;
 }
@@ -57,6 +100,11 @@ table th {
 
 #resetFilters {
     align-self: center;
+}
+
+/* Sort button styles */
+#sortByDate {
+    margin-top: 1rem;
 }
 
 /* Updated image styling */
@@ -125,6 +173,11 @@ header .btn.position-absolute {
     #resetFilters {
         width: 100%;
         margin-top: 1rem;
+    }
+
+    #sortByDate {
+        width: 100%;
+        margin-top: 0.5rem;
     }
 
     .table-responsive {

@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Existing head content -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Fidget List</title>
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap Icons CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
     <script defer src="https://cloud.umami.is/script.js" data-website-id="fecb3c2b-5cc0-47e1-bb17-f7e313eacf64"></script>
-    <!-- Favicon Link -->
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <!-- Optional: Add smooth scrolling behavior -->
     <style>
         html {
             scroll-behavior: smooth;
@@ -23,17 +17,11 @@
 </head>
 <body>
     <div class="container my-5">
-        <!-- Header -->
         <header class="mb-4 position-relative">
-            <!-- Submit a New Group Button on the Top Left -->
             <a href="#submit-group" class="btn btn-primary position-absolute top-0 start-0 m-3">Submit a New Group</a>
-
-            <!-- View Source Button with GitHub Logo -->
             <a href="https://github.com/thinkjk/thefidgetlist" target="_blank" rel="noopener noreferrer" class="btn btn-dark position-absolute top-0 end-0 m-3 d-flex align-items-center">
                 <i class="bi bi-github me-2"></i> View Source
             </a>
-
-            <!-- Existing header content -->
             <div class="d-flex justify-content-center">
                 <div class="text-center">
                     <h1>The Fidget List</h1>
@@ -42,11 +30,12 @@
             </div>
         </header>
 
-        <!-- Filter Section -->
         <section class="mb-4">
             <h2>Filter Groups</h2>
+            <div class="mb-3">
+                <input type="text" id="searchBar" class="form-control" placeholder="Search by fidget or group name..." />
+            </div>
             <div class="row" id="filtersContainer">
-                <!-- Dynamic Filter Checkboxes Will Be Injected Here -->
             </div>
             <div class="row">
                 <div class="col-12">
@@ -55,7 +44,6 @@
             </div>
         </section>
 
-        <!-- Groups Table -->
         <section>
             <h2>Groups Directory</h2>
             <div class="table-responsive">
@@ -67,17 +55,15 @@
                             <th scope="col">Description</th>
                             <th scope="col">Link</th>
                             <th scope="col" class="categories-column">Categories</th>
+                            <th scope="col">Fidgets</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <!-- Dynamic Content Loaded Here -->
                     </tbody>
                 </table>
             </div>
         </section>
 
-        <!-- Submission Link -->
-        <!-- Added id="submit-group" to this section -->
         <section id="submit-group" class="my-5 text-center">
             <h2>Submit a New Group</h2>
             <p>If you know of a group that should be listed here, please submit it using the button below.</p>
@@ -85,16 +71,13 @@
         </section>
     </div>
 
-    <!-- Bootstrap JS Bundle with Popper (for Bootstrap functionalities) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Initialize Bootstrap Tooltips -->
     <script>
         var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
         var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
             return new bootstrap.Tooltip(tooltipTriggerEl)
         })
     </script>
-    <!-- Custom JS -->
     <script src="script.js"></script>
 </body>
 </html>

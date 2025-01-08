@@ -1,180 +1,279 @@
-// script.js
-
 document.addEventListener('DOMContentLoaded', () => {
-    // Elements
     const checkboxesContainer = document.getElementById('filtersContainer');
-    const checkboxes = () => document.querySelectorAll('.filter-checkbox');
+    const searchBar = document.getElementById('searchBar');
     const tableBody = document.querySelector('#groupsTable tbody');
     const resetButton = document.getElementById('resetFilters');
 
     let groupsData = [];
+    let originalGroupsOrder = [];
     let filtersData = [];
+    let isRandomized = true;
 
-    // Function to shuffle an array using the Fisher-Yates algorithm
     function shuffleArray(array) {
         for (let i = array.length - 1; i > 0; i--) {
-            // Generate a random index from 0 to i
             const j = Math.floor(Math.random() * (i + 1));
-            // Swap elements at indices i and j
             [array[i], array[j]] = [array[j], array[i]];
         }
         return array;
     }
 
-    // Fetch data from data.json
     fetch('data.json')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! Status: ${response.status}`);
-            }
-            return response.json();
-        })
+        .then(response => response.json())
         .then(data => {
-            // Store filters and groups data
             filtersData = data.filters;
-            groupsData = shuffleArray(data.groups);
+            originalGroupsOrder = [...data.groups];
+            groupsData = shuffleArray([...data.groups]);
             generateFilters(filtersData);
-            attachCheckboxListeners(); // Attach listeners after generating filters
+            attachCheckboxListeners();
+            attachSearchListener();
             populateTable(groupsData);
         })
-        .catch(error => {
-            console.error('Error fetching data:', error);
-            tableBody.innerHTML =
-                '<tr><td colspan="5" class="text-center text-danger">Failed to load data.</td></tr>';
-        });
+        .catch(error => console.error('Error fetching data:', error));
 
-    // Function to generate filter checkboxes dynamically
     function generateFilters(filters) {
-        checkboxesContainer.innerHTML = ''; // Clear existing filters if any
-
+        checkboxesContainer.innerHTML = '';
         filters.forEach(filter => {
-            // Create column div
             const colDiv = document.createElement('div');
-            colDiv.classList.add('col-6', 'col-sm-4', 'col-md-3', 'mb-3');
+            colDiv.classList.add('col-6', 'col-md-4', 'mb-3');
 
-            // Create form-check div
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.classList.add('form-check-input', 'filter-checkbox');
+            checkbox.value = filter;
+
+            const label = document.createElement('label');
+            label.textContent = filter;
+            label.classList.add('form-check-label');
+
             const formCheckDiv = document.createElement('div');
             formCheckDiv.classList.add('form-check');
+            formCheckDiv.append(checkbox, label);
 
-            // Create checkbox input
-            const checkbox = document.createElement('input');
-            checkbox.classList.add('form-check-input', 'filter-checkbox');
-            checkbox.type = 'checkbox';
-            checkbox.value = filter;
-            checkbox.id = `filter${filter.replace(/\s+/g, '')}`; // Remove spaces for ID
-
-            // Create label
-            const label = document.createElement('label');
-            label.classList.add('form-check-label');
-            label.htmlFor = checkbox.id;
-            label.textContent = filter;
-
-            // Append checkbox and label to form-check div
-            formCheckDiv.appendChild(checkbox);
-            formCheckDiv.appendChild(label);
-
-            // Append form-check div to column div
             colDiv.appendChild(formCheckDiv);
-
-            // Append column div to container
             checkboxesContainer.appendChild(colDiv);
         });
     }
 
-    // Function to populate the table with group data
-    function populateTable(data) {
-        tableBody.innerHTML = ''; // Clear existing data
-
-        if (data.length === 0) {
-            tableBody.innerHTML =
-                '<tr><td colspan="5" class="text-center">No groups found.</td></tr>';
-            return;
-        }
-
-        data.forEach(group => {
+    function populateTable(groups, query = '') {
+        tableBody.innerHTML = '';
+        groups.forEach(group => {
             const row = document.createElement('tr');
 
-            // Image Cell
             const imgCell = document.createElement('td');
             const img = document.createElement('img');
             img.src = group.image;
             img.alt = group.name;
             img.classList.add('img-thumbnail');
-            img.width = 100;
-            img.height = 100;
-            img.loading = 'lazy'; // Add lazy loading
-            img.onerror = () => {
-                img.src = 'images/default.jpg'; // Fallback image
-                console.warn(
-                    `Image not found: ${group.image}. Using fallback image.`
-                );
-            };
             imgCell.appendChild(img);
             row.appendChild(imgCell);
 
-            // Group Name Cell
             const nameCell = document.createElement('td');
             nameCell.textContent = group.name;
             row.appendChild(nameCell);
 
-            // Description Cell
             const descCell = document.createElement('td');
             descCell.textContent = group.description;
             row.appendChild(descCell);
 
-            // Link Cell
             const linkCell = document.createElement('td');
             const link = document.createElement('a');
             link.href = group.link;
-            link.textContent = 'Visit Group';
+            link.textContent = 'Visit';
             link.target = '_blank';
-            link.rel = 'noopener noreferrer'; // Security best practice
             link.classList.add('btn', 'btn-primary', 'btn-sm');
             linkCell.appendChild(link);
             row.appendChild(linkCell);
 
-            // Categories Cell
             const catCell = document.createElement('td');
-            catCell.classList.add('categories-column'); // Add the class here
             catCell.textContent = group.categories.join(', ');
             row.appendChild(catCell);
 
-            // Append the row to the table body
+            const fidgetCell = document.createElement('td');
+            if (group.fidgets && group.fidgets.length > 0) {
+                const fidgetButton = document.createElement('button');
+                fidgetButton.textContent = 'View Fidgets';
+                fidgetButton.classList.add('btn', 'btn-primary', 'btn-sm'); 
+                fidgetButton.addEventListener('click', () => toggleFidgets(fidgetButton, group));
+                fidgetCell.appendChild(fidgetButton);
+            }
+            row.appendChild(fidgetCell);
+
             tableBody.appendChild(row);
+
+            if (query) {
+                const matchingFidgets = group.fidgets?.filter(fidget =>
+                    fidget.name.toLowerCase().includes(query)
+                );
+                if (matchingFidgets?.length > 0) {
+                    const fidgetsRow = document.createElement('tr');
+                    const cell = document.createElement('td');
+                    cell.colSpan = 6;
+
+                    const container = document.createElement('div');
+                    container.classList.add('fidgets-container');
+                    matchingFidgets.forEach(fidget => {
+                        const fidgetDiv = document.createElement('div');
+                        fidgetDiv.classList.add('fidget-item');
+
+                        const img = document.createElement('img');
+                        img.src = fidget.image;
+                        img.alt = fidget.name;
+                        img.classList.add('img-thumbnail');
+                        img.addEventListener('click', () =>
+                            viewHighResolutionImage(fidget.image)
+                        );
+
+                        const details = document.createElement('p');
+                        details.innerHTML = `
+                            <strong>${fidget.name}</strong><br>
+                            Dimensions: ${fidget.dimensions || 'N/A'}<br>
+                            Weight: ${fidget.weight || 'N/A'}<br>
+                            Material: ${fidget.material || 'Unknown'}
+                        `;
+
+                        fidgetDiv.append(img, details);
+                        container.appendChild(fidgetDiv);
+                    });
+
+                    cell.appendChild(container);
+                    fidgetsRow.appendChild(cell);
+                    tableBody.appendChild(fidgetsRow);
+                }
+            }
         });
     }
 
-    // Function to filter the table based on selected categories
-    function filterTable() {
-        const selectedCategories = Array.from(checkboxes())
-            .filter(checkbox => checkbox.checked)
-            .map(checkbox => checkbox.value);
+    function viewHighResolutionImage(imageSrc) {
+        const modal = document.createElement('div');
+        modal.classList.add('modal');
+        modal.style.cssText = `
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1000;
+        `;
 
-        if (selectedCategories.length === 0) {
-            populateTable(groupsData);
-            return;
+        const img = document.createElement('img');
+        img.src = imageSrc;
+        img.style.cssText = 'max-width: 90%; max-height: 90%;';
+
+        modal.appendChild(img);
+        modal.addEventListener('click', () => modal.remove());
+
+        document.body.appendChild(modal);
+    }
+
+    function toggleFidgets(button, group) {
+        const fidgetsRow = document.querySelector(`.fidgets-row[data-group="${group.name}"]`);
+        if (!fidgetsRow) {
+            const row = document.createElement('tr');
+            row.classList.add('fidgets-row');
+            row.setAttribute('data-group', group.name);
+
+            const cell = document.createElement('td');
+            cell.colSpan = 6;
+
+            const container = document.createElement('div');
+            container.classList.add('fidgets-container');
+            group.fidgets.forEach(fidget => {
+                const fidgetDiv = document.createElement('div');
+                fidgetDiv.classList.add('fidget-item');
+
+                const img = document.createElement('img');
+                img.src = fidget.image;
+                img.alt = fidget.name;
+                img.classList.add('img-thumbnail');
+                img.addEventListener('click', () =>
+                    viewHighResolutionImage(fidget.image)
+                );
+
+                const details = document.createElement('p');
+                details.innerHTML = `
+                    <strong>${fidget.name}</strong><br>
+                    Dimensions: ${fidget.dimensions || 'N/A'}<br>
+                    Weight: ${fidget.weight || 'N/A'}<br>
+                    Material: ${fidget.material || 'Unknown'}
+                `;
+
+                fidgetDiv.append(img, details);
+                container.appendChild(fidgetDiv);
+            });
+
+            cell.appendChild(container);
+            row.appendChild(cell);
+            button.closest('tr').after(row);
+        } else {
+            fidgetsRow.remove();
         }
-
-        const filteredData = groupsData.filter(group =>
-            selectedCategories.some(cat => group.categories.includes(cat))
-        );
-
-        populateTable(filteredData);
     }
 
-    // Attach event listeners to dynamically generated checkboxes
     function attachCheckboxListeners() {
-        const allCheckboxes = checkboxes();
-        allCheckboxes.forEach(checkbox => {
-            checkbox.addEventListener('change', filterTable);
+        checkboxesContainer.addEventListener('change', () => {
+            const selected = [...checkboxesContainer.querySelectorAll('.filter-checkbox:checked')].map(cb => cb.value);
+            const filtered = groupsData.filter(group =>
+                selected.every(cat => group.categories.includes(cat))
+            );
+            populateTable(selected.length ? filtered : groupsData);
         });
     }
 
-    // Event listener for the "Reset Filters" button to clear all selections
-    resetButton.addEventListener('click', () => {
-        Array.from(checkboxes()).forEach(checkbox => {
-            checkbox.checked = false;
+    function attachSearchListener() {
+        searchBar.addEventListener('input', () => {
+            const query = searchBar.value.toLowerCase();
+            const filteredGroups = groupsData.filter(group => {
+                const matchesGroupName = group.name.toLowerCase().includes(query);
+                const matchesFidgetName = group.fidgets?.some(fidget =>
+                    fidget.name.toLowerCase().includes(query)
+                );
+                return matchesGroupName || matchesFidgetName;
+            });
+
+            populateTable(filteredGroups, query);
         });
-        populateTable(groupsData);
+    }
+
+    const sortButton = document.createElement('button');
+    sortButton.id = 'sortByDate';
+    sortButton.className = 'btn btn-secondary w-100 mt-2';
+    sortButton.textContent = 'Sort by Date Added';
+    resetButton.parentNode.appendChild(sortButton);
+
+    sortButton.addEventListener('click', () => {
+        if (isRandomized) {
+            groupsData = [...originalGroupsOrder];
+            sortButton.textContent = 'Randomize Order';
+        } else {
+            groupsData = shuffleArray([...originalGroupsOrder]);
+            sortButton.textContent = 'Sort by Date Added';
+        }
+        isRandomized = !isRandomized;
+        
+        const selected = [...checkboxesContainer.querySelectorAll('.filter-checkbox:checked')].map(cb => cb.value);
+        const filtered = groupsData.filter(group =>
+            selected.every(cat => group.categories.includes(cat))
+        );
+        
+        const query = searchBar.value.toLowerCase();
+        const searchFiltered = (selected.length ? filtered : groupsData).filter(group => {
+            const matchesGroupName = group.name.toLowerCase().includes(query);
+            const matchesFidgetName = group.fidgets?.some(fidget =>
+                fidget.name.toLowerCase().includes(query)
+            );
+            return matchesGroupName || matchesFidgetName;
+        });
+        
+        populateTable(searchFiltered, query);
+    });
+
+    resetButton.addEventListener('click', () => {
+        checkboxesContainer.querySelectorAll('.filter-checkbox').forEach(cb => (cb.checked = false));
+        searchBar.value = '';
+        populateTable(isRandomized ? shuffleArray([...originalGroupsOrder]) : [...originalGroupsOrder]);
     });
 });
