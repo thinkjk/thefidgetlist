@@ -9,6 +9,30 @@ document.addEventListener('DOMContentLoaded', () => {
     let filtersData = [];
     let isRandomized = true;
 
+    function createFidgetDetails(fidget) {
+        const details = document.createElement('p');
+        let html = `<strong>${fidget.name}</strong>`;
+        
+        if (fidget.dimensions) {
+            html += `<br>Dimensions: ${fidget.dimensions}`;
+        }
+        if (fidget.weight) {
+            html += `<br>Weight: ${fidget.weight}`;
+        }
+        if (fidget.button_size) {
+            html += `<br>Button Size: ${fidget.button_size}`;
+        }
+        if (fidget.material) {
+            const materialText = Array.isArray(fidget.material) ? fidget.material.join(', ') : fidget.material;
+            if (materialText) {
+                html += `<br>Material: ${materialText}`;
+            }
+        }
+        
+        details.innerHTML = html;
+        return details;
+    }
+
     function shuffleArray(array) {
         for (let i = array.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
@@ -123,15 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             viewHighResolutionImage(fidget.image)
                         );
 
-                        const details = document.createElement('p');
-                        details.innerHTML = `
-                            <strong>${fidget.name}</strong><br>
-                            Dimensions: ${fidget.dimensions || 'N/A'}<br>
-                            Weight: ${fidget.weight || 'N/A'}<br>
-                            Material: ${fidget.material || 'Unknown'}
-                        `;
-
-                        fidgetDiv.append(img, details);
+                        fidgetDiv.append(img, createFidgetDetails(fidget));
                         container.appendChild(fidgetDiv);
                     });
 
@@ -193,15 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     viewHighResolutionImage(fidget.image)
                 );
 
-                const details = document.createElement('p');
-                details.innerHTML = `
-                    <strong>${fidget.name}</strong><br>
-                    Dimensions: ${fidget.dimensions || 'N/A'}<br>
-                    Weight: ${fidget.weight || 'N/A'}<br>
-                    Material: ${fidget.material || 'Unknown'}
-                `;
-
-                fidgetDiv.append(img, details);
+                fidgetDiv.append(img, createFidgetDetails(fidget));
                 container.appendChild(fidgetDiv);
             });
 
