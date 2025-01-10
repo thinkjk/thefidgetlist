@@ -372,6 +372,76 @@
             "Tungsten"
           ],
           "button_size": "24.5mm"
+        },
+        {
+          "name": "Phantom Mini Chubby Mokume",
+          "image": "images/2rdesigns/phantom_mini_chubby_mokume_mokume.jpg",
+          "dimensions": "48mm×29mm×16mm",
+          "weight": "157g",
+          "material": [
+            "Mokume"
+          ],
+          "button_size": "24.5mm"
+        },
+        {
+          "name": "Dank Blank Phantom Mini Chubby",
+          "image": "images/2rdesigns/dank_blank_-_phantom_mini_chubby_resin.jpg",
+          "dimensions": "48mm×29mm×16mm",
+          "weight": "23g",
+          "material": [
+            "Resin"
+          ],
+          "button_size": "24.5mm"
+        },
+        {
+          "name": "Phantom Chubby Mini Aluminum",
+          "image": "images/2rdesigns/phantom_chubby_mini_aluminum_aluminum.jpg",
+          "dimensions": "48mm×29mm×16mm",
+          "weight": "53g",
+          "material": [
+            "Aluminum"
+          ],
+          "button_size": "24.5mm"
+        },
+        {
+          "name": "Phantom Mini S V2",
+          "image": "images/2rdesigns/phantom_mini_s_v2_brass.jpg",
+          "dimensions": "47.6mm×29.3mm×17mm",
+          "weight": "83g",
+          "material": [
+            "Brass"
+          ],
+          "button_size": "24.5mm"
+        },
+        {
+          "name": "Phantom Mini S V2",
+          "image": "images/2rdesigns/phantom_mini_s_v2_copper.jpg",
+          "dimensions": "47.6mm×29.3mm×17mm",
+          "weight": "87g",
+          "material": [
+            "Copper"
+          ],
+          "button_size": "24.5mm"
+        },
+        {
+          "name": "Phantom Mini S V2",
+          "image": "images/2rdesigns/phantom_mini_s_v2_stainless_steel.jpg",
+          "dimensions": "47.6mm×29.3mm×17mm",
+          "weight": "76g",
+          "material": [
+            "Stainless Steel"
+          ],
+          "button_size": "24.5mm"
+        },
+        {
+          "name": "Phantom Mini S V2",
+          "image": "images/2rdesigns/phantom_mini_s_v2_titanium.jpg",
+          "dimensions": "47.6mm×29.3mm×17mm",
+          "weight": "44g",
+          "material": [
+            "Titanium"
+          ],
+          "button_size": "24.5mm"
         }
       ]
     },
