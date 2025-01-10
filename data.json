@@ -321,6 +321,58 @@
       "categories": [
         "Spinners",
         "Metal"
+      ],
+      "fidgets": [
+        {
+          "name": "Phantom Micro Chubby Tungsten",
+          "image": "images/2rdesigns/phantom_micro_chubby_-_tungsten_tungsten.jpg",
+          "dimensions": "36.5mm×19.3mm×10mm",
+          "weight": "150g",
+          "material": [
+            "Tungsten"
+          ],
+          "button_size": "16mm"
+        },
+        {
+          "name": "Phantom Mini Chubby Tungsten",
+          "image": "images/2rdesigns/phantom_mini_chubby_-_tungsten_tungsten.jpg",
+          "dimensions": "48mm × 29mm × 16mm",
+          "weight": "327g",
+          "material": [
+            "Tungsten"
+          ],
+          "button_size": "24.5mm"
+        },
+        {
+          "name": "Phantom Mini Chubby",
+          "image": "images/2rdesigns/phantom_mini_chubby_stainless_steel.jpg",
+          "dimensions": "48mm×29mm×16mm",
+          "weight": "147g",
+          "material": [
+            "Stainless Steel"
+          ],
+          "button_size": "24.5mm"
+        },
+        {
+          "name": "Phantom Mini Chubby",
+          "image": "images/2rdesigns/phantom_mini_chubby_titanium.jpg",
+          "dimensions": "48mm×29mm×16mm",
+          "weight": "82g",
+          "material": [
+            "Titanium"
+          ],
+          "button_size": "24.5mm"
+        },
+        {
+          "name": "Phantom Xl Tungsten",
+          "image": "images/2rdesigns/phantom_xl_-_tungsten_tungsten.jpg",
+          "dimensions": "66mm×33.27mm×16.8mm",
+          "weight": "348g",
+          "material": [
+            "Tungsten"
+          ],
+          "button_size": "24.5mm"
+        }
       ]
     },
     {
