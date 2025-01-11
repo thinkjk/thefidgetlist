@@ -722,6 +722,34 @@
             "Tungsten"
           ],
           "button_size": "24.5mm"
+        },
+        {
+          "name": "Patriot",
+          "image": "images/2rdesigns/patriot_stainless_steel.jpg",
+          "dimensions": "47mm×29mmx10.52mm",
+          "weight": "100g",
+          "material": [
+            "Stainless Steel"
+          ]
+        },
+        {
+          "name": "Patriot",
+          "image": "images/2rdesigns/patriot_brass.jpg",
+          "dimensions": "47mm×29mmx10.52mm",
+          "weight": "0g",
+          "material": [
+            "Brass"
+          ]
+        },
+        {
+          "name": "Phantom SL V2",
+          "image": "images/2rdesigns/phantom_sl_v2_titanium.jpg",
+          "dimensions": "48mm×29.4mmx18.8mm",
+          "weight": "111g",
+          "material": [
+            "Titanium",
+            "Copper"
+          ]
         }
       ]
     },
