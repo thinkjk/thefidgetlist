@@ -592,6 +592,136 @@
             "Titanium"
           ],
           "button_size": "23mm"
+        },
+        {
+          "name": "Phantom Micro",
+          "image": "images/2rdesigns/phantom_micro_brass.jpg",
+          "dimensions": "36.5mm×19.3mm×11mm",
+          "weight": "37.14g",
+          "material": [
+            "Brass"
+          ],
+          "button_size": ".63\" (16mm)"
+        },
+        {
+          "name": "Phantom Micro",
+          "image": "images/2rdesigns/phantom_micro_copper.jpg",
+          "dimensions": "36.5mm×19.3mm×11mm",
+          "weight": "39.12g",
+          "material": [
+            "Copper"
+          ],
+          "button_size": ".63\" (16mm)"
+        },
+        {
+          "name": "Phantom Micro",
+          "image": "images/2rdesigns/phantom_micro_stainless_steel.jpg",
+          "dimensions": "36.5mm×19.3mm×11mm",
+          "weight": "37.14g",
+          "material": [
+            "Stainless Steel"
+          ],
+          "button_size": ".63\" (16mm)"
+        },
+        {
+          "name": "Phantom Micro",
+          "image": "images/2rdesigns/phantom_micro_titanium.jpg",
+          "dimensions": "36.5mm×19.3mm×11mm",
+          "weight": "24.38g",
+          "material": [
+            "Titanium"
+          ],
+          "button_size": ".63\" (16mm)"
+        },
+        {
+          "name": "Phantom Tri",
+          "image": "images/2rdesigns/phantom_tri_brass.jpg",
+          "dimensions": "60.3mm×2.375mm×18mm",
+          "weight": "185g",
+          "material": [
+            "Brass"
+          ],
+          "button_size": "24.5mm"
+        },
+        {
+          "name": "Phantom Tri",
+          "image": "images/2rdesigns/phantom_tri_copper.jpg",
+          "dimensions": "60.3mm×2.375mm×18mm",
+          "weight": "195g",
+          "material": [
+            "Copper"
+          ],
+          "button_size": "24.5mm"
+        },
+        {
+          "name": "Phantom Tri",
+          "image": "images/2rdesigns/phantom_tri_stainless_steel.jpg",
+          "dimensions": "60.3mm×2.375mm×18mm",
+          "weight": "173g",
+          "material": [
+            "Stainless Steel"
+          ],
+          "button_size": "24.5mm"
+        },
+        {
+          "name": "Phantom Tri",
+          "image": "images/2rdesigns/phantom_tri_titanium.jpg",
+          "dimensions": "60.3mm×2.375mm×18mm",
+          "weight": "100g",
+          "material": [
+            "Titanium"
+          ],
+          "button_size": "24.5mm"
+        },
+        {
+          "name": "Phantom Tri S",
+          "image": "images/2rdesigns/phantom_tri_s_brass.jpg",
+          "dimensions": "60.3mm×2.375mm×18mm",
+          "weight": "116g",
+          "material": [
+            "Brass"
+          ],
+          "button_size": "24.5mm"
+        },
+        {
+          "name": "Phantom Tri S",
+          "image": "images/2rdesigns/phantom_tri_s_copper.jpg",
+          "dimensions": "60.3mm×2.375mm×18mm",
+          "weight": "123g",
+          "material": [
+            "Copper"
+          ],
+          "button_size": "24.5mm"
+        },
+        {
+          "name": "Phantom Tri S",
+          "image": "images/2rdesigns/phantom_tri_s_stainless_steel.jpg",
+          "dimensions": "60.3mm×2.375mm×18mm",
+          "weight": "109g",
+          "material": [
+            "Stainless Steel"
+          ],
+          "button_size": "24.5mm"
+        },
+        {
+          "name": "Phantom Tri S",
+          "image": "images/2rdesigns/phantom_tri_s_titanium.jpg",
+          "dimensions": "60.3mm×2.375mm×18mm",
+          "weight": "63.5g",
+          "material": [
+            "Titanium"
+          ],
+          "button_size": "24.5mm"
+        },
+        {
+          "name": "Phantom Tri S",
+          "image": "images/2rdesigns/phantom_tri_s_tungsten.jpg",
+          "dimensions": "60.3mm×2.375mm×18mm",
+          "weight": "248g",
+          "material": [
+            "Tungsten"
+          ],
+          "button_size": "24.5mm"
         }
       ]
     },
