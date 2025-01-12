@@ -129,6 +129,18 @@
         "Sliders",
         "Spinners",
         "Metal"
+      ],
+      "fidgets": [
+        {
+          "name": "Cool Compo 1",
+          "dimensions": "45mmx56mmx13mm",
+          "weight": "100g",
+          "button_size": "24.5mm",
+          "material": [
+            "Tungsten"
+          ],
+          "image": "images/compoform/cool_compo_1_tungsten.jpg"
+        }
       ]
     },
     {
