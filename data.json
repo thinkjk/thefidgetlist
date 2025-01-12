@@ -1,1636 +1,1647 @@
 {
-  "filters": [
-    "Sliders",
-    "Spinners",
-    "Beads",
-    "Metal",
-    "3D Printed",
-    "Accessories",
-    "Spin Stick",
-    "B/S/T",
-    "Various",
-    "Tops"
-  ],
-  "groups": [
-    {
-      "name": "WiscoWorx Creations",
-      "description": "Handmade EDC gear and beads made in USA! Specializing in things that GLOW!",
-      "link": "https://www.facebook.com/groups/1724581070989737",
-      "image": "images/wiscoworx/wiscoworx.jpg",
-      "categories": [
-        "Beads"
-      ]
-    },
-    {
-      "name": "out of office objects",
-      "description": "Welcome to out of office objects (oooobjects.)",
-      "link": "https://www.facebook.com/groups/oooobjects",
-      "image": "images/oooobjects/oooobjects.jpg",
-      "categories": [
-        "Spinners",
-        "Metal"
-      ],
-      "fidgets": [
-        {
-          "name": "Short Story",
-          "image": "images/oooobjects/short_story_tungsten.jpg",
-          "dimensions": "40.6×22.6×13.5mm",
-          "weight": "149g",
-          "material": [
-            "tungsten"
-          ],
-          "button_size": "20mm"
-        }
-      ]
-    },
-    {
-      "name": "Illwill Industries",
-      "description": "This is a group for updates and drop from Illwill Industries",
-      "link": "https://www.facebook.com/groups/2209809899355496",
-      "image": "images/illwill/illwill.jpg",
-      "categories": [
-        "Spin Stick",
-        "3D Printed"
-      ]
-    },
-    {
-      "name": "MM3D",
-      "description": "MercadoMakes3D 3D printed trays for fidgets and more!",
-      "link": "https://www.facebook.com/groups/1607259706699878",
-      "image": "images/mm3d/mm3d.jpg",
-      "categories": [
-        "Accessories"
-      ]
-    },
-    {
-      "name": "The Daily Fidget",
-      "description": "This is a friendly group that enjoys discussing spinners, EDC, and all things fidget related.",
-      "link": "https://www.facebook.com/groups/TheDailyFidget",
-      "image": "images/tdf/tdf.jpg",
-      "categories": [
-        "Various"
-      ]
-    },
-    {
-      "name": "Modusworks Family",
-      "description": "A place to post and discuss your Modusworks products! Info about the products posted by Jonas Nix, the owner, designer, machinist, and floor sweeper of Modusworks.",
-      "link": "https://www.facebook.com/groups/TheDailyFidget",
-      "image": "images/mw/mw.jpg",
-      "categories": [
-        "Sliders",
-        "Metal"
-      ]
-    },
-    {
-      "name": "The Marketplace [Spin Space BST]",
-      "description": "Welcome to the BST group for Spin Space!",
-      "link": "https://www.facebook.com/groups/spinspacemarketplace",
-      "image": "images/ssbst/ssbst.jpg",
-      "categories": [
-        "B/S/T"
-      ]
-    },
-    {
-      "name": "Fidget Spot",
-      "description": "This is a friendly group that enjoys discussing all things fidget related.",
-      "link": "https://www.facebook.com/groups/FidgetSpot",
-      "image": "images/fidgetspot/fidgetspot.jpg",
-      "categories": [
-        "Various"
-      ]
-    },
-    {
-      "name": "The Daily Fidget Marketplace",
-      "description": "Welcome to the BST group for The Daily Fidget!",
-      "link": "https://www.facebook.com/groups/TheDailyFidgetMarketplace",
-      "image": "images/tdfbst/tdfbst.jpg",
-      "categories": [
-        "Various",
-        "B/S/T"
-      ]
-    },
-    {
-      "name": "Magnus Fidgets",
-      "description": "A place to discuss all the newest fidgets made by Magnus.",
-      "link": "https://www.facebook.com/groups/magnusedc",
-      "image": "images/magnus/magnus.jpg",
-      "categories": [
+    "filters": [
         "Sliders",
         "Spinners",
-        "Metal"
-      ]
-    },
-    {
-      "name": "CompoForm",
-      "description": "A place to discuss compoform fidgets",
-      "link": "https://www.facebook.com/groups/CompoForm",
-      "image": "images/compoform/compoform.jpg",
-      "categories": [
-        "Sliders",
-        "Spinners",
-        "Metal"
-      ]
-    },
-    {
-      "name": "Wizard EDC",
-      "description": "Maker of every day carry (EDC) Products.",
-      "link": "https://www.facebook.com/groups/917080893276458",
-      "image": "images/wizardedc/wizardedc.jpg",
-      "categories": [
-        "Spin Stick",
-        "Beads"
-      ]
-    },
-    {
-      "name": "EDC Cartel",
-      "description": "A multibrand store of fidget toys and edc gear products. Edc Cartel will be introducing a variety of brands from different makers we will be also accommodating collectors if they need specific fidget via pm’s.",
-      "link": "https://www.facebook.com/groups/2104022436462512",
-      "image": "images/edccartel/edccartel.jpg",
-      "categories": [
-        "Various"
-      ]
-    },
-    {
-      "name": "FidgetThings",
-      "description": "Group for Updates and Drops of projects that FidgetThings is currently working on.",
-      "link": "https://www.facebook.com/groups/1114614522653569",
-      "image": "images/fidgetthings/fidgetthings.jpg",
-      "categories": [
-        "Various"
-      ]
-    },
-    {
-      "name": "playforbeans",
-      "description": "playforbeans encapsulates a team of 5 individuals who crossed paths through happenstance. We all decided to embark on a journey and discovered the world and communities of Fidgets and EDC.",
-      "link": "https://www.facebook.com/groups/playforbeans",
-      "image": "images/playforbeans/playforbeans.jpg",
-      "categories": [
-        "Various"
-      ]
-    },
-    {
-      "name": "FidgetBoy",
-      "description": "Welcome to all things FidgetBoy! Share your thoughts, experiences, ideas, and so on. This is a group dedicated to the world of FidgetBoy products.",
-      "link": "https://www.facebook.com/groups/3627297087595447",
-      "image": "images/fidgetboy/fidgetboy.jpg",
-      "categories": [
-        "Sliders",
-        "Spinners",
+        "Beads",
         "Metal",
-        "3D Printed"
-      ]
-    },
-    {
-      "name": "Rayge3D",
-      "description": "This is where I'll show off new items made, works in progress or exclusive items I wont sell anywhere else!",
-      "link": "https://www.facebook.com/groups/220312357305134",
-      "image": "images/rayge3d/rayge3d.jpg",
-      "categories": [
-        "Sliders",
-        "3D Printed"
-      ]
-    },
-    {
-      "name": "Wiscoworx BST",
-      "description": "Group's purpose is to clean up the main page and have this one dedicated to buy, sell, or trade WiscoWorx products.",
-      "link": "https://www.facebook.com/groups/308637225609638",
-      "image": "images/wiscoworxbst/wiscoworxbst.jpg",
-      "categories": [
-        "Beads",
-        "B/S/T"
-      ]
-    },
-    {
-      "name": "FidgetBoy BST",
-      "description": "FidgetBoy BST",
-      "link": "https://www.facebook.com/groups/675647824649082",
-      "image": "images/fidgetboybst/fidgetboybst.jpg",
-      "categories": [
-        "B/S/T"
-      ]
-    },
-    {
-      "name": "Magnus BST",
-      "description": "Please feel welcome to buy, sell, or trade for Magnus brand EDC items",
-      "link": "https://www.facebook.com/groups/magnusedcbst",
-      "image": "images/magnusbst/magnusbst.jpg",
-      "categories": [
-        "B/S/T"
-      ]
-    },
-    {
-      "name": "Drake's Machining Customs",
-      "description": "Hello, Welcome to DMC, I make different EDC items, however my main thing lately has been Spinner Buttons.",
-      "link": "https://www.facebook.com/groups/909797384484464",
-      "image": "images/dmc/dmc.jpg",
-      "categories": [
-        "Accessories",
-        "Metal"
-      ]
-    },
-    {
-      "name": "The Fidget Syndicate",
-      "description": "Dedicated to further spreading the simple joy of the small things.",
-      "link": "https://www.facebook.com/groups/412838014538946",
-      "image": "images/fidgetsyndicate/fidgetsyndicate.jpg",
-      "categories": [
-        "Sliders",
-        "3D Printed"
-      ]
-    },
-    {
-      "name": "Prometheus EDC",
-      "description": "Hand finished pocket trash.",
-      "link": "https://www.facebook.com/groups/1135732747817366",
-      "image": "images/prometheusedc/prometheusedc.jpg",
-      "categories": [
-        "Beads"
-      ]
-    },
-    {
-      "name": "iNDY THiCC EDC",
-      "description": "EDC creations of the Thicc variety . Designed in Indy and made in Tennessee USA.",
-      "link": "https://www.facebook.com/groups/1434708357478664",
-      "image": "images/indythicc/indythicc.jpg",
-      "categories": [
-        "Spinners",
-        "Metal"
-      ],
-      "fidgets": [
-        {
-          "name": "Chelsea SF",
-          "image": "images/indythicc/chealseasf_zirc.jpg",
-          "dimensions": "50x27x18mm",
-          "weight": "130g",
-          "material": [
-            "Zirconium"
-          ]
-        },
-        {
-          "name": "Chelsea SF",
-          "image": "images/indythicc/chealseasf_ti.jpg",
-          "dimensions": "50x27x18mm",
-          "weight": "90g",
-          "material": [
-            "Titanium"
-          ]
-        },
-        {
-          "name": "Chelsea SFT",
-          "image": "images/indythicc/chealseasft_ss.jpg",
-          "dimensions": "50x27x20mm",
-          "weight": "101g",
-          "material": [
-            "Stainless Steel"
-          ]
-        },
-        {
-          "name": "Chelsea SFT",
-          "image": "images/indythicc/chealseasft_bronze.jpg",
-          "dimensions": "50x27x20mm",
-          "weight": "96g",
-          "material": [
-            "Bronze"
-          ]
-        },
-        {
-          "name": "Chelsea SFT",
-          "image": "images/indythicc/chealseasft_copper.jpg",
-          "dimensions": "50x27x20mm",
-          "weight": "115g",
-          "material": [
-            "Copper"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Greedy EDC",
-      "description": "Daniel Graves and Nich Sloan are 2 EDC aficionados working to bring unique EDC beads to meet your needs.",
-      "link": "https://www.facebook.com/groups/greedyedc",
-      "image": "images/greedyedc/greedyedc.jpg",
-      "categories": [
-        "Beads"
-      ]
-    },
-    {
-      "name": "2R Designs EDC",
-      "description": "A place to talk about 2R Designs EDC products.",
-      "link": "https://www.facebook.com/groups/1895173964037412",
-      "image": "images/2rdesigns/2rdesigns.jpg",
-      "categories": [
-        "Spinners",
-        "Metal"
-      ],
-      "fidgets": [
-        {
-          "name": "Phantom Micro Chubby Tungsten",
-          "image": "images/2rdesigns/phantom_micro_chubby_-_tungsten_tungsten.jpg",
-          "dimensions": "36.5mm×19.3mm×10mm",
-          "weight": "150g",
-          "material": [
-            "Tungsten"
-          ],
-          "button_size": "16mm"
-        },
-        {
-          "name": "Phantom Mini Chubby Tungsten",
-          "image": "images/2rdesigns/phantom_mini_chubby_-_tungsten_tungsten.jpg",
-          "dimensions": "48mm × 29mm × 16mm",
-          "weight": "327g",
-          "material": [
-            "Tungsten"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Mini Chubby",
-          "image": "images/2rdesigns/phantom_mini_chubby_stainless_steel.jpg",
-          "dimensions": "48mm×29mm×16mm",
-          "weight": "147g",
-          "material": [
-            "Stainless Steel"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Mini Chubby",
-          "image": "images/2rdesigns/phantom_mini_chubby_titanium.jpg",
-          "dimensions": "48mm×29mm×16mm",
-          "weight": "82g",
-          "material": [
-            "Titanium"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Xl Tungsten",
-          "image": "images/2rdesigns/phantom_xl_-_tungsten_tungsten.jpg",
-          "dimensions": "66mm×33.27mm×16.8mm",
-          "weight": "348g",
-          "material": [
-            "Tungsten"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Mini Chubby Mokume",
-          "image": "images/2rdesigns/phantom_mini_chubby_mokume_mokume.jpg",
-          "dimensions": "48mm×29mm×16mm",
-          "weight": "157g",
-          "material": [
-            "Mokume"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Dank Blank Phantom Mini Chubby",
-          "image": "images/2rdesigns/dank_blank_-_phantom_mini_chubby_resin.jpg",
-          "dimensions": "48mm×29mm×16mm",
-          "weight": "23g",
-          "material": [
-            "Resin"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Chubby Mini Aluminum",
-          "image": "images/2rdesigns/phantom_chubby_mini_aluminum_aluminum.jpg",
-          "dimensions": "48mm×29mm×16mm",
-          "weight": "53g",
-          "material": [
-            "Aluminum"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Mini S V2",
-          "image": "images/2rdesigns/phantom_mini_s_v2_brass.jpg",
-          "dimensions": "47.6mm×29.3mm×17mm",
-          "weight": "83g",
-          "material": [
-            "Brass"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Mini S V2",
-          "image": "images/2rdesigns/phantom_mini_s_v2_copper.jpg",
-          "dimensions": "47.6mm×29.3mm×17mm",
-          "weight": "87g",
-          "material": [
-            "Copper"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Mini S V2",
-          "image": "images/2rdesigns/phantom_mini_s_v2_stainless_steel.jpg",
-          "dimensions": "47.6mm×29.3mm×17mm",
-          "weight": "76g",
-          "material": [
-            "Stainless Steel"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Mini S V2",
-          "image": "images/2rdesigns/phantom_mini_s_v2_titanium.jpg",
-          "dimensions": "47.6mm×29.3mm×17mm",
-          "weight": "44g",
-          "material": [
-            "Titanium"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Mini S V2 Tungsten",
-          "image": "images/2rdesigns/phantom_mini_s_v2_tungsten_tungsten.jpg",
-          "dimensions": "47.6mm × 29.3mm × 17mm",
-          "weight": "174g",
-          "material": [
-            "Tungsten"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Mini S V2 Tungsten",
-          "image": "images/2rdesigns/phantom_mini_s_v2_tungsten_tungsten.jpg",
-          "dimensions": "47.6mm × 29.3mm × 17mm",
-          "weight": "112g",
-          "material": [
-            "Tungsten"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Mini S V2 Tungsten",
-          "image": "images/2rdesigns/phantom_mini_s_v2_tungsten_tungsten.jpg",
-          "dimensions": "47.6mm × 29.3mm × 17mm",
-          "weight": "62g",
-          "material": [
-            "Tungsten"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Xls",
-          "image": "images/2rdesigns/phantom_xls_brass.jpg",
-          "dimensions": "66mm×33.27mm×16.8mm",
-          "weight": "108.87g",
-          "material": [
-            "Brass"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Xls",
-          "image": "images/2rdesigns/phantom_xls_copper.jpg",
-          "dimensions": "66mm×33.27mm×16.8mm",
-          "weight": "114.55g",
-          "material": [
-            "Copper"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Xls",
-          "image": "images/2rdesigns/phantom_xls_stainless_steel.jpg",
-          "dimensions": "66mm×33.27mm×16.8mm",
-          "weight": "101.93g",
-          "material": [
-            "Stainless Steel"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Xls",
-          "image": "images/2rdesigns/phantom_xls_titanium.jpg",
-          "dimensions": "66mm×33.27mm×16.8mm",
-          "weight": "58.10g",
-          "material": [
-            "Titanium"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Xl",
-          "image": "images/2rdesigns/phantom_xl_brass.jpg",
-          "dimensions": "66mm×33.27mm×16.8mm",
-          "weight": "167.77g",
-          "material": [
-            "Brass"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Xl",
-          "image": "images/2rdesigns/phantom_xl_copper.jpg",
-          "dimensions": "66mm×33.27mm×16.8mm",
-          "weight": "176.58g",
-          "material": [
-            "Copper"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Xl",
-          "image": "images/2rdesigns/phantom_xl_stainless_steel.jpg",
-          "dimensions": "66mm×33.27mm×16.8mm",
-          "weight": "157g",
-          "material": [
-            "Stainless Steel"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Xl",
-          "image": "images/2rdesigns/phantom_xl_titanium.jpg",
-          "dimensions": "66mm×33.27mm×16.8mm",
-          "weight": "89.02g",
-          "material": [
-            "Titanium"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Tri Mini",
-          "image": "images/2rdesigns/phantom_tri_mini_brass.jpg",
-          "dimensions": "47.6mm×47.6mm×17mm",
-          "weight": "123g",
-          "material": [
-            "Brass"
-          ],
-          "button_size": "23mm"
-        },
-        {
-          "name": "Phantom Tri Mini",
-          "image": "images/2rdesigns/phantom_tri_mini_copper.jpg",
-          "dimensions": "47.6mm×47.6mm×17mm",
-          "weight": "130g",
-          "material": [
-            "Copper"
-          ],
-          "button_size": "23mm"
-        },
-        {
-          "name": "Phantom Tri Mini",
-          "image": "images/2rdesigns/phantom_tri_mini_stainless_steel.jpg",
-          "dimensions": "47.6mm×47.6mm×17mm",
-          "weight": "116g",
-          "material": [
-            "Stainless Steel"
-          ],
-          "button_size": "23mm"
-        },
-        {
-          "name": "Phantom Tri Mini",
-          "image": "images/2rdesigns/phantom_tri_mini_titanium.jpg",
-          "dimensions": "47.6mm×47.6mm×17mm",
-          "weight": "67g",
-          "material": [
-            "Titanium"
-          ],
-          "button_size": "23mm"
-        },
-        {
-          "name": "Phantom Micro",
-          "image": "images/2rdesigns/phantom_micro_brass.jpg",
-          "dimensions": "36.5mm×19.3mm×11mm",
-          "weight": "37.14g",
-          "material": [
-            "Brass"
-          ],
-          "button_size": ".63\" (16mm)"
-        },
-        {
-          "name": "Phantom Micro",
-          "image": "images/2rdesigns/phantom_micro_copper.jpg",
-          "dimensions": "36.5mm×19.3mm×11mm",
-          "weight": "39.12g",
-          "material": [
-            "Copper"
-          ],
-          "button_size": ".63\" (16mm)"
-        },
-        {
-          "name": "Phantom Micro",
-          "image": "images/2rdesigns/phantom_micro_stainless_steel.jpg",
-          "dimensions": "36.5mm×19.3mm×11mm",
-          "weight": "37.14g",
-          "material": [
-            "Stainless Steel"
-          ],
-          "button_size": ".63\" (16mm)"
-        },
-        {
-          "name": "Phantom Micro",
-          "image": "images/2rdesigns/phantom_micro_titanium.jpg",
-          "dimensions": "36.5mm×19.3mm×11mm",
-          "weight": "24.38g",
-          "material": [
-            "Titanium"
-          ],
-          "button_size": ".63\" (16mm)"
-        },
-        {
-          "name": "Phantom Tri",
-          "image": "images/2rdesigns/phantom_tri_brass.jpg",
-          "dimensions": "60.3mm×2.375mm×18mm",
-          "weight": "185g",
-          "material": [
-            "Brass"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Tri",
-          "image": "images/2rdesigns/phantom_tri_copper.jpg",
-          "dimensions": "60.3mm×2.375mm×18mm",
-          "weight": "195g",
-          "material": [
-            "Copper"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Tri",
-          "image": "images/2rdesigns/phantom_tri_stainless_steel.jpg",
-          "dimensions": "60.3mm×2.375mm×18mm",
-          "weight": "173g",
-          "material": [
-            "Stainless Steel"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Tri",
-          "image": "images/2rdesigns/phantom_tri_titanium.jpg",
-          "dimensions": "60.3mm×2.375mm×18mm",
-          "weight": "100g",
-          "material": [
-            "Titanium"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Tri S",
-          "image": "images/2rdesigns/phantom_tri_s_brass.jpg",
-          "dimensions": "60.3mm×2.375mm×18mm",
-          "weight": "116g",
-          "material": [
-            "Brass"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Tri S",
-          "image": "images/2rdesigns/phantom_tri_s_copper.jpg",
-          "dimensions": "60.3mm×2.375mm×18mm",
-          "weight": "123g",
-          "material": [
-            "Copper"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Tri S",
-          "image": "images/2rdesigns/phantom_tri_s_stainless_steel.jpg",
-          "dimensions": "60.3mm×2.375mm×18mm",
-          "weight": "109g",
-          "material": [
-            "Stainless Steel"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Tri S",
-          "image": "images/2rdesigns/phantom_tri_s_titanium.jpg",
-          "dimensions": "60.3mm×2.375mm×18mm",
-          "weight": "63.5g",
-          "material": [
-            "Titanium"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Phantom Tri S",
-          "image": "images/2rdesigns/phantom_tri_s_tungsten.jpg",
-          "dimensions": "60.3mm×2.375mm×18mm",
-          "weight": "248g",
-          "material": [
-            "Tungsten"
-          ],
-          "button_size": "24.5mm"
-        },
-        {
-          "name": "Patriot",
-          "image": "images/2rdesigns/patriot_stainless_steel.jpg",
-          "dimensions": "47mm×29mmx10.52mm",
-          "weight": "100g",
-          "material": [
-            "Stainless Steel"
-          ]
-        },
-        {
-          "name": "Patriot",
-          "image": "images/2rdesigns/patriot_brass.jpg",
-          "dimensions": "47mm×29mmx10.52mm",
-          "weight": "0g",
-          "material": [
-            "Brass"
-          ]
-        },
-        {
-          "name": "Phantom SL V2",
-          "image": "images/2rdesigns/phantom_sl_v2_titanium.jpg",
-          "dimensions": "48mm×29.4mmx18.8mm",
-          "weight": "111g",
-          "material": [
-            "Titanium",
-            "Copper"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Full Throttle Originals",
-      "description": "I'm just one guy, in my garage, that's hoping to turn out some cool EDC gear. Self taught, with the help of some good people I've met through social media.",
-      "link": "https://www.facebook.com/groups/fullthrottleoriginals",
-      "image": "images/fto/fto.jpg",
-      "categories": [
-        "Spinners",
-        "Metal"
-      ]
-    },
-    {
-      "name": "SwankyNug",
-      "description": "Swanky Nug was created so I could share my beads and edc items. Swanky Nug is also a group for you to share your beads, lanyards, knives or anything edc.",
-      "link": "https://www.facebook.com/groups/794740862237176",
-      "image": "images/swankynug/swankynug.jpg",
-      "categories": [
-        "Beads"
-      ]
-    },
-    {
-      "name": "Metal Toys Dz.",
-      "description": "Funny things made by Metal Toys Dz. in China",
-      "link": "https://www.facebook.com/groups/dzedc",
-      "image": "images/metaltoysdz/metaltoysdz.jpg",
-      "categories": [
-        "Various"
-      ]
-    },
-    {
-      "name": "ATOMIC EDC",
-      "description": "Making things from resin since 2016",
-      "link": "https://www.facebook.com/groups/1600158530190160",
-      "image": "images/atomicedc/atomicedc.jpg",
-      "categories": [
-        "Beads"
-      ]
-    },
-    {
-      "name": "LIC edc",
-      "description": "A place to come together to discuss and share LIC edc products",
-      "link": "https://www.facebook.com/groups/licedc",
-      "image": "images/licedc/licedc.jpg",
-      "categories": [
-        "Spinners",
-        "Metal"
-      ]
-    },
-    {
-      "name": "ZZMPA",
-      "description": "ZZMPA products release, discussion and more.",
-      "link": "https://www.facebook.com/groups/zzmpa",
-      "image": "images/zzmpa/zzmpa.jpg",
-      "categories": [
-        "Spinners",
-        "Metal"
-      ]
-    },
-    {
-      "name": "Fidget Spinners Trading Post",
-      "description": "Just wanted to create a place where people can trade/sell spinners.",
-      "link": "https://www.facebook.com/groups/248777725537045",
-      "image": "images/fidgetspinnertradingpost/fidgetspinnertradingpost.jpg",
-      "categories": [
-        "B/S/T"
-      ]
-    },
-    {
-      "name": "Kladis3dstudio",
-      "description": "Showcasing our premium fidgets and upcoming creations! Kladis3dstudio on Etsy!",
-      "link": "https://www.facebook.com/groups/1263853424314983",
-      "image": "images/kladis/kladis.jpg",
-      "categories": [
-        "Sliders",
-        "Spinners",
-        "Spin Stick",
-        "Metal",
-        "3D Printed"
-      ]
-    },
-    {
-      "name": "TFS B/S/T",
-      "description": "The Fidget Syndicate B/S/T",
-      "link": "https://www.facebook.com/groups/1050581733137168",
-      "image": "images/tfsbst/tfsbst.jpg",
-      "categories": [
-        "B/S/T"
-      ]
-    },
-    {
-      "name": "MW BST",
-      "description": "This is a dedicated group in which you can post your Modusworks WTB, WTS, or WTT posts. ",
-      "link": "https://www.facebook.com/groups/1235788450124536",
-      "image": "images/mwbst/mwbst.jpg",
-      "categories": [
-        "B/S/T"
-      ]
-    },
-    {
-      "name": "NRG Xchange",
-      "description": "A place to obtain and exchange good NRG",
-      "link": "https://www.facebook.com/groups/855651136283528",
-      "image": "images/nrgx/nrgx.jpg",
-      "categories": [
-        "Beads"
-      ]
-    },
-    {
-      "name": "SpinFamBearings",
-      "description": "Spin Bearings",
-      "link": "https://www.facebook.com/groups/117540882283553",
-      "image": "images/spinfambearings/spinfambearings.jpg",
-      "categories": [
-        "Accessories"
-      ]
-    },
-    {
-      "name": "Flair Fidgets",
-      "description": "Welcome to a specialised branch of EDC fidget – 'Flair Fidgets.' We hope to ignite your interest in fancy fingertip spinners and sliders.",
-      "link": "https://www.facebook.com/groups/905317444419447",
-      "image": "images/flairfidgets/flairfidgets.jpg",
-      "categories": [
-        "Sliders",
-        "Metal"
-      ]
-    },
-    {
-      "name": "Impulse EDC",
-      "description": "Fidget toys for grown ass adults",
-      "link": "https://www.facebook.com/groups/688463760105650",
-      "image": "images/impulseedc/impulseedc.jpg",
-      "categories": [
-        "Various",
-        "Accessories"
-      ]
-    },
-    {
-      "name": "Vibe EDC",
-      "description": "High quality 3D printed Fidgets - with a difference. From the UK.",
-      "link": "https://www.facebook.com/groups/714243343885057",
-      "image": "images/vibeedc/vibeedc.jpg",
-      "categories": [
-        "Various",
-        "Accessories",
-        "Sliders",
-        "3D Printed"
-      ]
-    },
-    {
-      "name": "Lautie_EDC",
-      "description": "Lautie EDC Fidgets",
-      "link": "https://www.facebook.com/groups/975664195934487",
-      "image": "images/lautie/lautie.jpg",
-      "categories": [
-        "Various",
-        "Accessories",
-        "Sliders",
-        "Metal",
-        "Spinners"
-      ]
-    },
-    {
-      "name": "Unquiet Hands (UQH)",
-      "description": "The Unquiet Hands group is an exclusive area where you will have first hand access to our newest products, pre-orders, waiting lists, drops, giveaways, sales and more.",
-      "link": "https://www.facebook.com/groups/unquiethands",
-      "image": "images/uqh/uqh.jpg",
-      "categories": [
-        "Sliders",
-        "Metal",
-        "Spinners"
-      ]
-    },
-    {
-      "name": "Big White EDC",
-      "description": "Big White EDC FB Page",
-      "link": "https://www.facebook.com/groups/bigwhiteedc",
-      "image": "images/bigwhiteedc/bigwhiteedc.jpg",
-      "categories": [
-        "Various"
-      ]
-    },
-    {
-      "name": "Clean EDC",
-      "description": "Simple solutions for your EDC needs",
-      "link": "https://www.facebook.com/groups/cleanedc",
-      "image": "images/cleanedc/cleanedc.jpg",
-      "categories": [
-        "Spinners",
-        "Metal"
-      ]
-    },
-    {
-      "name": "KukoEDC",
-      "description": "Metal Sliders",
-      "link": "https://www.facebook.com/groups/1031858364578607",
-      "image": "images/kukoedc/kukoedc.jpg",
-      "categories": [
-        "Sliders",
-        "Metal"
-      ]
-    },
-    {
-      "name": "EDC Mokume",
-      "description": "This group is for Everything that you would EDC with Mokume involved!",
-      "link": "https://www.facebook.com/groups/EDCMokume",
-      "image": "images/edcmokume/edcmokume.jpg",
-      "categories": [
-        "Various"
-      ]
-    },
-    {
-      "name": "ORK metalworks EDC",
-      "description": "Titanium Damascus | Titanium | Zirconium | Superconductor",
-      "link": "https://www.facebook.com/groups/2774454759463394",
-      "image": "images/ork/ork.jpg",
-      "categories": [
-        "Various"
-      ]
-    },
-    {
-      "name": "Yucleus Studio",
-      "description": "Yucleus Studio - Fidgets and more!",
-      "link": "https://www.facebook.com/groups/yucleusstudio",
-      "image": "images/yucleus/yucleus.jpg",
-      "categories": [
-        "3D Printed"
-      ]
-    },
-    {
-      "name": "Spin Space - Hand & Fidget Spinners",
-      "description": "This is a friendly group that enjoys discussing spinners, EDC, and all things fidget related.",
-      "link": "https://www.facebook.com/groups/spinspace",
-      "image": "images/spinspace/spinspace.jpg",
-      "categories": [
-        "Various"
-      ]
-    },
-    {
-      "name": "EDC Zirc & Ti",
-      "description": "This group was created as a place dedicated to sharing your gear made from Zirconium and Titanium, and damascus materials including ZircuTi, Timascus, MokuTi and all other beautiful blends of the two metals.",
-      "link": "https://www.facebook.com/groups/507431908385184",
-      "image": "images/edczircti/edczircti.jpg",
-      "categories": [
-        "Various",
-        "Metal"
-      ]
-    },
-    {
-      "name": "NJT.EDC.FAMILY",
-      "description": "NJT Spinners",
-      "link": "https://www.facebook.com/groups/njt.edc",
-      "image": "images/njtedc/njtedc.jpg",
-      "categories": [
-        "Spinners",
-        "Metal"
-      ]
-    },
-    {
-      "name": "Pond Hopper EDC",
-      "description": "Pond Hopper EDC. Home of the first Modular Bead Keeper Design. (AFAIK) Creator of the Bead 'Totem' & the first bead holding Bit driver.",
-      "link": "https://www.facebook.com/groups/pondhopperedc",
-      "image": "images/pondhopper/pondhopper.jpg",
-      "categories": [
-        "Spin Stick"
-      ]
-    },
-    {
-      "name": "ZeroFeud LLC",
-      "description": "The Official Home of all ZeroFeud products",
-      "link": "https://www.facebook.com/groups/ZeroFeud",
-      "image": "images/zerofeud/zerofeud.jpg",
-      "categories": [
-        "Various"
-      ]
-    },
-    {
-      "name": "EDC Dama",
-      "description": "A place to showcase, and have fun discussions about all of your favorite Dama things, edc related.",
-      "link": "https://www.facebook.com/groups/959498652178150",
-      "image": "images/edcdama/edcdama.jpg",
-      "categories": [
-        "Various",
-        "Metal"
-      ]
-    },
-    {
-      "name": "Dynamic Inertia Tops",
-      "description": "This is the home group for Dynamic Inertia Tops - Custom precision spinning tops and more made by Gavin Sexton.",
-      "link": "https://www.facebook.com/groups/DynamicInertiaTops",
-      "image": "images/dynamicinertiatops/dynamicinertiatops.jpg",
-      "categories": [
-        "Tops",
-        "Spin Stick"
-      ]
-    },
-    {
-      "name": "BilletSPIN",
-      "description": "Everything needs to be made of metal! From pens and whistles to fidget items and spinning tops, we specialize in wide variety of EDC products.",
-      "link": "https://www.facebook.com/groups/391445661039396",
-      "image": "images/billetspin/billetspin.jpg",
-      "categories": [
-        "Tops",
-        "Beads",
-        "Metal"
-      ]
-    },
-    {
-      "name": "Edge Industries",
-      "description": "A page to share some of my custom metalwork projects all made on manual machinery.",
-      "link": "https://www.facebook.com/groups/181615592406838",
-      "image": "images/edgeindustries/edgeindustries.jpg",
-      "categories": [
-        "Tops",
-        "Metal"
-      ]
-    },
-    {
-      "name": "TwoEDC",
-      "description": "Hey, Fam. If you know me, you know I have a passion for trinkets of all sizes and materials.",
-      "link": "https://www.facebook.com/groups/TwoEDC",
-      "image": "images/twoedc/twoedc.jpg",
-      "categories": [
-        "Spinners",
-        "Metal"
-      ]
-    },
-    {
-      "name": "Pocket ART",
-      "description": "Pocket ART (Pocket Artifacts, Relics & Treasures)! This is an EDC fidgeters group for all those things that fall through the cracks on spinner and EDC groups.",
-      "link": "https://www.facebook.com/groups/PocketArtHQ",
-      "image": "images/pocketart/pocketart.jpg",
-      "categories": [
-        "Various"
-      ]
-    },
-    {
-      "name": "Kinetics Asia Pacific EDC",
-      "description": "Own factory maker , design and customization spinner and other EDC toys.",
-      "link": "https://www.facebook.com/groups/1940540282898296",
-      "image": "images/kap/kap.jpg",
-      "categories": [
-        "Spinners",
-        "Metal"
-      ]
-    },
-    {
-      "name": "SF Metal Alchemy",
-      "description": "The group is design for me (Sasa Fabrio/ Sasa SF) SF Custom Crafted EDC to post/sell/ and show off my metal work and leather work. I'll do first come first serve sales mostly.",
-      "link": "https://www.facebook.com/groups/646176282429334",
-      "image": "images/sasa/sasa.jpg",
-      "categories": [
-        "Spin Stick",
-        "Beads"
-      ]
-    },
-    {
-      "name": "SCAM Design",
-      "description": "I'm Scott McCoskery and SCAM Design is my label. The launch of this group coincides with the launch of my first 'real' product: The Torqbar.",
-      "link": "https://www.facebook.com/groups/1075373552503271",
-      "image": "images/scam/scam.jpg",
-      "categories": [
-        "Spinners",
-        "Metal"
-      ]
-    },
-    {
-      "name": "ACEdc Original",
-      "description": "Fidget Toys Forever",
-      "link": "https://www.facebook.com/groups/992576598131462",
-      "image": "images/acedc/acedc.jpg",
-      "categories": [
-        "Various"
-      ]
-    },
-    {
-      "name": "Blackdog Labs EDC",
-      "description": "Hey everyone! Here you will find a wonderful community of great people that enjoy Blackdog Labs products.",
-      "link": "https://www.facebook.com/groups/blackdogedc",
-      "image": "images/blackdoglabs/blackdoglabs.jpg",
-      "categories": [
-        "Sliders",
-        "Metal"
-      ]
-    },
-    {
-      "name": "EDC Marketplace",
-      "description": "Discuss, debate, buy and sell everything and anything goes as long as it is EDC related!",
-      "link": "https://www.facebook.com/groups/edcmp",
-      "image": "images/edcmarketplace/edcmarketplace.jpg",
-      "categories": [
-        "B/S/T"
-      ]
-    },
-    {
-      "name": "Fidgets Asia",
-      "description": "We mainly enjoy fidgets produced in Asia, but let's also enjoy spinners from other regions!! Let's all share and discuss our fidgets together.",
-      "link": "https://www.facebook.com/groups/3815502875352972",
-      "image": "images/fidgetsasia/fidgetsasia.jpg",
-      "categories": [
-        "Spinners",
-        "Metal"
-      ]
-    },
-    {
-      "name": "FeiFei Edc",
-      "description": "FeiFei Edc Spinners",
-      "link": "https://www.facebook.com/groups/695185935579996",
-      "image": "images/feifei/feifei.jpg",
-      "categories": [
-        "Spinners",
-        "Metal"
-      ]
-    },
-    {
-      "name": "GEEONE",
-      "description": "GEEONE Store Fidgets",
-      "link": "https://www.facebook.com/groups/geeoneedc",
-      "image": "images/geeone/geeone.jpg",
-      "categories": [
-        "Various"
-      ]
-    },
-    {
-      "name": "Layer Cake",
-      "description": "Beatrix Magnet Sliders & Beads",
-      "link": "https://www.facebook.com/groups/268017125338863",
-      "image": "images/layercake/layercake.jpg",
-      "categories": [
-        "Beads",
-        "Sliders",
-        "Metal"
-      ]
-    },
-    {
-      "name": "ZERO ONE EDC Fans Group",
-      "description": "ZERO ONE EDC Fidgets",
-      "link": "https://www.facebook.com/groups/1055411198365465",
-      "image": "images/01edc/01edc.jpg",
-      "categories": [
-        "Various"
-      ]
-    },
-    {
-      "name": "TK EDC",
-      "description": "TK EDC is an EDC brand from China. We specialize in designing various original Fidget Sliders with interchangeable embossed stickers to enhance playability.",
-      "link": "https://www.facebook.com/groups/538657211753334",
-      "image": "images/tkedc/tkedc.jpg",
-      "categories": [
-        "Various"
-      ]
-    },
-    {
-      "name": "Metal Moose",
-      "description": "Spinner accessories designed and machined in Kansas City Missouri.",
-      "link": "https://www.facebook.com/groups/481962044530765",
-      "image": "images/metalmoose/metalmoose.jpg",
-      "categories": [
-        "Accessories"
-      ]
-    },
-    {
-      "name": "SAKURA EDC",
-      "description": "I am an independent manufacturer of fidget toys.",
-      "link": "https://www.facebook.com/groups/550266240705770",
-      "image": "images/sakuraedc/sakuraedc.jpg",
-      "categories": [
-        "Sliders",
-        "3D Printed"
-      ]
-    },
-    {
-      "name": "lunisic limited",
-      "description": "Official group for Lunisic Ltd. EDC!",
-      "link": "https://www.facebook.com/groups/521643219887829",
-      "image": "images/lunisic/lunisic.jpg",
-      "categories": [
-        "Beads",
-        "Sliders"
-      ]
-    },
-    {
-      "name": "Bead Daddy EDC",
-      "description": "Making beads since '23.",
-      "link": "https://www.facebook.com/groups/beaddaddyedc",
-      "image": "images/beaddaddy/beaddaddy.jpg",
-      "categories": [
-        "Beads"
-      ]
-    },
-    {
-      "name": "Wyste",
-      "description": "I like to make whatever’s in my brain as accurately as I can in the tangible world",
-      "link": "https://www.facebook.com/groups/1149479535455454",
-      "image": "images/wyste/wyste.jpg",
-      "categories": [
-        "Beads",
-        "Various"
-      ]
-    },
-    {
-      "name": "Glow Man Dan",
-      "description": "Welcome to Glow Man Dan! Our little glowing corner of the interwebs. wonderfully bright creations using the best possible materials.",
-      "link": "https://www.facebook.com/groups/541703069833206",
-      "image": "images/glowmandan/glowmandan.jpg",
-      "categories": [
-        "Beads"
-      ]
-    },
-    {
-      "name": "Broken Art Custom Beads",
-      "description": "This is a group for the lanyard beads and various edc items made by me, Steve Foss.",
-      "link": "https://www.facebook.com/groups/580785019107990",
-      "image": "images/brokenart/brokenart.jpg",
-      "categories": [
-        "Beads"
-      ]
-    },
-    {
-      "name": "Sypit Designs",
-      "description": "Welcome to Sypit Designs fb group!",
-      "link": "https://www.facebook.com/groups/3225412134184431",
-      "image": "images/sypit/sypit.jpg",
-      "categories": [
-        "Beads"
-      ]
-    },
-    {
-      "name": "Light Matter Group",
-      "description": "I finally decided to create a group dedicated to discussing my work and also create a place where anyone that is interested can buy some of my pieces.",
-      "link": "https://www.facebook.com/groups/lightmatter",
-      "image": "images/lightmatter/lightmatter.jpg",
-      "categories": [
-        "Beads",
-        "Tops"
-      ]
-    },
-    {
-      "name": "Armstrong Metal Works",
-      "description": "My name is Winfield C Armstrong II. I'm a 3rd generation manual machinist that has become a full time maker of the art you see here. I make various things completely manually and out of about anything I can get my hands on.",
-      "link": "https://www.facebook.com/groups/2108999082719233",
-      "image": "images/armstrongmetalworks/armstrongmetalworks.jpg",
-      "categories": [
-        "Beads"
-      ]
-    },
-    {
-      "name": "Beads and Totems",
-      "description": "This is for all makers and collectors of EDC Beads and Totems!",
-      "link": "https://www.facebook.com/groups/923583209737371",
-      "image": "images/beadsandtotems/beadsandtotems.jpg",
-      "categories": [
-        "Beads",
-        "Spin Stick"
-      ]
-    },
-    {
-      "name": "Hebert's Creations and waffles",
-      "description": "Welcome to Hebert's Creations. i make custom Beads , keychain's , resin Creations and I waffle olights , edc gear , knives and silver coin's.",
-      "link": "https://www.facebook.com/groups/535731391751370",
-      "image": "images/hebertscreations/hebertscreations.jpg",
-      "categories": [
-        "Beads"
-      ]
-    },
-    {
-      "name": "Salt & Peppa EDC",
-      "description": "Handmade leather, beads, and sometimes other EDC items made by Jøhn. Come share your carry.",
-      "link": "https://www.facebook.com/groups/847093079406393",
-      "image": "images/saltandpeppa/saltandpeppa.jpg",
-      "categories": [
-        "Beads",
-        "Spin Stick"
-      ]
-    },
-    {
-      "name": "Dub-Tac Gear",
-      "description": "This is a place where you can come meet some awesome people in the EDC community I try to do drops once a week either FCFS, lotto, or a game with paid for spots",
-      "link": "https://www.facebook.com/groups/2918525928465410",
-      "image": "images/dubtacgear/dubtacgear.jpg",
-      "categories": [
-        "Beads"
-      ]
-    },
-    {
-      "name": "Proxy EDC Fidgets",
-      "description": "Any latest information about the release of ProxyEDC.",
-      "link": "https://www.facebook.com/groups/proxyedc",
-      "image": "images/proxyedc/proxyedc.jpg",
-      "categories": [
-        "Various"
-      ]
-    },
-    {
-      "name": "MonoSkate",
-      "description": "EDC brand-MonoSkate.",
-      "link": "https://www.facebook.com/groups/1245068629705144",
-      "image": "images/monoskate/monoskate.jpg",
-      "categories": [
-        "Spinners",
-        "Metal"
-      ]
-    },
-    {
-      "name": "Aurora EDC",
-      "description": "Welcome to Aurora EDC! Feel free to join the conversation, share your thoughts and connect with fellow fidgeters.",
-      "link": "https://www.facebook.com/groups/1055760682415300",
-      "image": "images/auroraedc/auroraedc.jpg",
-      "categories": [
-        "Sliders",
-        "3D Printed"
-      ]
-    },
-    {
-      "name": "GAZ edc",
-      "description": "Hello! This is GAZ, who makes fidgets as a hobby in Korea. If you are interested in GAZ edc spinner, please apply to join the group.",
-      "link": "https://www.facebook.com/groups/1120014425751635",
-      "image": "images/gazedc/gazedc.jpg",
-      "categories": [
-        "Spinners",
-        "Metal"
-      ]
-    },
-    {
-      "name": "KnowBrains Design",
-      "description": "I’ve heard that Facebook groups are where the true EDC fans come for the best of the best. Hopefully I can be part of that community. It's a WIP so bear with me and thanks for tagging along.",
-      "link": "https://www.facebook.com/groups/374427195543104",
-      "image": "images/knowbrains/knowbrains.jpg",
-      "categories": [
-        "Beads"
-      ]
-    },
-    {
-      "name": "FocusWorks EDC",
-      "description": "FocusWorks EDC specializes in seamlessly machining some of the highest quality everyday carry gear in the modern market.",
-      "link": "https://www.facebook.com/groups/focusworks",
-      "image": "images/focusworks/focusworks.jpg",
-      "categories": [
-        "Spinners",
-        "Metal"
-      ]
-    },
-    {
-      "name": "Spinetic / Finetic",
-      "description": "Welcome to the Spinetic Spinners and Finetic EDC group.",
-      "link": "https://www.facebook.com/groups/1085435654882964",
-      "image": "images/spineticfinetic/spineticfinetic.jpg",
-      "categories": [
-        "Various"
-      ]
-    },
-    {
-      "name": "Tungsten the Fabulous! [W]",
-      "description": "A group for tungsten EDC “Every Day Carry” enthusiasts. Come join & show off your [W] gear",
-      "link": "https://www.facebook.com/groups/110130576553396",
-      "image": "images/tungsten/tungsten.jpg",
-      "categories": [
-        "Spinners",
-        "Metal"
-      ]
-    },
-    {
-      "name": "EDC coins, beads and tags by Mark Storm",
-      "description": "Handmade coins, beads and other edc stuff. I will do regular drops, so stay tuned!",
-      "link": "https://www.facebook.com/groups/189538499934172",
-      "image": "images/edccoins/edccoins.jpg",
-      "categories": [
-        "Various"
-      ]
-    },
-    {
-      "name": "Fidget Manufactur",
-      "description": "High quality 3d printed fidgetslider - made in Germany",
-      "link": "https://www.facebook.com/groups/3413410405590549",
-      "image": "images/fidgetmfg/fidgetmfg.jpg",
-      "categories": [
-        "Spinners",
-        "3D Printed"
-      ]
-    },
-    {
-      "name": "M3 Metal Creations",
-      "description": "Dedicated to the hobby of collecting and making spinners and tops.",
-      "link": "https://www.facebook.com/groups/M3MetalCreations",
-      "image": "images/m3metalcreations/m3metalcreations.jpg",
-      "categories": [
-        "Spinners",
-        "Metal",
-        "Tops"
-      ]
-    },
-    {
-      "name": "VArt",
-      "description": "Beautiful Tops",
-      "link": "https://www.facebook.com/groups/259489658373632",
-      "image": "images/vart/vart.jpg",
-      "categories": [
-        "Tops"
-      ]
-    },
-    {
-      "name": "Spin Beads Werk",
-      "description": "For orders, just send me a message to Spin Beads Werk.",
-      "link": "https://www.facebook.com/groups/931789878798405",
-      "image": "images/spinbeadswerk/spinbeadswerk.jpg",
-      "categories": [
-        "Spin Stick",
-        "3D Printed"
-      ]
-    },
-    {
-      "name": "Official Lautie Buy/Sell/Trade Exchange",
-      "description": "This is a place for Lautie collectors to Exchange items for resale and trade. This is not a general sale group and is only for Lautie products.",
-      "link": "https://www.facebook.com/groups/1938140130003531",
-      "image": "images/lautiebst/lautiebst.jpg",
-      "categories": [
-        "B/S/T"
-      ]
-    },
-    {
-      "name": "Outbreak Beads",
-      "description": "Outbreak Beads Specializes in high quality handmade beads and other EDC gear.",
-      "link": "https://www.facebook.com/groups/5095521500475488",
-      "image": "images/outbreakbeads/outbreakbeads.jpg",
-      "categories": [
-        "Beads"
-      ]
-    },
-    {
-      "name": "Ziii Studio",
-      "description": "Metal Spinners",
-      "link": "https://www.facebook.com/groups/991313931927888",
-      "image": "images/ziiistudio/ziiistudio.jpg",
-      "categories": [
-        "Spinners",
-        "Metal"
-      ]
-    },
-    {
-      "name": "SPACE RELIC CREATIONS",
-      "description": "I make resin blanks,Resin Art and hand crafted EDC lanyard beads.",
-      "link": "https://www.facebook.com/groups/261726516550259",
-      "image": "images/spacereliccreations/spacereliccreations.jpg",
-      "categories": [
-        "Beads"
-      ]
-    },
-    {
-      "name": "Sacred Spins",
-      "description": "Kinetic art for a changing world. Custom anodizing/flame oxidizing of titanium, tungsten & zirconium",
-      "link": "https://www.facebook.com/groups/sacredspins",
-      "image": "images/sacredspins/sacredspins.jpg",
-      "categories": [
-        "Spinners",
-        "Metal"
-      ]
-    },
-    {
-      "name": "Pose Blades",
-      "description": "Metal Spinners",
-      "link": "https://www.facebook.com/groups/196193527539474",
-      "image": "images/poseblades/poseblades.jpg",
-      "categories": [
-        "Spinners",
-        "Metal"
-      ]
-    },
-    {
-      "name": "Metal Morphosis",
-      "description": "Metal Morphosis was created by Phillip Atchison for the custom finish work and other EDC items that are made.",
-      "link": "https://www.facebook.com/groups/1908986102692920",
-      "image": "images/metalmorphosis/metalmorphosis.jpg",
-      "categories": [
-        "Beads"
-      ]
-    },
-    {
-      "name": "Harpuahound Studio",
-      "description": "We hope you hang around awhile, CHILL, sign up for some Chill Pills, shop the website and enjoy all the awesome members and their posts enjoying their Harpuahound treasure.",
-      "link": "https://www.facebook.com/groups/1908986102692920",
-      "image": "images/harpuahound/harpuahound.jpg",
-      "categories": [
-        "Metal"
-      ]
-    },
-    {
-      "name": "Bead Wizards",
-      "description": "Beads!",
-      "link": "https://www.facebook.com/groups/1564540784381387",
-      "image": "images/beadwizard/beadwizard.jpg",
-      "categories": [
-        "Beads"
-      ]
-    },
-    {
-      "name": "3D Fidget Hub",
-      "description": "A place for 3D fidget makers and buyers to post and promote their work and purchases.",
-      "link": "https://www.facebook.com/groups/1087486599544956",
-      "image": "images/3dfidgethub/3dfidgethub.jpg",
-      "categories": [
-        "3D Printed"
-      ]
-    },
-    {
-      "name": "Cutpunchsew",
-      "description": "Welcome to the group! Amongst others, this is a place where I present all kind of new ideas and finished products.",
-      "link": "https://www.facebook.com/groups/1602061123421383",
-      "image": "images/cutpunchsew/cutpunchsew.jpg",
-      "categories": [
-        "Accessories"
-      ]
-    },
-    {
-      "name": "Axiom EDC",
-      "description": "Welcome to the home of the Axiom EDC. This is a place to discuss, share, and learn more about our products!",
-      "link": "https://www.facebook.com/groups/1432609956845812",
-      "image": "images/axiomedc/axiomedc.jpg",
-      "categories": [
-        "Spinners",
-        "Metal",
-        "Various"
-      ]
-    },
-    {
-      "name": "Otter EDC Den",
-      "description": "The Otter EDC Den is a place to discuss your Otter EDC products.",
-      "link": "https://www.facebook.com/groups/otteredcden",
-      "image": "images/otteredc/otteredc.jpg",
-      "categories": [
-        "Sliders",
         "3D Printed",
-        "Accessories"
-      ]
-    },
-    {
-      "name": "TLC EDC",
-      "description": "custom pouches and experimental fidgets inspired by entropy and nature",
-      "link": "https://www.facebook.com/groups/2285040788517616",
-      "image": "images/tlcedc/tlcedc.jpg",
-      "categories": [
-        "Sliders",
-        "3D Printed"
-      ]
-    },
-    {
-      "name": "SAKURA EDC BST",
-      "description": "This is a BST(Buy Sell Trade) group exclusively for SAKURA EDC products.",
-      "link": "https://www.facebook.com/groups/881552127341855",
-      "image": "images/sakuraedcbst/sakuraedcbst.jpg",
-      "categories": [
-        "B/S/T"
-      ]
-    },
-    {
-      "name": "SpinningTopTom",
-      "description": "The official SpinningTopTom Facebook group is made for spinning top enthusiasts.",
-      "link": "https://www.facebook.com/groups/spinningtoptom",
-      "image": "images/spinningtoptom/spinningtoptom.jpg",
-      "categories": [
+        "Accessories",
+        "Spin Stick",
+        "B/S/T",
+        "Various",
         "Tops"
-      ]
-    },
-    {
-      "name": "Spin designs by Cami",
-      "description": "I am Cami. I am a machinist who loves to design and make things that spin. I hope you enjoy my ideas also.",
-      "link": "https://www.facebook.com/groups/SpinDesignsbyCami",
-      "image": "images/spindesignsbycami/spindesignsbycami.jpg",
-      "categories": [
-        "Spinners",
-        "Metal"
-      ]
-    },
-    {
-      "name": "Mind Goblin",
-      "description": "A collection of things crafted by hand for your daily use and enjoyment",
-      "link": "https://www.facebook.com/groups/1597705330739486",
-      "image": "images/mindgoblin/mindgoblin.jpg",
-      "categories": [
-        "Beads"
-      ]
-    }
-  ]
+    ],
+    "groups": [
+        {
+            "name": "WiscoWorx Creations",
+            "description": "Handmade EDC gear and beads made in USA! Specializing in things that GLOW!",
+            "link": "https://www.facebook.com/groups/1724581070989737",
+            "image": "images/wiscoworx/wiscoworx.jpg",
+            "categories": [
+                "Beads"
+            ]
+        },
+        {
+            "name": "out of office objects",
+            "description": "Welcome to out of office objects (oooobjects.)",
+            "link": "https://www.facebook.com/groups/oooobjects",
+            "image": "images/oooobjects/oooobjects.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ],
+            "fidgets": [
+                {
+                    "name": "Short Story",
+                    "image": "images/oooobjects/short_story_tungsten.jpg",
+                    "dimensions": "40.6×22.6×13.5mm",
+                    "weight": "149g",
+                    "material": [
+                        "tungsten"
+                    ],
+                    "button_size": "20mm"
+                }
+            ]
+        },
+        {
+            "name": "Illwill Industries",
+            "description": "This is a group for updates and drop from Illwill Industries",
+            "link": "https://www.facebook.com/groups/2209809899355496",
+            "image": "images/illwill/illwill.jpg",
+            "categories": [
+                "Spin Stick",
+                "3D Printed"
+            ]
+        },
+        {
+            "name": "MM3D",
+            "description": "MercadoMakes3D 3D printed trays for fidgets and more!",
+            "link": "https://www.facebook.com/groups/1607259706699878",
+            "image": "images/mm3d/mm3d.jpg",
+            "categories": [
+                "Accessories"
+            ]
+        },
+        {
+            "name": "The Daily Fidget",
+            "description": "This is a friendly group that enjoys discussing spinners, EDC, and all things fidget related.",
+            "link": "https://www.facebook.com/groups/TheDailyFidget",
+            "image": "images/tdf/tdf.jpg",
+            "categories": [
+                "Various"
+            ]
+        },
+        {
+            "name": "Modusworks Family",
+            "description": "A place to post and discuss your Modusworks products! Info about the products posted by Jonas Nix, the owner, designer, machinist, and floor sweeper of Modusworks.",
+            "link": "https://www.facebook.com/groups/TheDailyFidget",
+            "image": "images/mw/mw.jpg",
+            "categories": [
+                "Sliders",
+                "Metal"
+            ]
+        },
+        {
+            "name": "The Marketplace [Spin Space BST]",
+            "description": "Welcome to the BST group for Spin Space!",
+            "link": "https://www.facebook.com/groups/spinspacemarketplace",
+            "image": "images/ssbst/ssbst.jpg",
+            "categories": [
+                "B/S/T"
+            ]
+        },
+        {
+            "name": "Fidget Spot",
+            "description": "This is a friendly group that enjoys discussing all things fidget related.",
+            "link": "https://www.facebook.com/groups/FidgetSpot",
+            "image": "images/fidgetspot/fidgetspot.jpg",
+            "categories": [
+                "Various"
+            ]
+        },
+        {
+            "name": "The Daily Fidget Marketplace",
+            "description": "Welcome to the BST group for The Daily Fidget!",
+            "link": "https://www.facebook.com/groups/TheDailyFidgetMarketplace",
+            "image": "images/tdfbst/tdfbst.jpg",
+            "categories": [
+                "Various",
+                "B/S/T"
+            ]
+        },
+        {
+            "name": "Magnus Fidgets",
+            "description": "A place to discuss all the newest fidgets made by Magnus.",
+            "link": "https://www.facebook.com/groups/magnusedc",
+            "image": "images/magnus/magnus.jpg",
+            "categories": [
+                "Sliders",
+                "Spinners",
+                "Metal"
+            ]
+        },
+        {
+            "name": "CompoForm",
+            "description": "A place to discuss compoform fidgets",
+            "link": "https://www.facebook.com/groups/CompoForm",
+            "image": "images/compoform/compoform.jpg",
+            "categories": [
+                "Sliders",
+                "Spinners",
+                "Metal"
+            ]
+        },
+        {
+            "name": "Wizard EDC",
+            "description": "Maker of every day carry (EDC) Products.",
+            "link": "https://www.facebook.com/groups/917080893276458",
+            "image": "images/wizardedc/wizardedc.jpg",
+            "categories": [
+                "Spin Stick",
+                "Beads"
+            ]
+        },
+        {
+            "name": "EDC Cartel",
+            "description": "A multibrand store of fidget toys and edc gear products. Edc Cartel will be introducing a variety of brands from different makers we will be also accommodating collectors if they need specific fidget via pm’s.",
+            "link": "https://www.facebook.com/groups/2104022436462512",
+            "image": "images/edccartel/edccartel.jpg",
+            "categories": [
+                "Various"
+            ]
+        },
+        {
+            "name": "FidgetThings",
+            "description": "Group for Updates and Drops of projects that FidgetThings is currently working on.",
+            "link": "https://www.facebook.com/groups/1114614522653569",
+            "image": "images/fidgetthings/fidgetthings.jpg",
+            "categories": [
+                "Various"
+            ]
+        },
+        {
+            "name": "playforbeans",
+            "description": "playforbeans encapsulates a team of 5 individuals who crossed paths through happenstance. We all decided to embark on a journey and discovered the world and communities of Fidgets and EDC.",
+            "link": "https://www.facebook.com/groups/playforbeans",
+            "image": "images/playforbeans/playforbeans.jpg",
+            "categories": [
+                "Various"
+            ]
+        },
+        {
+            "name": "FidgetBoy",
+            "description": "Welcome to all things FidgetBoy! Share your thoughts, experiences, ideas, and so on. This is a group dedicated to the world of FidgetBoy products.",
+            "link": "https://www.facebook.com/groups/3627297087595447",
+            "image": "images/fidgetboy/fidgetboy.jpg",
+            "categories": [
+                "Sliders",
+                "Spinners",
+                "Metal",
+                "3D Printed"
+            ]
+        },
+        {
+            "name": "Rayge3D",
+            "description": "This is where I'll show off new items made, works in progress or exclusive items I wont sell anywhere else!",
+            "link": "https://www.facebook.com/groups/220312357305134",
+            "image": "images/rayge3d/rayge3d.jpg",
+            "categories": [
+                "Sliders",
+                "3D Printed"
+            ]
+        },
+        {
+            "name": "Wiscoworx BST",
+            "description": "Group's purpose is to clean up the main page and have this one dedicated to buy, sell, or trade WiscoWorx products.",
+            "link": "https://www.facebook.com/groups/308637225609638",
+            "image": "images/wiscoworxbst/wiscoworxbst.jpg",
+            "categories": [
+                "Beads",
+                "B/S/T"
+            ]
+        },
+        {
+            "name": "FidgetBoy BST",
+            "description": "FidgetBoy BST",
+            "link": "https://www.facebook.com/groups/675647824649082",
+            "image": "images/fidgetboybst/fidgetboybst.jpg",
+            "categories": [
+                "B/S/T"
+            ]
+        },
+        {
+            "name": "Magnus BST",
+            "description": "Please feel welcome to buy, sell, or trade for Magnus brand EDC items",
+            "link": "https://www.facebook.com/groups/magnusedcbst",
+            "image": "images/magnusbst/magnusbst.jpg",
+            "categories": [
+                "B/S/T"
+            ]
+        },
+        {
+            "name": "Drake's Machining Customs",
+            "description": "Hello, Welcome to DMC, I make different EDC items, however my main thing lately has been Spinner Buttons.",
+            "link": "https://www.facebook.com/groups/909797384484464",
+            "image": "images/dmc/dmc.jpg",
+            "categories": [
+                "Accessories",
+                "Metal"
+            ]
+        },
+        {
+            "name": "The Fidget Syndicate",
+            "description": "Dedicated to further spreading the simple joy of the small things.",
+            "link": "https://www.facebook.com/groups/412838014538946",
+            "image": "images/fidgetsyndicate/fidgetsyndicate.jpg",
+            "categories": [
+                "Sliders",
+                "3D Printed"
+            ]
+        },
+        {
+            "name": "Prometheus EDC",
+            "description": "Hand finished pocket trash.",
+            "link": "https://www.facebook.com/groups/1135732747817366",
+            "image": "images/prometheusedc/prometheusedc.jpg",
+            "categories": [
+                "Beads"
+            ]
+        },
+        {
+            "name": "iNDY THiCC EDC",
+            "description": "EDC creations of the Thicc variety . Designed in Indy and made in Tennessee USA.",
+            "link": "https://www.facebook.com/groups/1434708357478664",
+            "image": "images/indythicc/indythicc.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ],
+            "fidgets": [
+                {
+                    "name": "Chelsea SF",
+                    "image": "images/indythicc/chealseasf_zirc.jpg",
+                    "dimensions": "50x27x18mm",
+                    "weight": "130g",
+                    "material": [
+                        "Zirconium"
+                    ]
+                },
+                {
+                    "name": "Chelsea SF",
+                    "image": "images/indythicc/chealseasf_ti.jpg",
+                    "dimensions": "50x27x18mm",
+                    "weight": "90g",
+                    "material": [
+                        "Titanium"
+                    ]
+                },
+                {
+                    "name": "Chelsea SFT",
+                    "image": "images/indythicc/chealseasft_ss.jpg",
+                    "dimensions": "50x27x20mm",
+                    "weight": "101g",
+                    "material": [
+                        "Stainless Steel"
+                    ]
+                },
+                {
+                    "name": "Chelsea SFT",
+                    "image": "images/indythicc/chealseasft_bronze.jpg",
+                    "dimensions": "50x27x20mm",
+                    "weight": "96g",
+                    "material": [
+                        "Bronze"
+                    ]
+                },
+                {
+                    "name": "Chelsea SFT",
+                    "image": "images/indythicc/chealseasft_copper.jpg",
+                    "dimensions": "50x27x20mm",
+                    "weight": "115g",
+                    "material": [
+                        "Copper"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Greedy EDC",
+            "description": "Daniel Graves and Nich Sloan are 2 EDC aficionados working to bring unique EDC beads to meet your needs.",
+            "link": "https://www.facebook.com/groups/greedyedc",
+            "image": "images/greedyedc/greedyedc.jpg",
+            "categories": [
+                "Beads"
+            ]
+        },
+        {
+            "name": "2R Designs EDC",
+            "description": "A place to talk about 2R Designs EDC products.",
+            "link": "https://www.facebook.com/groups/1895173964037412",
+            "image": "images/2rdesigns/2rdesigns.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ],
+            "fidgets": [
+                {
+                    "name": "Phantom Micro Chubby Tungsten",
+                    "image": "images/2rdesigns/phantom_micro_chubby_-_tungsten_tungsten.jpg",
+                    "dimensions": "36.5mm×19.3mm×10mm",
+                    "weight": "150g",
+                    "material": [
+                        "Tungsten"
+                    ],
+                    "button_size": "16mm"
+                },
+                {
+                    "name": "Phantom Mini Chubby Tungsten",
+                    "image": "images/2rdesigns/phantom_mini_chubby_-_tungsten_tungsten.jpg",
+                    "dimensions": "48mm × 29mm × 16mm",
+                    "weight": "327g",
+                    "material": [
+                        "Tungsten"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Mini Chubby",
+                    "image": "images/2rdesigns/phantom_mini_chubby_stainless_steel.jpg",
+                    "dimensions": "48mm×29mm×16mm",
+                    "weight": "147g",
+                    "material": [
+                        "Stainless Steel"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Mini Chubby",
+                    "image": "images/2rdesigns/phantom_mini_chubby_titanium.jpg",
+                    "dimensions": "48mm×29mm×16mm",
+                    "weight": "82g",
+                    "material": [
+                        "Titanium"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Xl Tungsten",
+                    "image": "images/2rdesigns/phantom_xl_-_tungsten_tungsten.jpg",
+                    "dimensions": "66mm×33.27mm×16.8mm",
+                    "weight": "348g",
+                    "material": [
+                        "Tungsten"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Mini Chubby Mokume",
+                    "image": "images/2rdesigns/phantom_mini_chubby_mokume_mokume.jpg",
+                    "dimensions": "48mm×29mm×16mm",
+                    "weight": "157g",
+                    "material": [
+                        "Mokume"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Dank Blank Phantom Mini Chubby",
+                    "image": "images/2rdesigns/dank_blank_-_phantom_mini_chubby_resin.jpg",
+                    "dimensions": "48mm×29mm×16mm",
+                    "weight": "23g",
+                    "material": [
+                        "Resin"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Chubby Mini Aluminum",
+                    "image": "images/2rdesigns/phantom_chubby_mini_aluminum_aluminum.jpg",
+                    "dimensions": "48mm×29mm×16mm",
+                    "weight": "53g",
+                    "material": [
+                        "Aluminum"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Mini S V2",
+                    "image": "images/2rdesigns/phantom_mini_s_v2_brass.jpg",
+                    "dimensions": "47.6mm×29.3mm×17mm",
+                    "weight": "83g",
+                    "material": [
+                        "Brass"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Mini S V2",
+                    "image": "images/2rdesigns/phantom_mini_s_v2_copper.jpg",
+                    "dimensions": "47.6mm×29.3mm×17mm",
+                    "weight": "87g",
+                    "material": [
+                        "Copper"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Mini S V2",
+                    "image": "images/2rdesigns/phantom_mini_s_v2_stainless_steel.jpg",
+                    "dimensions": "47.6mm×29.3mm×17mm",
+                    "weight": "76g",
+                    "material": [
+                        "Stainless Steel"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Mini S V2",
+                    "image": "images/2rdesigns/phantom_mini_s_v2_titanium.jpg",
+                    "dimensions": "47.6mm×29.3mm×17mm",
+                    "weight": "44g",
+                    "material": [
+                        "Titanium"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Mini S V2 Tungsten",
+                    "image": "images/2rdesigns/phantom_mini_s_v2_tungsten_tungsten.jpg",
+                    "dimensions": "47.6mm × 29.3mm × 17mm",
+                    "weight": "174g",
+                    "material": [
+                        "Tungsten"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Mini S V2 Tungsten",
+                    "image": "images/2rdesigns/phantom_mini_s_v2_tungsten_tungsten.jpg",
+                    "dimensions": "47.6mm × 29.3mm × 17mm",
+                    "weight": "112g",
+                    "material": [
+                        "Tungsten"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Mini S V2 Tungsten",
+                    "image": "images/2rdesigns/phantom_mini_s_v2_tungsten_tungsten.jpg",
+                    "dimensions": "47.6mm × 29.3mm × 17mm",
+                    "weight": "62g",
+                    "material": [
+                        "Tungsten"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Xls",
+                    "image": "images/2rdesigns/phantom_xls_brass.jpg",
+                    "dimensions": "66mm×33.27mm×16.8mm",
+                    "weight": "108.87g",
+                    "material": [
+                        "Brass"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Xls",
+                    "image": "images/2rdesigns/phantom_xls_copper.jpg",
+                    "dimensions": "66mm×33.27mm×16.8mm",
+                    "weight": "114.55g",
+                    "material": [
+                        "Copper"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Xls",
+                    "image": "images/2rdesigns/phantom_xls_stainless_steel.jpg",
+                    "dimensions": "66mm×33.27mm×16.8mm",
+                    "weight": "101.93g",
+                    "material": [
+                        "Stainless Steel"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Xls",
+                    "image": "images/2rdesigns/phantom_xls_titanium.jpg",
+                    "dimensions": "66mm×33.27mm×16.8mm",
+                    "weight": "58.10g",
+                    "material": [
+                        "Titanium"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Xl",
+                    "image": "images/2rdesigns/phantom_xl_brass.jpg",
+                    "dimensions": "66mm×33.27mm×16.8mm",
+                    "weight": "167.77g",
+                    "material": [
+                        "Brass"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Xl",
+                    "image": "images/2rdesigns/phantom_xl_copper.jpg",
+                    "dimensions": "66mm×33.27mm×16.8mm",
+                    "weight": "176.58g",
+                    "material": [
+                        "Copper"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Xl",
+                    "image": "images/2rdesigns/phantom_xl_stainless_steel.jpg",
+                    "dimensions": "66mm×33.27mm×16.8mm",
+                    "weight": "157g",
+                    "material": [
+                        "Stainless Steel"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Xl",
+                    "image": "images/2rdesigns/phantom_xl_titanium.jpg",
+                    "dimensions": "66mm×33.27mm×16.8mm",
+                    "weight": "89.02g",
+                    "material": [
+                        "Titanium"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Tri Mini",
+                    "image": "images/2rdesigns/phantom_tri_mini_brass.jpg",
+                    "dimensions": "47.6mm×47.6mm×17mm",
+                    "weight": "123g",
+                    "material": [
+                        "Brass"
+                    ],
+                    "button_size": "23mm"
+                },
+                {
+                    "name": "Phantom Tri Mini",
+                    "image": "images/2rdesigns/phantom_tri_mini_copper.jpg",
+                    "dimensions": "47.6mm×47.6mm×17mm",
+                    "weight": "130g",
+                    "material": [
+                        "Copper"
+                    ],
+                    "button_size": "23mm"
+                },
+                {
+                    "name": "Phantom Tri Mini",
+                    "image": "images/2rdesigns/phantom_tri_mini_stainless_steel.jpg",
+                    "dimensions": "47.6mm×47.6mm×17mm",
+                    "weight": "116g",
+                    "material": [
+                        "Stainless Steel"
+                    ],
+                    "button_size": "23mm"
+                },
+                {
+                    "name": "Phantom Tri Mini",
+                    "image": "images/2rdesigns/phantom_tri_mini_titanium.jpg",
+                    "dimensions": "47.6mm×47.6mm×17mm",
+                    "weight": "67g",
+                    "material": [
+                        "Titanium"
+                    ],
+                    "button_size": "23mm"
+                },
+                {
+                    "name": "Phantom Micro",
+                    "image": "images/2rdesigns/phantom_micro_brass.jpg",
+                    "dimensions": "36.5mm×19.3mm×11mm",
+                    "weight": "37.14g",
+                    "material": [
+                        "Brass"
+                    ],
+                    "button_size": ".63\" (16mm)"
+                },
+                {
+                    "name": "Phantom Micro",
+                    "image": "images/2rdesigns/phantom_micro_copper.jpg",
+                    "dimensions": "36.5mm×19.3mm×11mm",
+                    "weight": "39.12g",
+                    "material": [
+                        "Copper"
+                    ],
+                    "button_size": ".63\" (16mm)"
+                },
+                {
+                    "name": "Phantom Micro",
+                    "image": "images/2rdesigns/phantom_micro_stainless_steel.jpg",
+                    "dimensions": "36.5mm×19.3mm×11mm",
+                    "weight": "37.14g",
+                    "material": [
+                        "Stainless Steel"
+                    ],
+                    "button_size": ".63\" (16mm)"
+                },
+                {
+                    "name": "Phantom Micro",
+                    "image": "images/2rdesigns/phantom_micro_titanium.jpg",
+                    "dimensions": "36.5mm×19.3mm×11mm",
+                    "weight": "24.38g",
+                    "material": [
+                        "Titanium"
+                    ],
+                    "button_size": ".63\" (16mm)"
+                },
+                {
+                    "name": "Phantom Tri",
+                    "image": "images/2rdesigns/phantom_tri_brass.jpg",
+                    "dimensions": "60.3mm×2.375mm×18mm",
+                    "weight": "185g",
+                    "material": [
+                        "Brass"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Tri",
+                    "image": "images/2rdesigns/phantom_tri_copper.jpg",
+                    "dimensions": "60.3mm×2.375mm×18mm",
+                    "weight": "195g",
+                    "material": [
+                        "Copper"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Tri",
+                    "image": "images/2rdesigns/phantom_tri_stainless_steel.jpg",
+                    "dimensions": "60.3mm×2.375mm×18mm",
+                    "weight": "173g",
+                    "material": [
+                        "Stainless Steel"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Tri",
+                    "image": "images/2rdesigns/phantom_tri_titanium.jpg",
+                    "dimensions": "60.3mm×2.375mm×18mm",
+                    "weight": "100g",
+                    "material": [
+                        "Titanium"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Tri S",
+                    "image": "images/2rdesigns/phantom_tri_s_brass.jpg",
+                    "dimensions": "60.3mm×2.375mm×18mm",
+                    "weight": "116g",
+                    "material": [
+                        "Brass"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Tri S",
+                    "image": "images/2rdesigns/phantom_tri_s_copper.jpg",
+                    "dimensions": "60.3mm×2.375mm×18mm",
+                    "weight": "123g",
+                    "material": [
+                        "Copper"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Tri S",
+                    "image": "images/2rdesigns/phantom_tri_s_stainless_steel.jpg",
+                    "dimensions": "60.3mm×2.375mm×18mm",
+                    "weight": "109g",
+                    "material": [
+                        "Stainless Steel"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Tri S",
+                    "image": "images/2rdesigns/phantom_tri_s_titanium.jpg",
+                    "dimensions": "60.3mm×2.375mm×18mm",
+                    "weight": "63.5g",
+                    "material": [
+                        "Titanium"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Phantom Tri S",
+                    "image": "images/2rdesigns/phantom_tri_s_tungsten.jpg",
+                    "dimensions": "60.3mm×2.375mm×18mm",
+                    "weight": "248g",
+                    "material": [
+                        "Tungsten"
+                    ],
+                    "button_size": "24.5mm"
+                },
+                {
+                    "name": "Patriot",
+                    "image": "images/2rdesigns/patriot_stainless_steel.jpg",
+                    "dimensions": "47mm×29mmx10.52mm",
+                    "weight": "100g",
+                    "material": [
+                        "Stainless Steel"
+                    ]
+                },
+                {
+                    "name": "Patriot",
+                    "image": "images/2rdesigns/patriot_brass.jpg",
+                    "dimensions": "47mm×29mmx10.52mm",
+                    "weight": "0g",
+                    "material": [
+                        "Brass"
+                    ]
+                },
+                {
+                    "name": "Phantom SL V2",
+                    "image": "images/2rdesigns/phantom_sl_v2_titanium.jpg",
+                    "dimensions": "48mm×29.4mmx18.8mm",
+                    "weight": "111g",
+                    "material": [
+                        "Titanium",
+                        "Copper"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Full Throttle Originals",
+            "description": "I'm just one guy, in my garage, that's hoping to turn out some cool EDC gear. Self taught, with the help of some good people I've met through social media.",
+            "link": "https://www.facebook.com/groups/fullthrottleoriginals",
+            "image": "images/fto/fto.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
+        },
+        {
+            "name": "SwankyNug",
+            "description": "Swanky Nug was created so I could share my beads and edc items. Swanky Nug is also a group for you to share your beads, lanyards, knives or anything edc.",
+            "link": "https://www.facebook.com/groups/794740862237176",
+            "image": "images/swankynug/swankynug.jpg",
+            "categories": [
+                "Beads"
+            ]
+        },
+        {
+            "name": "Metal Toys Dz.",
+            "description": "Funny things made by Metal Toys Dz. in China",
+            "link": "https://www.facebook.com/groups/dzedc",
+            "image": "images/metaltoysdz/metaltoysdz.jpg",
+            "categories": [
+                "Various"
+            ]
+        },
+        {
+            "name": "ATOMIC EDC",
+            "description": "Making things from resin since 2016",
+            "link": "https://www.facebook.com/groups/1600158530190160",
+            "image": "images/atomicedc/atomicedc.jpg",
+            "categories": [
+                "Beads"
+            ]
+        },
+        {
+            "name": "LIC edc",
+            "description": "A place to come together to discuss and share LIC edc products",
+            "link": "https://www.facebook.com/groups/licedc",
+            "image": "images/licedc/licedc.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
+        },
+        {
+            "name": "ZZMPA",
+            "description": "ZZMPA products release, discussion and more.",
+            "link": "https://www.facebook.com/groups/zzmpa",
+            "image": "images/zzmpa/zzmpa.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
+        },
+        {
+            "name": "Fidget Spinners Trading Post",
+            "description": "Just wanted to create a place where people can trade/sell spinners.",
+            "link": "https://www.facebook.com/groups/248777725537045",
+            "image": "images/fidgetspinnertradingpost/fidgetspinnertradingpost.jpg",
+            "categories": [
+                "B/S/T"
+            ]
+        },
+        {
+            "name": "Kladis3dstudio",
+            "description": "Showcasing our premium fidgets and upcoming creations! Kladis3dstudio on Etsy!",
+            "link": "https://www.facebook.com/groups/1263853424314983",
+            "image": "images/kladis/kladis.jpg",
+            "categories": [
+                "Sliders",
+                "Spinners",
+                "Spin Stick",
+                "Metal",
+                "3D Printed"
+            ]
+        },
+        {
+            "name": "TFS B/S/T",
+            "description": "The Fidget Syndicate B/S/T",
+            "link": "https://www.facebook.com/groups/1050581733137168",
+            "image": "images/tfsbst/tfsbst.jpg",
+            "categories": [
+                "B/S/T"
+            ]
+        },
+        {
+            "name": "MW BST",
+            "description": "This is a dedicated group in which you can post your Modusworks WTB, WTS, or WTT posts. ",
+            "link": "https://www.facebook.com/groups/1235788450124536",
+            "image": "images/mwbst/mwbst.jpg",
+            "categories": [
+                "B/S/T"
+            ]
+        },
+        {
+            "name": "NRG Xchange",
+            "description": "A place to obtain and exchange good NRG",
+            "link": "https://www.facebook.com/groups/855651136283528",
+            "image": "images/nrgx/nrgx.jpg",
+            "categories": [
+                "Beads"
+            ]
+        },
+        {
+            "name": "SpinFamBearings",
+            "description": "Spin Bearings",
+            "link": "https://www.facebook.com/groups/117540882283553",
+            "image": "images/spinfambearings/spinfambearings.jpg",
+            "categories": [
+                "Accessories"
+            ]
+        },
+        {
+            "name": "Flair Fidgets",
+            "description": "Welcome to a specialised branch of EDC fidget – 'Flair Fidgets.' We hope to ignite your interest in fancy fingertip spinners and sliders.",
+            "link": "https://www.facebook.com/groups/905317444419447",
+            "image": "images/flairfidgets/flairfidgets.jpg",
+            "categories": [
+                "Sliders",
+                "Metal"
+            ]
+        },
+        {
+            "name": "Impulse EDC",
+            "description": "Fidget toys for grown ass adults",
+            "link": "https://www.facebook.com/groups/688463760105650",
+            "image": "images/impulseedc/impulseedc.jpg",
+            "categories": [
+                "Various",
+                "Accessories"
+            ]
+        },
+        {
+            "name": "Vibe EDC",
+            "description": "High quality 3D printed Fidgets - with a difference. From the UK.",
+            "link": "https://www.facebook.com/groups/714243343885057",
+            "image": "images/vibeedc/vibeedc.jpg",
+            "categories": [
+                "Various",
+                "Accessories",
+                "Sliders",
+                "3D Printed"
+            ]
+        },
+        {
+            "name": "Lautie_EDC",
+            "description": "Lautie EDC Fidgets",
+            "link": "https://www.facebook.com/groups/975664195934487",
+            "image": "images/lautie/lautie.jpg",
+            "categories": [
+                "Various",
+                "Accessories",
+                "Sliders",
+                "Metal",
+                "Spinners"
+            ]
+        },
+        {
+            "name": "Unquiet Hands (UQH)",
+            "description": "The Unquiet Hands group is an exclusive area where you will have first hand access to our newest products, pre-orders, waiting lists, drops, giveaways, sales and more.",
+            "link": "https://www.facebook.com/groups/unquiethands",
+            "image": "images/uqh/uqh.jpg",
+            "categories": [
+                "Sliders",
+                "Metal",
+                "Spinners"
+            ]
+        },
+        {
+            "name": "Big White EDC",
+            "description": "Big White EDC FB Page",
+            "link": "https://www.facebook.com/groups/bigwhiteedc",
+            "image": "images/bigwhiteedc/bigwhiteedc.jpg",
+            "categories": [
+                "Various"
+            ]
+        },
+        {
+            "name": "Clean EDC",
+            "description": "Simple solutions for your EDC needs",
+            "link": "https://www.facebook.com/groups/cleanedc",
+            "image": "images/cleanedc/cleanedc.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
+        },
+        {
+            "name": "KukoEDC",
+            "description": "Metal Sliders",
+            "link": "https://www.facebook.com/groups/1031858364578607",
+            "image": "images/kukoedc/kukoedc.jpg",
+            "categories": [
+                "Sliders",
+                "Metal"
+            ]
+        },
+        {
+            "name": "EDC Mokume",
+            "description": "This group is for Everything that you would EDC with Mokume involved!",
+            "link": "https://www.facebook.com/groups/EDCMokume",
+            "image": "images/edcmokume/edcmokume.jpg",
+            "categories": [
+                "Various"
+            ]
+        },
+        {
+            "name": "ORK metalworks EDC",
+            "description": "Titanium Damascus | Titanium | Zirconium | Superconductor",
+            "link": "https://www.facebook.com/groups/2774454759463394",
+            "image": "images/ork/ork.jpg",
+            "categories": [
+                "Various"
+            ]
+        },
+        {
+            "name": "Yucleus Studio",
+            "description": "Yucleus Studio - Fidgets and more!",
+            "link": "https://www.facebook.com/groups/yucleusstudio",
+            "image": "images/yucleus/yucleus.jpg",
+            "categories": [
+                "3D Printed"
+            ]
+        },
+        {
+            "name": "Spin Space - Hand & Fidget Spinners",
+            "description": "This is a friendly group that enjoys discussing spinners, EDC, and all things fidget related.",
+            "link": "https://www.facebook.com/groups/spinspace",
+            "image": "images/spinspace/spinspace.jpg",
+            "categories": [
+                "Various"
+            ]
+        },
+        {
+            "name": "EDC Zirc & Ti",
+            "description": "This group was created as a place dedicated to sharing your gear made from Zirconium and Titanium, and damascus materials including ZircuTi, Timascus, MokuTi and all other beautiful blends of the two metals.",
+            "link": "https://www.facebook.com/groups/507431908385184",
+            "image": "images/edczircti/edczircti.jpg",
+            "categories": [
+                "Various",
+                "Metal"
+            ]
+        },
+        {
+            "name": "NJT.EDC.FAMILY",
+            "description": "NJT Spinners",
+            "link": "https://www.facebook.com/groups/njt.edc",
+            "image": "images/njtedc/njtedc.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
+        },
+        {
+            "name": "Pond Hopper EDC",
+            "description": "Pond Hopper EDC. Home of the first Modular Bead Keeper Design. (AFAIK) Creator of the Bead 'Totem' & the first bead holding Bit driver.",
+            "link": "https://www.facebook.com/groups/pondhopperedc",
+            "image": "images/pondhopper/pondhopper.jpg",
+            "categories": [
+                "Spin Stick"
+            ]
+        },
+        {
+            "name": "ZeroFeud LLC",
+            "description": "The Official Home of all ZeroFeud products",
+            "link": "https://www.facebook.com/groups/ZeroFeud",
+            "image": "images/zerofeud/zerofeud.jpg",
+            "categories": [
+                "Various"
+            ]
+        },
+        {
+            "name": "EDC Dama",
+            "description": "A place to showcase, and have fun discussions about all of your favorite Dama things, edc related.",
+            "link": "https://www.facebook.com/groups/959498652178150",
+            "image": "images/edcdama/edcdama.jpg",
+            "categories": [
+                "Various",
+                "Metal"
+            ]
+        },
+        {
+            "name": "Dynamic Inertia Tops",
+            "description": "This is the home group for Dynamic Inertia Tops - Custom precision spinning tops and more made by Gavin Sexton.",
+            "link": "https://www.facebook.com/groups/DynamicInertiaTops",
+            "image": "images/dynamicinertiatops/dynamicinertiatops.jpg",
+            "categories": [
+                "Tops",
+                "Spin Stick"
+            ]
+        },
+        {
+            "name": "BilletSPIN",
+            "description": "Everything needs to be made of metal! From pens and whistles to fidget items and spinning tops, we specialize in wide variety of EDC products.",
+            "link": "https://www.facebook.com/groups/391445661039396",
+            "image": "images/billetspin/billetspin.jpg",
+            "categories": [
+                "Tops",
+                "Beads",
+                "Metal"
+            ]
+        },
+        {
+            "name": "Edge Industries",
+            "description": "A page to share some of my custom metalwork projects all made on manual machinery.",
+            "link": "https://www.facebook.com/groups/181615592406838",
+            "image": "images/edgeindustries/edgeindustries.jpg",
+            "categories": [
+                "Tops",
+                "Metal"
+            ]
+        },
+        {
+            "name": "TwoEDC",
+            "description": "Hey, Fam. If you know me, you know I have a passion for trinkets of all sizes and materials.",
+            "link": "https://www.facebook.com/groups/TwoEDC",
+            "image": "images/twoedc/twoedc.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
+        },
+        {
+            "name": "Pocket ART",
+            "description": "Pocket ART (Pocket Artifacts, Relics & Treasures)! This is an EDC fidgeters group for all those things that fall through the cracks on spinner and EDC groups.",
+            "link": "https://www.facebook.com/groups/PocketArtHQ",
+            "image": "images/pocketart/pocketart.jpg",
+            "categories": [
+                "Various"
+            ]
+        },
+        {
+            "name": "Kinetics Asia Pacific EDC",
+            "description": "Own factory maker , design and customization spinner and other EDC toys.",
+            "link": "https://www.facebook.com/groups/1940540282898296",
+            "image": "images/kap/kap.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
+        },
+        {
+            "name": "SF Metal Alchemy",
+            "description": "The group is design for me (Sasa Fabrio/ Sasa SF) SF Custom Crafted EDC to post/sell/ and show off my metal work and leather work. I'll do first come first serve sales mostly.",
+            "link": "https://www.facebook.com/groups/646176282429334",
+            "image": "images/sasa/sasa.jpg",
+            "categories": [
+                "Spin Stick",
+                "Beads"
+            ]
+        },
+        {
+            "name": "SCAM Design",
+            "description": "I'm Scott McCoskery and SCAM Design is my label. The launch of this group coincides with the launch of my first 'real' product: The Torqbar.",
+            "link": "https://www.facebook.com/groups/1075373552503271",
+            "image": "images/scam/scam.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
+        },
+        {
+            "name": "ACEdc Original",
+            "description": "Fidget Toys Forever",
+            "link": "https://www.facebook.com/groups/992576598131462",
+            "image": "images/acedc/acedc.jpg",
+            "categories": [
+                "Various"
+            ]
+        },
+        {
+            "name": "Blackdog Labs EDC",
+            "description": "Hey everyone! Here you will find a wonderful community of great people that enjoy Blackdog Labs products.",
+            "link": "https://www.facebook.com/groups/blackdogedc",
+            "image": "images/blackdoglabs/blackdoglabs.jpg",
+            "categories": [
+                "Sliders",
+                "Metal"
+            ]
+        },
+        {
+            "name": "EDC Marketplace",
+            "description": "Discuss, debate, buy and sell everything and anything goes as long as it is EDC related!",
+            "link": "https://www.facebook.com/groups/edcmp",
+            "image": "images/edcmarketplace/edcmarketplace.jpg",
+            "categories": [
+                "B/S/T"
+            ]
+        },
+        {
+            "name": "Fidgets Asia",
+            "description": "We mainly enjoy fidgets produced in Asia, but let's also enjoy spinners from other regions!! Let's all share and discuss our fidgets together.",
+            "link": "https://www.facebook.com/groups/3815502875352972",
+            "image": "images/fidgetsasia/fidgetsasia.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
+        },
+        {
+            "name": "FeiFei Edc",
+            "description": "FeiFei Edc Spinners",
+            "link": "https://www.facebook.com/groups/695185935579996",
+            "image": "images/feifei/feifei.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
+        },
+        {
+            "name": "GEEONE",
+            "description": "GEEONE Store Fidgets",
+            "link": "https://www.facebook.com/groups/geeoneedc",
+            "image": "images/geeone/geeone.jpg",
+            "categories": [
+                "Various"
+            ]
+        },
+        {
+            "name": "Layer Cake",
+            "description": "Beatrix Magnet Sliders & Beads",
+            "link": "https://www.facebook.com/groups/268017125338863",
+            "image": "images/layercake/layercake.jpg",
+            "categories": [
+                "Beads",
+                "Sliders",
+                "Metal"
+            ]
+        },
+        {
+            "name": "ZERO ONE EDC Fans Group",
+            "description": "ZERO ONE EDC Fidgets",
+            "link": "https://www.facebook.com/groups/1055411198365465",
+            "image": "images/01edc/01edc.jpg",
+            "categories": [
+                "Various"
+            ]
+        },
+        {
+            "name": "TK EDC",
+            "description": "TK EDC is an EDC brand from China. We specialize in designing various original Fidget Sliders with interchangeable embossed stickers to enhance playability.",
+            "link": "https://www.facebook.com/groups/538657211753334",
+            "image": "images/tkedc/tkedc.jpg",
+            "categories": [
+                "Various"
+            ]
+        },
+        {
+            "name": "Metal Moose",
+            "description": "Spinner accessories designed and machined in Kansas City Missouri.",
+            "link": "https://www.facebook.com/groups/481962044530765",
+            "image": "images/metalmoose/metalmoose.jpg",
+            "categories": [
+                "Accessories"
+            ]
+        },
+        {
+            "name": "SAKURA EDC",
+            "description": "I am an independent manufacturer of fidget toys.",
+            "link": "https://www.facebook.com/groups/550266240705770",
+            "image": "images/sakuraedc/sakuraedc.jpg",
+            "categories": [
+                "Sliders",
+                "3D Printed"
+            ]
+        },
+        {
+            "name": "lunisic limited",
+            "description": "Official group for Lunisic Ltd. EDC!",
+            "link": "https://www.facebook.com/groups/521643219887829",
+            "image": "images/lunisic/lunisic.jpg",
+            "categories": [
+                "Beads",
+                "Sliders"
+            ]
+        },
+        {
+            "name": "Bead Daddy EDC",
+            "description": "Making beads since '23.",
+            "link": "https://www.facebook.com/groups/beaddaddyedc",
+            "image": "images/beaddaddy/beaddaddy.jpg",
+            "categories": [
+                "Beads"
+            ]
+        },
+        {
+            "name": "Wyste",
+            "description": "I like to make whatever’s in my brain as accurately as I can in the tangible world",
+            "link": "https://www.facebook.com/groups/1149479535455454",
+            "image": "images/wyste/wyste.jpg",
+            "categories": [
+                "Beads",
+                "Various"
+            ]
+        },
+        {
+            "name": "Glow Man Dan",
+            "description": "Welcome to Glow Man Dan! Our little glowing corner of the interwebs. wonderfully bright creations using the best possible materials.",
+            "link": "https://www.facebook.com/groups/541703069833206",
+            "image": "images/glowmandan/glowmandan.jpg",
+            "categories": [
+                "Beads"
+            ]
+        },
+        {
+            "name": "Broken Art Custom Beads",
+            "description": "This is a group for the lanyard beads and various edc items made by me, Steve Foss.",
+            "link": "https://www.facebook.com/groups/580785019107990",
+            "image": "images/brokenart/brokenart.jpg",
+            "categories": [
+                "Beads"
+            ]
+        },
+        {
+            "name": "Sypit Designs",
+            "description": "Welcome to Sypit Designs fb group!",
+            "link": "https://www.facebook.com/groups/3225412134184431",
+            "image": "images/sypit/sypit.jpg",
+            "categories": [
+                "Beads"
+            ]
+        },
+        {
+            "name": "Light Matter Group",
+            "description": "I finally decided to create a group dedicated to discussing my work and also create a place where anyone that is interested can buy some of my pieces.",
+            "link": "https://www.facebook.com/groups/lightmatter",
+            "image": "images/lightmatter/lightmatter.jpg",
+            "categories": [
+                "Beads",
+                "Tops"
+            ]
+        },
+        {
+            "name": "Armstrong Metal Works",
+            "description": "My name is Winfield C Armstrong II. I'm a 3rd generation manual machinist that has become a full time maker of the art you see here. I make various things completely manually and out of about anything I can get my hands on.",
+            "link": "https://www.facebook.com/groups/2108999082719233",
+            "image": "images/armstrongmetalworks/armstrongmetalworks.jpg",
+            "categories": [
+                "Beads"
+            ]
+        },
+        {
+            "name": "Beads and Totems",
+            "description": "This is for all makers and collectors of EDC Beads and Totems!",
+            "link": "https://www.facebook.com/groups/923583209737371",
+            "image": "images/beadsandtotems/beadsandtotems.jpg",
+            "categories": [
+                "Beads",
+                "Spin Stick"
+            ]
+        },
+        {
+            "name": "Hebert's Creations and waffles",
+            "description": "Welcome to Hebert's Creations. i make custom Beads , keychain's , resin Creations and I waffle olights , edc gear , knives and silver coin's.",
+            "link": "https://www.facebook.com/groups/535731391751370",
+            "image": "images/hebertscreations/hebertscreations.jpg",
+            "categories": [
+                "Beads"
+            ]
+        },
+        {
+            "name": "Salt & Peppa EDC",
+            "description": "Handmade leather, beads, and sometimes other EDC items made by Jøhn. Come share your carry.",
+            "link": "https://www.facebook.com/groups/847093079406393",
+            "image": "images/saltandpeppa/saltandpeppa.jpg",
+            "categories": [
+                "Beads",
+                "Spin Stick"
+            ]
+        },
+        {
+            "name": "Dub-Tac Gear",
+            "description": "This is a place where you can come meet some awesome people in the EDC community I try to do drops once a week either FCFS, lotto, or a game with paid for spots",
+            "link": "https://www.facebook.com/groups/2918525928465410",
+            "image": "images/dubtacgear/dubtacgear.jpg",
+            "categories": [
+                "Beads"
+            ]
+        },
+        {
+            "name": "Proxy EDC Fidgets",
+            "description": "Any latest information about the release of ProxyEDC.",
+            "link": "https://www.facebook.com/groups/proxyedc",
+            "image": "images/proxyedc/proxyedc.jpg",
+            "categories": [
+                "Various"
+            ]
+        },
+        {
+            "name": "MonoSkate",
+            "description": "EDC brand-MonoSkate.",
+            "link": "https://www.facebook.com/groups/1245068629705144",
+            "image": "images/monoskate/monoskate.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
+        },
+        {
+            "name": "Aurora EDC",
+            "description": "Welcome to Aurora EDC! Feel free to join the conversation, share your thoughts and connect with fellow fidgeters.",
+            "link": "https://www.facebook.com/groups/1055760682415300",
+            "image": "images/auroraedc/auroraedc.jpg",
+            "categories": [
+                "Sliders",
+                "3D Printed"
+            ]
+        },
+        {
+            "name": "GAZ edc",
+            "description": "Hello! This is GAZ, who makes fidgets as a hobby in Korea. If you are interested in GAZ edc spinner, please apply to join the group.",
+            "link": "https://www.facebook.com/groups/1120014425751635",
+            "image": "images/gazedc/gazedc.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
+        },
+        {
+            "name": "KnowBrains Design",
+            "description": "I’ve heard that Facebook groups are where the true EDC fans come for the best of the best. Hopefully I can be part of that community. It's a WIP so bear with me and thanks for tagging along.",
+            "link": "https://www.facebook.com/groups/374427195543104",
+            "image": "images/knowbrains/knowbrains.jpg",
+            "categories": [
+                "Beads"
+            ]
+        },
+        {
+            "name": "FocusWorks EDC",
+            "description": "FocusWorks EDC specializes in seamlessly machining some of the highest quality everyday carry gear in the modern market.",
+            "link": "https://www.facebook.com/groups/focusworks",
+            "image": "images/focusworks/focusworks.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
+        },
+        {
+            "name": "Spinetic / Finetic",
+            "description": "Welcome to the Spinetic Spinners and Finetic EDC group.",
+            "link": "https://www.facebook.com/groups/1085435654882964",
+            "image": "images/spineticfinetic/spineticfinetic.jpg",
+            "categories": [
+                "Various"
+            ]
+        },
+        {
+            "name": "Tungsten the Fabulous! [W]",
+            "description": "A group for tungsten EDC “Every Day Carry” enthusiasts. Come join & show off your [W] gear",
+            "link": "https://www.facebook.com/groups/110130576553396",
+            "image": "images/tungsten/tungsten.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
+        },
+        {
+            "name": "EDC coins, beads and tags by Mark Storm",
+            "description": "Handmade coins, beads and other edc stuff. I will do regular drops, so stay tuned!",
+            "link": "https://www.facebook.com/groups/189538499934172",
+            "image": "images/edccoins/edccoins.jpg",
+            "categories": [
+                "Various"
+            ]
+        },
+        {
+            "name": "Fidget Manufactur",
+            "description": "High quality 3d printed fidgetslider - made in Germany",
+            "link": "https://www.facebook.com/groups/3413410405590549",
+            "image": "images/fidgetmfg/fidgetmfg.jpg",
+            "categories": [
+                "Spinners",
+                "3D Printed"
+            ]
+        },
+        {
+            "name": "M3 Metal Creations",
+            "description": "Dedicated to the hobby of collecting and making spinners and tops.",
+            "link": "https://www.facebook.com/groups/M3MetalCreations",
+            "image": "images/m3metalcreations/m3metalcreations.jpg",
+            "categories": [
+                "Spinners",
+                "Metal",
+                "Tops"
+            ]
+        },
+        {
+            "name": "VArt",
+            "description": "Beautiful Tops",
+            "link": "https://www.facebook.com/groups/259489658373632",
+            "image": "images/vart/vart.jpg",
+            "categories": [
+                "Tops"
+            ]
+        },
+        {
+            "name": "Spin Beads Werk",
+            "description": "For orders, just send me a message to Spin Beads Werk.",
+            "link": "https://www.facebook.com/groups/931789878798405",
+            "image": "images/spinbeadswerk/spinbeadswerk.jpg",
+            "categories": [
+                "Spin Stick",
+                "3D Printed"
+            ]
+        },
+        {
+            "name": "Official Lautie Buy/Sell/Trade Exchange",
+            "description": "This is a place for Lautie collectors to Exchange items for resale and trade. This is not a general sale group and is only for Lautie products.",
+            "link": "https://www.facebook.com/groups/1938140130003531",
+            "image": "images/lautiebst/lautiebst.jpg",
+            "categories": [
+                "B/S/T"
+            ]
+        },
+        {
+            "name": "Outbreak Beads",
+            "description": "Outbreak Beads Specializes in high quality handmade beads and other EDC gear.",
+            "link": "https://www.facebook.com/groups/5095521500475488",
+            "image": "images/outbreakbeads/outbreakbeads.jpg",
+            "categories": [
+                "Beads"
+            ]
+        },
+        {
+            "name": "Ziii Studio",
+            "description": "Metal Spinners",
+            "link": "https://www.facebook.com/groups/991313931927888",
+            "image": "images/ziiistudio/ziiistudio.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
+        },
+        {
+            "name": "SPACE RELIC CREATIONS",
+            "description": "I make resin blanks,Resin Art and hand crafted EDC lanyard beads.",
+            "link": "https://www.facebook.com/groups/261726516550259",
+            "image": "images/spacereliccreations/spacereliccreations.jpg",
+            "categories": [
+                "Beads"
+            ]
+        },
+        {
+            "name": "Sacred Spins",
+            "description": "Kinetic art for a changing world. Custom anodizing/flame oxidizing of titanium, tungsten & zirconium",
+            "link": "https://www.facebook.com/groups/sacredspins",
+            "image": "images/sacredspins/sacredspins.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
+        },
+        {
+            "name": "Pose Blades",
+            "description": "Metal Spinners",
+            "link": "https://www.facebook.com/groups/196193527539474",
+            "image": "images/poseblades/poseblades.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
+        },
+        {
+            "name": "Metal Morphosis",
+            "description": "Metal Morphosis was created by Phillip Atchison for the custom finish work and other EDC items that are made.",
+            "link": "https://www.facebook.com/groups/1908986102692920",
+            "image": "images/metalmorphosis/metalmorphosis.jpg",
+            "categories": [
+                "Beads"
+            ]
+        },
+        {
+            "name": "Harpuahound Studio",
+            "description": "We hope you hang around awhile, CHILL, sign up for some Chill Pills, shop the website and enjoy all the awesome members and their posts enjoying their Harpuahound treasure.",
+            "link": "https://www.facebook.com/groups/1908986102692920",
+            "image": "images/harpuahound/harpuahound.jpg",
+            "categories": [
+                "Metal"
+            ]
+        },
+        {
+            "name": "Bead Wizards",
+            "description": "Beads!",
+            "link": "https://www.facebook.com/groups/1564540784381387",
+            "image": "images/beadwizard/beadwizard.jpg",
+            "categories": [
+                "Beads"
+            ]
+        },
+        {
+            "name": "3D Fidget Hub",
+            "description": "A place for 3D fidget makers and buyers to post and promote their work and purchases.",
+            "link": "https://www.facebook.com/groups/1087486599544956",
+            "image": "images/3dfidgethub/3dfidgethub.jpg",
+            "categories": [
+                "3D Printed"
+            ]
+        },
+        {
+            "name": "Cutpunchsew",
+            "description": "Welcome to the group! Amongst others, this is a place where I present all kind of new ideas and finished products.",
+            "link": "https://www.facebook.com/groups/1602061123421383",
+            "image": "images/cutpunchsew/cutpunchsew.jpg",
+            "categories": [
+                "Accessories"
+            ]
+        },
+        {
+            "name": "Axiom EDC",
+            "description": "Welcome to the home of the Axiom EDC. This is a place to discuss, share, and learn more about our products!",
+            "link": "https://www.facebook.com/groups/1432609956845812",
+            "image": "images/axiomedc/axiomedc.jpg",
+            "categories": [
+                "Spinners",
+                "Metal",
+                "Various"
+            ]
+        },
+        {
+            "name": "Otter EDC Den",
+            "description": "The Otter EDC Den is a place to discuss your Otter EDC products.",
+            "link": "https://www.facebook.com/groups/otteredcden",
+            "image": "images/otteredc/otteredc.jpg",
+            "categories": [
+                "Sliders",
+                "3D Printed",
+                "Accessories"
+            ]
+        },
+        {
+            "name": "TLC EDC",
+            "description": "custom pouches and experimental fidgets inspired by entropy and nature",
+            "link": "https://www.facebook.com/groups/2285040788517616",
+            "image": "images/tlcedc/tlcedc.jpg",
+            "categories": [
+                "Sliders",
+                "3D Printed"
+            ]
+        },
+        {
+            "name": "SAKURA EDC BST",
+            "description": "This is a BST(Buy Sell Trade) group exclusively for SAKURA EDC products.",
+            "link": "https://www.facebook.com/groups/881552127341855",
+            "image": "images/sakuraedcbst/sakuraedcbst.jpg",
+            "categories": [
+                "B/S/T"
+            ]
+        },
+        {
+            "name": "SpinningTopTom",
+            "description": "The official SpinningTopTom Facebook group is made for spinning top enthusiasts.",
+            "link": "https://www.facebook.com/groups/spinningtoptom",
+            "image": "images/spinningtoptom/spinningtoptom.jpg",
+            "categories": [
+                "Tops"
+            ]
+        },
+        {
+            "name": "Spin designs by Cami",
+            "description": "I am Cami. I am a machinist who loves to design and make things that spin. I hope you enjoy my ideas also.",
+            "link": "https://www.facebook.com/groups/SpinDesignsbyCami",
+            "image": "images/spindesignsbycami/spindesignsbycami.jpg",
+            "categories": [
+                "Spinners",
+                "Metal"
+            ]
+        },
+        {
+            "name": "Mind Goblin",
+            "description": "A collection of things crafted by hand for your daily use and enjoyment",
+            "link": "https://www.facebook.com/groups/1597705330739486",
+            "image": "images/mindgoblin/mindgoblin.jpg",
+            "categories": [
+                "Beads"
+            ]
+        },
+        {
+            "name": "New Group 5",
+            "description": "this is a cool group",
+            "link": "facebook.com/group/coolgroup",
+            "image": "images/new_group_5/logo.jpg",
+            "categories": [
+                "Beads",
+                "Metal",
+                "3D Printed"
+            ]
+        }
+    ]
 }
