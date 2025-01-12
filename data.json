@@ -1631,6 +1631,16 @@
       "categories": [
         "Beads"
       ]
+    },
+    {
+      "name": "Cool Group 7",
+      "description": "This is a cool group!",
+      "link": "facebook.com/group/fungroup1",
+      "image": "images/cool_group_7/cool_group_7.jpg",
+      "categories": [
+        "Spin Stick",
+        "Various"
+      ]
     }
   ]
 }
