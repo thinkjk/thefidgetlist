@@ -34,7 +34,7 @@
         {
           "name": "Short Story",
           "image": "images/oooobjects/short_story_tungsten.jpg",
-          "dimensions": "40.6×22.6×13.5mm",
+          "dimensions": "40.6?22.6?13.5mm",
           "weight": "149g",
           "material": [
             "tungsten"
@@ -143,7 +143,7 @@
     },
     {
       "name": "EDC Cartel",
-      "description": "A multibrand store of fidget toys and edc gear products. Edc Cartel will be introducing a variety of brands from different makers we will be also accommodating collectors if they need specific fidget via pm’s.",
+      "description": "A multibrand store of fidget toys and edc gear products. Edc Cartel will be introducing a variety of brands from different makers we will be also accommodating collectors if they need specific fidget via pm?s.",
       "link": "https://www.facebook.com/groups/2104022436462512",
       "image": "images/edccartel/edccartel.jpg",
       "categories": [
@@ -326,7 +326,7 @@
         {
           "name": "Phantom Micro Chubby Tungsten",
           "image": "images/2rdesigns/phantom_micro_chubby_-_tungsten_tungsten.jpg",
-          "dimensions": "36.5mm×19.3mm×10mm",
+          "dimensions": "36.5mm?19.3mm?10mm",
           "weight": "150g",
           "material": [
             "Tungsten"
@@ -336,7 +336,7 @@
         {
           "name": "Phantom Mini Chubby Tungsten",
           "image": "images/2rdesigns/phantom_mini_chubby_-_tungsten_tungsten.jpg",
-          "dimensions": "48mm × 29mm × 16mm",
+          "dimensions": "48mm ? 29mm ? 16mm",
           "weight": "327g",
           "material": [
             "Tungsten"
@@ -346,7 +346,7 @@
         {
           "name": "Phantom Mini Chubby",
           "image": "images/2rdesigns/phantom_mini_chubby_stainless_steel.jpg",
-          "dimensions": "48mm×29mm×16mm",
+          "dimensions": "48mm?29mm?16mm",
           "weight": "147g",
           "material": [
             "Stainless Steel"
@@ -356,7 +356,7 @@
         {
           "name": "Phantom Mini Chubby",
           "image": "images/2rdesigns/phantom_mini_chubby_titanium.jpg",
-          "dimensions": "48mm×29mm×16mm",
+          "dimensions": "48mm?29mm?16mm",
           "weight": "82g",
           "material": [
             "Titanium"
@@ -366,7 +366,7 @@
         {
           "name": "Phantom Xl Tungsten",
           "image": "images/2rdesigns/phantom_xl_-_tungsten_tungsten.jpg",
-          "dimensions": "66mm×33.27mm×16.8mm",
+          "dimensions": "66mm?33.27mm?16.8mm",
           "weight": "348g",
           "material": [
             "Tungsten"
@@ -376,7 +376,7 @@
         {
           "name": "Phantom Mini Chubby Mokume",
           "image": "images/2rdesigns/phantom_mini_chubby_mokume_mokume.jpg",
-          "dimensions": "48mm×29mm×16mm",
+          "dimensions": "48mm?29mm?16mm",
           "weight": "157g",
           "material": [
             "Mokume"
@@ -386,7 +386,7 @@
         {
           "name": "Dank Blank Phantom Mini Chubby",
           "image": "images/2rdesigns/dank_blank_-_phantom_mini_chubby_resin.jpg",
-          "dimensions": "48mm×29mm×16mm",
+          "dimensions": "48mm?29mm?16mm",
           "weight": "23g",
           "material": [
             "Resin"
@@ -396,7 +396,7 @@
         {
           "name": "Phantom Chubby Mini Aluminum",
           "image": "images/2rdesigns/phantom_chubby_mini_aluminum_aluminum.jpg",
-          "dimensions": "48mm×29mm×16mm",
+          "dimensions": "48mm?29mm?16mm",
           "weight": "53g",
           "material": [
             "Aluminum"
@@ -406,7 +406,7 @@
         {
           "name": "Phantom Mini S V2",
           "image": "images/2rdesigns/phantom_mini_s_v2_brass.jpg",
-          "dimensions": "47.6mm×29.3mm×17mm",
+          "dimensions": "47.6mm?29.3mm?17mm",
           "weight": "83g",
           "material": [
             "Brass"
@@ -416,7 +416,7 @@
         {
           "name": "Phantom Mini S V2",
           "image": "images/2rdesigns/phantom_mini_s_v2_copper.jpg",
-          "dimensions": "47.6mm×29.3mm×17mm",
+          "dimensions": "47.6mm?29.3mm?17mm",
           "weight": "87g",
           "material": [
             "Copper"
@@ -426,7 +426,7 @@
         {
           "name": "Phantom Mini S V2",
           "image": "images/2rdesigns/phantom_mini_s_v2_stainless_steel.jpg",
-          "dimensions": "47.6mm×29.3mm×17mm",
+          "dimensions": "47.6mm?29.3mm?17mm",
           "weight": "76g",
           "material": [
             "Stainless Steel"
@@ -436,7 +436,7 @@
         {
           "name": "Phantom Mini S V2",
           "image": "images/2rdesigns/phantom_mini_s_v2_titanium.jpg",
-          "dimensions": "47.6mm×29.3mm×17mm",
+          "dimensions": "47.6mm?29.3mm?17mm",
           "weight": "44g",
           "material": [
             "Titanium"
@@ -446,7 +446,7 @@
         {
           "name": "Phantom Mini S V2 Tungsten",
           "image": "images/2rdesigns/phantom_mini_s_v2_tungsten_tungsten.jpg",
-          "dimensions": "47.6mm × 29.3mm × 17mm",
+          "dimensions": "47.6mm ? 29.3mm ? 17mm",
           "weight": "174g",
           "material": [
             "Tungsten"
@@ -456,7 +456,7 @@
         {
           "name": "Phantom Mini S V2 Tungsten",
           "image": "images/2rdesigns/phantom_mini_s_v2_tungsten_tungsten.jpg",
-          "dimensions": "47.6mm × 29.3mm × 17mm",
+          "dimensions": "47.6mm ? 29.3mm ? 17mm",
           "weight": "112g",
           "material": [
             "Tungsten"
@@ -466,7 +466,7 @@
         {
           "name": "Phantom Mini S V2 Tungsten",
           "image": "images/2rdesigns/phantom_mini_s_v2_tungsten_tungsten.jpg",
-          "dimensions": "47.6mm × 29.3mm × 17mm",
+          "dimensions": "47.6mm ? 29.3mm ? 17mm",
           "weight": "62g",
           "material": [
             "Tungsten"
@@ -476,7 +476,7 @@
         {
           "name": "Phantom Xls",
           "image": "images/2rdesigns/phantom_xls_brass.jpg",
-          "dimensions": "66mm×33.27mm×16.8mm",
+          "dimensions": "66mm?33.27mm?16.8mm",
           "weight": "108.87g",
           "material": [
             "Brass"
@@ -486,7 +486,7 @@
         {
           "name": "Phantom Xls",
           "image": "images/2rdesigns/phantom_xls_copper.jpg",
-          "dimensions": "66mm×33.27mm×16.8mm",
+          "dimensions": "66mm?33.27mm?16.8mm",
           "weight": "114.55g",
           "material": [
             "Copper"
@@ -496,7 +496,7 @@
         {
           "name": "Phantom Xls",
           "image": "images/2rdesigns/phantom_xls_stainless_steel.jpg",
-          "dimensions": "66mm×33.27mm×16.8mm",
+          "dimensions": "66mm?33.27mm?16.8mm",
           "weight": "101.93g",
           "material": [
             "Stainless Steel"
@@ -506,7 +506,7 @@
         {
           "name": "Phantom Xls",
           "image": "images/2rdesigns/phantom_xls_titanium.jpg",
-          "dimensions": "66mm×33.27mm×16.8mm",
+          "dimensions": "66mm?33.27mm?16.8mm",
           "weight": "58.10g",
           "material": [
             "Titanium"
@@ -516,7 +516,7 @@
         {
           "name": "Phantom Xl",
           "image": "images/2rdesigns/phantom_xl_brass.jpg",
-          "dimensions": "66mm×33.27mm×16.8mm",
+          "dimensions": "66mm?33.27mm?16.8mm",
           "weight": "167.77g",
           "material": [
             "Brass"
@@ -526,7 +526,7 @@
         {
           "name": "Phantom Xl",
           "image": "images/2rdesigns/phantom_xl_copper.jpg",
-          "dimensions": "66mm×33.27mm×16.8mm",
+          "dimensions": "66mm?33.27mm?16.8mm",
           "weight": "176.58g",
           "material": [
             "Copper"
@@ -536,7 +536,7 @@
         {
           "name": "Phantom Xl",
           "image": "images/2rdesigns/phantom_xl_stainless_steel.jpg",
-          "dimensions": "66mm×33.27mm×16.8mm",
+          "dimensions": "66mm?33.27mm?16.8mm",
           "weight": "157g",
           "material": [
             "Stainless Steel"
@@ -546,7 +546,7 @@
         {
           "name": "Phantom Xl",
           "image": "images/2rdesigns/phantom_xl_titanium.jpg",
-          "dimensions": "66mm×33.27mm×16.8mm",
+          "dimensions": "66mm?33.27mm?16.8mm",
           "weight": "89.02g",
           "material": [
             "Titanium"
@@ -556,7 +556,7 @@
         {
           "name": "Phantom Tri Mini",
           "image": "images/2rdesigns/phantom_tri_mini_brass.jpg",
-          "dimensions": "47.6mm×47.6mm×17mm",
+          "dimensions": "47.6mm?47.6mm?17mm",
           "weight": "123g",
           "material": [
             "Brass"
@@ -566,7 +566,7 @@
         {
           "name": "Phantom Tri Mini",
           "image": "images/2rdesigns/phantom_tri_mini_copper.jpg",
-          "dimensions": "47.6mm×47.6mm×17mm",
+          "dimensions": "47.6mm?47.6mm?17mm",
           "weight": "130g",
           "material": [
             "Copper"
@@ -576,7 +576,7 @@
         {
           "name": "Phantom Tri Mini",
           "image": "images/2rdesigns/phantom_tri_mini_stainless_steel.jpg",
-          "dimensions": "47.6mm×47.6mm×17mm",
+          "dimensions": "47.6mm?47.6mm?17mm",
           "weight": "116g",
           "material": [
             "Stainless Steel"
@@ -586,7 +586,7 @@
         {
           "name": "Phantom Tri Mini",
           "image": "images/2rdesigns/phantom_tri_mini_titanium.jpg",
-          "dimensions": "47.6mm×47.6mm×17mm",
+          "dimensions": "47.6mm?47.6mm?17mm",
           "weight": "67g",
           "material": [
             "Titanium"
@@ -596,7 +596,7 @@
         {
           "name": "Phantom Micro",
           "image": "images/2rdesigns/phantom_micro_brass.jpg",
-          "dimensions": "36.5mm×19.3mm×11mm",
+          "dimensions": "36.5mm?19.3mm?11mm",
           "weight": "37.14g",
           "material": [
             "Brass"
@@ -606,7 +606,7 @@
         {
           "name": "Phantom Micro",
           "image": "images/2rdesigns/phantom_micro_copper.jpg",
-          "dimensions": "36.5mm×19.3mm×11mm",
+          "dimensions": "36.5mm?19.3mm?11mm",
           "weight": "39.12g",
           "material": [
             "Copper"
@@ -616,7 +616,7 @@
         {
           "name": "Phantom Micro",
           "image": "images/2rdesigns/phantom_micro_stainless_steel.jpg",
-          "dimensions": "36.5mm×19.3mm×11mm",
+          "dimensions": "36.5mm?19.3mm?11mm",
           "weight": "37.14g",
           "material": [
             "Stainless Steel"
@@ -626,7 +626,7 @@
         {
           "name": "Phantom Micro",
           "image": "images/2rdesigns/phantom_micro_titanium.jpg",
-          "dimensions": "36.5mm×19.3mm×11mm",
+          "dimensions": "36.5mm?19.3mm?11mm",
           "weight": "24.38g",
           "material": [
             "Titanium"
@@ -636,7 +636,7 @@
         {
           "name": "Phantom Tri",
           "image": "images/2rdesigns/phantom_tri_brass.jpg",
-          "dimensions": "60.3mm×2.375mm×18mm",
+          "dimensions": "60.3mm?2.375mm?18mm",
           "weight": "185g",
           "material": [
             "Brass"
@@ -646,7 +646,7 @@
         {
           "name": "Phantom Tri",
           "image": "images/2rdesigns/phantom_tri_copper.jpg",
-          "dimensions": "60.3mm×2.375mm×18mm",
+          "dimensions": "60.3mm?2.375mm?18mm",
           "weight": "195g",
           "material": [
             "Copper"
@@ -656,7 +656,7 @@
         {
           "name": "Phantom Tri",
           "image": "images/2rdesigns/phantom_tri_stainless_steel.jpg",
-          "dimensions": "60.3mm×2.375mm×18mm",
+          "dimensions": "60.3mm?2.375mm?18mm",
           "weight": "173g",
           "material": [
             "Stainless Steel"
@@ -666,7 +666,7 @@
         {
           "name": "Phantom Tri",
           "image": "images/2rdesigns/phantom_tri_titanium.jpg",
-          "dimensions": "60.3mm×2.375mm×18mm",
+          "dimensions": "60.3mm?2.375mm?18mm",
           "weight": "100g",
           "material": [
             "Titanium"
@@ -676,7 +676,7 @@
         {
           "name": "Phantom Tri S",
           "image": "images/2rdesigns/phantom_tri_s_brass.jpg",
-          "dimensions": "60.3mm×2.375mm×18mm",
+          "dimensions": "60.3mm?2.375mm?18mm",
           "weight": "116g",
           "material": [
             "Brass"
@@ -686,7 +686,7 @@
         {
           "name": "Phantom Tri S",
           "image": "images/2rdesigns/phantom_tri_s_copper.jpg",
-          "dimensions": "60.3mm×2.375mm×18mm",
+          "dimensions": "60.3mm?2.375mm?18mm",
           "weight": "123g",
           "material": [
             "Copper"
@@ -696,7 +696,7 @@
         {
           "name": "Phantom Tri S",
           "image": "images/2rdesigns/phantom_tri_s_stainless_steel.jpg",
-          "dimensions": "60.3mm×2.375mm×18mm",
+          "dimensions": "60.3mm?2.375mm?18mm",
           "weight": "109g",
           "material": [
             "Stainless Steel"
@@ -706,7 +706,7 @@
         {
           "name": "Phantom Tri S",
           "image": "images/2rdesigns/phantom_tri_s_titanium.jpg",
-          "dimensions": "60.3mm×2.375mm×18mm",
+          "dimensions": "60.3mm?2.375mm?18mm",
           "weight": "63.5g",
           "material": [
             "Titanium"
@@ -716,7 +716,7 @@
         {
           "name": "Phantom Tri S",
           "image": "images/2rdesigns/phantom_tri_s_tungsten.jpg",
-          "dimensions": "60.3mm×2.375mm×18mm",
+          "dimensions": "60.3mm?2.375mm?18mm",
           "weight": "248g",
           "material": [
             "Tungsten"
@@ -726,7 +726,7 @@
         {
           "name": "Patriot",
           "image": "images/2rdesigns/patriot_stainless_steel.jpg",
-          "dimensions": "47mm×29mmx10.52mm",
+          "dimensions": "47mm?29mmx10.52mm",
           "weight": "100g",
           "material": [
             "Stainless Steel"
@@ -735,7 +735,7 @@
         {
           "name": "Patriot",
           "image": "images/2rdesigns/patriot_brass.jpg",
-          "dimensions": "47mm×29mmx10.52mm",
+          "dimensions": "47mm?29mmx10.52mm",
           "weight": "0g",
           "material": [
             "Brass"
@@ -744,7 +744,7 @@
         {
           "name": "Phantom SL V2",
           "image": "images/2rdesigns/phantom_sl_v2_titanium.jpg",
-          "dimensions": "48mm×29.4mmx18.8mm",
+          "dimensions": "48mm?29.4mmx18.8mm",
           "weight": "111g",
           "material": [
             "Titanium",
@@ -870,7 +870,7 @@
     },
     {
       "name": "Flair Fidgets",
-      "description": "Welcome to a specialised branch of EDC fidget – 'Flair Fidgets.' We hope to ignite your interest in fancy fingertip spinners and sliders.",
+      "description": "Welcome to a specialised branch of EDC fidget ? 'Flair Fidgets.' We hope to ignite your interest in fancy fingertip spinners and sliders.",
       "link": "https://www.facebook.com/groups/905317444419447",
       "image": "images/flairfidgets/flairfidgets.jpg",
       "categories": [
@@ -1243,7 +1243,7 @@
     },
     {
       "name": "Wyste",
-      "description": "I like to make whatever’s in my brain as accurately as I can in the tangible world",
+      "description": "I like to make whatever?s in my brain as accurately as I can in the tangible world",
       "link": "https://www.facebook.com/groups/1149479535455454",
       "image": "images/wyste/wyste.jpg",
       "categories": [
@@ -1318,7 +1318,7 @@
     },
     {
       "name": "Salt & Peppa EDC",
-      "description": "Handmade leather, beads, and sometimes other EDC items made by Jøhn. Come share your carry.",
+      "description": "Handmade leather, beads, and sometimes other EDC items made by J?hn. Come share your carry.",
       "link": "https://www.facebook.com/groups/847093079406393",
       "image": "images/saltandpeppa/saltandpeppa.jpg",
       "categories": [
@@ -1376,7 +1376,7 @@
     },
     {
       "name": "KnowBrains Design",
-      "description": "I’ve heard that Facebook groups are where the true EDC fans come for the best of the best. Hopefully I can be part of that community. It's a WIP so bear with me and thanks for tagging along.",
+      "description": "I?ve heard that Facebook groups are where the true EDC fans come for the best of the best. Hopefully I can be part of that community. It's a WIP so bear with me and thanks for tagging along.",
       "link": "https://www.facebook.com/groups/374427195543104",
       "image": "images/knowbrains/knowbrains.jpg",
       "categories": [
@@ -1404,7 +1404,7 @@
     },
     {
       "name": "Tungsten the Fabulous! [W]",
-      "description": "A group for tungsten EDC “Every Day Carry” enthusiasts. Come join & show off your [W] gear",
+      "description": "A group for tungsten EDC ?Every Day Carry? enthusiasts. Come join & show off your [W] gear",
       "link": "https://www.facebook.com/groups/110130576553396",
       "image": "images/tungsten/tungsten.jpg",
       "categories": [
@@ -1572,6 +1572,18 @@
         "Spinners",
         "Metal",
         "Various"
+      ],
+      "fidgets": [
+        {
+          "name": "Cool Fidget",
+          "dimensions": "45mmx56mmx13mm",
+          "weight": "100g",
+          "button_size": "24.5mm",
+          "material": [
+            "Titanium"
+          ],
+          "image": "images/axiom_edc/cool_fidget_1736650477076.jpg"
+        }
       ]
     },
     {
