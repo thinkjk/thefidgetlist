@@ -18,7 +18,7 @@
 <body>
     <div class="container my-5">
         <header class="mb-4 position-relative">
-            <a href="#submit-group" class="btn btn-primary position-absolute top-0 start-0 m-3">Submit a New Group</a>
+            <a href="#submit-group" class="btn btn-primary position-absolute top-0 start-0 m-3">Submit Content</a>
             <a href="https://github.com/thinkjk/thefidgetlist" target="_blank" rel="noopener noreferrer" class="btn btn-dark position-absolute top-0 end-0 m-3 d-flex align-items-center">
                 <i class="bi bi-github me-2"></i> View Source
             </a>
@@ -65,19 +65,42 @@
         </section>
 
         <section id="submit-group" class="my-5 text-center">
-            <h2>Submit a New Group</h2>
-            <p>If you know of a group that should be listed here, please submit it using the button below.</p>
-            <a href="https://forms.gle/6yVWtuErxdT78rR28" target="_blank" class="btn btn-primary btn-lg">Submit a New Group</a>
+            <h2>Submit Content</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Submit a New Group</h3>
+                            <p>Add a new Facebook group to the directory.</p>
+                            <a href="submit-group.html" class="btn btn-primary">Submit Group</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Submit Fidgets</h3>
+                            <p>Add fidgets to an existing group.</p>
+                            <a href="submit-fidgets.html" class="btn btn-primary">Submit Fidgets</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
 
+    <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Bootstrap Tooltips -->
     <script>
         var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
         var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
             return new bootstrap.Tooltip(tooltipTriggerEl)
         })
     </script>
+    
+    <!-- Site Scripts -->
     <script src="script.js"></script>
 </body>
 </html>
