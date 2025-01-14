@@ -1516,6 +1516,38 @@
       "categories": [
         "Spinners",
         "Metal"
+      ],
+      "fidgets": [
+        {
+          "name": "Pose Blades Tri Cocoon Medium",
+          "image": "images/poseblades/pose_blades_-_tri_cocoon_medium_damasteel.jpg",
+          "dimensions": "47mm",
+          "weight": "66g",
+          "material": [
+            "Damasteel"
+          ],
+          "button_size": "28 mm"
+        },
+        {
+          "name": "Pose Blades Tri Cocoon Medium",
+          "image": "images/poseblades/pose_blades_-_tri_cocoon_medium_cusn8_bronze.jpg",
+          "dimensions": "47mm",
+          "weight": "74g",
+          "material": [
+            "CuSn8 Bronze"
+          ],
+          "button_size": "28 mm"
+        },
+        {
+          "name": "Pose Blades Tri Cocoon Medium",
+          "image": "images/poseblades/pose_blades_-_tri_cocoon_medium_stainless_steel.jpg",
+          "dimensions": "47mm",
+          "weight": "67g",
+          "material": [
+            "Stainless Steel"
+          ],
+          "button_size": "28 mm"
+        }
       ]
     },
     {
