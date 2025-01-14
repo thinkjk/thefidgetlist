@@ -1526,7 +1526,7 @@
           "material": [
             "Damasteel"
           ],
-          "button_size": "28 mm"
+          "button_size": "28mm"
         },
         {
           "name": "Pose Blades Tri Cocoon Medium",
@@ -1534,9 +1534,9 @@
           "dimensions": "47mm",
           "weight": "74g",
           "material": [
-            "CuSn8 Bronze"
+            "Bronze"
           ],
-          "button_size": "28 mm"
+          "button_size": "28mm"
         },
         {
           "name": "Pose Blades Tri Cocoon Medium",
@@ -1546,7 +1546,7 @@
           "material": [
             "Stainless Steel"
           ],
-          "button_size": "28 mm"
+          "button_size": "28mm"
         }
       ]
     },
@@ -1662,6 +1662,15 @@
       "image": "images/mindgoblin/mindgoblin.jpg",
       "categories": [
         "Beads"
+      ]
+    },
+    {
+      "name": "EDC Rehab: B/S/T Marketplace",
+      "description": "A group for EDC Addicts dedicated to Buying, Selling, and trading of (almost) all things Every Day Carry.",
+      "link": "https://www.facebook.com/groups/676292402887182",
+      "image": "images/edcrehab/edcrehab.jpg",
+      "categories": [
+        "B/S/T"
       ]
     }
   ]
