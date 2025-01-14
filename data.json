@@ -1557,6 +1557,45 @@
             "Titanium"
           ],
           "button_size": "24.5mm"
+        },
+        {
+          "name": "Pose Blades Tri Cocoon Xl",
+          "image": "images/poseblades/pose_blades_-_tri_cocoon_xl_titanium.jpg",
+          "dimensions": "52 mm",
+          "weight": "??",
+          "material": [
+            "Titanium"
+          ],
+          "button_size": "28mm"
+        },
+        {
+          "name": "Pose Blades Fat Tri Cocoon",
+          "image": "images/poseblades/pose_blades_-_fat_tri_cocoon_fat_tri.jpg",
+          "dimensions": "??",
+          "weight": "??",
+          "material": [
+            "??"
+          ],
+          "button_size": "??"
+        },
+        {
+          "name": "Pose Blades The Slicker",
+          "image": "images/poseblades/pose_blades_-_the_slicker_g10.jpg",
+          "dimensions": "62mm×24mm",
+          "weight": "80g",
+          "material": [
+            "Stainless Steel"
+          ]
+        },
+        {
+          "name": "Pose Blades Cocoon Mini",
+          "image": "images/poseblades/pose_blades_-_cocoon_mini_stainless_steel.jpg",
+          "dimensions": "42mm",
+          "weight": "45g",
+          "material": [
+            "Stainless Steel"
+          ],
+          "button_size": "24.5mm"
         }
       ]
     },
