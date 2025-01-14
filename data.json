@@ -1547,6 +1547,16 @@
             "Stainless Steel"
           ],
           "button_size": "28mm"
+        },
+        {
+          "name": "Pose Blades Tri Cocoon Titanium Milled",
+          "image": "images/poseblades/pose_blades_-_tri_cocoon_-_titanium_milled_titanium.jpg",
+          "dimensions": "47mm",
+          "weight": "41g",
+          "material": [
+            "Titanium"
+          ],
+          "button_size": "24.5mm"
         }
       ]
     },
