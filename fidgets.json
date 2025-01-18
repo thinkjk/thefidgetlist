@@ -1,0 +1,599 @@
+{
+  "fidgets": [
+    {
+      "group_name": "2R Designs EDC",
+      "items": [
+        {
+          "name": "Phantom Micro Chubby",
+          "dimensions": "36.5mm×19.3mm×10mm",
+          "button_size": "16mm",
+          "variants": [
+            {
+              "material": "Tungsten",
+              "weight": "150g",
+              "image": "images/2rdesigns/phantom_micro_chubby_-_tungsten_tungsten.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Phantom Mini Chubby",
+          "dimensions": "48mm×29mm×16mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Tungsten",
+              "weight": "327g",
+              "image": "images/2rdesigns/phantom_mini_chubby_-_tungsten_tungsten.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "147g",
+              "image": "images/2rdesigns/phantom_mini_chubby_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "82g",
+              "image": "images/2rdesigns/phantom_mini_chubby_titanium.jpg"
+            },
+            {
+              "material": "Mokume",
+              "weight": "157g",
+              "image": "images/2rdesigns/phantom_mini_chubby_mokume_mokume.jpg"
+            },
+            {
+              "material": "Resin",
+              "weight": "23g",
+              "image": "images/2rdesigns/dank_blank_-_phantom_mini_chubby_resin.jpg"
+            },
+            {
+              "material": "Aluminum",
+              "weight": "53g",
+              "image": "images/2rdesigns/phantom_chubby_mini_aluminum_aluminum.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Phantom Mini S V2",
+          "dimensions": "47.6mm×29.3mm×17mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Brass",
+              "weight": "83g",
+              "image": "images/2rdesigns/phantom_mini_s_v2_brass.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "87g",
+              "image": "images/2rdesigns/phantom_mini_s_v2_copper.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "76g",
+              "image": "images/2rdesigns/phantom_mini_s_v2_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "44g",
+              "image": "images/2rdesigns/phantom_mini_s_v2_titanium.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "174g",
+              "image": "images/2rdesigns/phantom_mini_s_v2_tungsten_tungsten.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Phantom XL",
+          "dimensions": "66mm×33.27mm×16.8mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Tungsten",
+              "weight": "348g",
+              "image": "images/2rdesigns/phantom_xl_-_tungsten_tungsten.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "167.77g",
+              "image": "images/2rdesigns/phantom_xl_brass.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "176.58g",
+              "image": "images/2rdesigns/phantom_xl_copper.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "157g",
+              "image": "images/2rdesigns/phantom_xl_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "89.02g",
+              "image": "images/2rdesigns/phantom_xl_titanium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Phantom Tri Mini",
+          "dimensions": "47.6mm×47.6mm×17mm",
+          "button_size": "23mm",
+          "variants": [
+            {
+              "material": "Brass",
+              "weight": "123g",
+              "image": "images/2rdesigns/phantom_tri_mini_brass.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "130g",
+              "image": "images/2rdesigns/phantom_tri_mini_copper.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "116g",
+              "image": "images/2rdesigns/phantom_tri_mini_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "67g",
+              "image": "images/2rdesigns/phantom_tri_mini_titanium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Patriot",
+          "dimensions": "47mm×29mmx10.52mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "100g",
+              "image": "images/2rdesigns/patriot_stainless_steel.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "0g",
+              "image": "images/2rdesigns/patriot_brass.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_name": "Clean EDC",
+      "items": [
+        {
+          "name": "Slim Pillar",
+          "dimensions": "55mmx14mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Brass",
+              "weight": "104g",
+              "image": "images/cleanedc/slim_pillar_brass.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "97g",
+              "image": "images/cleanedc/slim_pillar_ss.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_name": "Pose Blades",
+      "items": [
+        {
+          "name": "Tri Cocoon Medium",
+          "dimensions": "47mm",
+          "button_size": "28mm",
+          "variants": [
+            {
+              "material": "Damasteel",
+              "weight": "66g",
+              "image": "images/poseblades/tri_cocoon_medium_damasteel.jpg"
+            },
+            {
+              "material": "Bronze",
+              "weight": "74g",
+              "image": "images/poseblades/tri_cocoon_medium_cusn8_bronze.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "67g",
+              "image": "images/poseblades/tri_cocoon_medium_stainless_steel.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Tri Cocoon",
+          "dimensions": "47mm",
+          "button_size": "23mm or 24.5mm",
+          "variants": [
+            {
+              "material": "Titanium Miled",
+              "weight": "41g",
+              "image": "images/poseblades/tri_cocoon_-_titanium_milled_titanium.jpg"
+            },
+            {
+              "material": "DSC Titanium",
+              "weight": "35g",
+              "image": "images/poseblades/tri_cocoon_dsc_titanium.jpg"
+            },
+            {
+              "material": "Damasteel",
+              "weight": "56g",
+              "image": "images/poseblades/tri_cocoon_damasteel.jpg"
+            },
+            {
+              "material": "Bronze",
+              "weight": "57g",
+              "image": "images/poseblades/tri_cocoon_bronze.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "56g",
+              "image": "images/poseblades/tri_cocoon_titanium.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "57g",
+              "image": "images/poseblades/tri_cocoon_copper.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "58g",
+              "image": "images/poseblades/tri_cocoon_stainless_steel.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Tri Cocoon XL",
+          "dimensions": "52mm",
+          "button_size": "28mm",
+          "variants": [
+            {
+              "material": "Titanium",
+              "weight": "??",
+              "image": "images/poseblades/tri_cocoon_xl_titanium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Fat Tri Cocoon",
+          "dimensions": "??",
+          "button_size": "??",
+          "variants": [
+            {
+              "material": "??",
+              "weight": "??",
+              "image": "images/poseblades/fat_tri_cocoon_fat_tri.jpg"
+            }
+          ]
+        },
+        {
+          "name": "The Slicker",
+          "dimensions": "62mm×24mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "80g",
+              "image": "images/poseblades/the_slicker_g10.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Cocoon Mini",
+          "dimensions": "42mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "45g",
+              "image": "images/poseblades/cocoon_mini_stainless_steel.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Tri Cocoon Mini",
+          "dimensions": "42mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Titanium",
+              "weight": "35g",
+              "image": "images/poseblades/tri_cocoon_mini_titanium.jpg"
+            },
+            {
+              "material": "Zirc",
+              "weight": "??",
+              "image": "images/poseblades/tri_cocoon_mini_zirc.jpg"
+            },
+            {
+              "material": "Bronze",
+              "weight": "55g",
+              "image": "images/poseblades/tri_cocoon_mini_bronze.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "51g",
+              "image": "images/poseblades/tri_cocoon_mini_stainless_steel.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Cocoon RS",
+          "dimensions": "42mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "24.6g",
+              "image": "images/poseblades/cocoon_rs_wcu.jpg"
+            },
+            {
+              "material": "Bronze",
+              "weight": "27.3g",
+              "image": "images/poseblades/cocoon_rs_bronze.jpg"
+            },
+            {
+              "material": "Zirc",
+              "weight": "21.1g",
+              "image": "images/poseblades/cocoon_rs_zirc.jpg"
+            },
+            {
+              "material": "WCu",
+              "weight": "42.7g",
+              "image": "images/poseblades/cocoon_rs_stainless_steel.jpg"
+            }
+          ]
+        },
+        {
+          "name": "X Alumafx Monarch",
+          "dimensions": "60mm",
+          "button_size": "23mm",
+          "variants": [
+            {
+              "material": "Titanium w/ Tungsten Balls",
+              "weight": "40.3g",
+              "image": "images/poseblades/x_alumafx_monarch.jpg"
+            },
+            {
+              "material": "Titanium w/ ZrO2 Balls",
+              "weight": "21.7g",
+              "image": "images/poseblades/x_alumafx_monarch.jpg"
+            },
+            {
+              "material": "Zirc w/ Tungsten Balls",
+              "weight": "58g",
+              "image": "images/poseblades/x_alumafx_monarch_zirc.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Cocoon",
+          "dimensions": "47",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "47g",
+              "image": "images/poseblades/cocoon_stainless_steel.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "45g",
+              "image": "images/poseblades/cocoon_copper.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "34g",
+              "image": "images/poseblades/cocoon_titanium.jpg"
+            },
+            {
+              "material": "Bronze",
+              "weight": "44g",
+              "image": "images/poseblades/cocoon_bronze.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "35g",
+              "image": "images/poseblades/cocoon_zirconium.jpg"
+            }
+          ],
+          "button_size": "23mm"
+        }
+      ]
+    },
+    {
+      "group_name": "iNDY THiCC EDC",
+      "items": [
+        {
+          "name": "Chelsea SF",
+          "dimensions": "50x27x18mm",
+          "variants": [
+            {
+              "material": "Zirconium",
+              "weight": "130g",
+              "image": "images/indythicc/chealseasf_zirc.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "90g",
+              "image": "images/indythicc/chealseasf_ti.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Chelsea SFT",
+          "dimensions": "50x27x20mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "101g",
+              "image": "images/indythicc/chealseasft_ss.jpg"
+            },
+            {
+              "material": "Bronze",
+              "weight": "96g",
+              "image": "images/indythicc/chealseasft_bronze.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "115g",
+              "image": "images/indythicc/chealseasft_copper.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_name": "NJT.EDC.FAMILY",
+      "items": [
+        {
+          "name": "Nebu 2.0 XL",
+          "dimensions": "58mm × 20mm × 17mm",
+          "variants": [
+            {
+              "material": "Tungsten",
+              "weight": "310g",
+              "image": "images/njtedc/nebu_2.0_xl_tungsten.jpg"
+            }
+          ],
+          "button_size": "24.5"
+        },
+        {
+          "name": "Nebu 2.0",
+          "dimensions": "50mm × 20mm × 15mm",
+          "variants": [
+            {
+              "material": "Zircuti",
+              "weight": "65g",
+              "image": "images/njtedc/nebu_2.0_Zircuti.jpg"
+            },
+            {
+              "material": "Mokume",
+              "weight": "115g",
+              "image": "images/njtedc/nebu_2.0_mokume.jpg"
+            },
+                        {
+              "material": "Big Cricle Damasteel",
+              "weight": "98g",
+              "image": "images/njtedc/nebu_2.0_big_circle_damasteel.jpg"
+            },
+            {
+              "material": "Damasteel",
+              "weight": "104g",
+              "image": "images/njtedc/nebu_2.0_damasteel.jpg"
+            },
+            {
+              "material": "Crystallized Titanium",
+              "weight": "60g",
+              "image": "images/njtedc/nebu_2.0_crystallized_titanium.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "85g",
+              "image": "images/njtedc/nebu_2.0_zirconium.jpg"
+            },
+            {
+              "material": "Super Conductor",
+              "weight": "99g",
+              "image": "images/njtedc/nebu_2.0_super_conductor.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "240g",
+              "image": "images/njtedc/nebu_2.0_tungsten.jpg"
+            }
+          ],
+          "button_size": "24.5"
+        },
+        {
+          "name": "UFO 2.0",
+          "dimensions": "50mm",
+          "variants": [
+            {
+              "material": "Zircuti",
+              "weight": "83g",
+              "image": "images/njtedc/ufo_2.0_zircuti.jpg"
+            },
+            {
+              "material": "Damasteel",
+              "weight": "130g",
+              "image": "images/njtedc/ufo_2.0_damasteel.jpg"
+            },
+            {
+              "material": "Mokume",
+              "weight": "145g",
+              "image": "images/njtedc/ufo_2.0_mokume.jpg"
+            }
+          ],
+          "button_size": "24.5mm"
+        },
+        {
+          "name": "Vader",
+          "dimensions": "51mm",
+          "variants": [
+            {
+              "material": "Titanium",
+              "weight": "49g",
+              "image": "images/njtedc/vader_titanium.jpg"
+            },
+            {
+              "material": "Crystallized Titanium",
+              "weight": "49g",
+              "image": "images/njtedc/vader_crystallized_titanium.jpg"
+            },
+            {
+              "material": "Timascus",
+              "weight": "49g",
+              "image": "images/njtedc/vader_timascus.jpg"
+            },
+            {
+              "material": "Super Conductor",
+              "weight": "77g",
+              "image": "images/njtedc/vader_super_conductor.jpg"
+            },
+            {
+              "material": "Zircuti",
+              "weight": "53g",
+              "image": "images/njtedc/vader_zircuti.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "184g",
+              "image": "images/njtedc/vader_tungsten.jpg"
+            },
+            {
+              "material": "Mokume",
+              "weight": "91g",
+              "image": "images/njtedc/vader_mokume.jpg"
+            }
+          ],
+          "button_size": "24.5mm"
+        },
+                {
+          "name": "Vader Mini",
+          "dimensions": "35mm",
+          "variants": [
+            {
+              "material": "Tungsten",
+              "weight": "78g",
+              "image": "images/njtedc/vader_mini_tungsten.jpg"
+            },
+            {
+              "material": "Super Conductor",
+              "weight": "40g",
+              "image": "images/njtedc/vader_mini_super_conductor.jpg"
+            }
+          ],
+          "button_size": "16.6mm"
+        }
+      ],
+      "image": "images/njtedc/njtedc.jpg",
+      "description": "NJT Spinners"
+    }
+  ]
+}

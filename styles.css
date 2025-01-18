@@ -1,4 +1,6 @@
-/* Custom Styles */
+/* -------------------------------
+   Global / Body Styles
+-------------------------------- */
 body {
     background-color: #f8f9fa;
     color: #212529;
@@ -29,7 +31,9 @@ header .btn.btn-dark.position-absolute {
     /* Customize the button appearance if needed */
 }
 
-/* Style for the search bar */
+/* -------------------------------
+   Search Bar
+-------------------------------- */
 #searchBar {
     border: 1px solid #ced4da;
     border-radius: 0.5rem;
@@ -51,7 +55,9 @@ table th {
     word-break: keep-all; /* Prevents breaking within words */
 }
 
-/* Updated styling for fidgets feature */
+/* -------------------------------
+   Fidgets Feature
+-------------------------------- */
 .fidgets-container {
     padding: 1rem;
     background-color: #ffffff;
@@ -89,7 +95,9 @@ table th {
     color: #6c757d;
 }
 
-/* Existing styles */
+/* -------------------------------
+   Form / Filter Styles
+-------------------------------- */
 .form-check-label {
     cursor: pointer;
 }
@@ -107,7 +115,9 @@ table th {
     margin-top: 1rem;
 }
 
-/* Updated image styling */
+/* -------------------------------
+   Table & Image Styling
+-------------------------------- */
 table img {
     border-radius: 5px;
     width: 100px;
@@ -125,7 +135,9 @@ header .btn.position-absolute {
     z-index: 1;
 }
 
-/* Responsive Adjustments */
+/* -------------------------------
+   Responsive Adjustments
+-------------------------------- */
 @media (max-width: 576px) {
     body {
         padding: 0 1rem;
@@ -224,5 +236,156 @@ header .btn.position-absolute {
     table td:nth-child(4) {
         width: 1%;
         white-space: nowrap;
+    }
+}
+
+/* -------------------------------
+   Carousel Arrow Positioning & Styling
+-------------------------------- */
+/* Default carousel arrows (thumbnail view) */
+.carousel {
+    position: relative;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 32px;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-control-prev {
+    left: 5px;
+}
+
+.carousel-control-next {
+    right: 5px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+
+/* Fullscreen modal carousel arrows */
+.modal-fullscreen .carousel-control-prev,
+.modal-fullscreen .carousel-control-next {
+    width: 50px;  /* Larger circles in fullscreen */
+    height: 50px;
+    top: 50%;    /* Center vertically */
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-fullscreen .carousel-control-prev {
+    left: 20px;  /* Further from edge */
+}
+
+.modal-fullscreen .carousel-control-next {
+    right: 20px; /* Further from edge */
+}
+
+.modal-fullscreen .carousel-control-prev-icon,
+.modal-fullscreen .carousel-control-next-icon {
+    width: 30px;  /* Larger icons in fullscreen */
+    height: 30px;
+}
+
+/* -------------------------------
+   Carousel Indicators Styling
+-------------------------------- */
+.carousel {
+    position: relative;
+}
+
+.carousel-inner {
+    position: relative;
+}
+
+.carousel-item img {
+    height: 150px;
+    object-fit: cover;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 0; /* Position at bottom of image */
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 15;
+}
+
+/* Style for the indicator bars */
+.carousel-indicators [data-bs-target] {
+    width: 30px !important;
+    height: 3px !important;
+    margin: 0 3px !important;
+    background-color: rgba(168, 168, 168, 0.897) !important;
+    border: none !important;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+}
+
+/* Active indicator */
+.carousel-indicators .active {
+    background-color: #000000 !important;
+}
+
+/* Make sure the image container has proper height */
+.carousel-item {
+    position: relative;
+}
+
+/* Fullscreen modal indicators positioning */
+.modal-fullscreen .carousel-indicators {
+    bottom: 67px;
+}
+
+/* Mobile enhancements */
+@media (max-width: 768px) {
+    /* Thumbnail view arrows on mobile */
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 28px;
+        height: 28px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    /* Fullscreen modal arrows on mobile */
+    .modal-fullscreen .carousel-control-prev,
+    .modal-fullscreen .carousel-control-next {
+        width: 40px;  /* Slightly smaller on mobile but still larger than thumbnail view */
+        height: 40px;
+    }
+
+    .modal-fullscreen .carousel-control-prev-icon,
+    .modal-fullscreen .carousel-control-next-icon {
+        width: 24px;
+        height: 24px;
     }
 }
