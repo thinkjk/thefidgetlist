@@ -5,7 +5,7 @@
       "items": [
         {
           "name": "Phantom Micro Chubby",
-          "dimensions": "36.5mm×19.3mm×10mm",
+          "dimensions": "36.5mm × 19.3mm × 10mm",
           "button_size": "16mm",
           "variants": [
             {
@@ -17,7 +17,7 @@
         },
         {
           "name": "Phantom Mini Chubby",
-          "dimensions": "48mm×29mm×16mm",
+          "dimensions": "48mm × 29mm × 16mm",
           "button_size": "24.5mm",
           "variants": [
             {
@@ -54,7 +54,7 @@
         },
         {
           "name": "Phantom Mini S V2",
-          "dimensions": "47.6mm×29.3mm×17mm",
+          "dimensions": "47.6mm × 29.3mm × 17mm",
           "button_size": "24.5mm",
           "variants": [
             {
@@ -86,7 +86,7 @@
         },
         {
           "name": "Phantom XL",
-          "dimensions": "66mm×33.27mm×16.8mm",
+          "dimensions": "66mm × 33.27mm × 16.8mm",
           "button_size": "24.5mm",
           "variants": [
             {
@@ -118,7 +118,7 @@
         },
         {
           "name": "Phantom Tri Mini",
-          "dimensions": "47.6mm×47.6mm×17mm",
+          "dimensions": "47.6mm × 47.6mm × 17mm",
           "button_size": "23mm",
           "variants": [
             {
@@ -145,7 +145,7 @@
         },
         {
           "name": "Patriot",
-          "dimensions": "47mm×29mmx10.52mm",
+          "dimensions": "47mm × 29mm × 10.52mm",
           "variants": [
             {
               "material": "Stainless Steel",
@@ -166,7 +166,7 @@
       "items": [
         {
           "name": "Slim Pillar",
-          "dimensions": "55mmx14mm",
+          "dimensions": "55mm × 14mm",
           "button_size": "24.5mm",
           "variants": [
             {
@@ -276,7 +276,7 @@
         },
         {
           "name": "The Slicker",
-          "dimensions": "62mm×24mm",
+          "dimensions": "62mm × 24mm",
           "variants": [
             {
               "material": "Stainless Steel",
@@ -374,7 +374,7 @@
         },
         {
           "name": "Cocoon",
-          "dimensions": "47",
+          "dimensions": "47mm",
           "variants": [
             {
               "material": "Stainless Steel",
@@ -411,7 +411,7 @@
       "items": [
         {
           "name": "Chelsea SF",
-          "dimensions": "50x27x18mm",
+          "dimensions": "50 × 27 × 18mm",
           "variants": [
             {
               "material": "Zirconium",
@@ -427,7 +427,7 @@
         },
         {
           "name": "Chelsea SFT",
-          "dimensions": "50x27x20mm",
+          "dimensions": "50 × 27 × 20mm",
           "variants": [
             {
               "material": "Stainless Steel",
@@ -477,7 +477,7 @@
               "weight": "115g",
               "image": "images/njtedc/nebu_2.0_mokume.jpg"
             },
-                        {
+            {
               "material": "Big Cricle Damasteel",
               "weight": "98g",
               "image": "images/njtedc/nebu_2.0_big_circle_damasteel.jpg"
@@ -574,7 +574,7 @@
           ],
           "button_size": "24.5mm"
         },
-                {
+        {
           "name": "Vader Mini",
           "dimensions": "35mm",
           "variants": [
@@ -591,9 +591,160 @@
           ],
           "button_size": "16.6mm"
         }
-      ],
-      "image": "images/njtedc/njtedc.jpg",
-      "description": "NJT Spinners"
+      ]
+    },
+    {
+      "group_name": "LIC edc",
+      "items": [
+        {
+          "name": "Goldilocks Edamame",
+          "dimensions": "55mm",
+          "variants": [
+            {
+              "material": "Brass",
+              "weight": "114g",
+              "image": "images/licedc/goldilocks_edamame_brass.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "??",
+              "image": "images/licedc/goldilocks_edamame_titanium.jpg"
+            },
+            {
+              "material": "WCu",
+              "weight": "??",
+              "image": "images/licedc/goldilocks_edamame_wcu.jpg"
+            }
+          ],
+          "button_size": "??mm"
+        }
+      ]
+    },
+    {
+      "group_name": "Rotablade",
+      "items": [
+        {
+          "name": "Stubby",
+          "dimensions": "50mm × 30mm × 9mm",
+          "variants": [
+            {
+              "material": "John Schipp Alien",
+              "weight": "??",
+              "image": "images/rotablade/stubby_john_schipp_alien.jpg"
+            },
+            {
+              "material": "Damasteel",
+              "weight": "??",
+              "image": "images/rotablade/stubby_damasteel.jpg"
+            },
+            {
+              "material": "Mokume",
+              "weight": "??",
+              "image": "images/rotablade/stubby_moukme.jpg"
+            },
+            {
+              "material": "Mokuti",
+              "weight": "40g",
+              "image": "images/rotablade/stubby_mokuti.jpg"
+            },
+                        {
+              "material": "Brass",
+              "weight": "74g",
+              "image": "images/rotablade/stubby_brass.jpg"
+            },
+            {
+              "material": "Coppper",
+              "weight": "79g",
+              "image": "images/rotablade/stubby_copper.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "82g",
+              "image": "images/rotablade/stubby_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "40g",
+              "image": "images/rotablade/stubby_titanium.jpg"
+            },
+            {
+              "material": "Super Conductor",
+              "weight": "??",
+              "image": "images/rotablade/stubby_super_conductor.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "135g",
+              "image": "images/rotablade/stubby_tungsten.jpg"
+            },
+            {
+              "material": "Tritium",
+              "weight": "??",
+              "image": "images/rotablade/stubby_tritium.jpg"
+            },
+            {
+              "material": "Vegas Forge Steel",
+              "weight": "67g",
+              "image": "images/rotablade/stubby_vegas_forge_steel.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "??",
+              "image": "images/rotablade/stubby_zirconium.jpg"
+            },
+            {
+              "material": "Zircuti",
+              "weight": "47g",
+              "image": "images/rotablade/stubby_zircuti.jpg"
+            },
+            {
+              "material": "Aluminium Bronze",
+              "weight": "66g",
+              "image": "images/rotablade/stubby_aluminium_bronze.jpg"
+            }
+          ],
+          "button_size": "11.7mm"
+        },
+        {
+          "name": "Stubby_Air",
+          "dimensions": "50mm × 30mm × 9mm",
+          "variants": [
+            {
+              "material": "Brass",
+              "weight": "60g",
+              "image": "images/rotablade/stubby_air_brastainless_steel.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "63g",
+              "image": "images/rotablade/stubby_air_copper.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "56g",
+              "image": "images/rotablade/stubby_air_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "33g",
+              "image": "images/rotablade/stubby_air_titanium.jpg"
+            }
+          ],
+          "button_size": "11.7mm"
+        },
+        {
+          "name": "XL Stubby",
+          "dimensions": "60mm × 36mm × 9mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "103g",
+              "image": "images/rotablade/xl_stubby_stainless_steel.jpg"
+            }
+          ],
+          "button_size": "11.7mm"
+        }
+      ]
     }
   ]
 }
