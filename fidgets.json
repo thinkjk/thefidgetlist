@@ -647,7 +647,7 @@
               "weight": "40g",
               "image": "images/rotablade/stubby_mokuti.jpg"
             },
-                        {
+            {
               "material": "Brass",
               "weight": "74g",
               "image": "images/rotablade/stubby_brass.jpg"
@@ -740,6 +740,100 @@
               "material": "Stainless Steel",
               "weight": "103g",
               "image": "images/rotablade/xl_stubby_stainless_steel.jpg"
+            }
+          ],
+          "button_size": "11.7mm"
+        },
+        {
+          "name": "Tri-Stubby Air",
+          "dimensions": "50mm × 50mm × 9mm",
+          "variants": [
+            {
+              "material": "Brass",
+              "weight": "61g",
+              "image": "images/rotablade/tri_stubby_air_brass.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "65g",
+              "image": "images/rotablade/tri_stubby_air_copper.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "58g",
+              "image": "images/rotablade/tri_stubby_air_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "43g",
+              "image": "images/rotablade/tri_stubby_air_titanium.jpg"
+            }
+          ],
+          "button_size": "11.7mm"
+        },
+        {
+          "name": "Tri-Stubby",
+          "dimensions": "50mm × 50mm × 9mm",
+          "variants": [
+            {
+              "material": "John Schipp Alien",
+              "weight": "??",
+              "image": "images/rotablade/tri_stubby_john_schipp_alien.jpg"
+            },
+            {
+              "material": "Mokuti",
+              "weight": "??",
+              "image": "images/rotablade/tri_stubby_mokuti.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "61g",
+              "image": "images/rotablade/tri_stubby_brass.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "76g",
+              "image": "images/rotablade/tri_stubby_copper.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "81g",
+              "image": "images/rotablade/tri_stubby_stainless_steel.jpg"
+            },
+            {
+              "material": "Damasteel",
+              "weight": "63g",
+              "image": "images/rotablade/tri_stubby_damasteel.jpg"
+            },
+            {
+              "material": "Mokume",
+              "weight": "74g",
+              "image": "images/rotablade/tri_stubby_mokume.jpg"
+            },
+            {
+              "material": "Super Conductor",
+              "weight": "58g",
+              "image": "images/rotablade/tri_stubby_super_conductor.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "39g",
+              "image": "images/rotablade/tri_stubby_titanium.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "133g",
+              "image": "images/rotablade/tri_stubby_tungsten.jpg"
+            },
+            {
+              "material": "Zircuti",
+              "weight": "47g",
+              "image": "images/rotablade/tri_stubby_zircuti.jpg"
+            },
+            {
+              "material": "Aluminum Bronze",
+              "weight": "65g",
+              "image": "images/rotablade/tri_stubby_aluminium_bronze.jpg"
             }
           ],
           "button_size": "11.7mm"
