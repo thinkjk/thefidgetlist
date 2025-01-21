@@ -173,9 +173,17 @@ document.addEventListener('DOMContentLoaded', () => {
             staticDiv.style.textAlign = 'center';
 
             let staticHTML = `<strong style="font-size:1.2rem;">${fidgetItem.name}</strong>`;
+
+            // Dimensions line
             if (fidgetItem.dimensions) {
-              staticHTML += `<br><span style="font-size:0.9rem;">Dimensions: ${fidgetItem.dimensions}</span>`;
+            staticHTML += `<br><span style="font-size:0.9rem;">Dimensions: ${fidgetItem.dimensions}</span>`;
             }
+
+            // Button size line (after dimensions)
+            if (fidgetItem.button_size) {
+            staticHTML += `<br><span style="font-size:0.9rem;">Button Size: ${fidgetItem.button_size}</span>`;
+            }
+
             staticDiv.innerHTML = staticHTML;
             itemDiv.appendChild(staticDiv);
 
