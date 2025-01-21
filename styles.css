@@ -51,34 +51,51 @@ table th {
 
 /* Specific styles for the "Categories" column */
 .categories-column {
-    white-space: normal; /* Allows wrapping at spaces */
-    word-break: keep-all; /* Prevents breaking within words */
+    white-space: normal;
+    /* Allows wrapping at spaces */
+    word-break: keep-all;
+    /* Prevents breaking within words */
 }
 
 /* -------------------------------
-   Fidgets Feature
+   Fidgets Feature (UPDATED)
 -------------------------------- */
 .fidgets-container {
+    /* Grid layout so each card is at least 200px wide */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+
     padding: 1rem;
     background-color: #ffffff;
     border: 1px solid #dee2e6;
     border-radius: 0.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
     margin-top: 1rem;
+
+    /* Align cards from the top so they line up in rows */
+    align-items: start;
 }
 
 .fidget-item {
+    /* Center all content horizontally */
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    max-width: 200px;
-    padding: 0.5rem;
+
     border: 1px solid #dee2e6;
     border-radius: 0.5rem;
     background-color: #f8f9fa;
+    padding: 0.5rem;
+
+    box-sizing: border-box;
+    overflow: hidden;
+
+    /*
+    OPTIONAL: If you want every card in a row to have the exact same height,
+    uncomment this (or pick your own height):
+    min-height: 320px;
+    */
 }
 
 .fidget-item img {
@@ -122,7 +139,8 @@ table img {
     border-radius: 5px;
     width: 100px;
     height: 100px;
-    object-fit: cover; /* Ensures the image covers the area without distortion */
+    object-fit: cover;
+    /* Ensures the image covers the area without distortion */
 }
 
 .table td,
@@ -204,8 +222,10 @@ header .btn.position-absolute {
 
     table th,
     table td {
-        white-space: nowrap; /* Prevent text from wrapping */
-        word-break: keep-all; /* Prevent words from breaking */
+        white-space: nowrap;
+        /* Prevent text from wrapping */
+        word-break: keep-all;
+        /* Prevent words from breaking */
         padding: 0.5rem;
         font-size: 0.9rem;
         text-align: left;
@@ -213,9 +233,14 @@ header .btn.position-absolute {
     }
 
     /* Allow wrapping in specific columns if needed */
-    table td:nth-child(3), /* Description column */
-    table td:nth-child(5)  /* Categories column */ {
-        white-space: normal; /* Allow wrapping in these columns */
+    table td:nth-child(3),
+    /* Description column */
+    table td:nth-child(5)
+
+    /* Categories column */
+        {
+        white-space: normal;
+        /* Allow wrapping in these columns */
     }
 
     /* Updated image size in table */
@@ -229,7 +254,8 @@ header .btn.position-absolute {
     .btn {
         font-size: 0.9rem;
         padding: 0.4rem 0.75rem;
-        white-space: nowrap; /* Prevent text from wrapping in buttons */
+        white-space: nowrap;
+        /* Prevent text from wrapping in buttons */
     }
 
     /* Adjust the width of the "Link" column to fit the button */
@@ -288,24 +314,29 @@ header .btn.position-absolute {
 /* Fullscreen modal carousel arrows */
 .modal-fullscreen .carousel-control-prev,
 .modal-fullscreen .carousel-control-next {
-    width: 50px;  /* Larger circles in fullscreen */
+    width: 50px;
+    /* Larger circles in fullscreen */
     height: 50px;
-    top: 50%;    /* Center vertically */
+    top: 50%;
+    /* Center vertically */
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.6);
 }
 
 .modal-fullscreen .carousel-control-prev {
-    left: 20px;  /* Further from edge */
+    left: 20px;
+    /* Further from edge */
 }
 
 .modal-fullscreen .carousel-control-next {
-    right: 20px; /* Further from edge */
+    right: 20px;
+    /* Further from edge */
 }
 
 .modal-fullscreen .carousel-control-prev-icon,
 .modal-fullscreen .carousel-control-next-icon {
-    width: 30px;  /* Larger icons in fullscreen */
+    width: 30px;
+    /* Larger icons in fullscreen */
     height: 30px;
 }
 
@@ -327,7 +358,8 @@ header .btn.position-absolute {
 
 .carousel-indicators {
     position: absolute;
-    bottom: 0; /* Position at bottom of image */
+    bottom: 0;
+    /* Position at bottom of image */
     left: 0;
     right: 0;
     margin: 0;
@@ -363,6 +395,7 @@ header .btn.position-absolute {
 
 /* Mobile enhancements */
 @media (max-width: 768px) {
+
     /* Thumbnail view arrows on mobile */
     .carousel-control-prev,
     .carousel-control-next {
@@ -379,7 +412,8 @@ header .btn.position-absolute {
     /* Fullscreen modal arrows on mobile */
     .modal-fullscreen .carousel-control-prev,
     .modal-fullscreen .carousel-control-next {
-        width: 40px;  /* Slightly smaller on mobile but still larger than thumbnail view */
+        width: 40px;
+        /* Slightly smaller on mobile but still larger than thumbnail view */
         height: 40px;
     }
 
