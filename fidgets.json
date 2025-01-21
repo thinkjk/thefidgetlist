@@ -756,22 +756,22 @@
             {
               "material": "Brass",
               "weight": "61g",
-              "image": "images/rotablade/tri_stubby_air_brass.jpg"
+              "image": "images/rotablade/tri-stubby_air_brass.jpg"
             },
             {
               "material": "Copper",
               "weight": "65g",
-              "image": "images/rotablade/tri_stubby_air_copper.jpg"
+              "image": "images/rotablade/tri-stubby_air_copper.jpg"
             },
             {
               "material": "Stainless Steel",
               "weight": "58g",
-              "image": "images/rotablade/tri_stubby_air_stainless_steel.jpg"
+              "image": "images/rotablade/tri-stubby_air_stainless_steel.jpg"
             },
             {
               "material": "Titanium",
               "weight": "43g",
-              "image": "images/rotablade/tri_stubby_air_titanium.jpg"
+              "image": "images/rotablade/tri-stubby_air_titanium.jpg"
             }
           ],
           "button_size": "11.7mm"
