@@ -5,7 +5,7 @@
       "items": [
         {
           "name": "Phantom Micro Chubby",
-          "dimensions": "36.5mm × 19.3mm × 10mm",
+          "dimensions": "36.5mm x 19.3mm x 10mm",
           "button_size": "16mm",
           "variants": [
             {
@@ -17,7 +17,7 @@
         },
         {
           "name": "Phantom Mini Chubby",
-          "dimensions": "48mm × 29mm × 16mm",
+          "dimensions": "48mm x 29mm x 16mm",
           "button_size": "24.5mm",
           "variants": [
             {
@@ -54,7 +54,7 @@
         },
         {
           "name": "Phantom Mini S V2",
-          "dimensions": "47.6mm × 29.3mm × 17mm",
+          "dimensions": "47.6mm x 29.3mm x 17mm",
           "button_size": "24.5mm",
           "variants": [
             {
@@ -86,7 +86,7 @@
         },
         {
           "name": "Phantom XL",
-          "dimensions": "66mm × 33.27mm × 16.8mm",
+          "dimensions": "66mm x 33.27mm x 16.8mm",
           "button_size": "24.5mm",
           "variants": [
             {
@@ -118,7 +118,7 @@
         },
         {
           "name": "Phantom Tri Mini",
-          "dimensions": "47.6mm × 47.6mm × 17mm",
+          "dimensions": "47.6mm x 47.6mm x 17mm",
           "button_size": "23mm",
           "variants": [
             {
@@ -145,7 +145,7 @@
         },
         {
           "name": "Patriot",
-          "dimensions": "47mm × 29mm × 10.52mm",
+          "dimensions": "47mm x 29mm x 10.52mm",
           "variants": [
             {
               "material": "Stainless Steel",
@@ -166,13 +166,18 @@
       "items": [
         {
           "name": "Slim Pillar",
-          "dimensions": "55mm × 14mm",
+          "dimensions": "55mm x 14mm",
           "button_size": "24.5mm",
           "variants": [
             {
               "material": "Brass",
               "weight": "104g",
               "image": "images/cleanedc/slim_pillar_brass.jpg"
+            },
+            {
+              "material": "Bronze",
+              "weight": "106g",
+              "image": "images/cleanedc/slim_pillar_bronze.jpg"
             },
             {
               "material": "Stainless Steel",
@@ -276,7 +281,7 @@
         },
         {
           "name": "The Slicker",
-          "dimensions": "62mm × 24mm",
+          "dimensions": "62mm x 24mm",
           "variants": [
             {
               "material": "Stainless Steel",
@@ -411,7 +416,7 @@
       "items": [
         {
           "name": "Chelsea SF",
-          "dimensions": "50 × 27 × 18mm",
+          "dimensions": "50 x 27 x 18mm",
           "variants": [
             {
               "material": "Zirconium",
@@ -427,7 +432,7 @@
         },
         {
           "name": "Chelsea SFT",
-          "dimensions": "50 × 27 × 20mm",
+          "dimensions": "50 x 27 x 20mm",
           "variants": [
             {
               "material": "Stainless Steel",
@@ -453,7 +458,7 @@
       "items": [
         {
           "name": "Nebu 2.0 XL",
-          "dimensions": "58mm × 20mm × 17mm",
+          "dimensions": "58mm x 20mm x 17mm",
           "variants": [
             {
               "material": "Tungsten",
@@ -465,7 +470,7 @@
         },
         {
           "name": "Nebu 2.0",
-          "dimensions": "50mm × 20mm × 15mm",
+          "dimensions": "50mm x 20mm x 15mm",
           "variants": [
             {
               "material": "Zircuti",
@@ -625,7 +630,7 @@
       "items": [
         {
           "name": "Stubby",
-          "dimensions": "50mm × 30mm × 9mm",
+          "dimensions": "50mm x 30mm x 9mm",
           "variants": [
             {
               "material": "John Schipp Alien",
@@ -707,7 +712,7 @@
         },
         {
           "name": "Stubby_Air",
-          "dimensions": "50mm × 30mm × 9mm",
+          "dimensions": "50mm x 30mm x 9mm",
           "variants": [
             {
               "material": "Brass",
@@ -734,7 +739,7 @@
         },
         {
           "name": "XL Stubby",
-          "dimensions": "60mm × 36mm × 9mm",
+          "dimensions": "60mm x 36mm x 9mm",
           "variants": [
             {
               "material": "Stainless Steel",
@@ -746,7 +751,7 @@
         },
         {
           "name": "Tri-Stubby Air",
-          "dimensions": "50mm × 50mm × 9mm",
+          "dimensions": "50mm x 50mm x 9mm",
           "variants": [
             {
               "material": "Brass",
@@ -773,70 +778,122 @@
         },
         {
           "name": "Tri-Stubby",
-          "dimensions": "50mm × 50mm × 9mm",
+          "dimensions": "50mm x 50mm x 9mm",
           "variants": [
             {
               "material": "John Schipp Alien",
               "weight": "??",
-              "image": "images/rotablade/tri_stubby_john_schipp_alien.jpg"
+              "image": "images/rotablade/tri-stubby_john_schipp_alien.jpg"
             },
             {
               "material": "Mokuti",
               "weight": "??",
-              "image": "images/rotablade/tri_stubby_mokuti.jpg"
+              "image": "images/rotablade/tri-stubby_mokuti.jpg"
             },
             {
               "material": "Brass",
               "weight": "61g",
-              "image": "images/rotablade/tri_stubby_brass.jpg"
+              "image": "images/rotablade/tri-stubby_brass.jpg"
             },
             {
               "material": "Copper",
               "weight": "76g",
-              "image": "images/rotablade/tri_stubby_copper.jpg"
+              "image": "images/rotablade/tri-stubby_copper.jpg"
             },
             {
               "material": "Stainless Steel",
               "weight": "81g",
-              "image": "images/rotablade/tri_stubby_stainless_steel.jpg"
+              "image": "images/rotablade/tri-stubby_stainless_steel.jpg"
             },
             {
               "material": "Damasteel",
               "weight": "63g",
-              "image": "images/rotablade/tri_stubby_damasteel.jpg"
+              "image": "images/rotablade/tri-stubby_damasteel.jpg"
             },
             {
               "material": "Mokume",
               "weight": "74g",
-              "image": "images/rotablade/tri_stubby_mokume.jpg"
+              "image": "images/rotablade/tri-stubby_mokume.jpg"
             },
             {
               "material": "Super Conductor",
               "weight": "58g",
-              "image": "images/rotablade/tri_stubby_super_conductor.jpg"
+              "image": "images/rotablade/tri-stubby_super_conductor.jpg"
             },
             {
               "material": "Titanium",
               "weight": "39g",
-              "image": "images/rotablade/tri_stubby_titanium.jpg"
+              "image": "images/rotablade/tri-stubby_titanium.jpg"
             },
             {
               "material": "Tungsten",
               "weight": "133g",
-              "image": "images/rotablade/tri_stubby_tungsten.jpg"
+              "image": "images/rotablade/tri-stubby_tungsten.jpg"
             },
             {
               "material": "Zircuti",
               "weight": "47g",
-              "image": "images/rotablade/tri_stubby_zircuti.jpg"
+              "image": "images/rotablade/tri-stubby_zircuti.jpg"
             },
             {
-              "material": "Aluminum Bronze",
+              "material": "Aluminium Bronze",
               "weight": "65g",
-              "image": "images/rotablade/tri_stubby_aluminium_bronze.jpg"
+              "image": "images/rotablade/tri-stubby_aluminium_bronze.jpg"
             }
           ],
           "button_size": "11.7mm"
+        },
+        {
+          "name": "Stubby-nano",
+          "dimensions": "40mm x 25mm x 9mm",
+          "button_size": "11.7mm",
+          "variants": [
+            {
+              "material": "Superconductor",
+              "weight": "??",
+              "image": "images/rotablade/stubby-nano_superconductor.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "53g",
+              "image": "images/rotablade/stubby-nano_brass.jpg"
+            },
+            {
+              "material": "Aluminium Bronze",
+              "weight": "49g",
+              "image": "images/rotablade/stubby-nano_aluminium_bronze.jpg"
+            },
+            {
+              "material": "Mokume",
+              "weight": "54g",
+              "image": "images/rotablade/stubby-nano_mokume.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "39g",
+              "image": "images/rotablade/stubby-nano_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "29g",
+              "image": "images/rotablade/stubby-nano_titanium.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "43g",
+              "image": "images/rotablade/stubby-nano_zirconium.jpg"
+            },
+            {
+              "material": "Zircuti",
+              "weight": "34g",
+              "image": "images/rotablade/stubby-nano_zircuti.jpg"
+            },
+            {
+              "material": "Damasteel",
+              "weight": "34g",
+              "image": "images/rotablade/stubby-nano_damasteel.jpg"
+            }
+          ]
         }
       ]
     }
