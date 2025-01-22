@@ -951,6 +951,55 @@
               "image": "images/rotablade/tri-nano_zirconium.jpg"
             }
           ]
+        },
+        {
+          "name": "Nano Disc",
+          "dimensions": "39mm x 39mm x 9mm",
+          "button_size": "11.7mm",
+          "variants": [
+            {
+              "material": "Mokume",
+              "weight": "77g",
+              "image": "images/rotablade/nano-disc_mokume.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Rotastone Nano",
+          "dimensions": "38mm × 38mm × 14mm",
+          "button_size": "Not specified",
+          "variants": [
+            {
+              "material": "Aluminum Bronze",
+              "weight": "77g",
+              "image": "images/rotablade/rotastone_nano_aluminum_bronze.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "??",
+              "image": "images/rotablade/rotastone_nano_brass.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "81g",
+              "image": "images/rotablade/rotastone_nano_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "??",
+              "image": "images/rotablade/rotastone_nano_titanium.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "??",
+              "image": "images/rotablade/rotastone_nano_zirconium.jpg"
+            },
+            {
+              "material": "Carbon Fibre Copper",
+              "weight": "21g",
+              "image": "images/rotablade/rotastone_nano_carbon_fibre_copper.jpg"
+            }
+          ]
         }
       ]
     }
