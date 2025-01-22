@@ -1037,6 +1037,48 @@
               "image": "images/rotablade/rotastone_zirconium.jpg"
             }
           ]
+        },
+        {
+          "name": "Worrystone",
+          "dimensions": "35mm × 20mm × 9mm",
+          "variants": [
+            {
+              "material": "Brass",
+              "weight": "32g",
+              "image": "images/rotablade/worrystone_brass.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "34g",
+              "image": "images/rotablade/worrystone_copper.jpg"
+            },
+            {
+              "material": "Mokume",
+              "weight": "34g",
+              "image": "images/rotablade/worrystone_mokume.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "17g",
+              "image": "images/rotablade/worrystone_titanium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Pendulum",
+          "dimensions": "48mm × 20mm × 17mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "34g",
+              "image": "images/rotablade/pendulum.jpg"
+            },
+            {
+              "material": "Stainless Steel w/ Tritium",
+              "weight": "30g",
+              "image": "images/rotablade/pendulum_tritium.jpg"
+            }
+          ]
         }
       ]
     }
