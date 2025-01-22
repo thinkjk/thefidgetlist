@@ -894,6 +894,63 @@
               "image": "images/rotablade/stubby-nano_damasteel.jpg"
             }
           ]
+        },
+        {
+          "name": "Tri-nano",
+          "dimensions": "40mm x 30mm x 9mm",
+          "button_size": "24mm",
+          "variants": [
+            {
+              "material": "Aluminium Bronze",
+              "weight": "62g",
+              "image": "images/rotablade/tri-nano_aluminium_bronze.jpg"
+            },
+            {
+              "material": "Superconductor",
+              "weight": "??",
+              "image": "images/rotablade/tri-nano-super_conductor.jpg"
+            },
+            {
+              "material": "Damasteel",
+              "weight": "43g",
+              "image": "images/rotablade/tri-nano_damasteel.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "??",
+              "image": "images/rotablade/tri-nano_brass.jpg"
+            },
+            {
+              "material": "Mokume",
+              "weight": "??",
+              "image": "images/rotablade/tri-nano_mokume.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "??",
+              "image": "images/rotablade/tri-nano_copper.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "61g",
+              "image": "images/rotablade/tri-nano_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "36g",
+              "image": "images/rotablade/tri-nano_titanium.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "90g",
+              "image": "images/rotablade/tri-nano_tungsten.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "54g",
+              "image": "images/rotablade/tri-nano_zirconium.jpg"
+            }
+          ]
         }
       ]
     }
