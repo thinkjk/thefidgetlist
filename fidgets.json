@@ -1000,6 +1000,43 @@
               "image": "images/rotablade/rotastone_nano_carbon_fibre_copper.jpg"
             }
           ]
+        },
+        {
+          "name": "Rotastone MK2",
+          "dimensions": "48mm × 48mm × 12mm",
+          "button_size": "Not specified",
+          "variants": [
+            {
+              "material": "Vegas Forge Steel",
+              "weight": "98g",
+              "image": "images/rotablade/rotastone_mk2_vegas_forge_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "??",
+              "image": "images/rotablade/rotastone_titanium.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "115g",
+              "image": "images/rotablade/rotastone_copper.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "??",
+              "image": "images/rotablade/rotastone_stainless_steel.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "112g",
+              "image": "images/rotablade/rotastone_brass.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "88g",
+              "image": "images/rotablade/rotastone_zirconium.jpg"
+            }
+          ]
         }
       ]
     }
