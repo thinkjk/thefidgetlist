@@ -1215,6 +1215,23 @@
       ]
     },
     {
+      "group_name": "Axiom EDC",
+      "items": [
+        {
+          "name": "Apache 23",
+          "dimensions": "57mm x 28mm",
+          "button_size": "23mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "67g",
+              "image": "images/axiomedc/apache_23_stainless_steel.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "group_name": "Unquiet Hands (UQH)",
       "items": [
         {
@@ -1342,6 +1359,27 @@
               "material": "Fine Copper",
               "weight": "93g",
               "image": "images/uqh/arcade_copper.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Wispy",
+          "dimensions": "51.5mm x 27.5mm x 11mm",
+          "variants": [
+            {
+              "material": "Stainless Steel Plates",
+              "weight": "62.6g",
+              "image": "images/uqh/wispy_stainless_steel.jpg"
+            },
+                        {
+              "material": "Zirconium Plates",
+              "weight": "57.3g",
+              "image": "images/uqh/wispy_zirconium.jpg"
+            },
+                        {
+              "material": "Teflon Plates",
+              "weight": "39.5g",
+              "image": "images/uqh/wispy_teflon.jpg"
             }
           ]
         }
