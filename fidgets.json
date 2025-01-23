@@ -1081,6 +1081,125 @@
           ]
         }
       ]
+    },
+    {
+      "group_name": "FeiFei Edc",
+      "items": [
+        {
+          "name": "Ranger",
+          "dimensions": "26mm × 48mm",
+          "button_size": "26mm",
+          "variants": [
+            {
+              "material": "Titanium",
+              "weight": "Not specified",
+              "image": "images/feifei/ranger_titanium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Gravity",
+          "dimensions": "43mm × 30mm × 14mm",
+          "button_size": "14mm",
+          "variants": [
+            {
+              "material": "Titanium",
+              "weight": "70g",
+              "image": "images/feifei/gravity_titanium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Moonlight",
+          "dimensions": "46mm × 26mm × Not specified",
+          "button_size": "Not specified",
+          "variants": [
+            {
+              "material": "Copper",
+              "weight": "80g",
+              "image": "images/feifei/moonlight_copper.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "71g",
+              "image": "images/feifei/moonlight_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "42g",
+              "image": "images/feifei/moonlight_titanium.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "150g",
+              "image": "images/feifei/moonlight_tungsten.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "59g",
+              "image": "images/feifei/moonlight_zirconium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Ss R188 Bearing 10 Balls",
+          "dimensions": "50mm × 30mm × 9mm",
+          "button_size": "10mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "4g",
+              "image": "images/feifei/ss_r188_bearing_10_balls_stainless_steel.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Cloud Trail",
+          "dimensions": "47mm × 30mm × 14mm",
+          "button_size": "30mm",
+          "variants": [
+            {
+              "material": "Titanium",
+              "weight": "62g",
+              "image": "images/feifei/cloud_trail_titanium.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "76g",
+              "image": "images/feifei/cloud_trail_zirconium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Buttons",
+          "dimensions": "14mm × 28mm × Not specified mm",
+          "button_size": "Not specified",
+          "variants": [
+            {
+              "material": "Copper for button , 188 pressfit screw head",
+              "weight": "Not specified",
+              "image": "images/feifei/buttons_copper_for_button_,_188_pressfit_screw_head.jpg"
+            },
+            {
+              "material": "Titanium for button , 188 pressfit screw head",
+              "weight": "Not specified",
+              "image": "images/feifei/buttons_titanium_for_button_,_188_pressfit_screw_head.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Origin",
+          "dimensions": "46mm × 28mm × ss, ti, copper, zirc (44mm × 28mm × 78g, 43mm × 28mm × 47g, 42mm × 28mm × 87g, 41mm × 28mm × 64g)",
+          "button_size": "28mm",
+          "variants": [
+            {
+              "material": "Stainless Steel, Titanium, Copper, Zirconium",
+              "weight": "78g",
+              "image": "images/feifei/origin_stainless_steel,_titanium,_copper,_zirconium.jpg"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
