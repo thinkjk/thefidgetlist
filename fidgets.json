@@ -1312,6 +1312,87 @@
               "image": "images/scam/torqnut_zirconium.jpg"
             }
           ]
+        },
+        {
+          "name": "Torqbar Magnum",
+          "dimensions": "??",
+          "button_size": "??",
+          "variants": [
+            {
+              "material": "Aluminum Bronze",
+              "weight": "54.1g",
+              "image": "images/scam/torqbar_magnum_aluminum_bronze.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "95.7g",
+              "image": "images/scam/torqbar_magnum_zirconium.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "54.1g",
+              "image": "images/scam/torqbar_magnum_stainless_steel.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Torqbar Mini Aluminum Bronze",
+          "dimensions": "40.8mm × 30.5mm × 9mm",
+          "button_size": "40.8mm",
+          "variants": [
+            {
+              "material": "Aluminum Bronze",
+              "weight": "54.1g",
+              "image": "images/scam/torqbar_mini_aluminum_bronze_aluminum_bronze.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Torqbar Mini",
+          "dimensions": "54.1g × Not specified × Not specified",
+          "button_size": "Not specified",
+          "variants": [
+            {
+              "material": "Brass",
+              "weight": "46.6g",
+              "image": "images/scam/torqbar_mini_brass.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "??",
+              "image": "images/scam/torqbar_mini_titanium.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "42.9g",
+              "image": "images/scam/torqbar_mini_stainless_steel.jpg"
+            },
+            {
+              "material": "Aluminum Bronze",
+              "weight": "40.8g",
+              "image": "images/scam/torqbar_mini_aluminum_bronze.jpg"
+            },
+            {
+              "material": "Mokume",
+              "weight": "47.3g",
+              "image": "images/scam/torqbar_mini_mokume.jpg"
+            },
+            {
+              "material": "WCu",
+              "weight": "70.6g",
+              "image": "images/scam/torqbar_mini_wcu.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "35.6g",
+              "image": "images/scam/torqbar_mini_zirconium.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "48g",
+              "image": "images/scam/torqbar_mini_copper.jpg"
+            }
+          ]
         }
       ]
     },
