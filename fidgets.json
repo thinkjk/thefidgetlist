@@ -313,9 +313,9 @@
               "image": "images/poseblades/tri_cocoon_mini_titanium.jpg"
             },
             {
-              "material": "Zirc",
+              "material": "Zirconium",
               "weight": "??",
-              "image": "images/poseblades/tri_cocoon_mini_zirc.jpg"
+              "image": "images/poseblades/tri_cocoon_mini_zirconium.jpg"
             },
             {
               "material": "Bronze",
@@ -344,9 +344,9 @@
               "image": "images/poseblades/cocoon_rs_bronze.jpg"
             },
             {
-              "material": "Zirc",
+              "material": "Zirconium",
               "weight": "21.1g",
-              "image": "images/poseblades/cocoon_rs_zirc.jpg"
+              "image": "images/poseblades/cocoon_rs_zirconium.jpg"
             },
             {
               "material": "WCu",
@@ -371,9 +371,9 @@
               "image": "images/poseblades/x_alumafx_monarch.jpg"
             },
             {
-              "material": "Zirc w/ Tungsten Balls",
+              "material": "Zirconium w/ Tungsten Balls",
               "weight": "58g",
-              "image": "images/poseblades/x_alumafx_monarch_zirc.jpg"
+              "image": "images/poseblades/x_alumafx_monarch_zirconium.jpg"
             }
           ]
         },
@@ -421,12 +421,12 @@
             {
               "material": "Zirconium",
               "weight": "130g",
-              "image": "images/indythicc/chealseasf_zirc.jpg"
+              "image": "images/indythicc/chealsea_sf_zirconium.jpg"
             },
             {
               "material": "Titanium",
               "weight": "90g",
-              "image": "images/indythicc/chealseasf_ti.jpg"
+              "image": "images/indythicc/chealsea_sf_ti.jpg"
             }
           ]
         },
@@ -437,17 +437,17 @@
             {
               "material": "Stainless Steel",
               "weight": "101g",
-              "image": "images/indythicc/chealseasft_ss.jpg"
+              "image": "images/indythicc/chealsea_sft_stainless_steel.jpg"
             },
             {
               "material": "Bronze",
               "weight": "96g",
-              "image": "images/indythicc/chealseasft_bronze.jpg"
+              "image": "images/indythicc/chealseas_ft_bronze.jpg"
             },
             {
               "material": "Copper",
               "weight": "115g",
-              "image": "images/indythicc/chealseasft_copper.jpg"
+              "image": "images/indythicc/chealseas_ft_copper.jpg"
             }
           ]
         }
@@ -658,7 +658,7 @@
               "image": "images/rotablade/stubby_brass.jpg"
             },
             {
-              "material": "Coppper",
+              "material": "Copper",
               "weight": "79g",
               "image": "images/rotablade/stubby_copper.jpg"
             },
@@ -1142,18 +1142,6 @@
           ]
         },
         {
-          "name": "Ss R188 Bearing 10 Balls",
-          "dimensions": "50mm × 30mm × 9mm",
-          "button_size": "10mm",
-          "variants": [
-            {
-              "material": "Stainless Steel",
-              "weight": "4g",
-              "image": "images/feifei/ss_r188_bearing_10_balls_stainless_steel.jpg"
-            }
-          ]
-        },
-        {
           "name": "Cloud Trail",
           "dimensions": "47mm × 30mm × 14mm",
           "button_size": "30mm",
@@ -1171,31 +1159,56 @@
           ]
         },
         {
-          "name": "Buttons",
-          "dimensions": "14mm × 28mm × Not specified mm",
-          "button_size": "Not specified",
-          "variants": [
-            {
-              "material": "Copper for button , 188 pressfit screw head",
-              "weight": "Not specified",
-              "image": "images/feifei/buttons_copper_for_button_,_188_pressfit_screw_head.jpg"
-            },
-            {
-              "material": "Titanium for button , 188 pressfit screw head",
-              "weight": "Not specified",
-              "image": "images/feifei/buttons_titanium_for_button_,_188_pressfit_screw_head.jpg"
-            }
-          ]
-        },
-        {
           "name": "Origin",
-          "dimensions": "46mm × 28mm × ss, ti, copper, zirc (44mm × 28mm × 78g, 43mm × 28mm × 47g, 42mm × 28mm × 87g, 41mm × 28mm × 64g)",
+          "dimensions": "46mm",
           "button_size": "28mm",
           "variants": [
             {
-              "material": "Stainless Steel, Titanium, Copper, Zirconium",
+              "material": "Stainless Steel",
               "weight": "78g",
-              "image": "images/feifei/origin_stainless_steel,_titanium,_copper,_zirconium.jpg"
+              "image": "images/feifei/origin_stainless_steel.jpg"
+            },
+                        {
+              "material": "Titanium",
+              "weight": "78g",
+              "image": "images/feifei/origin_titanium.jpg"
+            },
+                        {
+              "material": "Copper",
+              "weight": "78g",
+              "image": "images/feifei/origin_copper.jpg"
+            },
+                        {
+              "material": "Zirconium",
+              "weight": "78g",
+              "image": "images/feifei/origin_zirconium.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_name": "Ziii Studio",
+      "items": [
+        {
+          "name": "Dawn OG",
+          "dimensions": "57mm x 31mm x 10mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Zirconium",
+              "weight": "??",
+              "image": "images/ziiistudio/dawn_og_zirconium.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "??",
+              "image": "images/ziiistudio/dawn_og_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "??",
+              "image": "images/ziiistudio/dawn_og_titanium.jpg"
             }
           ]
         }
