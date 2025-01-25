@@ -506,6 +506,28 @@
               "image": "images/focusworks/axis_micro_mini_zirconium.jpg"
             }
           ]
+        },
+        {
+          "name": "Nomad",
+          "dimensions": "47mm x 34mm x 14mm",
+          "variants": [
+            {
+              "material": "Titanium",
+              "weight": "86g",
+              "image": "images/focusworks/nomad_titanium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Drifter",
+          "dimensions": "37mm x 15mm",
+          "variants": [
+            {
+              "material": "Various",
+              "weight": "??",
+              "image": "images/focusworks/drifter_various.jpg"
+            }
+          ]
         }
       ]
     },
