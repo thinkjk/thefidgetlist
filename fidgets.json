@@ -1393,6 +1393,55 @@
               "image": "images/scam/torqbar_mini_copper.jpg"
             }
           ]
+        },
+        {
+          "name": "Luna V1",
+          "dimensions": "??",
+          "button_size": "??",
+          "variants": [
+            {
+              "material": "Brass",
+              "weight": "39.2g",
+              "image": "images/scam/luna_v1_brass.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Luna V2",
+          "dimensions": "??",
+          "button_size": "??",
+          "variants": [
+            {
+              "material": "Aluminum Bronze",
+              "weight": "??",
+              "image": "images/scam/luna_v2_aluminum_bronze.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "40g",
+              "image": "images/scam/luna_v2_stainless_steel.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "33.4g",
+              "image": "images/scam/luna_v2_zirconium.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "??",
+              "image": "images/scam/luna_v2_brass.jpg"
+            },
+            {
+              "material": "WCu",
+              "weight": "??",
+              "image": "images/scam/luna_v2_wcu.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "24.3g",
+              "image": "images/scam/luna_v2_titanium.jpg"
+            }
+          ]
         }
       ]
     },
