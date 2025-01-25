@@ -416,7 +416,8 @@
       "items": [
         {
           "name": "Chelsea SF",
-          "dimensions": "50 x 27 x 18mm",
+          "dimensions": "50mm x 27mm x 18mm",
+          "button_size": "25mm",
           "variants": [
             {
               "material": "Zirconium",
@@ -442,7 +443,8 @@
         },
         {
           "name": "Chelsea SFT",
-          "dimensions": "50 x 27 x 20mm",
+          "dimensions": "50mm x 27mm x 20mm",
+          "button_size": "25mm",
           "variants": [
             {
               "material": "Stainless Steel",
