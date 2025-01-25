@@ -1188,6 +1188,28 @@
       ]
     },
     {
+      "group_name": "Sacred Spins",
+      "items": [
+        {
+          "name": "Reed",
+          "dimensions": "59.8mm x 27.8mm x 12.5mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Copper",
+              "weight": "87.8g",
+              "image": "images/sacredspins/reed_copper.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "78.5g",
+              "image": "images/sacredspins/reed_stainless_steel.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "group_name": "Ziii Studio",
       "items": [
         {
