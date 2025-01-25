@@ -432,7 +432,7 @@
             {
               "material": "Titanium",
               "weight": "90g",
-              "image": "images/indythicc/chealsea_sf_ti.jpg"
+              "image": "images/indythicc/chealsea_sf_titanium.jpg"
             },
             {
               "material": "Resin Aluminum",
@@ -454,12 +454,12 @@
             {
               "material": "Bronze",
               "weight": "96g",
-              "image": "images/indythicc/chelseas_sft_bronze.jpg"
+              "image": "images/indythicc/chelsea_sft_bronze.jpg"
             },
             {
               "material": "Copper",
               "weight": "115g",
-              "image": "images/indythicc/chelseas_sft_copper.jpg"
+              "image": "images/indythicc/chelsea_sft_copper.jpg"
             }
           ]
         },
