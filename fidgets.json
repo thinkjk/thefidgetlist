@@ -421,12 +421,22 @@
             {
               "material": "Zirconium",
               "weight": "130g",
-              "image": "images/indythicc/chealsea_sf_zirconium.jpg"
+              "image": "images/indythicc/chelsea_sf_zirconium.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "168g",
+              "image": "images/indythicc/chelsea_sf_copper.jpg"
             },
             {
               "material": "Titanium",
               "weight": "90g",
               "image": "images/indythicc/chealsea_sf_ti.jpg"
+            },
+            {
+              "material": "Resin Aluminum",
+              "weight": "34g",
+              "image": "images/indythicc/chelsea_sf_resin_aluminum.jpg"
             }
           ]
         },
@@ -437,17 +447,135 @@
             {
               "material": "Stainless Steel",
               "weight": "101g",
-              "image": "images/indythicc/chealsea_sft_stainless_steel.jpg"
+              "image": "images/indythicc/chelsea_sft_stainless_steel.jpg"
             },
             {
               "material": "Bronze",
               "weight": "96g",
-              "image": "images/indythicc/chealseas_ft_bronze.jpg"
+              "image": "images/indythicc/chelseas_ft_bronze.jpg"
             },
             {
               "material": "Copper",
               "weight": "115g",
-              "image": "images/indythicc/chealseas_ft_copper.jpg"
+              "image": "images/indythicc/chelseas_ft_copper.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Chelsea M",
+          "dimensions": "44mm x 27mm x 20mm",
+          "button_size": "25mm",
+          "variants": [
+            {
+              "material": "Kahki Resin",
+              "weight": "34g",
+              "image": "images/indythicc/chelsea_m_kahki_resin.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "157g",
+              "image": "images/indythicc/chelsea_m_brass.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "149g",
+              "image": "images/indythicc/chelsea_m_stainless_steel.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "170g",
+              "image": "images/indythicc/chelsea_m_copper.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "84g",
+              "image": "images/indythicc/chelsea_m_titanium.jpg"
+            },
+            {
+              "material": "Bronze",
+              "weight": "141g",
+              "image": "images/indythicc/chelsea_m_bronze.jpg"
+            },
+            {
+              "material": "Resin Aluminum",
+              "weight": "37g",
+              "image": "images/indythicc/chelsea_m_resin_aluminum.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Chelsea LP",
+          "dimensions": "50mm x 27mm x 14mm",
+          "button_size": "25mm",
+          "variants": [
+            {
+              "material": "GlowBlue Resin",
+              "weight": "24g",
+              "image": "images/indythicc/chelsea_lp_glowblue_resin.jpg"
+            },
+            {
+              "material": "Bronze",
+              "weight": "96g",
+              "image": "images/indythicc/chelsea_lp_bronze.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "115g",
+              "image": "images/indythicc/chelsea_lp_copper.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "109g",
+              "image": "images/indythicc/chelsea_lp_brass.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "100g",
+              "image": "images/indythicc/chelsea_lp_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "58g",
+              "image": "images/indythicc/chelsea_lp_titanium.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "??",
+              "image": "images/indythicc/chelsea_lp_zirconium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Chelsea LP-S",
+          "dimensions": "44mm x 27mm x 14mm",
+          "button_size": "25mm",
+          "variants": [
+            {
+              "material": "Zirconium",
+              "weight": "78g",
+              "image": "images/indythicc/chelsea_lp_s_zirconium.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "92.5g",
+              "image": "images/indythicc/chelsea_lp_s_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "53g",
+              "image": "images/indythicc/chelsea_lp_s_titanium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "SkeLP",
+          "dimensions": "44mm x 27mm x 14mm",
+          "button_size": "25mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "81g",
+              "image": "images/indythicc/skelp_stainless_steel.jpg"
             }
           ]
         }
