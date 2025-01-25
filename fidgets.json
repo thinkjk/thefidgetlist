@@ -412,6 +412,104 @@
       ]
     },
     {
+      "group_name": "FocusWorks EDC",
+      "items": [
+        {
+          "name": "The Thing",
+          "dimensions": "59mm x 24mm x 16mm",
+          "button_size": "??",
+          "variants": [
+            {
+              "material": "Tungsten",
+              "weight": "170g",
+              "image": "images/focusworks/the_thing_tungsten.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "88g",
+              "image": "images/focusworks/the_thing_stainless_steel.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "95g",
+              "image": "images/focusworks/the_thing_copper.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Twist Bar",
+          "dimensions": "56mm x 29mm x 16mm",
+          "button_size": "??",
+          "variants": [
+            {
+              "material": "Tungsten",
+              "weight": "130g",
+              "image": "images/focusworks/twist_bar_tungsten.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "57g",
+              "image": "images/focusworks/twist_bar_titanium.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "83g",
+              "image": "images/focusworks/twist_bar_copper.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "80g",
+              "image": "images/focusworks/twist_bar_brass.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Micro S",
+          "dimensions": "50mm x 13mm",
+          "button_size": "??",
+          "variants": [
+            {
+              "material": "Titanium",
+              "weight": "60g",
+              "image": "images/focusworks/micro_s_titanium.jpg"
+            },
+            {
+              "material": "Aluminum",
+              "weight": "54g",
+              "image": "images/focusworks/micro_s_aluminum.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "73g",
+              "image": "images/focusworks/micro_s_stainless_steel.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "78g",
+              "image": "images/focusworks/micro_s_copper.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "120g",
+              "image": "images/focusworks/micro_s_tungsten.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Axis Micro Mini",
+          "dimensions": "44mm x 11mm",
+          "button_size": "??",
+          "variants": [
+            {
+              "material": "Zirconium",
+              "weight": "?",
+              "image": "images/focusworks/axis_micro_mini_zirconium.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "group_name": "iNDY THiCC EDC",
       "items": [
         {
