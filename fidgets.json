@@ -703,9 +703,9 @@
               "image": "images/rotablade/stubby_zircuti.jpg"
             },
             {
-              "material": "Aluminium Bronze",
+              "material": "Aluminum Bronze",
               "weight": "66g",
-              "image": "images/rotablade/stubby_aluminium_bronze.jpg"
+              "image": "images/rotablade/stubby_aluminum_bronze.jpg"
             }
           ],
           "button_size": "11.7mm"
@@ -1403,6 +1403,58 @@
               "material": "Brass",
               "weight": "39.2g",
               "image": "images/scam/luna_v1_brass.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Torqbar",
+          "dimensions": "??",
+          "button_size": "??",
+          "variants": [
+            {
+              "material": "Copper",
+              "weight": "60.6g",
+              "image": "images/scam/torqbar_copper.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "31.1g",
+              "image": "images/scam/torqbar_titanium.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "57.7g",
+              "image": "images/scam/torqbar_brass.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "54.1g",
+              "image": "images/scam/torqbar_stainless_steel.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "??",
+              "image": "images/scam/torqbar_zirconium.jpg"
+            },
+            {
+              "material": "Zirconium No Hole",
+              "weight": "??",
+              "image": "images/scam/torqbar_zirconium_no_hole.jpg"
+            },
+            {
+              "material": "Aluminum Bronze",
+              "weight": "49.6g",
+              "image": "images/scam/torqbar_alumiun_bronze.jpg"
+            },
+            {
+              "material": "WCu",
+              "weight": "99g",
+              "image": "images/scam/torqbar_wcu.jpg"
+            },
+            {
+              "material": "Mokume",
+              "weight": "65g",
+              "image": "images/scam/torqbar_mokume.jpg"
             }
           ]
         },
