@@ -1161,6 +1161,15 @@
           "Spinners",
           "Metal"
         ]
+      },
+      {
+        "name": "The Trays Amigos",
+        "description": "We sell our trays and accessories here.",
+        "link": "https://www.facebook.com/groups/963025484337236",
+        "image": "images/thetraysamigos/thetraysamigos.jpg",
+        "categories": [
+          "Accessories"
+        ]
       }
     ]
   }
