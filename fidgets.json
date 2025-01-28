@@ -412,6 +412,33 @@
       ]
     },
     {
+      "group_name": "M3 Metal Creations",
+      "items": [
+        {
+          "name": "Tranquilizer ER Redux",
+          "dimensions": "54.7mm x 22.8mm x 9.96mm",
+          "button_size": "24.5",
+          "variants": [
+            {
+              "material": "Tungsten",
+              "weight": "200g",
+              "image": "images/m3metalcreations/tranquilizer_er_redux_tungsten.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "96.4g",
+              "image": "images/m3metalcreations/tranquilizer_er_redux_copper.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "83g",
+              "image": "images/m3metalcreations/tranquilizer_er_redux_stainless_steel.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "group_name": "FocusWorks EDC",
       "items": [
         {
