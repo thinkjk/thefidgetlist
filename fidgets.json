@@ -439,6 +439,37 @@
       ]
     },
     {
+      "group_name": "Spinetic / Finetic",
+      "items": [
+        {
+          "name": "The Tide",
+          "dimensions": "40mm x 10.5mm",
+          "variants": [
+            {
+              "material": "Acrylic",
+              "weight": "112.5g",
+              "image": "images/spineticfinetic/the_tide_acrylic.jpg"
+            },
+            {
+              "material": "Aluminum",
+              "weight": "24g",
+              "image": "images/spineticfinetic/the_tide_aluminum.jpg"
+            },
+            {
+              "material": "POM",
+              "weight": "14.2g",
+              "image": "images/spineticfinetic/the_tide_pom.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "64.2g",
+              "image": "images/spineticfinetic/the_tide_stainless_steel.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "group_name": "FocusWorks EDC",
       "items": [
         {
