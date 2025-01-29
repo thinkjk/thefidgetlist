@@ -466,6 +466,196 @@
               "image": "images/spineticfinetic/the_tide_stainless_steel.jpg"
             }
           ]
+        },
+        {
+          "name": "Radioactive X Spinner",
+          "dimensions": "63.1mm x 63.1mm x 13.6mm",
+          "button_size": "??",
+          "variants": [
+            {
+              "material": "ABS",
+              "weight": "52.8g",
+              "image": "images/spineticfinetic/radioactive_x_spinner_abs.jpg"
+            }
+          ]
+        },
+        {
+          "name": "X Spinner",
+          "dimensions": "55mm",
+          "button_size": "??",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "60.4g",
+              "image": "images/spineticfinetic/x_spinner_stainless_steel.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "63.5g",
+              "image": "images/spineticfinetic/x_spinner_brass.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "67.7g",
+              "image": "images/spineticfinetic/x_spinner_copper.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "35.7g",
+              "image": "images/spineticfinetic/x_spinner_titanium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Radioactive Y Spinner",
+          "dimensions": "63.1mm x 63.1mm x 13.6mm",
+          "button_size": "??",
+          "variants": [
+            {
+              "material": "ABS",
+              "weight": "41.1g",
+              "image": "images/spineticfinetic/radioactive_y_spinner_abs.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Y Spinner",
+          "dimensions": "55mm",
+          "button_size": "??",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "55.9g",
+              "image": "images/spineticfinetic/y_spinner_stainless_steel.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "60.4g",
+              "image": "images/spineticfinetic/y_spinner_brass.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "63.2g",
+              "image": "images/spineticfinetic/y_spinner_copper.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "32.7g",
+              "image": "images/spineticfinetic/y_spinner_titanium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Micro X Spinner",
+          "dimensions": "8.4mm x 38.4mm x 12mm",
+          "button_size": "??",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "34g",
+              "image": "images/spineticfinetic/micro_x_spinner_stainless_steel.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "36g",
+              "image": "images/spineticfinetic/micro_x_spinner_brass.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "38g",
+              "image": "images/spineticfinetic/micro_x_spinner_copper.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Micro Y Spinner",
+          "dimensions": "36.4mm x 36.4mm x 12mm",
+          "button_size": "??",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "31g",
+              "image": "images/spineticfinetic/micro_y_spinner_stainless_steel.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "30.4g",
+              "image": "images/spineticfinetic/micro_y_spinner_brass.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "32.9g",
+              "image": "images/spineticfinetic/micro_y_spinner_copper.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Spinner",
+          "dimensions": "58.5mm x 22mm x 11.9mm",
+          "button_size": "??",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "61.7g",
+              "image": "images/spineticfinetic/spinner_stainless_steel.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "65.5g",
+              "image": "images/spineticfinetic/spinner_brass.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "68.9g",
+              "image": "images/spineticfinetic/pinner_copper.jpg"
+            }
+          ]
+        },
+        {
+          "name": "AngleBar",
+          "dimensions": "28.95mm x 47.3mm x 13.64mm",
+          "button_size": "25mm",
+          "variants": [
+            {
+              "material": "Aluminum",
+              "weight": "38g",
+              "image": "images/spineticfinetic/anglebar_aluminum.jpg"
+            }
+          ]
+        },
+        {
+          "name": "AngleTri",
+          "dimensions": "28.95mm x 47.3mm x 13.64mm",
+          "button_size": "52.8mm",
+          "variants": [
+            {
+              "material": "Aluminum",
+              "weight": "48g",
+              "image": "images/spineticfinetic/angletri_aluminum.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Voyager",
+          "dimensions": "52mm x 24mm x 12mm",
+          "button_size": "52.8mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "77g",
+              "image": "images/spineticfinetic/voyager_stainless_steel.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "88.5g",
+              "image": "??"
+            },
+            {
+              "material": "Titanium",
+              "weight": "45g",
+              "image": "images/spineticfinetic/voyager_titanium.jpg"
+            }
+          ]
         }
       ]
     },
