@@ -1170,6 +1170,26 @@
         "categories": [
           "Accessories"
         ]
+      },
+      {
+        "name": "LC creations",
+        "description": "Welcome to our GITD flashlight, beads, and glow in the dark art community",
+        "link": "https://www.facebook.com/groups/leocompositecreations",
+        "image": "images/lccreations/lccreations.jpg",
+        "categories": [
+          "Spin Stick",
+          "Beads"
+        ]
+      },
+      {
+        "name": "JackiEDC Designs",
+        "description": "This group is where we can talk about JackiEDC products and how to make EDC items in general!",
+        "link": "https://www.facebook.com/groups/1393990821584146",
+        "image": "images/jackiedc/jackiedc.jpg",
+        "categories": [
+          "Sliders",
+          "3D Printed"
+        ]
       }
     ]
   }
