@@ -1190,6 +1190,26 @@
           "Sliders",
           "3D Printed"
         ]
+      },
+      {
+        "name": "SuperMax3D",
+        "description": "From the original Amoeba Slider to our new and Upcoming designs, we take pride in creating unique, high-quality products you won’t find anywhere else for this value.",
+        "link": "https://www.facebook.com/groups/972227571496940",
+        "image": "images/supermax3d/supermax3d.jpg",
+        "categories": [
+          "Sliders",
+          "3D Printed"
+        ]
+      },
+      {
+        "name": "T-MAX EDC",
+        "description": "T-MAX EDC",
+        "link": "https://www.facebook.com/groups/tmaxedc",
+        "image": "images/tmax/tmax.jpg",
+        "categories": [
+          "Spinners",
+          "Metal"
+        ]
       }
     ]
   }
