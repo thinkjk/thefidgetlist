@@ -1210,6 +1210,16 @@
           "Spinners",
           "Metal"
         ]
+      },
+      {
+        "name": "AURULUM EDC",
+        "description": "Finest 3D printed and hand finished Fidgets.",
+        "link": "https://www.facebook.com/groups/894965919227688",
+        "image": "images/aurulumedc/aurulumedc.jpg",
+        "categories": [
+          "Sliders",
+          "3D Printed"
+        ]
       }
     ]
   }
