@@ -1231,6 +1231,44 @@
           "3D Printed",
           "Various"
         ]
+      },
+      {
+        "name": "Novel Carry EDCAA",
+        "description": "Novel Carry Everyday Carry Addicts Anonymous (EDCAA) Group.",
+        "link": "https://www.facebook.com/groups/edcaa",
+        "image": "images/novelcarry/novelcarry.jpg",
+        "categories": [
+          "Sliders",
+          "3D Printed"
+        ]
+      },
+      {
+        "name": "Back To Burl",
+        "description": "Back To Burl Group",
+        "link": "https://www.facebook.com/groups/BarkToBurl",
+        "image": "images/backtoburl/backtoburl.jpg",
+        "categories": [
+          "Tops"
+        ]
+      },
+      {
+        "name": "Pocket Top Talk",
+        "description": "A place for top makers and collectors to get together and discuss tops.",
+        "link": "https://www.facebook.com/groups/pockettoptalk",
+        "image": "images/pockettoptalk/pockettoptalk.jpg",
+        "categories": [
+          "Tops"
+        ]
+      },
+      {
+        "name": "Element Fidget Spinners",
+        "description": "Element Fidget spinners",
+        "link": "https://www.facebook.com/groups/4055718211420463",
+        "image": "images/elementspinners/elementspinners.jpg",
+        "categories": [
+          "Spinners",
+          "Metal"
+        ]
       }
     ]
   }
