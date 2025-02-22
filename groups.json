@@ -1220,6 +1220,17 @@
           "Sliders",
           "3D Printed"
         ]
+      },
+      {
+        "name": "Haptic EDC",
+        "description": "Haptic EDC makes 3D printed fidget sliders and other fidget toys",
+        "link": "https://www.facebook.com/groups/hapticedc/",
+        "image": "images/hapticedc/hapticedc.jpg",
+        "categories": [
+          "Sliders",
+          "3D Printed",
+          "Various"
+        ]
       }
     ]
   }
