@@ -1258,6 +1258,34 @@
           "Spinners",
           "Metal"
         ]
+      },
+      {
+        "name": "Mercury EDC",
+        "description": "Welcome to Mercury EDC! My name is Harrison and I design and make 3D printed fidgets.",
+        "link": "https://www.facebook.com/groups/8811820268931002",
+        "image": "images/mercuryedc/mercuryedc.jpg",
+        "categories": [
+          "Sliders",
+          "3D Printed"
+        ]
+      },
+      {
+        "name": "Clean EDC BST",
+        "description": "Clean EDC BST",
+        "link": "https://www.facebook.com/groups/934275212024731",
+        "image": "images/cleanedcbst/cleanedcbst.jpg",
+        "categories": [
+          "B/S/T"
+        ]
+      },
+      {
+        "name": "Copper Wagon EDC",
+        "description": "Weekly drops on limited handmade EDC items.",
+        "link": "https://www.facebook.com/groups/611776061092857",
+        "image": "images/copperwagon/copperwagon.jpg",
+        "categories": [
+          "Beads"
+        ]
       }
     ]
   }
