@@ -489,8 +489,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     sortButton.addEventListener('click', () => {
         if (isRandomized) {
-            // Revert to original order
-            groupsData = [...originalGroupsOrder];
+            // Revert to original order but reverse it so newest is at the top
+            groupsData = [...originalGroupsOrder].reverse();
             sortButton.textContent = 'Randomize Order';
         } else {
             // Shuffle again
