@@ -1286,6 +1286,15 @@
         "categories": [
           "Beads"
         ]
+      },
+      {
+        "name": "Fidget Nerd",
+        "description": "Fidget Nerd FB Group",
+        "link": "https://www.facebook.com/groups/fidgetnerd",
+        "image": "images/fidgetnerd/fidgetnerd.jpg",
+        "categories": [
+          "Various"
+        ]
       }
     ]
   }
