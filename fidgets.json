@@ -182,7 +182,22 @@
             {
               "material": "Stainless Steel",
               "weight": "97g",
+              "image": "images/cleanedc/slim_pillar_stainless_steel.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "109g",
               "image": "images/cleanedc/slim_pillar_ss.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "81g",
+              "image": "images/cleanedc/slim_pillar_zirconium.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "57g",
+              "image": "images/cleanedc/slim_pillar_titanium.jpg"
             }
           ]
         }
@@ -433,6 +448,131 @@
               "material": "Stainless Steel",
               "weight": "83g",
               "image": "images/m3metalcreations/tranquilizer_er_redux_stainless_steel.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_name": "Kinetics Asia Pacific EDC",
+      "items": [
+        {
+          "name": "Cell",
+          "dimensions": "40mm x 13mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Timascus",
+              "weight": "56g",
+              "image": "images/kap/cell_titanium.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "98g",
+              "image": "images/kap/cell_stainless_steel.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "112g",
+              "image": "images/kap/cell_copper.jpg"
+            },
+            {
+              "material": "Bronze",
+              "weight": "111g",
+              "image": "images/kap/cell_bronze.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "83g",
+              "image": "images/kap/cell_zirc.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Tri Horizon",
+          "dimensions": "40mm x 12mm",
+          "button_size": "23mm",
+          "variants": [
+            {
+              "material": "Copper",
+              "weight": "88g",
+              "image": "images/kap/tri_horizon_copper.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "78g",
+              "image": "images/kap/tri_horizon_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "45g",
+              "image": "images/kap/tri_horizon_titanium.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "64g",
+              "image": "images/kap/tri_horizon_zirconium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Mother Ship",
+          "dimensions": "40mm x 10.5mm",
+          "button_size": "28mm",
+          "variants": [
+            {
+              "material": "Copper",
+              "weight": "102g",
+              "image": "images/kap/mother_ship_copper.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "92g",
+              "image": "images/kap/mother_ship_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "53g",
+              "image": "images/kap/mother_ship_titanium.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "76g",
+              "image": "images/kap/mother_ship_zirconium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Horizon",
+          "dimensions": "",
+          "button_size": "",
+          "variants": [
+            {
+              "material": "Damasteel",
+              "weight": "61g",
+              "image": "images/kap/horizon_dama.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Mega Horizon",
+          "dimensions": "54mm x 27mm x 16mm",
+          "button_size": "26mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "110g",
+              "image": "images/kap/mega_horizon_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "63.5g",
+              "image": "images/kap/mega_horizon_titanium.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "??",
+              "image": "images/kap/mega_horizon_zirconium.jpg"
             }
           ]
         }
