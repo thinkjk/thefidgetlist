@@ -512,6 +512,11 @@
               "material": "Zirconium",
               "weight": "64g",
               "image": "images/kap/tri_horizon_zirconium.jpg"
+            },
+            {
+              "material": "Crystallized Titanium",
+              "weight": "46g",
+              "image": "images/kap/tri_horizon_crystallized_titanium.jpg"
             }
           ]
         },
@@ -646,28 +651,6 @@
           ]
         },
         {
-          "name": "Tri-Horizon",
-          "dimensions": "50mm x 12mm",
-          "button_size": "23mm",
-          "variants": [
-            {
-              "material": "Mokume",
-              "weight": "85g",
-              "image": "images/kap/tri_horizon_mokume.jpg"
-            },
-            {
-              "material": "Stainless Steel",
-              "weight": "140g",
-              "image": "images/kap/mega_tri_horizon_stainless_steel.jpg"
-            },
-            {
-              "material": "Titanium",
-              "weight": "88g",
-              "image": "images/kap/mega_tri_horizon_titanium.jpg"
-            }
-          ]
-        },
-        {
           "name": "Mega Tri-Horizon",
           "dimensions": "55mm x 17mm",
           "button_size": "26mm",
@@ -730,6 +713,38 @@
               "material": "Copper",
               "weight": "105g",
               "image": "images/kap/lucky_clover_copper.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Rose XL",
+          "dimensions": "54mm x 8mm",
+          "button_size": "??",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "80g",
+              "image": "images/kap/rose_xl_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "45g",
+              "image": "images/kap/rose_xl_titanium.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "70g",
+              "image": "images/kap/rose_xl_zirconium.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "90g",
+              "image": "images/kap/rose_xl_copper.jpg"
+            },
+            {
+              "material": "Ultem",
+              "weight": "17g",
+              "image": "images/kap/rose_xl_ultem.jpg"
             }
           ]
         }
