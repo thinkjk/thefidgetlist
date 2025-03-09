@@ -484,7 +484,12 @@
             {
               "material": "Zirconium",
               "weight": "83g",
-              "image": "images/kap/cell_zirc.jpg"
+              "image": "images/kap/cell_zirconium.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "226g",
+              "image": "images/kap/cell_tungsten.jpg"
             }
           ]
         },
@@ -517,6 +522,11 @@
               "material": "Crystallized Titanium",
               "weight": "46g",
               "image": "images/kap/tri_horizon_crystallized_titanium.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "180g",
+              "image": "images/kap/tri_horizon_tungsten.jpg"
             }
           ]
         },
@@ -544,6 +554,16 @@
               "material": "Zirconium",
               "weight": "76g",
               "image": "images/kap/mother_ship_zirconium.jpg"
+            },
+            {
+              "material": "Mokume",
+              "weight": "95g",
+              "image": "images/kap/mother_ship_mokume.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "206g",
+              "image": "images/kap/mother_ship_tungsten.jpg"
             }
           ]
         },
@@ -566,6 +586,36 @@
               "material": "Tungsten",
               "weight": "146g",
               "image": "images/kap/horizon_tungsten.jpg"
+            },
+            {
+              "material": "Moukme",
+              "weight": "70g",
+              "image": "images/kap/horizon_mokume.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "74g",
+              "image": "images/kap/horizon_copper.jpg"
+            },
+            {
+              "material": "Bronze",
+              "weight": "70g",
+              "image": "images/kap/horizon_bronze.jpg"
+            },
+            {
+              "material": "Cupronickel",
+              "weight": "71g",
+              "image": "images/kap/horizon_cupronickel.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "65g",
+              "image": "images/kap/horizon_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "38g",
+              "image": "images/kap/horizon_titanium.jpg"
             }
           ]
         },
@@ -588,6 +638,11 @@
               "material": "Zirconium",
               "weight": "??",
               "image": "images/kap/mega_horizon_zirconium.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "245g",
+              "image": "images/kap/mega_horizon_tungsten.jpg"
             }
           ]
         },
@@ -618,8 +673,13 @@
             },
             {
               "material": "Zirconium",
-              "weight": "104",
+              "weight": "104g",
               "image": "images/kap/tri_collision_mini_zirconium.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "285g",
+              "image": "images/kap/tri_collision_mini_tungsten.jpg"
             }
           ]
         },
@@ -647,6 +707,21 @@
               "material": "Titanium",
               "weight": "79g",
               "image": "images/kap/collision_titanium.jpg"
+            },
+            {
+              "material": "Ultem",
+              "weight": "22g",
+              "image": "images/kap/collision_ultem.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "100g",
+              "image": "images/kap/collision_zirconium.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "278g",
+              "image": "images/kap/collision_tungsten.jpg"
             }
           ]
         },
@@ -669,6 +744,11 @@
               "material": "Titanium",
               "weight": "88g",
               "image": "images/kap/mega_tri_horizon_titanium.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "317g",
+              "image": "images/kap/mega_tri_horizon_tungsten.jpg"
             }
           ]
         },
@@ -686,6 +766,48 @@
               "material": "Titanium",
               "weight": "46g",
               "image": "images/kap/collision_air_titanium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Mini Collision",
+          "dimensions": "45mm x 22mm x 14mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "97g",
+              "image": "images/kap/mini_collision_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "56g",
+              "image": "images/kap/mini_collision_titanium.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "109g",
+              "image": "images/kap/mini_collision_copper.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "81g",
+              "image": "images/kap/mini_collision_zirconium.jpg"
+            },
+            {
+              "material": "Bronze",
+              "weight": "94g",
+              "image": "images/kap/mini_collision_bronze.jpg"
+            },
+            {
+              "material": "Ultem",
+              "weight": "18g",
+              "image": "images/kap/mini_collision_ultem.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "218g",
+              "image": "images/kap/mini_collision_tungsten.jpg"
             }
           ]
         },
@@ -713,6 +835,11 @@
               "material": "Copper",
               "weight": "105g",
               "image": "images/kap/lucky_clover_copper.jpg"
+            },
+            {
+              "material": "Mokume",
+              "weight": "110g",
+              "image": "images/kap/lucky_clover_mokume.jpg"
             }
           ]
         },
@@ -745,6 +872,111 @@
               "material": "Ultem",
               "weight": "17g",
               "image": "images/kap/rose_xl_ultem.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "194g",
+              "image": "images/kap/rose_xl_tungsten.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Tiny Collision",
+          "dimensions": "25mm x 13.8mm x 9mm",
+          "button_size": "??",
+          "variants": [
+            {
+              "material": "Tungsten",
+              "weight": "46.8g",
+              "image": "images/kap/tiny_collision_tungsten.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "22g",
+              "image": "images/kap/tiny_collision_stainless_steel.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Tri Collision",
+          "dimensions": "55mm x 15m",
+          "button_size": "??",
+          "variants": [
+            {
+              "material": "Tungsten",
+              "weight": "372.5g",
+              "image": "images/kap/tri_collision_tungsten.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Nano Collision",
+          "dimensions": "40mm x 22mm x 14mm",
+          "button_size": "24.5",
+          "variants": [
+            {
+              "material": "Zirconium",
+              "weight": "72g",
+              "image": "images/kap/nano_collision_zirconium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Katla",
+          "dimensions": "56mm x 20mm x 15.25mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Tungsten",
+              "weight": "280g",
+              "image": "images/kap/katla_tungsten.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "140g",
+              "image": "images/kap/katla_copper.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "124g",
+              "image": "images/kap/katla_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "74g",
+              "image": "images/kap/katla_titanium.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "103g",
+              "image": "images/kap/katla_zirconium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Eclipse",
+          "dimensions": "50mm x 16mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Titanium",
+              "weight": "38g",
+              "image": "images/kap/eclipse_titanium.jpg"
+            },
+            {
+              "material": "Zircuti",
+              "weight": "50g",
+              "image": "images/kap/eclipse_zircuti.jpg"
+            },
+            {
+              "material": "Mokuti",
+              "weight": "38g",
+              "image": "images/kap/eclipse_mokuti.jpg"
+            },
+            {
+              "material": "Ultem",
+              "weight": "25.4g",
+              "image": "images/kap/eclipse_ultem.jpg"
             }
           ]
         }
