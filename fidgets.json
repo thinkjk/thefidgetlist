@@ -616,7 +616,18 @@
               "material": "Titanium",
               "weight": "38g",
               "image": "images/kap/horizon_titanium.jpg"
+            },
+            {
+              "material": "ZircuTi",
+              "weight": "42g",
+              "image": "images/kap/horizon_zircuti.jpg"
+            },
+            {
+              "material": "Mokuti",
+              "weight": "38g",
+              "image": "images/kap/??"
             }
+
           ]
         },
         {
@@ -808,6 +819,11 @@
               "material": "Tungsten",
               "weight": "218g",
               "image": "images/kap/mini_collision_tungsten.jpg"
+            },
+            {
+              "material": "Mokume",
+              "weight": "??",
+              "image": "images/kap/mini_collision_mokume.jpg"
             }
           ]
         },
@@ -840,6 +856,80 @@
               "material": "Mokume",
               "weight": "110g",
               "image": "images/kap/lucky_clover_mokume.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "110g",
+              "image": "images/kap/lucky_clover_tungsten.jpg"
+            },
+            {
+              "material": "Superconductor",
+              "weight": "89g",
+              "image": "images/kap/lucky_clover_superconductor.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Rose",
+          "dimensions": "45mm x 8mm",
+          "button_size": "22mm",
+          "variants": [
+            {
+              "material": "Copper",
+              "weight": "75g",
+              "image": "images/kap/rose_copper.jpg"
+            },
+            {
+              "material": "Bronze",
+              "weight": "72.9g",
+              "image": "images/kap/rose_bronze.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "65g",
+              "image": "images/kap/rose_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "40g",
+              "image": "images/kap/rose_titanium.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "55g",
+              "image": "images/kap/rose_zirconium.jpg"
+            },
+            {
+              "material": "Aluminum",
+              "weight": "25g",
+              "image": "images/kap/rose_aluminum.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Rose Nano",
+          "dimensions": "40mm x 8mm",
+          "button_size": "22mm",
+          "variants": [
+            {
+              "material": "Mokume",
+              "weight": "59g",
+              "image": "images/kap/rose_nano_mokume.jpg"
+            },
+            {
+              "material": "Cupronickel",
+              "weight": "58.5g",
+              "image": "images/kap/rose_nano_cupronickel.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "60g",
+              "image": "images/kap/rose_nano_copper.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "115g",
+              "image": "images/kap/rose_nano_tungsten.jpg"
             }
           ]
         },
@@ -894,6 +984,11 @@
               "material": "Stainless Steel",
               "weight": "22g",
               "image": "images/kap/tiny_collision_stainless_steel.jpg"
+            },
+            {
+              "material": "Damasteel",
+              "weight": "21g",
+              "image": "images/kap/tiny_collision_damasteel.jpg"
             }
           ]
         },
@@ -918,6 +1013,11 @@
               "material": "Zirconium",
               "weight": "72g",
               "image": "images/kap/nano_collision_zirconium.jpg"
+            },
+            {
+              "material": "Damasteel",
+              "weight": "??",
+              "image": "images/kap/nano_collision_damasteel.jpg"
             }
           ]
         },
@@ -956,7 +1056,6 @@
         {
           "name": "Eclipse",
           "dimensions": "50mm x 16mm",
-          "button_size": "24.5mm",
           "variants": [
             {
               "material": "Titanium",
@@ -977,6 +1076,154 @@
               "material": "Ultem",
               "weight": "25.4g",
               "image": "images/kap/eclipse_ultem.jpg"
+            },
+            {
+              "material": "Superconductor",
+              "weight": "86g",
+              "image": "images/kap/eclipse_superconductor.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "84g",
+              "image": "images/kap/eclipse_zirconium.jpg"
+            },
+            {
+              "material": "Damasteel",
+              "weight": "95g",
+              "image": "images/kap/eclipse_damasteel.jpg"
+            },
+            {
+              "material": "Mokume",
+              "weight": "103g",
+              "image": "images/kap/eclipse_mokume.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Aztec Square",
+          "dimensions": "32mm x 32mm x 12mm",
+          "variants": [
+            {
+              "material": "Copper",
+              "weight": "75g",
+              "image": "images/kap/aztec_square_copper.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "67g",
+              "image": "images/kap/aztec_square_stainless_steel.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "61g",
+              "image": "images/kap/aztec_square_zirconium.jpg"
+            },
+            {
+              "material": "Ultem",
+              "weight": "28g",
+              "image": "images/kap/aztec_square_ultem.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "47g",
+              "image": "images/kap/aztec_square_titanium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Dark Side",
+          "dimensions": "50mm x 30mm x 13mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "116g",
+              "image": "images/kap/dark_side_stainless_steel.jpg"
+            },
+            {
+              "material": "Damasteel",
+              "weight": "??",
+              "image": "images/kap/nano_collision_damasteel.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Pentagon",
+          "dimensions": "65mm",
+          "button_size": "32mm",
+          "variants": [
+            {
+              "material": "Zircuti",
+              "weight": "152g",
+              "image": "images/kap/pentagon_zircuti.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Petal",
+          "dimensions": "45mm x 8mm",
+          "button_size": "24mm",
+          "variants": [
+            {
+              "material": "Mokume",
+              "weight": "65g",
+              "image": "images/kap/petal_mokume.jpg"
+            },
+            {
+              "material": "Zircuti",
+              "weight": "39g",
+              "image": "images/kap/petal_zircuti.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "39g",
+              "image": "images/kap/petal_copper.jpg"
+            },
+            {
+              "material": "Bronze",
+              "weight": "39g",
+              "image": "images/kap/petal_bronze.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "39g",
+              "image": "images/kap/petal_titanium.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "60g",
+              "image": "images/kap/petal_stainless_steel.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "55g",
+              "image": "images/kap/petal_zirconium.jpg"
+            },
+            {
+              "material": "Mokuti",
+              "weight": "35g",
+              "image": "images/kap/petal_mokuti.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Scarab Killer Mini",
+          "dimensions": "50mm x 42mm x 12.7mm",
+          "button_size": "23mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "66g",
+              "image": "images/kap/scarab_killer_mini_stainless_steel.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "55g",
+              "image": "images/kap/scarab_killer_mini_zirconium.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "145g",
+              "image": "images/kap/scarab_killer_mini_tungsten.jpg"
             }
           ]
         }
