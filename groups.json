@@ -1110,7 +1110,9 @@
         "link": "https://www.facebook.com/groups/spinningtoptom",
         "image": "images/spinningtoptom/spinningtoptom.jpg",
         "categories": [
-          "Tops"
+          "Tops",
+          "Various",
+          "B/S/T"
         ]
       },
       {
@@ -1232,10 +1234,10 @@
         ]
       },
       {
-        "name": "Back To Burl",
+        "name": "Bark To Burl",
         "description": "Back To Burl Group",
         "link": "https://www.facebook.com/groups/BarkToBurl",
-        "image": "images/backtoburl/backtoburl.jpg",
+        "image": "images/barktoburl/barktoburl.jpg",
         "categories": [
           "Tops"
         ]
@@ -1294,6 +1296,25 @@
         "image": "images/fidgetnerd/fidgetnerd.jpg",
         "categories": [
           "Various"
+        ]
+      },
+      {
+        "name": "Fidget spin sales",
+        "description": "Fidget Spin Sales",
+        "link": "https://www.facebook.com/groups/1330652463695000",
+        "image": "images/fidgetspinsales/fidgetspinsales.jpg",
+        "categories": [
+          "B/S/T"
+        ]
+      },
+      {
+        "name": "Fuji EDC",
+        "description": "This group is a community for sharing information about Fuji EDC.",
+        "link": "https://www.facebook.com/groups/988577636542382",
+        "image": "images/fujiedc/fujiedc.jpg",
+        "categories": [
+          "Sliders",
+          "3D Printed"
         ]
       }
     ]
