@@ -198,6 +198,11 @@
               "material": "Titanium",
               "weight": "57g",
               "image": "images/cleanedc/slim_pillar_titanium.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "205g",
+              "image": "images/cleanedc/slim_pillar_tungsten.jpg"
             }
           ]
         }
@@ -448,6 +453,28 @@
               "material": "Stainless Steel",
               "weight": "83g",
               "image": "images/m3metalcreations/tranquilizer_er_redux_stainless_steel.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_name": "TwoEDC",
+      "items": [
+        {
+          "name": "Nectar++",
+          "dimensions": "55mm x 12mm",
+          "button_size": "24.5",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "106g",
+              "image": "images/twoedc/nectar++_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "62g",
+              "image": "images/twoedc/nectar++_titanium.jpg"
             }
           ]
         }
@@ -2643,18 +2670,6 @@
               "material": "Stainless Steel",
               "weight": "54.1g",
               "image": "images/scam/torqbar_magnum_stainless_steel.jpg"
-            }
-          ]
-        },
-        {
-          "name": "Torqbar Mini Aluminum Bronze",
-          "dimensions": "40.8mm × 30.5mm × 9mm",
-          "button_size": "40.8mm",
-          "variants": [
-            {
-              "material": "Aluminum Bronze",
-              "weight": "54.1g",
-              "image": "images/scam/torqbar_mini_aluminum_bronze_aluminum_bronze.jpg"
             }
           ]
         },
