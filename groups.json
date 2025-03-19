@@ -1316,6 +1316,15 @@
           "Sliders",
           "3D Printed"
         ]
+      },
+      {
+        "name": "The Fidget Hub",
+        "description": "All about fidgets and the EDC world. Buy Sell and Trade your fidgets!",
+        "link": "https://www.facebook.com/groups/1010145714269921",
+        "image": "images/thefidgethub/thefidgethub.jpg",
+        "categories": [
+          "B/S/T"
+        ]
       }
     ]
   }
