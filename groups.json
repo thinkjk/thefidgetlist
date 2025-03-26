@@ -922,16 +922,6 @@
         ]
       },
       {
-        "name": "Fidget Manufactur",
-        "description": "High quality 3d printed fidgetslider - made in Germany",
-        "link": "https://www.facebook.com/groups/3413410405590549",
-        "image": "images/fidgetmfg/fidgetmfg.jpg",
-        "categories": [
-          "Spinners",
-          "3D Printed"
-        ]
-      },
-      {
         "name": "M3 Metal Creations",
         "description": "Dedicated to the hobby of collecting and making spinners and tops.",
         "link": "https://www.facebook.com/groups/M3MetalCreations",
@@ -1043,15 +1033,6 @@
         "image": "images/beadwizard/beadwizard.jpg",
         "categories": [
           "Beads"
-        ]
-      },
-      {
-        "name": "3D Fidget Hub",
-        "description": "A place for 3D fidget makers and buyers to post and promote their work and purchases.",
-        "link": "https://www.facebook.com/groups/1087486599544956",
-        "image": "images/3dfidgethub/3dfidgethub.jpg",
-        "categories": [
-          "3D Printed"
         ]
       },
       {
@@ -1324,6 +1305,25 @@
         "image": "images/thefidgethub/thefidgethub.jpg",
         "categories": [
           "B/S/T"
+        ]
+      },
+      {
+        "name": "TiTedc ( iNDY THiCC ) Buy/Sell/Trade",
+        "description": "iNDY THiCC BST",
+        "link": "https://www.facebook.com/groups/2020811048395285",
+        "image": "images/indythiccbst/indythiccbst.jpg",
+        "categories": [
+          "B/S/T"
+        ]
+      },
+      {
+        "name": "Random Fabrications",
+        "description": "Random Fabrications",
+        "link": "https://www.facebook.com/groups/RandomFabrications",
+        "image": "images/randomfabrications/randomfabrications.jpg",
+        "categories": [
+          "Spinners",
+          "Metal"
         ]
       }
     ]
