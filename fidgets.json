@@ -1766,6 +1766,23 @@
               "image": "images/indythicc/skelp_stainless_steel.jpg"
             }
           ]
+        },
+        {
+          "name": "Yeti",
+          "dimensions": "54mm x 27mm x 20mm",
+          "button_size": "25mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "??",
+              "image": "images/indythicc/?.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "91g",
+              "image": "images/indythicc/yeti_titanium.jpg"
+            }
+          ]
         }
       ]
     },
