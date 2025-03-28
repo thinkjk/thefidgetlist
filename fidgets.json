@@ -205,6 +205,18 @@
               "image": "images/cleanedc/slim_pillar_tungsten.jpg"
             }
           ]
+        },
+        {
+          "name": "Mini Slim Pillar",
+          "dimensions": "46mm x 20mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "82g",
+              "image": "images/cleanedc/mini_slim_pillar_stainless_steel.jpg"
+            }
+          ]
         }
       ]
     },
