@@ -476,7 +476,7 @@
         {
           "name": "Nectar++",
           "dimensions": "55mm x 12mm",
-          "button_size": "24.5",
+          "button_size": "24.5mm",
           "variants": [
             {
               "material": "Stainless Steel",
@@ -487,6 +487,121 @@
               "material": "Titanium",
               "weight": "62g",
               "image": "images/twoedc/nectar++_titanium.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_name": "ZZMPA",
+      "items": [
+        {
+          "name": "SP1",
+          "dimensions": "55mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "90g",
+              "image": "images/zzmpa/sp1_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "52g",
+              "image": "images/zzmpa/sp1_titanium.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "195g",
+              "image": "images/zzmpa/sp1_tungsten.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "100g",
+              "image": "images/zzmpa/sp1_copper.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "75g",
+              "image": "images/zzmpa/sp1_zirconium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "SP2",
+          "dimensions": "50mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "72g",
+              "image": "images/zzmpa/sp2_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "42g",
+              "image": "images/zzmpa/sp2_titanium.jpg"
+            },
+            {
+              "material": "ZircuTi",
+              "weight": "45g",
+              "image": "images/zzmpa/sp2_zircuti.jpg"
+            }
+          ]
+        },
+        {
+          "name": "SP2 IR",
+          "dimensions": "50mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "63g",
+              "image": "images/zzmpa/sp2_ir_stainless_steel.jpg"
+            },
+            {
+              "material": "WCu",
+              "weight": "117g",
+              "image": "images/zzmpa/sp2_ir_wcu.jpg"
+            }
+          ]
+        },
+        {
+          "name": "SP3",
+          "dimensions": "50mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "98g",
+              "image": "images/zzmpa/sp3_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "57g",
+              "image": "images/zzmpa/sp3_titanium.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "82g",
+              "image": "images/zzmpa/sp3_zirconium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "SP4",
+          "dimensions": "54mm",
+          "button_size": "30mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "128g",
+              "image": "images/zzmpa/v"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "107g",
+              "image": "images/zzmpa/sp4_zirconium.jpg"
             }
           ]
         }
