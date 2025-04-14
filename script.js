@@ -1,7 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Dark mode functionality
-    const darkModeToggle = document.getElementById('darkModeToggle');
-    const themeText = document.getElementById('themeText');
+    // Dark mode functionality - initialize with a small delay to ensure DOM is fully loaded
+    setTimeout(() => {
+        initDarkMode();
+    }, 100);
+    
+    function initDarkMode() {
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        const themeText = document.getElementById('themeText');
+        
+        if (!darkModeToggle) {
+            console.error('Dark mode toggle button not found');
+            return;
+        }
     
     // Check for saved theme preference or use preferred color scheme
     const savedTheme = localStorage.getItem('fidgetlist_theme');
@@ -29,6 +39,8 @@ document.addEventListener('DOMContentLoaded', () => {
             themeText.textContent = 'Light Mode';
         }
     });
+    }
+    
     const checkboxesContainer = document.getElementById('filtersContainer');
     const searchBar = document.getElementById('searchBar');
     const tableBody = document.querySelector('#groupsTable tbody');
