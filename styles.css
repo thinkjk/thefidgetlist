@@ -1,9 +1,62 @@
 /* -------------------------------
    Global / Body Styles
 -------------------------------- */
+:root {
+    --bg-color: #f8f9fa;
+    --text-color: #212529;
+    --card-bg: #ffffff;
+    --table-stripe: rgba(0, 0, 0, 0.05);
+    --border-color: #dee2e6;
+    --secondary-text: #6c757d;
+    --input-bg: #ffffff;
+    --input-border: #ced4da;
+}
+
+[data-theme="dark"] {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --card-bg: #1e1e1e;
+    --table-stripe: rgba(255, 255, 255, 0.05);
+    --border-color: #444;
+    --secondary-text: #adb5bd;
+    --input-bg: #2a2a2a;
+    --input-border: #444;
+}
+
+/* Additional dark mode specific styles */
+[data-theme="dark"] .table-dark {
+    background-color: #2a2a2a !important;
+    color: #e0e0e0 !important;
+}
+
+[data-theme="dark"] .table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .table {
+    color: #e0e0e0;
+    border-color: #444;
+}
+
+[data-theme="dark"] .card {
+    background-color: #1e1e1e;
+    border-color: #444;
+}
+
+[data-theme="dark"] .btn-outline-dark {
+    color: #e0e0e0;
+    border-color: #e0e0e0;
+}
+
+[data-theme="dark"] .btn-outline-dark:hover {
+    background-color: #e0e0e0;
+    color: #121212;
+}
+
 body {
-    background-color: #f8f9fa;
-    color: #212529;
+    background-color: var(--bg-color);
+    color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -18,28 +71,30 @@ header h1 {
 
 header p {
     font-size: 1.2rem;
-    color: #6c757d;
+    color: var(--secondary-text);
 }
 
 /* Style for the "Submit a New Group" button in the header */
 header .btn.btn-primary.position-absolute {
-    /* Customize the button appearance if needed */
+    z-index: 10;
 }
 
 /* Style for the "View Source" button */
 header .btn.btn-dark.position-absolute {
-    /* Customize the button appearance if needed */
+    z-index: 10;
 }
 
 /* -------------------------------
    Search Bar
 -------------------------------- */
 #searchBar {
-    border: 1px solid #ced4da;
+    border: 1px solid var(--input-border);
     border-radius: 0.5rem;
     padding: 0.5rem;
     font-size: 1rem;
     margin-bottom: 1rem;
+    background-color: var(--input-bg);
+    color: var(--text-color);
 }
 
 /* Prevent word breaking in table cells */
@@ -67,8 +122,8 @@ table th {
     gap: 1rem;
 
     padding: 1rem;
-    background-color: #ffffff;
-    border: 1px solid #dee2e6;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
     border-radius: 0.5rem;
     margin-top: 1rem;
 
@@ -83,9 +138,9 @@ table th {
     align-items: center;
     text-align: center;
 
-    border: 1px solid #dee2e6;
+    border: 1px solid var(--border-color);
     border-radius: 0.5rem;
-    background-color: #f8f9fa;
+    background-color: var(--bg-color);
     padding: 0.5rem;
 
     box-sizing: border-box;
@@ -109,7 +164,7 @@ table th {
 .fidget-item p {
     margin: 0;
     font-size: 0.9rem;
-    color: #6c757d;
+    color: var(--secondary-text);
 }
 
 /* -------------------------------
@@ -146,6 +201,17 @@ table img {
 .table td,
 .table th {
     vertical-align: middle;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: var(--table-stripe);
+}
+
+.table-dark {
+    background-color: var(--card-bg);
+    color: var(--text-color);
 }
 
 /* Adjust the header to prevent overlapping on mobile */

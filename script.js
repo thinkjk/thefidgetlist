@@ -1,4 +1,34 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Dark mode functionality
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    const themeText = document.getElementById('themeText');
+    
+    // Check for saved theme preference or use preferred color scheme
+    const savedTheme = localStorage.getItem('fidgetlist_theme');
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    
+    // Apply theme based on saved preference or system preference
+    if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        themeText.textContent = 'Light Mode';
+        darkModeToggle.querySelector('i').className = 'bi bi-sun-fill';
+    }
+    
+    // Toggle dark/light mode
+    darkModeToggle.addEventListener('click', () => {
+        const currentTheme = document.documentElement.getAttribute('data-theme');
+        if (currentTheme === 'dark') {
+            document.documentElement.removeAttribute('data-theme');
+            localStorage.setItem('fidgetlist_theme', 'light');
+            darkModeToggle.querySelector('i').className = 'bi bi-moon-fill';
+            themeText.textContent = 'Dark Mode';
+        } else {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            localStorage.setItem('fidgetlist_theme', 'dark');
+            darkModeToggle.querySelector('i').className = 'bi bi-sun-fill';
+            themeText.textContent = 'Light Mode';
+        }
+    });
     const checkboxesContainer = document.getElementById('filtersContainer');
     const searchBar = document.getElementById('searchBar');
     const tableBody = document.querySelector('#groupsTable tbody');
@@ -9,13 +39,152 @@ document.addEventListener('DOMContentLoaded', () => {
     let filtersData = [];
     let fidgetsMap = {};  
     let isRandomized = true;
+    
+    // Data version for cache invalidation
+    const DATA_VERSION = '1.0';
+    
+    // Function to check if we have valid cached data
+    function getCachedData(key) {
+        try {
+            const cachedData = localStorage.getItem(key);
+            if (!cachedData) return null;
+            
+            const parsedData = JSON.parse(cachedData);
+            if (parsedData.version !== DATA_VERSION) return null;
+            
+            return parsedData.data;
+        } catch (e) {
+            console.error('Error reading from cache:', e);
+            return null;
+        }
+    }
+    
+    // Function to save data to cache
+    function saveToCache(key, data) {
+        try {
+            const cacheObject = {
+                version: DATA_VERSION,
+                timestamp: new Date().getTime(),
+                data: data
+            };
+            localStorage.setItem(key, JSON.stringify(cacheObject));
+        } catch (e) {
+            console.error('Error saving to cache:', e);
+        }
+    }
 
-    // 1) Fetch groups.json and fidgets.json in parallel
-    Promise.all([
-        fetch('groups.json').then(res => res.json()),
-        fetch('fidgets.json').then(res => res.json())
-    ])
+    // Try to get data from cache first
+    const cachedGroups = getCachedData('fidgetlist_groups');
+    const cachedFidgets = getCachedData('fidgetlist_fidgets');
+    
+    // Create a loading indicator
+    function showLoading() {
+        const loadingDiv = document.createElement('div');
+        loadingDiv.id = 'loadingIndicator';
+        loadingDiv.innerHTML = `
+            <div class="text-center p-5">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2">Loading data...</p>
+            </div>
+        `;
+        tableBody.innerHTML = '';
+        const loadingRow = document.createElement('tr');
+        const loadingCell = document.createElement('td');
+        loadingCell.colSpan = 6;
+        loadingCell.appendChild(loadingDiv);
+        loadingRow.appendChild(loadingCell);
+        tableBody.appendChild(loadingRow);
+    }
+    
+    // Show error message in the table
+    function showError(message) {
+        tableBody.innerHTML = '';
+        const errorRow = document.createElement('tr');
+        const errorCell = document.createElement('td');
+        errorCell.colSpan = 6;
+        errorCell.innerHTML = `
+            <div class="alert alert-danger m-3" role="alert">
+                <i class="bi bi-exclamation-triangle-fill me-2"></i>
+                ${message}
+                <button class="btn btn-outline-danger btn-sm ms-3" onclick="location.reload()">
+                    <i class="bi bi-arrow-clockwise me-1"></i> Retry
+                </button>
+            </div>
+        `;
+        errorRow.appendChild(errorCell);
+        tableBody.appendChild(errorRow);
+    }
+    
+    // If we have cached data, use it immediately
+    if (cachedGroups && cachedFidgets) {
+        console.log('Using cached data');
+        setupData(cachedGroups, cachedFidgets);
+        
+        // Still fetch fresh data in the background
+        Promise.all([
+            fetch('groups.json')
+                .then(res => {
+                    if (!res.ok) throw new Error(`Failed to fetch groups: ${res.status} ${res.statusText}`);
+                    return res.json();
+                }),
+            fetch('fidgets.json')
+                .then(res => {
+                    if (!res.ok) throw new Error(`Failed to fetch fidgets: ${res.status} ${res.statusText}`);
+                    return res.json();
+                })
+        ])
+        .then(([groupsResp, fidgetsResp]) => {
+            // Update cache with fresh data
+            saveToCache('fidgetlist_groups', groupsResp);
+            saveToCache('fidgetlist_fidgets', fidgetsResp);
+            
+            // Only update UI if data has changed
+            if (JSON.stringify(groupsResp) !== JSON.stringify(cachedGroups) || 
+                JSON.stringify(fidgetsResp) !== JSON.stringify(cachedFidgets)) {
+                console.log('Updating with fresh data');
+                setupData(groupsResp, fidgetsResp);
+            }
+        })
+        .catch(error => {
+            console.error('Error fetching fresh JSON data:', error);
+            // Don't show error to user since we already have cached data
+        });
+    } else {
+        // No cache, fetch data normally
+        console.log('Fetching data (no cache)');
+        showLoading();
+        Promise.all([
+            fetch('groups.json')
+                .then(res => {
+                    if (!res.ok) throw new Error(`Failed to fetch groups: ${res.status} ${res.statusText}`);
+                    return res.json();
+                }),
+            fetch('fidgets.json')
+                .then(res => {
+                    if (!res.ok) throw new Error(`Failed to fetch fidgets: ${res.status} ${res.statusText}`);
+                    return res.json();
+                })
+        ])
     .then(([groupsResp, fidgetsResp]) => {
+        // Save to cache
+        saveToCache('fidgetlist_groups', groupsResp);
+        saveToCache('fidgetlist_fidgets', fidgetsResp);
+        
+        // Setup data and UI
+        setupData(groupsResp, fidgetsResp);
+    })
+    .catch(error => {
+        console.error('Error fetching JSON data:', error);
+        showError(`Failed to load data: ${error.message}. Please try again later.`);
+    });
+    }
+    
+    /**
+     * Setup data and UI with either cached or fresh data
+     */
+    function setupData(groupsResp, fidgetsResp) {
         // Setup groups & filters from groups.json
         filtersData = groupsResp.filters;
         groupsData = groupsResp.groups;
@@ -40,8 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Shuffle groups initially
         groupsData = shuffleArray([...groupsData]);
         populateTable(groupsData);
-    })
-    .catch(error => console.error('Error fetching JSON data:', error));
+    }
 
     /**
      * Shuffle array in place
@@ -94,6 +262,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const groupImg = document.createElement('img');
             groupImg.src = group.image;
             groupImg.alt = group.name;
+            groupImg.loading = 'lazy';
             groupImg.classList.add('img-thumbnail');
             imgCell.appendChild(groupImg);
             row.appendChild(imgCell);
@@ -220,6 +389,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const variantImg = document.createElement('img');
                     variantImg.src = variant.image;
                     variantImg.alt = variant.material || '';
+                    variantImg.loading = 'lazy';
                     variantImg.classList.add('d-block', 'w-100');
                     variantImg.style.height = '150px';
                     variantImg.style.objectFit = 'cover';
@@ -364,6 +534,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const variantImg = document.createElement('img');
             variantImg.src = variant.image;
             variantImg.alt = variant.material || '';
+            variantImg.loading = 'lazy';
             variantImg.classList.add('d-block', 'w-100');
             variantImg.style.height = '85vh';
             variantImg.style.objectFit = 'contain';
