@@ -13,12 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
     
-    // Check for saved theme preference or use preferred color scheme
+    // Check for saved theme preference only (ignore system preference)
     const savedTheme = localStorage.getItem('fidgetlist_theme');
-    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
     
-    // Apply theme based on saved preference or system preference
-    if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+    // Apply theme based on saved preference only, default to light mode
+    if (savedTheme === 'dark') {
         document.documentElement.setAttribute('data-theme', 'dark');
         themeText.textContent = 'Light Mode';
         darkModeToggle.querySelector('i').className = 'bi bi-sun-fill';
