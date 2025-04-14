@@ -242,19 +242,30 @@ document.addEventListener('DOMContentLoaded', () => {
             const colDiv = document.createElement('div');
             colDiv.classList.add('col-6', 'col-md-4', 'mb-3');
 
+            // Create a unique ID for each checkbox
+            const checkboxId = `filter-${filter.replace(/\s+/g, '-').toLowerCase()}`;
+            
+            // Create the form check div first
+            const formCheckDiv = document.createElement('div');
+            formCheckDiv.classList.add('form-check');
+            
+            // Create checkbox
             const checkbox = document.createElement('input');
             checkbox.type = 'checkbox';
+            checkbox.id = checkboxId;
             checkbox.classList.add('form-check-input', 'filter-checkbox');
             checkbox.value = filter;
-
+            
+            // Create label and explicitly associate it with the checkbox
             const label = document.createElement('label');
             label.textContent = filter;
             label.classList.add('form-check-label');
-
-            const formCheckDiv = document.createElement('div');
-            formCheckDiv.classList.add('form-check');
-            formCheckDiv.append(checkbox, label);
-
+            label.setAttribute('for', checkboxId);
+            
+            // Add the checkbox and label to the form check div
+            formCheckDiv.appendChild(checkbox);
+            formCheckDiv.appendChild(label);
+            
             colDiv.appendChild(formCheckDiv);
             checkboxesContainer.appendChild(colDiv);
         });
