@@ -26,12 +26,39 @@
             'floating-chat.donateButton.text-color': '#323842'
         });
     </script>
+    <style>
+        [data-theme="dark"] #darkModeToggle {
+            background-color: #333;
+        }
+        
+        #darkModeToggle i {
+            font-size: 1.5rem;
+            margin: 0 !important;
+        }
+        
+        #darkModeToggle:hover {
+            transform: scale(1.1);
+        }
+        
+        #darkModeToggle span {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="position-relative">
+        <!-- Dark Mode Toggle Button -->
+        <button id="darkModeToggle" class="btn" aria-label="Toggle dark mode">
+            <i class="bi bi-moon-fill"></i>
+            <span id="themeText">Dark Mode</span>
+        </button>
+    </div>
+
     <div class="container my-5">
         <header class="mb-4 position-relative">
             <a href="#submit-group" class="btn btn-primary position-absolute top-0 start-0 m-3">Submit Content</a>
+
             <a href="https://github.com/thinkjk/thefidgetlist" target="_blank" rel="noopener noreferrer"
                 class="btn btn-dark position-absolute top-0 end-0 m-3 d-flex align-items-center">
                 <i class="bi bi-github me-2"></i> View Source
@@ -130,18 +157,38 @@
         });
     </script>
 
-    <!-- Style to position Ko-fi widget at top of page -->
+    <!-- Style to position Ko-fi widget and dark mode toggle at top of page -->
     <style>
         .floatingchat-container-wrap {
             bottom: unset !important;
             top: 10px !important;
+            right: 10px !important;
         }
 
         .floating-chat-kofi-popup-iframe {
             bottom: unset !important;
             top: 70px !important;
         }
+        
+        #darkModeToggle {
+            position: fixed;
+            top: 25px;
+            right: 80px;
+            z-index: 1000;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            border: none;
+            transition: all 0.3s ease;
+        }
     </style>
+    
+
 </body>
 
 </html>
