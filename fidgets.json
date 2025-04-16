@@ -2076,6 +2076,11 @@
               "image": "images/licedc/goldilocks_edamame_titanium.jpg"
             },
             {
+              "material": "Crystallized Titanium",
+              "weight": "??",
+              "image": "images/licedc/goldilocks_edamame_crystallized_titanium.jpg"
+            },
+            {
               "material": "WCu",
               "weight": "209g",
               "image": "images/licedc/goldilocks_edamame_wcu.jpg"
@@ -2238,6 +2243,18 @@
               "material": "Resin",
               "weight": "??",
               "image": "images/licedc/tri_mini_mame.jpg"
+            }
+          ],
+          "button_size": "??"
+        },
+        {
+          "name": "Love Nugget",
+          "dimensions": "??",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "??",
+              "image": "images/licedc/love_nugget_stainless_steel.jpg"
             }
           ],
           "button_size": "??"
