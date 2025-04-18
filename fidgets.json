@@ -2255,6 +2255,11 @@
               "material": "Stainless Steel",
               "weight": "??",
               "image": "images/licedc/love_nugget_stainless_steel.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "??",
+              "image": "images/licedc/love_nugget_copper.jpg"
             }
           ],
           "button_size": "??"
