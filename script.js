@@ -6,10 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
     
     function initDarkMode() {
         const darkModeToggle = document.getElementById('darkModeToggle');
+        const darkModeToggleMobile = document.getElementById('darkModeToggleMobile');
         const themeText = document.getElementById('themeText');
         
-        if (!darkModeToggle) {
-            console.error('Dark mode toggle button not found');
+        if (!darkModeToggle || !darkModeToggleMobile) {
+            console.error('Dark mode toggle buttons not found');
             return;
         }
     
@@ -21,23 +22,33 @@ document.addEventListener('DOMContentLoaded', () => {
         document.documentElement.setAttribute('data-theme', 'dark');
         themeText.textContent = 'Light Mode';
         darkModeToggle.querySelector('i').className = 'bi bi-sun-fill';
+        darkModeToggleMobile.querySelector('i').className = 'bi bi-sun-fill';
+        darkModeToggleMobile.querySelector('span').textContent = 'Light Mode';
     }
     
-    // Toggle dark/light mode
-    darkModeToggle.addEventListener('click', () => {
+    // Toggle function for dark/light mode
+    function toggleDarkMode() {
         const currentTheme = document.documentElement.getAttribute('data-theme');
         if (currentTheme === 'dark') {
             document.documentElement.removeAttribute('data-theme');
             localStorage.setItem('fidgetlist_theme', 'light');
             darkModeToggle.querySelector('i').className = 'bi bi-moon-fill';
+            darkModeToggleMobile.querySelector('i').className = 'bi bi-moon-fill';
             themeText.textContent = 'Dark Mode';
+            darkModeToggleMobile.querySelector('span').textContent = 'Dark Mode';
         } else {
             document.documentElement.setAttribute('data-theme', 'dark');
             localStorage.setItem('fidgetlist_theme', 'dark');
             darkModeToggle.querySelector('i').className = 'bi bi-sun-fill';
+            darkModeToggleMobile.querySelector('i').className = 'bi bi-sun-fill';
             themeText.textContent = 'Light Mode';
+            darkModeToggleMobile.querySelector('span').textContent = 'Light Mode';
         }
-    });
+    }
+    
+    // Add event listeners to both toggles
+    darkModeToggle.addEventListener('click', toggleDarkMode);
+    darkModeToggleMobile.addEventListener('click', toggleDarkMode);
     }
     
     const checkboxesContainer = document.getElementById('filtersContainer');

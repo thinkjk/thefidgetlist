@@ -250,14 +250,20 @@ header .btn.position-absolute {
         align-items: center;
     }
     
-    /* Ensure dark mode toggle is visible but not overlapping content */
+    /* Mobile dark mode toggle styling */
     #darkModeToggle {
-        box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        display: block;
+        text-align: center;
     }
     
-    /* Add padding to header to prevent overlap with fixed dark mode toggle */
-    header {
-        padding-top: 50px;
+    #darkModeToggle i {
+        margin-right: 0.5rem !important;
+        font-size: 1rem;
+    }
+    
+    #darkModeToggle span {
+        display: inline !important;
+        font-size: 0.9rem;
     }
 
     /* Ensure checkboxes maintain their styling */
