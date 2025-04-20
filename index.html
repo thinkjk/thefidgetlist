@@ -168,7 +168,7 @@
             position: fixed;
             top: 25px;
             right: 80px;
-            z-index: 1000;
+            z-index: 1050;
             border-radius: 50%;
             width: 50px;
             height: 50px;
@@ -179,6 +179,20 @@
             background-color: white;
             border: none;
             transition: all 0.3s ease;
+        }
+        
+        /* Mobile adjustments for dark mode toggle */
+        @media (max-width: 576px) {
+            #darkModeToggle {
+                top: 10px;
+                right: 70px;
+                width: 40px;
+                height: 40px;
+            }
+            
+            #darkModeToggle i {
+                font-size: 1.2rem;
+            }
         }
     </style>
     
