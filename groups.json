@@ -155,7 +155,9 @@
           "Sliders",
           "Spinners",
           "Metal",
-          "3D Printed"
+          "3D Printed",
+          "Beads",
+          "Spin Stick"
         ]
       },
       {
@@ -1305,6 +1307,103 @@
         "categories": [
           "Spinners",
           "Metal"
+        ]
+      },
+      {
+        "name": "FidgetAndChill EDC",
+        "description": "More fidgets and designs to come!",
+        "link": "https://www.facebook.com/groups/921438576833258",
+        "image": "images/fidgetandchill/fidgetandchill.jpg",
+        "categories": [
+          "3D Printed",
+          "Various"
+        ]
+      },
+      {
+        "name": "Kinetic Drip",
+        "description": "— KINETIC DRIP — INTERACTIVE & PORTABLE LIQUID FIDGET ART",
+        "link": "https://www.facebook.com/groups/1067480588521074",
+        "image": "images/kineticdrip/kineticdrip.jpg",
+        "categories": [
+          "3D Printed",
+          "Sliders"
+        ]
+      },
+      {
+        "name": "Krameritech EDC",
+        "description": "follow along for novel and unique product drops",
+        "link": "https://www.facebook.com/groups/1169420054725154",
+        "image": "images/krameritechedc/krameritechedc.jpg",
+        "categories": [
+          "3D Printed",
+          "Beads"
+        ]
+      },
+      {
+        "name": "Dune EDC",
+        "description": "This is a place to buy and share all things DUNE EDC. Items will be sold via SUS posts or FCFS posts.",
+        "link": "https://www.facebook.com/groups/687251967005667",
+        "image": "images/duneedc/duneedc.jpg",
+        "categories": [
+          "Accessories"
+        ]
+      },
+      {
+        "name": "No Found Human EDC",
+        "description": "Canadian made EDC Beads",
+        "link": "https://www.facebook.com/groups/946436567404848",
+        "image": "images/nofoundhumansedc/nofoundhumansedc.jpg",
+        "categories": [
+          "Beads"
+        ]
+      },
+      {
+        "name": "Open Space Creations!",
+        "description": "This group is dedicated to show off the work of Open Space Creations",
+        "link": "https://www.facebook.com/groups/711566649662029",
+        "image": "images/openspacecreations/openspacecreations.jpg",
+        "categories": [
+          "Beads",
+          "Spin Stick"
+        ]
+      },
+      {
+        "name": "AlumaFX EDC",
+        "description": "The Official AlumaFX EDC Community!",
+        "link": "https://www.facebook.com/groups/AlumaFXEDC",
+        "image": "images/alumafxedc/alumafxedc.jpg",
+        "categories": [
+          "Metal",
+          "Spinners"
+        ]
+      },
+      {
+        "name": "Kaos EDC Creations",
+        "description": "Chill group 3d printed items good vibes",
+        "link": "https://www.facebook.com/groups/1026642416227173",
+        "image": "images/kaosedccreations/kaosedccreations.jpg",
+        "categories": [
+          "Beads",
+          "3D Printed"
+        ]
+      },
+      {
+        "name": "Breakfast Club EDC",
+        "description": "Do you eat breakfast? Do you have EDC gear? Welcome, egghead.",
+        "link": "https://www.facebook.com/groups/breakfastclubedc",
+        "image": "images/breakfastclubedc/breakfastclubedc.jpg",
+        "categories": [
+          "Beads"
+        ]
+      },
+      {
+        "name": "Monkeylove EDC",
+        "description": "I make 3D printed fidgets that will hopefully bring joy to people!",
+        "link": "https://www.facebook.com/groups/monkeyloveedc",
+        "image": "images/moneyloveedc/moneyloveedc.jpg",
+        "categories": [
+          "3D Printed",
+          "Sliders"
         ]
       }
     ]
