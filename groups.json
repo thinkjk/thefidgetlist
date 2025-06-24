@@ -1405,6 +1405,35 @@
           "3D Printed",
           "Sliders"
         ]
-      }
+      },
+      {
+        "name": "Tiggy's Treats",
+        "description": "Welcome to Tiggy’s Treats! In this group, you will find drops of my 3D printed creations!",
+        "link": "https://www.facebook.com/groups/1945465102861409",
+        "image": "images/tiggystreats/tiggystreats.jpg",
+        "categories": [
+          "3D Printed",
+          "Accessories"
+        ]
+      },
+      {
+        "name": "Exiled Beadz",
+        "description": "We are the Exiled Beadz Team. We craft up exclusive small run pieces to accompany any EDC lovers favorite gear or anyone who just wants to add some flair to their collection.",
+        "link": "https://www.facebook.com/groups/1707274416459580",
+        "image": "images/exiledbeadz/exiledbeadz.jpg",
+        "categories": [
+          "Beads"
+        ]
+      },
+      {
+        "name": "FidgetBank HQ",
+        "description": "3D printed storage box and trays for fidgets and other EDC items!",
+        "link": "https://www.facebook.com/groups/975242394523468",
+        "image": "images/fidgetbankhq/fidgetbankhq.jpg",
+        "categories": [
+          "3D Printed",
+          "Accessories"
+        ]
+      },
     ]
   }
