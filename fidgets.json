@@ -154,8 +154,30 @@
             },
             {
               "material": "Brass",
-              "weight": "0g",
+              "weight": "??",
               "image": "images/2rdesigns/patriot_brass.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Phantom Mini Smooth",
+          "dimensions": "47mm x 29mm x 16mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Titanium",
+              "weight": "77g",
+              "image": "images/2rdesigns/phantom_mini_smooth_titanium.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "152g",
+              "image": "images/2rdesigns/phantom_mini_smooth_copper.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "143g",
+              "image": "images/2rdesigns/phantom_mini_smooth_brass.jpg"
             }
           ]
         }
@@ -242,6 +264,23 @@
               "material": "Stainless Steel",
               "weight": "67g",
               "image": "images/poseblades/tri_cocoon_medium_stainless_steel.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Tri Cocoon Medium Sport",
+          "dimensions": "47mm",
+          "button_size": "28mm",
+          "variants": [
+            {
+              "material": "Titanium",
+              "weight": "23g",
+              "image": "images/poseblades/tri_cocoon_medium_sport_titanium.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "33.5g",
+              "image": "images/poseblades/tri_cocoon_medium_sport_zirconium.jpg"
             }
           ]
         },
@@ -440,6 +479,17 @@
             }
           ],
           "button_size": "23mm"
+        },
+        {
+          "name": "The Fridgetz",
+          "dimensions": "??",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "??",
+              "image": "images/poseblades/the_fridgetz_stainless_steel.jpg"
+            }
+          ]
         }
       ]
     },
