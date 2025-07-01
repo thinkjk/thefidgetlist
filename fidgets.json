@@ -2001,6 +2001,18 @@
               "image": "images/indythicc/yeti_titanium.jpg"
             }
           ]
+        },
+        {
+          "name": "Baby Yeti",
+          "dimensions": "44mm x 28mm x 20mm",
+          "button_size": "??",
+          "variants": [
+            {
+              "material": "Titanium",
+              "weight": "80g",
+              "image": "images/indythicc/baby_yeti_titanium.jpg"
+            }
+          ]
         }
       ]
     },
@@ -2963,6 +2975,48 @@
               "material": "Titanium",
               "weight": "??",
               "image": "images/ziiistudio/dawn_og_titanium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Dawn Mini",
+          "dimensions": "50mm x 27mm x 10mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Zirconium",
+              "weight": "64g",
+              "image": "images/ziiistudio/dawn_mini_zirconium.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "76g",
+              "image": "images/ziiistudio/dawn_mini_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "45g",
+              "image": "images/ziiistudio/dawn_mini_titanium.jpg"
+            },
+            {
+              "material": "Cupronickel",
+              "weight": "80g",
+              "image": "images/ziiistudio/dawn_mini_cupronickel.jpg"
+            },
+            {
+              "material": "Bronze",
+              "weight": "85g",
+              "image": "images/ziiistudio/dawn_mini_bronze.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "80g",
+              "image": "images/ziiistudio/dawn_mini_brass.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "85g",
+              "image": "images/ziiistudio/dawn_mini_copper.jpg"
             }
           ]
         }
