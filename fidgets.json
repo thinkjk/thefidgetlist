@@ -646,12 +646,53 @@
             {
               "material": "Stainless Steel",
               "weight": "128g",
-              "image": "images/zzmpa/v"
+              "image": "images/zzmpa/sp4_xl_stainless_steel.jpg"
             },
             {
               "material": "Zirconium",
               "weight": "107g",
               "image": "images/zzmpa/sp4_zirconium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "SP4 XL",
+          "dimensions": "58mm",
+          "button_size": "30mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "120g",
+              "image": "images/zzmpa/sp4_xl_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "69g",
+              "image": "images/zzmpa/sp4_xl_titanium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Chord V1",
+          "dimensions": "55mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "96g",
+              "image": "images/zzmpa/chord_stainless_steel.jpg"
+            }
+          ]
+        },
+        {
+          "name": "MSP2S",
+          "dimensions": "52mm",
+          "button_size": "25mm",
+          "variants": [
+            {
+              "material": "Zirconium",
+              "weight": "64g",
+              "image": "images/zzmpa/msp2s_zirconium.jpg"
             }
           ]
         }
