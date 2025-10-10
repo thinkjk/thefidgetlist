@@ -272,6 +272,11 @@
               "material": "Bronze",
               "weight": "90g",
               "image": "images/cleanedc/mini_slim_pillar_bronze.jpg"
+            },
+            {
+              "material": "Ultem",
+              "weight": "15g",
+              "image": "images/cleanedc/mini_slim_pillar_ultem.jpg"
             }
           ]
         }
@@ -907,7 +912,6 @@
               "weight": "38g",
               "image": "images/kap/??"
             }
-
           ]
         },
         {
@@ -2745,7 +2749,7 @@
         },
         {
           "name": "Rotastone Nano",
-          "dimensions": "38mm × 38mm × 14mm",
+          "dimensions": "38mm Ã 38mm Ã 14mm",
           "button_size": "Not specified",
           "variants": [
             {
@@ -2782,7 +2786,7 @@
         },
         {
           "name": "Rotastone MK2",
-          "dimensions": "48mm × 48mm × 12mm",
+          "dimensions": "48mm Ã 48mm Ã 12mm",
           "button_size": "Not specified",
           "variants": [
             {
@@ -2819,7 +2823,7 @@
         },
         {
           "name": "Worrystone",
-          "dimensions": "35mm × 20mm × 9mm",
+          "dimensions": "35mm Ã 20mm Ã 9mm",
           "variants": [
             {
               "material": "Brass",
@@ -2845,7 +2849,7 @@
         },
         {
           "name": "Pendulum",
-          "dimensions": "48mm × 20mm × 17mm",
+          "dimensions": "48mm Ã 20mm Ã 17mm",
           "variants": [
             {
               "material": "Stainless Steel",
@@ -2866,7 +2870,7 @@
       "items": [
         {
           "name": "Ranger",
-          "dimensions": "26mm × 48mm",
+          "dimensions": "26mm Ã 48mm",
           "button_size": "26mm",
           "variants": [
             {
@@ -2878,7 +2882,7 @@
         },
         {
           "name": "Gravity",
-          "dimensions": "43mm × 30mm × 14mm",
+          "dimensions": "43mm Ã 30mm Ã 14mm",
           "button_size": "14mm",
           "variants": [
             {
@@ -2890,7 +2894,7 @@
         },
         {
           "name": "Moonlight",
-          "dimensions": "46mm × 26mm × Not specified",
+          "dimensions": "46mm Ã 26mm Ã Not specified",
           "button_size": "Not specified",
           "variants": [
             {
@@ -2922,7 +2926,7 @@
         },
         {
           "name": "Cloud Trail",
-          "dimensions": "47mm × 30mm × 14mm",
+          "dimensions": "47mm Ã 30mm Ã 14mm",
           "button_size": "30mm",
           "variants": [
             {
@@ -3212,7 +3216,7 @@
         },
         {
           "name": "Torqbar Mini",
-          "dimensions": "54.1g × Not specified × Not specified",
+          "dimensions": "54.1g Ã Not specified Ã Not specified",
           "button_size": "Not specified",
           "variants": [
             {
@@ -3435,7 +3439,7 @@
         },
         {
           "name": "Attic",
-          "dimensions": "47mm × 23mm × ~85g",
+          "dimensions": "47mm Ã 23mm Ã ~85g",
           "button_size": "23mm",
           "variants": [
             {
