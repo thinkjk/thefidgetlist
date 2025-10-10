@@ -245,7 +245,7 @@
         },
         {
           "name": "Mini Slim Pillar",
-          "dimensions": "46mm x 20mm",
+          "dimensions": "46mm x 20mm x 14mm",
           "button_size": "24.5mm",
           "variants": [
             {
@@ -2407,6 +2407,18 @@
               "material": "Copper",
               "weight": "??",
               "image": "images/licedc/love_nugget_copper.jpg"
+            }
+          ],
+          "button_size": "??"
+        },
+        {
+          "name": "Mesa Mame",
+          "dimensions": "??",
+          "variants": [
+            {
+              "material": "Titanium",
+              "weight": "??",
+              "image": "images/licedc/mesa_mame_titanium.jpg"
             }
           ],
           "button_size": "??"
