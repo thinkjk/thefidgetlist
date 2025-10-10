@@ -235,6 +235,11 @@
               "material": "Superconductor",
               "weight": "90g",
               "image": "images/cleanedc/slim_pillar_superconductor.jpg"
+            },
+            {
+              "material": "Ultem",
+              "weight": "18g",
+              "image": "images/cleanedc/slim_pillar_ultem.jpg"
             }
           ]
         },
@@ -272,6 +277,11 @@
               "material": "Bronze",
               "weight": "90g",
               "image": "images/cleanedc/mini_slim_pillar_bronze.jpg"
+            },
+            {
+              "material": "Ultem",
+              "weight": "15g",
+              "image": "images/cleanedc/mini_slim_pillar_ultem.jpg"
             }
           ]
         }
@@ -907,7 +917,6 @@
               "weight": "38g",
               "image": "images/kap/??"
             }
-
           ]
         },
         {
