@@ -780,6 +780,16 @@
               "material": "Tungsten",
               "weight": "226g",
               "image": "images/kap/cell_tungsten.jpg"
+            },
+            {
+              "material": "Damasteel",
+              "weight": "95g",
+              "image": "images/kineticsasiapacificedc/standard_cell_damasteel.jpg"
+            },
+            {
+              "material": "Mokume",
+              "weight": "110g",
+              "image": "images/kineticsasiapacificedc/standard_cell_mokume_1.jpg"
             }
           ]
         },
@@ -943,6 +953,11 @@
               "material": "Tungsten",
               "weight": "245g",
               "image": "images/kap/mega_horizon_tungsten.jpg"
+            },
+            {
+              "material": "Ultem",
+              "weight": "20g",
+              "image": "images/kineticsasiapacificedc/mega_horizon_ultem.jpg"
             }
           ]
         },
@@ -1513,6 +1528,48 @@
               "material": "Tungsten",
               "weight": "145g",
               "image": "images/kap/scarab_killer_mini_tungsten.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Bar Cell",
+          "dimensions": "50mm x 27mm x 15mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Tungsten",
+              "weight": "180g",
+              "image": "images/kineticsasiapacificedc/bar_cell_tungsten.jpg"
+            },
+            {
+              "material": "Zircuti",
+              "weight": "63g",
+              "image": "images/kineticsasiapacificedc/bar_cell_zircuti_1.jpg"
+            },
+            {
+              "material": "Superconductor",
+              "weight": null,
+              "image": "images/kineticsasiapacificedc/bar_cell_superconductor_2.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "70g",
+              "image": "images/kineticsasiapacificedc/bar_cell_zirconium_3.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "50g",
+              "image": "images/kineticsasiapacificedc/bar_cell_titanium_4.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "90g",
+              "image": "images/kineticsasiapacificedc/bar_cell_stainless_steel_5.jpg"
+            },
+            {
+              "material": "Mokume",
+              "weight": "96g",
+              "image": "images/kineticsasiapacificedc/bar_cell_mokume.jpg"
             }
           ]
         }
