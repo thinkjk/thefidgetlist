@@ -332,9 +332,19 @@ document.addEventListener('DOMContentLoaded', () => {
             catCell.textContent = group.categories.join(', ');
             row.appendChild(catCell);
 
-            // 6) Fidgets button
+            // 6) Fidgets button or link
             const fidgetCell = document.createElement('td');
-            if (group.fidgets && group.fidgets.length > 0) {
+
+            // Check if group has an external fidgets link
+            if (group.fidgets_link) {
+                const fidgetLink = document.createElement('a');
+                fidgetLink.href = group.fidgets_link;
+                fidgetLink.textContent = 'View Fidgets';
+                fidgetLink.target = '_blank';
+                fidgetLink.classList.add('btn', 'btn-primary', 'btn-sm');
+                fidgetCell.appendChild(fidgetLink);
+            } else if (group.fidgets && group.fidgets.length > 0) {
+                // Show inline fidgets
                 const fidgetButton = document.createElement('button');
                 fidgetButton.textContent = 'View Fidgets';
                 fidgetButton.classList.add('btn', 'btn-primary', 'btn-sm');
