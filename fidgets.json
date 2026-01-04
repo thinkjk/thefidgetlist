@@ -284,6 +284,28 @@
               "image": "images/cleanedc/mini_slim_pillar_ultem.jpg"
             }
           ]
+        },
+        {
+          "name": "Xl Slim Pillar",
+          "dimensions": "58mm x 20mm x 14mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Zirconium",
+              "weight": "84g",
+              "image": "images/cleanedc/xl_slim_pillar_zirconium.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "109g",
+              "image": "images/cleanedc/xl_slim_pillar_brass.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": null,
+              "image": "images/cleanedc/xl_slim_pillar_stainless_steel.jpg"
+            }
+          ]
         }
       ]
     },
@@ -3604,6 +3626,65 @@
               "material": "Teflon Plates",
               "weight": "39.5g",
               "image": "images/uqh/wispy_teflon.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_name": "Zii Studio",
+      "items": [
+        {
+          "name": "Dawn Mini",
+          "dimensions": "50mm x 27mm x 10mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Corain",
+              "weight": "90g",
+              "image": "images/ziistudio/dawn_mini_corain.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Dawn T",
+          "dimensions": "50mm x 24.5mm x 12mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Zirconium",
+              "weight": "83g",
+              "image": "images/ziistudio/dawn_t_zirconium.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "100g",
+              "image": "images/ziistudio/dawn_t_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "58g",
+              "image": "images/ziistudio/dawn_t_titanium.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "105g",
+              "image": "images/ziistudio/dawn_t_brass.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "113g",
+              "image": "images/ziistudio/dawn_t_copper.jpg"
+            },
+            {
+              "material": "Ultem",
+              "weight": "17g",
+              "image": "images/ziistudio/dawn_t_ultem.jpg"
+            },
+            {
+              "material": "Staineless Steel",
+              "weight": "100g",
+              "image": "images/ziistudio/dawn_t_staineless_steel.jpg"
             }
           ]
         }
