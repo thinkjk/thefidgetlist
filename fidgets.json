@@ -180,6 +180,23 @@
               "image": "images/2rdesigns/phantom_mini_smooth_brass.jpg"
             }
           ]
+        },
+        {
+          "name": "Phantom X",
+          "dimensions": "55mm x 28.4mm x 12.2mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Stainless Steel",
+              "weight": "114g",
+              "image": "images/2rdesignsedc/phantom_x_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "66g",
+              "image": "images/2rdesignsedc/phantom_x_titanium_1.jpg"
+            }
+          ]
         }
       ]
     },
