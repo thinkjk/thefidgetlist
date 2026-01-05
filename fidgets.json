@@ -3709,6 +3709,166 @@
           ]
         }
       ]
+    },
+    {
+      "group_name": "TW EDC",
+      "items": [
+        {
+          "name": "Cloudspin",
+          "dimensions": "45.5mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Zirconium",
+              "weight": "46g",
+              "image": "images/twedc/cloudspin_zirconium.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "30g",
+              "image": "images/twedc/cloudspin_titanium.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "55g",
+              "image": "images/twedc/cloudspin_stainless_steel.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "140g"
+            },
+            {
+              "material": "Mokume",
+              "weight": null,
+              "image": "images/twedc/cloudspin_mokume.jpg"
+            },
+            {
+              "material": "Mokuti",
+              "weight": null,
+              "image": "images/twedc/cloudspin_mokuti.jpg"
+            },
+            {
+              "material": "Crystallized Zircuti",
+              "weight": null,
+              "image": "images/twedc/cloudspin_crystallized_zircuti.jpg"
+            },
+            {
+              "material": "Damasteel",
+              "weight": null,
+              "image": "images/twedc/cloudspin_damasteel.jpg"
+            },
+            {
+              "material": "Crystallized Timascus",
+              "weight": null,
+              "image": "images/twedc/cloudspin_crystallized_timascus.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Cloudmini",
+          "dimensions": null,
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Copper",
+              "weight": null,
+              "image": "images/twedc/cloudmini_copper.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "65g",
+              "image": "images/twedc/cloudmini_stainless_steel.jpg"
+            },
+            {
+              "material": "Damasteel",
+              "weight": null
+            },
+            {
+              "material": "Crystal Titanium",
+              "weight": null,
+              "image": "images/twedc/cloudmini_damasteel.jpg"
+            },
+            {
+              "material": "Mokuti",
+              "weight": null,
+              "image": "images/twedc/cloudmini_crystal_titanium.jpg"
+            },
+            {
+              "material": "Mokume",
+              "weight": null,
+              "image": "images/twedc/cloudmini_mokuti.jpg"
+            },
+            {
+              "material": "Tungsten",
+              "weight": "144g",
+              "image": "images/twedc/cloudmini_tungsten.jpg"
+            },
+            {
+              "material": "Zircuti",
+              "weight": null,
+              "image": "images/twedc/cloudmini_zircuti.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "54g",
+              "image": "images/twedc/cloudmini_zirconium.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "37g"
+            }
+          ]
+        },
+        {
+          "name": "Danke",
+          "dimensions": "53mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Zirconium",
+              "weight": "55g",
+              "image": "images/twedc/danke_zirconium.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "65g",
+              "image": "images/twedc/danke_stainless_steel.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "38g",
+              "image": "images/twedc/danke_titanium.jpg"
+            },
+            {
+              "material": "Zircuti",
+              "weight": "42g",
+              "image": "images/twedc/danke_zircuti.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Astra",
+          "dimensions": null,
+          "button_size": "",
+          "variants": [
+            {
+              "material": "Zirconium",
+              "weight": null,
+              "image": "images/twedc/astra_zirconium.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": null,
+              "image": "images/twedc/astra_titanium.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": null,
+              "image": "images/twedc/astra_stainless_steel.jpg"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
