@@ -42,15 +42,6 @@
         ]
       },
       {
-        "name": "MM3D",
-        "description": "MercadoMakes3D 3D printed trays for fidgets and more!",
-        "link": "https://www.facebook.com/groups/1607259706699878",
-        "image": "images/mm3d/mm3d.jpg",
-        "categories": [
-          "Accessories"
-        ]
-      },
-      {
         "name": "The Daily Fidget",
         "description": "This is a friendly group that enjoys discussing spinners, EDC, and all things fidget related.",
         "link": "https://www.facebook.com/groups/TheDailyFidget",
@@ -1572,6 +1563,102 @@
           "Metal",
           "Spinners",
           "Tops"
+        ]
+      },
+      {
+        "name": "EDC Insider- Exclusive fidget pricing",
+        "description": "Hi! I’m Yumita, your personal edc broker. I help you negotiate pricing directly with supply chain or private collectors worldwide!",
+        "link": "https://www.facebook.com/groups/3195505283940506",
+        "image": "images/edcinsider/edcinsider.jpg",
+        "categories": [
+          "Various"
+        ]
+      },
+      {
+        "name": "Carvers Customs",
+        "description": "Creating custom pouches for EDC gear, hand made in the U.S.",
+        "link": "https://www.facebook.com/groups/1107069612772445",
+        "image": "images/carverscustoms/carverscustoms.jpg",
+        "categories": [
+          "Accessories"
+        ]
+      },
+      {
+        "name": "K.iND EDC",
+        "description": "Precision-machined fidgets and EDC items, crafted with care in the USA.",
+        "link": "https://www.facebook.com/groups/1106129841604916",
+        "image": "images/kindedc/kindedc.jpg",
+        "categories": [
+          "Sliders",
+          "Metal"
+        ]
+      },
+      {
+        "name": "Fancy Play Fidget Group",
+        "description": "This group is dedicated to enthusiasts of the fancy play style of fidgeting.",
+        "link": "https://www.facebook.com/groups/1013844814040563",
+        "image": "images/fancyplay/fancyplay.jpg",
+        "categories": [
+          "Various"
+        ]
+      },
+      {
+        "name": "M3MC BST",
+        "description": "This group is for buying, selling, and trading all things M3 Metal Creations related.",
+        "link": "https://www.facebook.com/groups/3335703439904069",
+        "image": "images/m3mcbst/m3mcbst.jpg",
+        "categories": [
+          "B/S/T"
+        ]
+      },
+      {
+        "name": "TW EDC",
+        "description": "This is a place to buy and share all things of TW EDC.",
+        "link": "https://www.facebook.com/groups/775354762146153",
+        "image": "images/twedc/twedc.jpg",
+        "categories": [
+          "Spinners",
+          "Metal"
+        ]
+      },
+      {
+        "name": "Mech Bros EDC",
+        "description": "This is Mech Bro EDC, we design and manufacture EDC products in China",
+        "link": "https://www.facebook.com/groups/23955529737463015",
+        "image": "images/mechbrosedc/mechbrosedc.jpg",
+        "categories": [
+          "Spinners",
+          "Metal"
+        ]
+      },
+      {
+        "name": "JoeMack Designs",
+        "description": "JoeMack Designs",
+        "link": "https://www.facebook.com/groups/1304903168329649",
+        "image": "images/joemackdesigns/joemackdesigns.jpg",
+        "categories": [
+          "Spinners",
+          "Metal"
+        ]
+      },
+      {
+        "name": "Mobius EDC studio",
+        "description": "Mobius EDC studio",
+        "link": "https://www.facebook.com/groups/1304980348046484",
+        "image": "images/mobiusedcstudio/mobiusedcstudio.jpg",
+        "categories": [
+          "Spinners",
+          "Metal",
+          "3D Printed"
+        ]
+      },
+      {
+        "name": "Fidget Sales Reality Check - At Cost Resale Marketplace",
+        "description": "Fidget sliders, spinners, tops, and other EDC objects for sale AT COST (max 15% retail).",
+        "link": "https://www.facebook.com/groups/583781674552856",
+        "image": "images/realitycheck/realitycheck.jpg",
+        "categories": [
+          "B/S/T"
         ]
       }
     ]
