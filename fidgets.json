@@ -3184,6 +3184,85 @@
               "material": "Copper",
               "weight": "85g",
               "image": "images/ziiistudio/dawn_mini_copper.jpg"
+            },
+            {
+              "material": "Corain",
+              "weight": "20g",
+              "image": "images/ziiistudio/dawn_mini_corain.jpg"
+            },
+            {
+              "material": "Ultem",
+              "weight": "13g",
+              "image": "images/ziiistudio/dawn_mini_ultem.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Dawn T",
+          "dimensions": "50mm x 24.5mm x 12mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Zirconium Tritium",
+              "weight": "83g",
+              "image": "images/ziiistudio/dawn_t_zirconium_tritium.jpg"
+            },
+            {
+              "material": "Stainless Steel Tritium",
+              "weight": "100g",
+              "image": "images/ziiistudio/dawn_t_stainless_steel_tritium.jpg"
+            },
+            {
+              "material": "Brass",
+              "weight": "105g",
+              "image": "images/ziiistudio/dawn_t_brass.jpg"
+            },
+            {
+              "material": "Copper",
+              "weight": "113g",
+              "image": "images/ziiistudio/dawn_t_copper.jpg"
+            },
+            {
+              "material": "Ultem",
+              "weight": "17g",
+              "image": "images/ziiistudio/dawn_t_ultem.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": "100g",
+              "image": "images/ziiistudio/dawn_t_stainless_steel.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "83g",
+              "image": "images/ziiistudio/dawn_t_zirconium.jpg"
+            },
+            {
+              "material": "Titanium",
+              "weight": "58g",
+              "image": "images/ziiistudio/dawn_t_titanium.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Dawn Ts",
+          "dimensions": "50mm x 24.5mm x 12mm",
+          "button_size": "12mm",
+          "variants": [
+            {
+              "material": "Zirconium + Tungsten",
+              "weight": "125g",
+              "image": "images/ziiistudio/dawn_ts_zrw_zirconium_tungsten.jpg"
+            },
+            {
+              "material": "Zirconium + Titanium",
+              "weight": "72g",
+              "image": "images/ziiistudio/dawn_ts_zirconium_titanium.jpg"
+            },
+            {
+              "material": "Ultem + Stainless Steel",
+              "weight": "44g",
+              "image": "images/ziiistudio/dawn_ts_ultem_stainless_steel.jpg"
             }
           ]
         }
