@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Queue Manager - Fidget List</title>
+  <link rel="stylesheet" href="queue-manager.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📋 Queue Manager</h1>
+      <div class="stats" id="sessionStats">
+        <span>0 fidgets</span> · <span>0 groups</span> · <span>0 images</span>
+      </div>
+    </header>
+
+    <div class="queue-content">
+      <div id="queueList" class="queue-list">
+        <p class="empty-state">No items in queue. Start adding fidgets!</p>
+      </div>
+    </div>
+
+    <div class="actions-bar">
+      <button class="btn-secondary" id="btnSelectMode">Select Mode</button>
+      <button class="btn-secondary" id="btnMergeSelected" style="display:none;" disabled>Merge Selected</button>
+      <button class="btn-secondary" id="btnPreview">Preview JSON</button>
+      <button class="btn-secondary" id="btnExport">Export JSON</button>
+      <button class="btn-primary" id="btnCreatePR" disabled>Create Pull Request</button>
+    </div>
+  </div>
+
+  <!-- Storage and utilities -->
+  <script src="../utils/storage.js"></script>
+  <script src="../utils/image-downloader.js"></script>
+
+  <!-- GitHub integration -->
+  <script src="../background/github-api.js"></script>
+  <script src="../utils/json-merger.js"></script>
+  <script src="../utils/github-image-uploader.js"></script>
+  <script src="../background/pr-creator.js"></script>
+
+  <!-- Queue Manager -->
+  <script src="queue-manager.js"></script>
+</body>
+</html>

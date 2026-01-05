@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fidget List Quick Add</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎯 Fidget List Quick Add</h1>
+      <div class="queue-badge" id="queueBadge">0 items in queue</div>
+    </header>
+
+    <div class="mode-selector">
+      <button class="btn-mode active" id="btnAutoDetect">Auto-Detect</button>
+      <button class="btn-mode" id="btnManualEntry">Manual Entry</button>
+      <button class="btn-mode" id="btnRescan">🔄 Re-scan Page</button>
+      <button class="btn-mode" id="btnEnhanceAI" title="Use AI to improve auto-detected data">✨ Enhance with AI</button>
+    </div>
+
+    <!-- Facebook notice (hidden by default) -->
+    <div id="facebookNotice" class="notice notice-info" style="display: none;">
+      <strong>Facebook Post Detected</strong>
+      <p>Group name must be entered manually. Product info is extracted from the post text - use "Enhance with AI" for better results.</p>
+    </div>
+
+    <form id="fidgetForm" novalidate>
+      <!-- Group Selection -->
+      <div class="form-group">
+        <label for="groupName">Group *</label>
+        <input type="text" id="groupName" placeholder="e.g., 2R Designs EDC" required>
+        <small>Enter existing group or new group name</small>
+      </div>
+
+      <!-- Fidget Name -->
+      <div class="form-group">
+        <label for="fidgetName">Fidget Name *</label>
+        <input type="text" id="fidgetName" placeholder="e.g., Phantom Mini Chubby" required>
+      </div>
+
+      <!-- Dimensions -->
+      <div class="form-group">
+        <label for="dimensions">Dimensions</label>
+        <input type="text" id="dimensions" placeholder="e.g., 48mm x 29mm x 16mm">
+        <small>Format: LxWxH with units</small>
+      </div>
+
+      <!-- Button Size -->
+      <div class="form-group">
+        <label for="buttonSize">Button Size</label>
+        <input type="text" id="buttonSize" placeholder="e.g., 24.5mm">
+      </div>
+
+      <!-- Variants Section -->
+      <div class="variants-section">
+        <h3>Variants</h3>
+        <div id="variantsList">
+          <!-- Variant #1 (template) -->
+          <div class="variant-item" data-variant-index="0">
+            <h4>Variant #1</h4>
+            <div class="form-group">
+              <label>Material *</label>
+              <input type="text" class="variant-material" placeholder="e.g., Tungsten" required>
+            </div>
+            <div class="form-group">
+              <label>Weight</label>
+              <input type="text" class="variant-weight" placeholder="e.g., 327g">
+            </div>
+            <div class="form-group">
+              <label>Image URL</label>
+              <input type="text" class="variant-image" placeholder="https://... (optional)">
+              <small>Paste image URL or use auto-detected (optional)</small>
+            </div>
+            <button type="button" class="btn-remove-variant" style="display: none;">Remove Variant</button>
+          </div>
+        </div>
+        <button type="button" class="btn-secondary" id="btnAddVariant">+ Add Variant</button>
+      </div>
+
+      <!-- Actions -->
+      <div class="actions">
+        <button type="button" class="btn-secondary" id="btnPreview">Preview JSON</button>
+        <button type="submit" class="btn-primary">Add to Queue</button>
+      </div>
+    </form>
+
+    <div class="footer-actions">
+      <button class="btn-link" id="btnQueueManager">Open Queue Manager</button>
+      <button class="btn-link" id="btnSettings">Settings</button>
+    </div>
+
+    <div class="keyboard-shortcuts-hint" style="margin-top: 12px; padding: 8px; background: #f9f9f9; border-radius: 4px; font-size: 11px; color: #666;">
+      <strong>Shortcuts:</strong> Ctrl+Enter: Submit | Ctrl+K: Focus name | Ctrl+Shift+A: Add variant | Ctrl+Shift+Q: Queue
+    </div>
+  </div>
+
+  <script src="../config/sites.js"></script>
+  <script src="../utils/materials.js"></script>
+  <script src="../utils/text-normalizer.js"></script>
+  <script src="../utils/parsers.js"></script>
+  <script src="../utils/storage.js"></script>
+  <script src="../utils/validator.js"></script>
+  <script src="../utils/image-downloader.js"></script>
+  <script src="../utils/ollama-client.js"></script>
+  <script src="../background/github-api.js"></script>
+  <script src="../utils/json-merger.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

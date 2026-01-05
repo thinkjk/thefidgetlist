@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings - Fidget List</title>
+  <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>⚙️ Settings</h1>
+    </header>
+
+    <form id="settingsForm">
+      <section>
+        <h2>GitHub Configuration</h2>
+        <p class="section-description">Required for creating pull requests (Phase 3)</p>
+
+        <div class="form-group">
+          <label for="githubToken">Personal Access Token</label>
+          <input type="password" id="githubToken" placeholder="ghp_xxxxxxxxxxxx">
+          <small>Create token at <a href="https://github.com/settings/tokens" target="_blank">GitHub Settings</a> with 'repo' scope</small>
+        </div>
+
+        <div class="form-group">
+          <label for="repoOwner">Repository Owner</label>
+          <input type="text" id="repoOwner" value="thinkjk">
+        </div>
+
+        <div class="form-group">
+          <label for="repoName">Repository Name</label>
+          <input type="text" id="repoName" value="thefidgetlist">
+        </div>
+
+        <div class="form-group">
+          <label for="baseBranch">Base Branch</label>
+          <input type="text" id="baseBranch" value="master">
+        </div>
+
+        <button type="button" class="btn-secondary" id="btnTestGitHub">Test Connection</button>
+      </section>
+
+      <section>
+        <h2>Ollama Configuration (Optional)</h2>
+        <p class="section-description">Enable AI-powered text parsing for better auto-detection</p>
+
+        <div class="form-group">
+          <label>
+            <input type="checkbox" id="ollamaEnabled">
+            Enable Ollama Integration
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label for="ollamaEndpoint">Ollama Endpoint</label>
+          <input type="url" id="ollamaEndpoint" value="http://localhost:11434" placeholder="http://localhost:11434">
+        </div>
+
+        <div class="form-group">
+          <label for="ollamaModel">Text Model</label>
+          <input type="text" id="ollamaModel" value="llama3.2" placeholder="llama3.2">
+          <small>Model for parsing product descriptions</small>
+        </div>
+
+        <div class="form-group">
+          <label for="ollamaVisionModel">Vision Model (Optional)</label>
+          <input type="text" id="ollamaVisionModel" placeholder="llava:7b">
+          <small>Model for analyzing product images to match materials (e.g., llava:7b, llava:13b)</small>
+        </div>
+
+        <button type="button" class="btn-secondary" id="btnTestOllama">Test Connection</button>
+      </section>
+
+      <div class="actions">
+        <button type="submit" class="btn-primary">Save Settings</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="../utils/ollama-client.js"></script>
+  <script src="../background/github-api.js"></script>
+  <script src="settings.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+{
+  "manifest_version": 2,
+  "name": "Fidget List Quick Add",
+  "version": "0.1.0",
+  "description": "Streamline adding fidget items to The Fidget List by auto-detecting product information from websites and Facebook posts",
+  "author": "thinkjk",
+
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+
+  "permissions": [
+    "storage",
+    "downloads",
+    "activeTab",
+    "<all_urls>",
+    "contextMenus"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png"
+    },
+    "default_title": "Fidget List Quick Add",
+    "default_popup": "popup/popup.html"
+  },
+
+  "background": {
+    "scripts": ["background/background.js"],
+    "persistent": false
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "config/sites.js",
+        "utils/materials.js",
+        "utils/text-normalizer.js",
+        "utils/parsers.js",
+        "content/selectors.js",
+        "content/content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+
+  "web_accessible_resources": [
+    "icons/*.png"
+  ]
+}

@@ -1,0 +1,20 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="#4A90E2" stroke="#2E5C8A" stroke-width="3"/>
+
+  <!-- Fidget spinner representation (3 circles around center) -->
+  <circle cx="64" cy="64" r="12" fill="#FFFFFF"/>
+  <circle cx="64" cy="30" r="10" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="89" cy="76" r="10" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="39" cy="76" r="10" fill="#FFFFFF" opacity="0.9"/>
+
+  <!-- Center dot -->
+  <circle cx="64" cy="64" r="6" fill="#2E5C8A"/>
+
+  <!-- Plus sign overlay (bottom right) -->
+  <g transform="translate(90, 90)">
+    <circle cx="0" cy="0" r="18" fill="#27AE60"/>
+    <rect x="-10" y="-2" width="20" height="4" fill="#FFFFFF" rx="2"/>
+    <rect x="-2" y="-10" width="4" height="20" fill="#FFFFFF" rx="2"/>
+  </g>
+</svg>

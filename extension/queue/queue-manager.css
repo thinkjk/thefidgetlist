@@ -1,0 +1,333 @@
+/* Queue Manager Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  font-size: 14px;
+  color: #333;
+  background: #f5f5f5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  min-height: 100vh;
+}
+
+header {
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #4A90E2;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #2E5C8A;
+  margin-bottom: 8px;
+}
+
+.stats {
+  color: #666;
+  font-size: 14px;
+}
+
+.stats span {
+  margin-right: 8px;
+}
+
+.queue-content {
+  min-height: 400px;
+  margin-bottom: 24px;
+}
+
+.queue-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.empty-state {
+  text-align: center;
+  color: #999;
+  padding: 60px 20px;
+  font-size: 16px;
+}
+
+.queue-item {
+  background: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.queue-item-image {
+  flex-shrink: 0;
+  width: 120px;
+  text-align: center;
+}
+
+.queue-item-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.queue-item-image small {
+  font-size: 10px;
+  color: #888;
+  word-break: break-all;
+}
+
+.queue-item-content {
+  flex: 1;
+}
+
+.queue-item h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #2E5C8A;
+}
+
+.queue-item-meta {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.queue-item-variants {
+  font-size: 12px;
+  color: #888;
+}
+
+.queue-item-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-icon {
+  padding: 8px 12px;
+  border: none;
+  background: #ecf0f1;
+  color: #555;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background 0.2s;
+}
+
+.btn-icon:hover {
+  background: #d5dbdb;
+}
+
+.btn-icon.delete {
+  background: #e74c3c;
+  color: white;
+}
+
+.btn-icon.delete:hover {
+  background: #c0392b;
+}
+
+.actions-bar {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background: #27AE60;
+  color: white;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: #229954;
+}
+
+.btn-primary:disabled {
+  background: #95a5a6;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background: #ecf0f1;
+  color: #555;
+}
+
+.btn-secondary:hover {
+  background: #d5dbdb;
+}
+
+/* PR Progress Modal */
+.pr-progress-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.pr-progress-content {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.pr-progress-content h2 {
+  margin-bottom: 20px;
+  color: #2E5C8A;
+  font-size: 20px;
+  text-align: center;
+}
+
+.pr-progress-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pr-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px;
+  background: #f9f9f9;
+  border-radius: 4px;
+  border: 1px solid #e5e5e5;
+}
+
+.pr-step .step-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.pr-step .step-text {
+  flex: 1;
+  font-size: 14px;
+  color: #333;
+}
+
+.pr-step .step-progress {
+  font-size: 12px;
+  color: #4A90E2;
+  font-weight: 600;
+  margin-left: 32px;
+}
+
+/* Select Mode - Checkboxes */
+.queue-item-checkbox {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  padding-right: 8px;
+}
+
+.queue-item-checkbox input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* Edit Modal */
+.edit-modal .form-group {
+  margin-bottom: 16px;
+}
+
+.edit-modal label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #333;
+  font-size: 14px;
+}
+
+.edit-modal input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.edit-modal input[type="text"]:focus {
+  outline: none;
+  border-color: #4A90E2;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.1);
+}
+
+.edit-modal h3 {
+  margin-top: 20px;
+  margin-bottom: 16px;
+  color: #2E5C8A;
+  font-size: 16px;
+}
+
+.edit-modal h4 {
+  margin-bottom: 12px;
+  color: #555;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.edit-variant-item {
+  background: #f9f9f9;
+  padding: 16px;
+  border-radius: 6px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 12px;
+}
+
+.edit-variant-item:last-child {
+  margin-bottom: 0;
+}
+
+.btn-remove-edit-variant {
+  margin-top: 8px;
+  padding: 6px 12px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.btn-remove-edit-variant:hover {
+  background: #c0392b;
+}
