@@ -1592,6 +1592,11 @@
               "material": "Mokume",
               "weight": "96g",
               "image": "images/kineticsasiapacificedc/bar_cell_mokume.jpg"
+            },
+            {
+              "material": "Ultem",
+              "weight": "18g",
+              "image": "images/kineticsasiapacificedc/standard_cell_ultem.jpg"
             }
           ]
         }
