@@ -284,6 +284,28 @@
               "image": "images/cleanedc/mini_slim_pillar_ultem.jpg"
             }
           ]
+        },
+        {
+          "name": "Xl Slim Pillar",
+          "dimensions": "58mm x 20mm x 14mm",
+          "button_size": "24.5mm",
+          "variants": [
+            {
+              "material": "Brass",
+              "weight": "109g",
+              "image": "images/cleanedc/xl_slim_pillar_brass.jpg"
+            },
+            {
+              "material": "Stainless Steel",
+              "weight": null,
+              "image": "images/cleanedc/xl_slim_pillar_stainless_steel.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "84g",
+              "image": "images/cleanedc/xl_slim_pillar_zirconium.jpg"
+            }
+          ]
         }
       ]
     },
