@@ -418,6 +418,56 @@ test('parses Facebook post with inline specs', () => {
 });
 
 // ============================================================
+// 2R Designs Tests
+// ============================================================
+console.log('\n🔧 2R Designs Tests');
+
+test('strips compound material from 2R title', () => {
+  const result = Materials.stripMaterialFromName('Phantom X - SS & Titanium');
+  assertEqual(result, 'Phantom X');
+});
+
+test('strips compound material from 2R title with full names', () => {
+  const result = Materials.stripMaterialFromName('Phantom X - Stainless Steel & Titanium');
+  assertEqual(result, 'Phantom X');
+});
+
+test('parses 2R dimensions with Body instead of Thickness', () => {
+  const result = Parsers.parseDimensions('Length: 55mm Width: 28.4mm Body: 12.2mm');
+  assertEqual(result.dimensions, '55mm x 28.4mm x 12.2mm');
+});
+
+test('parses 2R multi-material weights with colons', () => {
+  const result = Parsers.parseWeight('Stainless Steel: 114g Titanium: 66g');
+  assertNotNull(result.allWeights, 'Should have allWeights array');
+  assertEqual(result.allWeights.length, 2);
+});
+
+test('matches 2R weight to Stainless Steel', () => {
+  const result = Parsers.parseWeight('Stainless Steel: 114g Titanium: 66g', 'Stainless Steel');
+  assertEqual(result.weight, '114g');
+});
+
+test('matches 2R weight to Titanium', () => {
+  const result = Parsers.parseWeight('Stainless Steel: 114g Titanium: 66g', 'Titanium');
+  assertEqual(result.weight, '66g');
+});
+
+test('parses full 2R product description', () => {
+  const text = `Phantom X - Titanium
+Length: 55mm
+Width: 28.4mm
+Body: 12.2mm
+Stainless Steel: 114g
+Titanium: 66g`;
+  const result = Parsers.parseProductInfo(text);
+
+  assertEqual(result.dimensions, '55mm x 28.4mm x 12.2mm');
+  assertEqual(result.material, 'Titanium');
+  assertEqual(result.weight, '66g'); // Should match Titanium weight
+});
+
+// ============================================================
 // Summary
 // ============================================================
 console.log('\n' + '='.repeat(50));

@@ -14,8 +14,9 @@ const PARSE_PATTERNS = {
       extract: (m) => ({ l: m[1], w: m[2], h: m[3] })
     },
     {
+      // Matches "Length: 55mm ... Width: 28mm ... Body/Thickness/Height/Depth: 12mm"
       name: 'lwh-separate',
-      regex: /length\s*:\s*(\d+(?:\.\d+)?)\s*mm[\s\S]{0,100}width[^0-9]*(\d+(?:\.\d+)?)\s*mm[\s\S]{0,100}(?:thickness|height|depth)\s*:\s*(\d+(?:\.\d+)?)\s*mm/i,
+      regex: /length\s*:\s*(\d+(?:\.\d+)?)\s*mm[\s\S]{0,100}width[^0-9]*(\d+(?:\.\d+)?)\s*mm[\s\S]{0,100}(?:body|thickness|height|depth)\s*:\s*(\d+(?:\.\d+)?)\s*mm/i,
       extract: (m) => ({ l: m[1], w: m[2], h: m[3] })
     },
     {
@@ -57,8 +58,9 @@ const PARSE_PATTERNS = {
       extract: (m) => m[1]
     },
     {
+      // Matches "SS 55g", "Ti 30g", "Stainless Steel: 114g", "Titanium: 66g"
       name: 'multi-material',
-      regex: /(SS|Ti|Zr|W|Cu|Brass|Copper|Tungsten|Titanium|Zirconium)\s+(\d{1,3}(?:\.\d+)?)g/gi,
+      regex: /(SS|Ti|Zr|W|Cu|Brass|Copper|Tungsten|Titanium|Zirconium|Stainless\s*Steel)\s*:?\s*(\d{1,3}(?:\.\d+)?)\s*g/gi,
       multi: true,
       extract: (matches) => matches.map(m => ({ material: m[1], weight: m[2] + 'g' }))
     },
@@ -116,7 +118,9 @@ const PARSE_PATTERNS = {
   material: [
     {
       name: 'title-material-dash',
-      regex: /[-]\s*(Titanium|Zirconium|Tungsten|Stainless\s*Steel|Copper|Brass|Bronze|Aluminum|Ti|Zr|W|SS|Cu)(?:\s*[-]|$)/i,
+      // Match "- Material" pattern at start of product title
+      // Must be followed by: another dash, end of string, newline, or space followed by non-dash word
+      regex: /[-]\s*(Titanium|Zirconium|Tungsten|Stainless\s*Steel|Copper|Brass|Bronze|Aluminum|Ti|Zr|W|SS|Cu)(?:\s*[-]|$|\n|\r|\s+[A-Z])/i,
       extract: (m) => m[1],
       searchRange: 200 // Only search first N chars
     },

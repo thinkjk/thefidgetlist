@@ -185,7 +185,8 @@ const KNOWN_DOMAINS = {
   'kapedc.com': 'Kinetics Asia Pacific EDC',
   'm3metalcreations.com': 'M3 Metal Creations',
   'ziiistudio.com': 'Ziii Studio',
-  'twedcstudio.com': 'TW EDC'
+  'twedcstudio.com': 'TW EDC',
+  '2rdesigns.net': '2R Designs EDC'
 };
 
 // Detect page type

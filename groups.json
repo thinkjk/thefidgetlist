@@ -1660,6 +1660,18 @@
         "categories": [
           "B/S/T"
         ]
+      },
+      {
+        "name": "Beadcraft",
+        "description": "Umburry group",
+        "link": "https://www.facebook.com/groups/beadcrafting",
+        "image": "images/beadcraft/beadcraft.jpg",
+        "categories": [
+          "Beads",
+          "Metal",
+          "Spin Stick",
+          "Various"
+        ]
       }
     ]
   }

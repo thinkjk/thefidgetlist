@@ -183,7 +183,15 @@ function stripMaterialFromName(name) {
 
   let cleanName = name.trim();
 
-  // First, try to strip "- Material - Finish" pattern (TWEDC style: "Cloudspin - Titanium - Sand blasted")
+  // First, try to strip "- Material1 & Material2" pattern (2R style: "Phantom X - SS & Titanium")
+  // This pattern matches compound materials with & or and
+  const compoundMaterialPattern = /\s*[-–]\s*(?:SS|Ti|Zr|W|Cu|Titanium|Zirconium|Tungsten|Stainless\s*Steel|Copper|Brass|Bronze)\s*[&+]\s*(?:SS|Ti|Zr|W|Cu|Titanium|Zirconium|Tungsten|Stainless\s*Steel|Copper|Brass|Bronze)\s*$/i;
+  if (compoundMaterialPattern.test(cleanName)) {
+    cleanName = cleanName.replace(compoundMaterialPattern, '').trim();
+    return cleanName;
+  }
+
+  // Try to strip "- Material - Finish" pattern (TWEDC style: "Cloudspin - Titanium - Sand blasted")
   // This pattern matches: " - word(s) - word(s)" at the end
   const materialFinishPattern = /\s*[-–]\s*[^-–]+\s*[-–]\s*[^-–]+\s*$/;
   if (materialFinishPattern.test(cleanName)) {

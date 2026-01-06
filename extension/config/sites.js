@@ -140,6 +140,44 @@ const SITES = {
     }
   },
 
+  // 2rdesigns.net - Shopify (Venture theme)
+  '2rdesigns.net': {
+    groupName: '2R Designs EDC',
+    pageType: 'shopify',
+    singleVariant: false,  // Has separate material variants (Titanium, Stainless Steel)
+    selectors: {
+      title: [
+        'meta[property="og:title"]',
+        '.product-single__title',
+        'h1'
+      ],
+      description: [
+        'meta[name="description"]',
+        'meta[property="og:description"]',
+        '.product-single__description'
+      ],
+      image: [
+        'meta[property="og:image"]',
+        'meta[property="og:image:secure_url"]',
+        '.product-single__photo img',
+        '.product__photo img'
+      ],
+      price: [
+        'meta[property="og:price:amount"]',
+        '.product__price',
+        'span.money'
+      ]
+    },
+    parsing: {
+      useShopifyVariants: true,  // Use Shopify product variants data
+      stripTitleMaterials: true,  // Title is "Phantom X - SS & Titanium", strip materials
+      // Dimensions in format: "Length: 55mm", "Width: 28.4mm", "Body: 12.2mm"
+      dimensionFormat: 'lwb-separate',
+      // Weight per material: "Stainless Steel: 114g", "Titanium: 66g"
+      multiMaterialWeights: true
+    }
+  },
+
   // m3metalcreations.com
   'm3metalcreations.com': {
     groupName: 'M3 Metal Creations',

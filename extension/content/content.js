@@ -13,10 +13,24 @@ function extractPageInfo() {
 
   const selectors = SELECTORS[pageType] || SELECTORS.generic;
 
+  // Get parsing options for this site
+  const parsingOptions = typeof getParsingOptions === 'function' ? getParsingOptions() : {};
+
+  let title = extractBySelectors(selectors.title);
+
+  // Strip materials from title if configured (e.g., 2R Designs: "Phantom X - SS & Titanium" -> "Phantom X")
+  if (parsingOptions.stripTitleMaterials && title && window.Materials) {
+    const cleanedTitle = window.Materials.stripMaterialFromName(title);
+    if (cleanedTitle && cleanedTitle !== title) {
+      console.log(`📝 Stripped materials from title: "${title}" -> "${cleanedTitle}"`);
+      title = cleanedTitle;
+    }
+  }
+
   const info = {
     pageType: pageType,
     url: window.location.href,
-    title: extractBySelectors(selectors.title),
+    title: title,
     description: extractBySelectors(selectors.description),
     image: extractImageBySelectors(selectors.image),
     images: extractAllImages(selectors.image),
@@ -906,6 +920,24 @@ function extractStructuredData() {
     }
   }
 
+  // Try Shopify meta data (var meta = {...})
+  for (const script of scripts) {
+    const content = script.textContent;
+    const metaMatch = content.match(/var meta\s*=\s*(\{[\s\S]*?\});/);
+    if (metaMatch) {
+      console.log('🔍 Found Shopify meta data');
+      try {
+        const data = JSON.parse(metaMatch[1]);
+        if (data && data.product && data.product.variants) {
+          console.log('🔍 Parsed Shopify meta successfully');
+          return parseShopifyMeta(data.product);
+        }
+      } catch (e) {
+        console.warn('Failed to parse Shopify meta:', e);
+      }
+    }
+  }
+
   // Try JSON-LD (schema.org)
   const jsonLdScripts = document.querySelectorAll('script[type="application/ld+json"]');
   for (const script of jsonLdScripts) {
@@ -920,6 +952,89 @@ function extractStructuredData() {
   }
 
   return null;
+}
+
+// Parse Shopify meta product data
+function parseShopifyMeta(product) {
+  console.log('🔍 parseShopifyMeta called with product:', product);
+
+  const result = {
+    source: 'shopify-meta',
+    variants: [],
+    images: []
+  };
+
+  // Get page description for weight extraction
+  const descriptionMeta = document.querySelector('meta[name="description"]');
+  const description = descriptionMeta ? descriptionMeta.getAttribute('content') : '';
+  const pageText = document.body.innerText || '';
+
+  // Extract variants from Shopify meta
+  if (product.variants && Array.isArray(product.variants)) {
+    console.log(`🔍 Found ${product.variants.length} Shopify variants`);
+
+    product.variants.forEach((variant, index) => {
+      // Use public_title for material name (e.g., "Titanium", "Stainless Steel")
+      const materialName = variant.public_title || variant.title || variant.name;
+      console.log(`🔍 Processing variant ${index}: ${materialName}`);
+
+      const variantObj = {
+        name: materialName,
+        price: variant.price ? (variant.price / 100).toFixed(2) : null, // Shopify stores price in cents
+        soldOut: false,
+        weight: null
+      };
+
+      // Try to extract weight for this material from page text
+      // Pattern: "Material: 114g" or "Material: 114g / 4.02oz"
+      const weightPatterns = [
+        new RegExp(materialName + '\\s*:\\s*(\\d+(?:\\.\\d+)?)\\s*g', 'i'),
+        new RegExp(materialName + '\\s+(\\d+(?:\\.\\d+)?)\\s*g', 'i')
+      ];
+
+      for (const pattern of weightPatterns) {
+        const match = pageText.match(pattern);
+        if (match) {
+          variantObj.weight = match[1] + 'g';
+          console.log(`🔍 Found weight for ${materialName}: ${variantObj.weight}`);
+          break;
+        }
+      }
+
+      result.variants.push(variantObj);
+    });
+  }
+
+  // Extract images from page
+  const imageSelectors = [
+    '.product-single__photo img',
+    '.product__photo img',
+    '.product-featured-img',
+    '[data-product-image]',
+    '.product__media img'
+  ];
+
+  for (const selector of imageSelectors) {
+    const images = document.querySelectorAll(selector);
+    images.forEach(img => {
+      const src = img.src || img.getAttribute('data-src');
+      if (src && !result.images.includes(src)) {
+        result.images.push(src);
+      }
+    });
+    if (result.images.length > 0) break;
+  }
+
+  // If no images found, try OG image
+  if (result.images.length === 0) {
+    const ogImage = document.querySelector('meta[property="og:image"]');
+    if (ogImage) {
+      result.images.push(ogImage.getAttribute('content'));
+    }
+  }
+
+  console.log('🔍 parseShopifyMeta result:', result);
+  return result;
 }
 
 // Parse Big Cartel product data
