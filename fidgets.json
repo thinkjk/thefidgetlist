@@ -621,6 +621,11 @@
               "material": "Titanium",
               "weight": "62g",
               "image": "images/twoedc/nectar++_titanium.jpg"
+            },
+            {
+              "material": "Zirconium",
+              "weight": "??",
+              "image": "images/twoedc/nectar++_zirconium.jpg"
             }
           ]
         }
@@ -2364,6 +2369,11 @@
               "material": "Tungsten",
               "weight": "??",
               "image": "images/licedc/mini_mame_tungsten.jpg"
+            },
+            {
+              "material": "Crystal Titanium",
+              "weight": "??",
+              "image": "images/licedc/mini_mame_crystal_titanium.jpg"
             }
           ],
           "button_size": "??"
